@@ -23507,7 +23507,7 @@
 7	kun	kun	SCONJ	Pcle,CS	_	9	mark	_	_
 8	terveys	terveys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	advcl	_	_
-10	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	9	scomp	_	_
+10	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	9	dep	_	_
 11	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	10	cop	_	_
 12	.	.	PUNCT	Pun	_	10	punct	_	_
 
@@ -23812,7 +23812,7 @@
 2	Tappajahaista	tappajahai	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	3	nmod	_	_
 3	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
-5	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	3	scomp	_	_
+5	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	3	dep	_	_
 6	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	5	cop	_	_
 7	.	.	PUNCT	Pun	_	5	punct	_	_
 

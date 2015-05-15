@@ -10557,7 +10557,7 @@
 5	taakse	taakse	ADP	Adp	_	4	case	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	2	advcl	_	_
-8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	7	scomp	_	_
+8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	7	dep	_	_
 9	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|Voice=Act	8	cop	_	_
 10	.	.	PUNCT	Pun	_	8	punct	_	_
 
@@ -16586,7 +16586,7 @@
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	0	root	_	_
 3	reilusti	reilusti	ADV	Adv	_	2	advmod	_	_
 4	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	5	dep	_	Missed-Deprel=phrm
-5	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	2	scomp	_	_
+5	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	2	dep	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	_
 7	.	.	PUNCT	Pun	_	5	punct	_	_
 
@@ -22031,7 +22031,7 @@
 2	nyt	nyt	ADV	Adv	_	1	advmod	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	olkoon	olla	VERB	V,Act,Imprt,Sg3	Mood=Imp|Number=Sing|Person=3|Voice=Act	11	advcl	_	_
-5	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	4	scomp	_	_
+5	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	4	dep	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Act	5	cop	_	_
 7	,	,	PUNCT	Pun	_	5	punct	_	_
 8	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	11	advmod	_	_
