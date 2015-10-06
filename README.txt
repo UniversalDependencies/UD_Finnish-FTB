@@ -62,3 +62,9 @@ Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 <http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/>
 
 fin-clarin@helsinki.fi
+
+
+Documentation status: stub
+Data source: automatic conversion
+Data available since: UD v1.1
+License: CC BY 4.0
