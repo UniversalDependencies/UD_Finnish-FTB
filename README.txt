@@ -65,6 +65,6 @@ fin-clarin@helsinki.fi
 
 
 Documentation status: stub
-Data source: automatic conversion
+Data source: automatic
 Data available since: UD v1.1
 License: CC BY 4.0
