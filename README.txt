@@ -68,3 +68,4 @@ Documentation status: stub
 Data source: automatic
 Data available since: UD v1.1
 License: CC BY 4.0
+Contributors: Piitulainen, Jussi; Nurmi, Hanna
