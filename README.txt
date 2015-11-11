@@ -63,7 +63,14 @@ Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 
 fin-clarin@helsinki.fi
 
+* Change-log
 
+** UD v1.1 -> UD v1.2
+
+Negative=Yes was changed to Negative=Neg
+The data was re-split to resolve train/dev/test overlaps within the treebank as well as with UD_Finnish
+
+--- Machine-readable metadata ---
 Documentation status: stub
 Data source: automatic
 Data available since: UD v1.1
