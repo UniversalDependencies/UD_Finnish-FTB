@@ -63,7 +63,7 @@ Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 
 fin-clarin@helsinki.fi
 
-* Change-log
+* Changelog
 
 ** UD v1.1 -> UD v1.2
 
