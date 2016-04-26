@@ -6918,11 +6918,11 @@
 #yhqkg-7374	Kivan näköinen toi teidän uusi veranta .
 1	Kivan	kiva	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	2	amod	_	_
 2	näköinen	näköinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
-3	toi	tuo	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem|Style=Coll	2	det	_	_
-4	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	det	_	_
-5	uusi	uusi	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	amod	_	_
-6	veranta	veranta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	cop	_	_
-7	.	.	PUNCT	Pun	_	2	dep	_	Missed-Rel=pun
+3	toi	tuo	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem|Style=Coll	6	det	_	_
+4	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	det	_	_
+5	uusi	uusi	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
+6	veranta	veranta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
+7	.	.	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
 
 #an1y0-7383	Komeat kengät sinulla ainakin on .
 1	Komeat	komea	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	2	amod	_	_
@@ -14363,7 +14363,7 @@
 3	maata	maata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	sängyssä	sänky	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 5	kun	kun	SCONJ	Pcle,CS	_	7	mark	_	_
-6	lämpöä	lämpö	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	Alt=subj
+6	lämpöä	lämpö	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	Alt=nsubj
 7	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
 8	vain	vain	PART	Pcle	_	9	advmod	_	_
 9	36,5	36,5	NUM	Num,Card	NumType=Card	7	nmod	_	_
@@ -14379,7 +14379,7 @@
 5	jos	jos	SCONJ	Pcle,CS	_	6	mark	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 7	hankala	hankala	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	8	amod	_	_
-8	opettaja	opettaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	Alt=subj
+8	opettaja	opettaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	Alt=nsubj
 9	,	,	PUNCT	Pun	_	8	dep	_	Missed-Rel=pun
 10	niin	niin	PART	Pcle	_	13	dep	_	Missed-Rel=phrm
 11	ehkäpä	ehkä	PART	Pcle,Pa	Clitic=Pa	13	advmod	_	_

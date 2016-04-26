@@ -12171,7 +12171,7 @@
 4	kun	kun	SCONJ	Pcle,CS	_	5	mark	_	_
 5	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
 6	millä	mikä	PRON	Pron,Rel,Ade	Case=Ade|PronType=Rel	7	nmod	_	_
-7	mällätä	mällätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	nsubj	_	Alt=subj
+7	mällätä	mällätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	clsubj	_	Alt=clsubj
 8	,	,	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 9	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	11	nsubj	_	_
 10	myös	myös	PART	Pcle	_	11	advmod	_	_
@@ -14212,7 +14212,7 @@
 #antj5-12911	Viikonloppuna olisi vapaata ja parina arki-iltana harrastaisi jotain .
 1	Viikonloppuna	viikonloppu	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	2	nmod	_	_
 2	olisi	olla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vapaata	vapaa	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	Alt=subj
+3	vapaata	vapaa	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	Alt=nsubj
 4	ja	ja	CONJ	Pcle,CC	_	2	cc	_	_
 5	parina	pari	NUM	Num,Card,Sg,Ess	Case=Ess|Number=Sing|NumType=Card	6	nummod	_	_
 6	arki-iltana	arki-ilta	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	7	nmod	_	_
@@ -17577,7 +17577,7 @@
 2	mukavaa	mukava	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 3	jos	jos	SCONJ	Pcle,CS	_	4	mark	_	_
 4	olisi	olla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	csubj	_	_
-5	mies	mies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	Alt=subj
+5	mies	mies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	Alt=nsubj
 6	,	,	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 7	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 8	kuuntelisi	kuunnella	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	acl	_	_
