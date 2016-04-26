@@ -7143,7 +7143,7 @@
 5	kasettinauhurissa	kasettinauhuri	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
 6	(	(	PUNCT	Pun	PunctSide=Ini	5	dep	_	Missed-Rel=pun|Missed-SUBCAT=BRACKET
 7	0,21	0,21	NUM	Num,Card	NumType=Card	8	nummod	_	_
-8	%	%	SYMBOL	Sym	_	5	dep	_	Missed-Rel=mod
+8	%	%	SYM	Sym	_	5	dep	_	Missed-Rel=mod
 9	)	)	PUNCT	Pun	PunctSide=Fin	8	dep	_	Missed-Rel=pun|Missed-SUBCAT=BRACKET
 10	,	,	PUNCT	Pun	_	9	dep	_	Missed-Rel=pun
 11	ja	ja	CONJ	Pcle,CC	_	2	cc	_	_
@@ -11717,7 +11717,7 @@
 3	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	noin	noin	PART	Pcle	_	5	advmod	_	_
 5	30	30	NUM	Num,Card	NumType=Card	6	nummod	_	_
-6	%	%	SYMBOL	Sym	_	7	dep	_	Missed-Rel=attr
+6	%	%	SYM	Sym	_	7	dep	_	Missed-Rel=attr
 7	asukkaista	asukas	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	3	nsubj	_	_
 8	,	,	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 9	kun	kun	SCONJ	Pcle,CS	_	12	mark	_	_
@@ -11725,7 +11725,7 @@
 11	Hiroshimassa	hiroshima	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	12	nmod	_	_
 12	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
 13	60	60	NUM	Num,Card	NumType=Card	14	nummod	_	_
-14	%	%	SYMBOL	Sym	_	12	dep	_	Missed-Rel=advl
+14	%	%	SYM	Sym	_	12	dep	_	Missed-Rel=advl
 15	.	.	PUNCT	Pun	_	14	dep	_	Missed-Rel=pun
 
 #pmi0p-10547	Muistatko , miten me opettelimme yhdessä sukeltamaan niin syvälle kuin mahdollista
@@ -13226,7 +13226,7 @@
 4	etsii	etsiä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	4	4	NUM	Num,Card	NumType=Card	6	nummod	_	_
 6	h	h	NOUN	N,Abbr,Sg,Nom	Abbr=Yes|Case=Nom|Number=Sing	9	compound:nn	_	Alt=compound:nn
-7	+	+	SYMBOL	Sym	_	8	dep	_	Missed-Rel=phrm
+7	+	+	SYM	Sym	_	8	dep	_	Missed-Rel=phrm
 8	k	k	NOUN	N,Abbr,Sg,Nom	Abbr=Yes|Case=Nom|Number=Sing	6	conj	_	_
 9	asuntoa	asunto	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	dobj	_	_
 10	Helsingistä	helsinki	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_

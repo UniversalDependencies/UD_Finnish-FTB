@@ -3390,7 +3390,7 @@
 
 #ge9az-4112	2h + kk pienellä parvekkeella
 1	2h	2h	PART	Pcle,Abbr	Abbr=Yes	0	root	_	_
-2	+	+	SYMBOL	Sym	_	3	dep	_	Missed-Rel=phrm
+2	+	+	SYM	Sym	_	3	dep	_	Missed-Rel=phrm
 3	kk	kk	NOUN	N,Abbr,Sg,Nom	Abbr=Yes|Case=Nom|Number=Sing	1	conj	_	_
 4	pienellä	pieni	ADJ	A,Sg,Ade	Case=Ade|Number=Sing	5	amod	_	_
 5	parvekkeella	parveke	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	1	nmod	_	_
