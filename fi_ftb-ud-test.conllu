@@ -14363,7 +14363,7 @@
 3	maata	maata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	sängyssä	sänky	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 5	kun	kun	SCONJ	Pcle,CS	_	7	mark	_	_
-6	lämpöä	lämpö	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	subj	_	Alt=subj
+6	lämpöä	lämpö	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	Alt=subj
 7	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
 8	vain	vain	PART	Pcle	_	9	advmod	_	_
 9	36,5	36,5	NUM	Num,Card	NumType=Card	7	nmod	_	_
@@ -14379,7 +14379,7 @@
 5	jos	jos	SCONJ	Pcle,CS	_	6	mark	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	advcl	_	_
 7	hankala	hankala	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	8	amod	_	_
-8	opettaja	opettaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	subj	_	Alt=subj
+8	opettaja	opettaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	Alt=subj
 9	,	,	PUNCT	Pun	_	8	dep	_	Missed-Rel=pun
 10	niin	niin	PART	Pcle	_	13	dep	_	Missed-Rel=phrm
 11	ehkäpä	ehkä	PART	Pcle,Pa	Clitic=Pa	13	advmod	_	_
