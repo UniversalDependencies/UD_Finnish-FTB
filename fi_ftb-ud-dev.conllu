@@ -12171,7 +12171,7 @@
 4	kun	kun	SCONJ	Pcle,CS	_	5	mark	_	_
 5	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	advcl	_	_
 6	millä	mikä	PRON	Pron,Rel,Ade	Case=Ade|PronType=Rel	7	nmod	_	_
-7	mällätä	mällätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	csubj	_	Alt=clsubj
+7	mällätä	mällätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	csubj	_	Alt=csubj
 8	,	,	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 9	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	11	nsubj	_	_
 10	myös	myös	PART	Pcle	_	11	advmod	_	_
