@@ -243,7 +243,7 @@
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	1	expl	_	Alt=1_expl|Missed-Rel=phrm
 3	Annillakkii	anni	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing|Style=Coll	1	nmod:own	_	Alt=nmod:own
-4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	dobj	_	_
+4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	_
 5	suaha	saada	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|Style=Coll|VerbForm=Inf|Voice=Act	4	acl	_	_
 6	mies	mies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	dobj	_	_
 7	jolla	joka	PRON	Pron,Rel,Sg,Ade	Case=Ade|Number=Sing|PronType=Rel	10	nmod	_	_
@@ -1667,7 +1667,7 @@
 14	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
 15	kurssista	kurssi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	14	nmod	_	_
 16	jo	jo	PART	Pcle	_	14	advmod	_	_
-17	suoritus	suoritus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	dobj	_	_
+17	suoritus	suoritus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	_
 18	.	.	PUNCT	Pun	_	17	dep	_	Missed-Rel=pun
 
 #h3jkc-2548	Monen särkänniemeläisen päivä on niin kiireinen , että lounastaukoa ei ehdi pitämään .
@@ -2194,7 +2194,7 @@
 13	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
 14	koskaan	koskaan	ADV	Adv	_	15	advmod	_	_
 15	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	acl	_	_
-16	tilaisuutta	tilaisuus	NOUN	N,Sg,Par	Case=Par|Number=Sing	15	dobj	_	_
+16	tilaisuutta	tilaisuus	NOUN	N,Sg,Par	Case=Par|Number=Sing	15	nsubj	_	_
 17	tutkia	tutkia	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	16	acl	_	_
 18	kunnolla	kunnolla	ADV	Adv	_	17	advmod	_	_
 19	.	.	PUNCT	Pun	_	18	dep	_	Missed-Rel=pun
@@ -2385,7 +2385,7 @@
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jotain	jokin	DET	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	4	det	_	_
-4	annettavaa	antaa	VERB	V,Pass,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	dobj	_	Alt=2_dobj
+4	annettavaa	antaa	VERB	V,Pass,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	nsubj	_	Alt=2_dobj
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
 #ipndm-3298	Tarvittaisiin enemmän veroja - tai luopumista jostakin jo saadusta .
@@ -2661,7 +2661,7 @@
 1	Meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	3	nmod:own	_	Alt=nmod:own
 2	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	neg	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	dobj	_	_
+4	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	_
 5	tuhlata	tuhlata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	acl	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 
@@ -3643,7 +3643,7 @@
 1	Cinecittan	cinecitta	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	johtajilla	johtaja	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	3	nmod:own	_	Alt=nmod:own
 3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	tyyliä	tyyli	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	dobj	_	_
+4	tyyliä	tyyli	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	_
 5	:	:	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 6	Vaikka	vaikka	SCONJ	Pcle,CS	_	10	mark	_	_
 7	elokuva	elokuva	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj:cop	_	_
@@ -3781,7 +3781,7 @@
 2	presidentillä	presidentti	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	nmod:own	_	Alt=nmod:own
 3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	muitakin	muu	DET	Pron,Qnt,Pl,Par,Kin	Case=Par|Clitic=Kin|Number=Plur|PronType=Ind	5	det	_	_
-5	intohimoja	intohimo	NOUN	N,Pl,Par	Case=Par|Number=Plur	3	dobj	_	_
+5	intohimoja	intohimo	NOUN	N,Pl,Par	Case=Par|Number=Plur	3	nsubj	_	_
 6	elämässään	elämä	NOUN	N,Sg,Ine,Px3	Case=Ine|Number=Sing|Person[psor]=3	3	nmod	_	_
 7	.	.	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
 
@@ -5354,7 +5354,7 @@
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	jo	jo	PART	Pcle	_	2	advmod	_	_
-4	kopio	kopio	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+4	kopio	kopio	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
 #exkd6-5810	Mitä jos puhuttaisiin jostakin
@@ -5489,7 +5489,7 @@
 #rvniz-5882	Naapureilla on mahdollisuus valittaa suojelupäätöksestä , jos sellainen tehdään .
 1	Naapureilla	naapuri	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	mahdollisuus	mahdollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+3	mahdollisuus	mahdollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 4	valittaa	valittaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	acl	_	_
 5	suojelupäätöksestä	suojelupäätös	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 6	,	,	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
@@ -5524,7 +5524,7 @@
 23	mul	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	24	nmod:own	_	Alt=nmod:own
 24	ois	olla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|Style=Coll|VerbForm=Fin|Voice=Act	4	conj	_	_
 25	kaks	kaksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card|Style=Coll	26	nummod	_	_
-26	paikkaa	paikka	NOUN	N,Sg,Par	Case=Par|Number=Sing	24	dobj	_	_
+26	paikkaa	paikka	NOUN	N,Sg,Par	Case=Par|Number=Sing	24	nsubj	_	_
 
 #xqk97-5891	noilla veneillä
 1	noilla	nuo	DET	Pron,Dem,Pl,Ade	Case=Ade|Number=Plur|PronType=Dem	2	det	_	_
@@ -6107,7 +6107,7 @@
 1	Pelaajilla	pelaaja	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	2	nmod:own	_	Alt=nmod:own
 2	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kahdet	kaksi	NUM	Num,Card,Pl,Nom	Case=Nom|Number=Plur|NumType=Card	4	nummod	_	_
-4	pelipaidat	pelipaita	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	dobj	_	_
+4	pelipaidat	pelipaita	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 5	,	,	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 6	joista	joka	PRON	Pron,Rel,Pl,Ela	Case=Ela|Number=Plur|PronType=Rel	12	nmod	_	_
 7	punavalkeat	punavalkea	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	9	amod	_	_
@@ -6180,7 +6180,7 @@
 #mt8oc-6389	harvalla on mahdollisuus seurata maassamme ilmestyvää sataakuntaa tieteellisten seurain lehteä .
 1	harvalla	harva	PRON	Pron,Qnt,Sg,Ade	Case=Ade|Number=Sing|PronType=Ind	2	nmod:own	_	Alt=nmod:own|FTB-PronType=Qnt
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	mahdollisuus	mahdollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+3	mahdollisuus	mahdollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 4	seurata	seurata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	acl	_	_
 5	maassamme	maa	NOUN	N,Sg,Ine,PxPl1	Case=Ine|Number=Sing|Number[psor]=Plur|Person[psor]=1	6	nmod	_	_
 6	ilmestyvää	ilmestyä	VERB	V,Act,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
@@ -6209,7 +6209,7 @@
 4	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	kahdesta	kaksi	NUM	Num,Card,Sg,Ela	Case=Ela|Number=Sing|NumType=Card	6	nummod	_	_
 6	kolmeen	kolme	NUM	Num,Card,Sg,Ill	Case=Ill|Number=Sing|NumType=Card	7	nummod	_	_
-7	yksikköä	yksikkö	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	dobj	_	_
+7	yksikköä	yksikkö	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	nsubj	_	_
 8	samanaikaisesti	samanaikaisesti	ADV	Adv	_	4	advmod	_	_
 9	liikkeellä	liikkeellä	ADV	Adv	_	4	advmod	_	_
 10	.	.	PUNCT	Pun	_	9	dep	_	Missed-Rel=pun
@@ -6317,7 +6317,7 @@
 8	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
 9	vähäm	vähän	ADV	Adv	Style=Coll	11	advmod	_	_
 10	muita	muu	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	11	det	_	_
-11	asioita	asia	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	dobj	_	_
+11	asioita	asia	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	nsubj	_	_
 12	hoidettavana	hoitaa	VERB	V,Pass,PcpVa,Sg,Ess	Case=Ess|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	8	advcl	_	_
 13	,	,	PUNCT	Pun	_	12	dep	_	Missed-Rel=pun
 
@@ -6429,7 +6429,7 @@
 2	sul	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	3	nmod:own	_	Alt=nmod:own
 3	o	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	se	se	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
-5	keikka	keikka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	dobj	_	_
+5	keikka	keikka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 6	sielä	siellä	ADV	Adv,Dem	PronType=Dem|Style=Coll	7	advmod	_	_
 7	Haapajärvellä	haapajärvi	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 8	niin	niin	PART	Pcle	_	12	dep	_	Missed-Rel=phrm
@@ -6589,7 +6589,7 @@
 2	siinä	siinä	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
 3	mulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	1	nmod:own	_	Alt=nmod:own
 4	kanssa	kanssa	PART	Pcle	_	1	advmod	_	_
-5	ystävä	ystävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	dobj	_	_
+5	ystävä	ystävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	_
 
 #ynvds-6652	Ei täs ny mitään niin ihmeitä ole
 1	Ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	neg	_	_
@@ -7024,7 +7024,7 @@
 2	minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	nmod:own	_	Alt=nmod:own
 3	olekaan	olla	VERB	V,Act,Ind,Pres,ConNeg,Kaan	Clitic=Kaan|Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	sanan	sana	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
-5	sijaa	sija	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	dobj	_	_
+5	sijaa	sija	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	_
 6	tyttäremme	tytär	NOUN	N,Sg,Gen,PxPl1	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	7	nmod	_	_
 7	kasvatuksessa	kasvatus	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 8	?	?	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
@@ -7034,7 +7034,7 @@
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	vain	vain	PART	Pcle	_	4	advmod	_	_
 4	viisi	viisi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
-5	markkaa	markka	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	dobj	_	_
+5	markkaa	markka	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 
 #mfz3a-6907	Vain minä unohdin sateenvarjoni eilen .
@@ -7098,7 +7098,7 @@
 25	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	26	neg	_	_
 26	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	21	acl	_	_
 27	yhtään	yhtään	ADV	Adv	_	28	advmod	_	_
-28	makua	maku	NOUN	N,Sg,Par	Case=Par|Number=Sing	26	dobj	_	_
+28	makua	maku	NOUN	N,Sg,Par	Case=Par|Number=Sing	26	nsubj	_	_
 29	.	.	PUNCT	Pun	_	28	dep	_	Missed-Rel=pun
 
 #san8t-6923	Hallituksen esittämä 1,5 miljardin leikkaus ansiosidonnaiseen työttömyysturvaan ei tyydytä , koska esitys ei muuta itse järjestelmää .
@@ -7619,7 +7619,7 @@
 
 #ubsvn-7385	Komeat kengät on sinulla .
 1	Komeat	komea	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	2	amod	_	_
-2	kengät	kenkä	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	dobj	_	_
+2	kengät	kenkä	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	nsubj	_	_
 3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	3	nmod:own	_	Alt=nmod:own
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
@@ -7694,7 +7694,7 @@
 #xcolf-7527	Vaarilla on huolia .
 1	Vaarilla	vaari	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	huolia	huoli	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	dobj	_	_
+3	huolia	huoli	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	nsubj	_	_
 4	.	.	PUNCT	Pun	_	3	dep	_	Missed-Rel=pun
 
 #in4q9-7534	Saatan olla myös pirullisen hankala , mutta minulla ei sentään ole yhtä kallis maku kuin Evitalla .
@@ -7711,7 +7711,7 @@
 11	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 12	yhtä	yhtä	ADV	Adv	_	13	advmod	_	_
 13	kallis	kallis	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	14	amod	_	_
-14	maku	maku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	11	dobj	_	_
+14	maku	maku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	11	nsubj	_	_
 15	kuin	kuin	SCONJ	Pcle,CS	_	16	mark	_	FTB-Sub=comparator
 16	Evitalla	evita	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	13	advcl	_	FTB-Sub=comparison
 17	.	.	PUNCT	Pun	_	16	dep	_	Missed-Rel=pun
@@ -9310,7 +9310,7 @@
 #xeiou-8898	Mummolla oli sokeritauti .
 1	Mummolla	mummo	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	2	nmod:own	_	Alt=nmod:own
 2	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	sokeritauti	sokeritauti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+3	sokeritauti	sokeritauti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 4	.	.	PUNCT	Pun	_	3	dep	_	Missed-Rel=pun
 
 #omrky-8901	Minulla on täällä niin hyvä olla .
@@ -9763,7 +9763,7 @@
 3	,	,	PUNCT	Pun	_	2	dep	_	Missed-Rel=pun
 4	sil	se	PRON	Pron,Dem,Sg,Ade	Case=Ade|Number=Sing|PronType=Dem|Style=Coll	5	nmod:own	_	Alt=nmod:own
 5	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	spesiaalireseptit	spesiaaliresepti	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	dobj	_	_
+6	spesiaalireseptit	spesiaaliresepti	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	nsubj	_	_
 7	ruuteihin	ruuti	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	6	nmod	_	_
 8	ynnä	ynnä	CONJ	Pcle,CC	_	7	cc	_	_
 9	muihin	muu	DET	Pron,Qnt,Pl,Ill	Case=Ill|Number=Plur|PronType=Ind	10	det	_	_
@@ -9807,7 +9807,7 @@
 1	Jolla	joka	PRON	Pron,Rel,Sg,Ade	Case=Ade|Number=Sing|PronType=Rel	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	csubj	_	_
 3	muutakin	muu	DET	Pron,Qnt,Sg,Par,Kin	Case=Par|Clitic=Kin|Number=Sing|PronType=Ind	4	det	_	_
-4	tekemistä	tekeminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	dobj	_	_
+4	tekemistä	tekeminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 5	,	,	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 6	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	2	expl	_	Alt=2_expl|Missed-Rel=phrm
 7	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -9827,7 +9827,7 @@
 9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 10	aamulla	aamu	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	11	nmod	_	_
 11	kaheksalta	kahdeksan	NUM	Num,Card,Sg,Abl	Case=Abl|Number=Sing|NumType=Card|Style=Coll	9	nmod	_	_
-12	tällit	tälli	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	dobj	_	_
+12	tällit	tälli	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	nsubj	_	_
 13	et	että	SCONJ	Pcle,CS	Style=Coll	15	mark	_	_
 14	yhen	yksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card|Style=Coll	15	nummod	_	_
 15	veijarin	veijari	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
@@ -9905,7 +9905,7 @@
 1	Sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sikarinporoa	sikarinporo	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	nmod	_	_
-4	nenänpää	nenänpää	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+4	nenänpää	nenänpää	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 5	täynnä	täynnä	ADV	Adv	_	2	advmod	_	_
 6	kuule	kuule	PART	Pcle	_	2	advmod	_	_
 7	.	.	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
@@ -11335,7 +11335,7 @@
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	nimittäin	nimittäin	PART	Pcle	_	2	advmod	_	_
 4	muutakin	muu	DET	Pron,Qnt,Sg,Par,Kin	Case=Par|Clitic=Kin|Number=Sing|PronType=Ind	5	det	_	_
-5	tekemistä	tekeminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	dobj	_	_
+5	tekemistä	tekeminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 
 #f8r6u-10232	Düsseldorfissa asuu satoja suomalaisia .
@@ -11350,7 +11350,7 @@
 2	meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	4	nmod:own	_	Alt=nmod:own
 3	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	neg	_	_
 4	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	aikuisia	aikuinen	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	dobj	_	_
+5	aikuisia	aikuinen	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	nsubj	_	_
 6	mukana	mukana	ADV	Adv	_	4	advmod	_	_
 7	,	,	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
 8	niin	niin	PART	Pcle	_	12	dep	_	Missed-Rel=phrm
@@ -11551,7 +11551,7 @@
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	nmod:own	_	Alt=nmod:own
 2	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	neg	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	mitään	mikään	PRON	Pron,Qnt,Par	Case=Par|PronType=Ind	3	dobj	_	FTB-PronType=Qnt
+4	mitään	mikään	PRON	Pron,Qnt,Par	Case=Par|PronType=Ind	3	nsubj	_	FTB-PronType=Qnt
 5	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
 6	vastaan	vastaan	ADP	Adp	_	5	case	_	_
 7	,	,	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
@@ -11986,13 +11986,13 @@
 2	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	neg	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	mitään	mikään	DET	Pron,Qnt,Par	Case=Par|PronType=Ind	5	det	_	_
-5	tietoa	tieto	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	dobj	_	_
+5	tietoa	tieto	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	_
 6	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	7	expl	_	Alt=7_expl|Missed-Rel=phrm
 7	onko	olla	VERB	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
 8	Suomi-kuvan	suomi-kuva	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 9	rakentajilla	rakentaja	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	7	nmod:own	_	Alt=nmod:own
 10	yhdenmukaiset	yhdenmukainen	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	11	amod	_	_
-11	käsitykset	käsitys	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	7	dobj	_	_
+11	käsitykset	käsitys	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	7	nsubj	_	_
 12	asiasta	asia	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	11	nmod	_	_
 13	.	.	PUNCT	Pun	_	12	dep	_	Missed-Rel=pun
 
@@ -12056,7 +12056,7 @@
 3	niillä	ne	DET	Pron,Dem,Pl,Ade	Case=Ade|Number=Plur|PronType=Dem	4	det	_	_
 4	resursseilla	resurssi	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	1	nmod	_	_
 5	,	,	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
-6	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	8	dobj	_	_
+6	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	8	nsubj	_	_
 7	meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	8	nmod:own	_	Alt=nmod:own
 8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 9	.	.	PUNCT	Pun	_	8	dep	_	Missed-Rel=pun
@@ -12488,12 +12488,12 @@
 #wnw4e-11122	Heillä oli tyttäriä mutta heillä ei ollut poikia .
 1	Heillä	he	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	tyttäriä	tytär	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	dobj	_	_
+3	tyttäriä	tytär	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	nsubj	_	_
 4	mutta	mutta	CONJ	Pcle,CC	_	2	cc	_	_
 5	heillä	he	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	7	nmod:own	_	Alt=nmod:own
 6	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	neg	_	_
 7	ollut	olla	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
-8	poikia	poika	NOUN	N,Pl,Par	Case=Par|Number=Plur	7	dobj	_	_
+8	poikia	poika	NOUN	N,Pl,Par	Case=Par|Number=Plur	7	nsubj	_	_
 9	.	.	PUNCT	Pun	_	8	dep	_	Missed-Rel=pun
 
 #wytpo-11133	Ruoka on tasoltaan yleisesti ottaen ihan syötävää , joskaan ei erinomaista .
@@ -12946,7 +12946,7 @@
 2	alkaa	alkaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	jo	jo	PART	Pcle	_	3	advmod	_	_
-5	puutetta	puute	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	dobj	_	_
+5	puutetta	puute	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	_
 6	ruokarahoista	ruokaraha	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	5	nmod	_	_
 7	.	.	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
 
@@ -12976,7 +12976,7 @@
 #kgsof-11725	Minulla on taipumusta yksinoloon .
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	taipumusta	taipumus	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	dobj	_	_
+3	taipumusta	taipumus	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 4	yksinoloon	yksinolo	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
@@ -13201,7 +13201,7 @@
 4	urani	ura	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nmod	_	_
 5	alussa	alku	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 6	sellainen	sellainen	DET	A,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	7	amod	_	Alt=DET
-7	käsitys	käsitys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	dobj	_	_
+7	käsitys	käsitys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 8	,	,	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 9	että	että	SCONJ	Pcle,CS	_	18	mark	_	_
 10	Jumalan	jumala	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	11	nmod	_	_
@@ -13290,18 +13290,18 @@
 #a6dni-12074	Hänellä on tekohampaat
 1	Hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	tekohampaat	tekohammas	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	dobj	_	_
+3	tekohampaat	tekohammas	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 
 #h5ps6-12074	Hänellä on silmälasit
 1	Hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	silmälasit	silmälasit	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	dobj	_	_
+3	silmälasit	silmälasit	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 
 #fev1q-12077	Hoitajilla oli valkeat nunnanpäähineet .
 1	Hoitajilla	hoitaja	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	2	nmod:own	_	Alt=nmod:own
 2	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	valkeat	valkea	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	4	amod	_	_
-4	nunnanpäähineet	nunnanpäähine	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	dobj	_	_
+4	nunnanpäähineet	nunnanpäähine	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
 #jpo9k-12122	EU:n ulkoministerit yhä neuvottomia Algerian tapauksessa
@@ -14343,7 +14343,7 @@
 17	tällaisiin	tällainen	DET	A,Dem,Pl,Ill	Case=Ill|Number=Plur|PronType=Dem	18	amod	_	Alt=DET
 18	jatkuviin	jatkuva	ADJ	A,Pl,Ill	Case=Ill|Number=Plur	19	amod	_	_
 19	kärhämiin	kärhämä	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	20	nmod	_	_
-20	varaa	vara	NOUN	N,Sg,Par	Case=Par|Number=Sing	16	dobj	_	_
+20	varaa	vara	NOUN	N,Sg,Par	Case=Par|Number=Sing	16	nsubj	_	_
 21	.	.	PUNCT	Pun	_	20	dep	_	Missed-Rel=pun
 
 #a5s2m-12995	Rajujen leikkausuudistusten jälkeen hallituksen odottaisi nyt antavan porkkanoita tulopoliittisen kokonaisratkaisun aikaansaamiseksi .
@@ -14555,7 +14555,7 @@
 6	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
 7	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	8	nmod:own	_	Alt=nmod:own
 8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	_
-9	lahjoja	lahja	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	dobj	_	_
+9	lahjoja	lahja	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	nsubj	_	_
 10	.	.	PUNCT	Pun	_	9	dep	_	Missed-Rel=pun
 
 #ilgo8-13129	Pavut pitää liottaa ennen keittämistä
@@ -14586,7 +14586,7 @@
 #vyop3-13184	On neidolla punapaula
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	neidolla	neito	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	1	nmod:own	_	Alt=nmod:own
-3	punapaula	punapaula	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	dobj	_	_
+3	punapaula	punapaula	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	_
 
 #du0zt-13189	Se voi maksaa tuhansia euroja
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
@@ -14654,7 +14654,7 @@
 
 #ec84p-13217	Samoja ongelmia on ollut muilla suomalaisilla .
 1	Samoja	sama	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	2	det	_	_
-2	ongelmia	ongelma	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	dobj	_	_
+2	ongelmia	ongelma	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	nsubj	_	_
 3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	muilla	muu	DET	Pron,Qnt,Pl,Ade	Case=Ade|Number=Plur|PronType=Ind	6	det	_	_
@@ -14909,7 +14909,7 @@
 2	Kai	kai	PART	Pcle	_	6	advmod	_	_
 3	meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	6	nmod:own	_	Alt=nmod:own
 4	ny	nyt	PART	Pcle	Style=Coll	6	advmod	_	_
-5	aattoateria	aattoateria	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	dobj	_	_
+5	aattoateria	aattoateria	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	.	.	PUNCT	Pun	_	6	dep	_	Missed-Rel=pun
 
@@ -14976,7 +14976,7 @@
 7	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 8	paksu	paksu	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	9	amod	_	_
 9	harmaa	harmaa	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	amod	_	_
-10	letti	letti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	dobj	_	_
+10	letti	letti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
 11	,	,	PUNCT	Pun	_	10	dep	_	Missed-Rel=pun
 12	enkä	ei	VERB	V,Neg,Act,Sg1,Ka	Clitic=Ka|Negative=Neg|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	13	neg	_	_
 13	halua	haluta	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -15211,14 +15211,14 @@
 8	yks	yksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card|Style=Coll	10	nummod	_	_
 9	typerä	typerä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	amod	_	_
 10	lännenfilmi	lännenfilmi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	dobj	_	_
-11	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	13	dobj	_	_
+11	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	_
 12	mul	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	13	nmod:own	_	Alt=nmod:own
 13	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	acl	_	_
 14	ni	niin	PART	Pcle	Style=Coll	16	dep	_	Missed-Rel=phrm
 15	mul	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	16	nmod:own	_	Alt=nmod:own
 16	o	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 17	hirvee	hirveä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing|Style=Coll	18	amod	_	_
-18	kiire	kiire	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	dobj	_	_
+18	kiire	kiire	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj	_	_
 19	nyt	nyt	ADV	Adv	_	16	advmod	_	_
 20	kääntää	kääntää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	18	acl	_	_
 21	tää	tämä	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem|Style=Coll	20	dobj	_	_
@@ -15965,7 +15965,7 @@
 6	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 7	pitkiinkin	pitkä	ADJ	A,Pl,Ill,Kin	Case=Ill|Clitic=Kin|Number=Plur	8	amod	_	_
 8	kertomuksiin	kertomus	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	9	nmod	_	_
-9	aikaa	aika	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	dobj	_	_
+9	aikaa	aika	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	nsubj	_	_
 10	,	,	PUNCT	Pun	_	9	dep	_	Missed-Rel=pun
 11	hoitajat	hoitaja	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	12	nsubj	_	_
 12	tulisivat	tulla	VERB	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	6	conj	_	_
@@ -16043,7 +16043,7 @@
 10	että	että	SCONJ	Pcle,CS	_	12	mark	_	_
 11	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	12	nmod:own	_	Alt=nmod:own
 12	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	ccomp	_	_
-13	aikaa	aika	NOUN	N,Sg,Par	Case=Par|Number=Sing	12	dobj	_	_
+13	aikaa	aika	NOUN	N,Sg,Par	Case=Par|Number=Sing	12	nsubj	_	_
 14	odottaa	odottaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	13	acl	_	_
 15	,	,	PUNCT	Pun	_	14	dep	_	Missed-Rel=pun
 16	vaikka	vaikka	PART	Pcle	_	17	advmod	_	_
@@ -16735,7 +16735,7 @@
 3	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	mun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	6	det	_	_
 5	ihana	ihana	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
-6	nylonkassi	nylonkassi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	dobj	_	_
+6	nylonkassi	nylonkassi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 7	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	10	dobj	_	_
 8	oj	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
 9	jo	jo	PART	Pcle	_	10	advmod	_	_
@@ -17148,7 +17148,7 @@
 2	täytyisi	täytyä	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	parempi	parempi	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	5	amod	_	_
-5	teltta	teltta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	dobj	_	_
+5	teltta	teltta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 
 #a0s6f-15070	Kun harrastuksia on paljon , joudutaan joskus tekemään valintoja .
@@ -17589,7 +17589,7 @@
 3	että	että	SCONJ	Pcle,CS	_	5	mark	_	_
 4	huoltomiehellä	huoltomies	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	5	nmod:own	_	Alt=nmod:own
 5	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
-6	avain	avain	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	dobj	_	_
+6	avain	avain	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	_
 7	huoneistoonne	huoneisto	NOUN	N,Sg,Ill,PxPl2	Case=Ill|Number=Sing|Number[psor]=Plur|Person[psor]=2	6	nmod	_	_
 8	tai	tai	CONJ	Pcle,CC	_	1	cc	_	_
 9	järjestänette	järjestää	VERB	V,Act,Pot,Pl2	Mood=Pot|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	1	conj	_	_
@@ -18115,7 +18115,7 @@
 4	ilman	ilman	ADP	Adp	_	5	case	_	_
 5	avustajaa	avustaja	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nmod	_	_
 6	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	menemistä	meneminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	dobj	_	_
+7	menemistä	meneminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	nsubj	_	_
 8	.	.	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 
 #li95q-15920	Näytä niille Supi , muuten ei ole kotiin tulemista !
@@ -18472,7 +18472,7 @@
 1	Yksityishenkilönä	yksityishenkilö	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	3	nmod	_	_
 2	Kasviolla	kasvio	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	3	nmod:own	_	Alt=nmod:own
 3	olkoon	olla	VERB	V,Act,Imprt,Sg3	Mood=Imp|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
-4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	dobj	_	_
+4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 5	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	6	aux	_	_
 6	sanomatta	sanoa	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	4	acl	_	_
 7	mitään	mikään	PRON	Pron,Qnt,Par	Case=Par|PronType=Ind	6	dobj	_	FTB-PronType=Qnt
@@ -18756,7 +18756,7 @@
 1	Onk	olla	VERB	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	1	nmod:own	_	Alt=nmod:own
 3	mikä	mikä	DET	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	4	det	_	_
-4	auto	auto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	dobj	_	_
+4	auto	auto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	_
 5	?	?	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
 #fefj6-16560	Kun kuuntelen levyltä Sepon laulua kuulen siitä laulusta onko Seppo ollum missä kunnossa .
@@ -19049,19 +19049,19 @@
 1	Miehellä	mies	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	2	nmod:own	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	siinä	se	PRON	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	2	nmod	_	_
-4	nimi	nimi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+4	nimi	nimi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 5	.	.	PUNCT	Pun	_	4	dep	_	Missed-Rel=pun
 
 #yosvd-16859	On sulla jouluherkut .
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	1	nmod:own	_	Alt=nmod:own
-3	jouluherkut	jouluherkku	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	dobj	_	_
+3	jouluherkut	jouluherkku	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	nsubj	_	_
 4	.	.	PUNCT	Pun	_	3	dep	_	Missed-Rel=pun
 
 #gxj28-16860	On pojilla jutut , juu .
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	pojilla	poika	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	1	nmod:own	_	Alt=nmod:own
-3	jutut	juttu	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	dobj	_	_
+3	jutut	juttu	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	nsubj	_	_
 4	,	,	PUNCT	Pun	_	3	dep	_	Missed-Rel=pun
 5	juu	juu	INTJ	Pcle,Interj	_	1	discourse	_	Alt=1_discourse
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
@@ -19071,7 +19071,7 @@
 2	siinä	siinä	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
 3	meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	1	nmod:own	_	Alt=nmod:own
 4	harvinainen	harvinainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	5	amod	_	_
-5	pari	pari	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	dobj	_	_
+5	pari	pari	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
 
 #zizfe-16863	Sinä olisit uskonut kokeneen miehen neuvoa .
@@ -19222,7 +19222,7 @@
 7	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	9	nmod:own	_	Alt=nmod:own
 8	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	neg	_	_
 9	oo	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
-10	sydäntä	sydän	NOUN	N,Sg,Par	Case=Par|Number=Sing	9	dobj	_	_
+10	sydäntä	sydän	NOUN	N,Sg,Par	Case=Par|Number=Sing	9	nsubj	_	_
 11	saatana	saatana	INTJ	Pcle,Interj	_	9	discourse	_	Alt=9_discourse
 12	ollenkaan	ollenkaan	ADV	Adv	_	9	advmod	_	_
 13	.	.	PUNCT	Pun	_	12	dep	_	Missed-Rel=pun
@@ -19315,7 +19315,7 @@
 4	aika	aika	PART	Pcle	_	5	mwe	_	_
 5	lailla	lailla	ADV	Adv	_	6	advmod	_	_
 6	eri	eri	DET	Pron,Qnt	PronType=Ind	7	det	_	_
-7	tilanne	tilanne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	dobj	_	_
+7	tilanne	tilanne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 8	kun	kuin	SCONJ	Pcle,CS	Style=Coll	12	mark	_	FTB-Sub=comparator
 9	sillon	silloin	ADV	Adv,Dem	PronType=Dem|Style=Coll	10	mwe	_	_
 10	kun	kun	SCONJ	Pcle,CS	_	12	mark	_	FTB-Sub=comparator
@@ -19356,7 +19356,7 @@
 #m0ote-17037	On sinulla saarnat , Simeoni .
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	1	nmod:own	_	Alt=nmod:own
-3	saarnat	saarna	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	dobj	_	_
+3	saarnat	saarna	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	nsubj	_	_
 4	,	,	PUNCT	Pun	_	3	dep	_	Missed-Rel=pun
 5	Simeoni	simeoni	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	1	vocative	_	_
 6	.	.	PUNCT	Pun	_	5	dep	_	Missed-Rel=pun
