@@ -17027,7 +17027,7 @@
 4	ei	ei	VERB	V,Neg,Act,Sg3	Negative=Neg|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	5	neg	_	_
 5	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	vielä	vielä	PART	Pcle	_	5	advmod	_	_
-7	saatavilla	saatavilla	ADV	Adv	_	5	advmod	_	_
+7	saatavilla	saada	VERB	V,Pass,PcpVa,Pl,Ade	Case=Ade|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	5	advcl	_	_
 8	,	,	PUNCT	Pun	_	7	dep	_	Missed-Rel=pun
 9	mutta	mutta	CONJ	Pcle,CC	_	5	cc	_	_
 10	hyvää	hyvä	ADJ	A,Sg,Par	Case=Par|Number=Sing	12	dobj	_	_
