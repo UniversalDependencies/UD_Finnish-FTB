@@ -70,9 +70,25 @@ fin-clarin@helsinki.fi
 Negative=Yes was changed to Negative=Neg
 The data was re-split to resolve train/dev/test overlaps within the treebank as well as with UD_Finnish
 
+** UD v1.2 -> UD v1.3
+
+A major revision of the underlying FinnTreebank 1 with some manually
+annotated UD analyses (e.g. xcomp; these annotations are visible in
+the UD version as Alt in the MISC field).
+
+Adjusted the conversion script to better match the universal
+guidelines (e.g. finite verbs now have VerbForm, again using PART) and
+the Finnish guidelines (e.g. now using nsubj:cop, csubj:cop,
+nmod:own).
+
+Duplicates in the underlying FinnTreebank 1 have been removed and
+sentences are now labeled with unique identifiers like "ekvje-124"
+(the part before the hyphen identifies the sentence within
+FinnTreebank 1).
+
 --- Machine-readable metadata ---
 Documentation status: stub
-Data source: automatic
+Data source: semi-automatic
 Data available since: UD v1.1
 License: CC BY 4.0
 Genre: grammar-examples
