@@ -21,13 +21,8 @@ following negative verb are separated into two tokens in the
 FinnTreeBank model. The UD version keeps them as such but adds the
 unannotated joined token before the two.
 
-A small number of multiword sequences remain as single tokens.
-
 Most punctuation tokens are linked to a nearby token instead of a
 clause head.
-
-The xcomp relation is not used in the mapping (the distinction between
-xcomp and comp is not supported in the underlying FinnTreeBank model).
 
 As a catchall, the dep relation is used as intended when a more proper
 mapping could not be determined.
@@ -37,19 +32,19 @@ Some FinnTreeBank annotations are retained in the MISC field.
 
 * Splitting
 
-The treebank was split into training, development, and test sets by
-repeatedly taking 8 sentences into training set, 1 into development
-set, and 1 into test set.
+The previous version of the treebank was split into training,
+development, and test sets by repeatedly taking 8 sentences into
+training set, 1 into development set, and 1 into test set.
 
 
 * Statistics
 
-Tree count:  19097
-Word count:  161984
-Token count: 161682
-Dep. relations: 26 of which 2 language specific
-POS tags: 14
-Category=value feature pairs: 64
+Tree count:  18723
+Word count:  159612
+Token count: 159314
+Dep. relations: 40 of which 8 language specific
+POS tags: 16
+Category=value feature pairs: 70
 
 
 * Sources
@@ -73,13 +68,15 @@ The data was re-split to resolve train/dev/test overlaps within the treebank as 
 ** UD v1.2 -> UD v1.3
 
 A major revision of the underlying FinnTreebank 1 with some manually
-annotated UD analyses (e.g. xcomp; these annotations are visible in
-the UD version as Alt in the MISC field).
+annotated UD analyses (notably xcomp; manual annotations are visible
+in the UD version as Alt in the MISC field).
 
 Adjusted the conversion script to better match the universal
 guidelines (e.g. finite verbs now have VerbForm, again using PART) and
 the Finnish guidelines (e.g. now using nsubj:cop, csubj:cop,
 nmod:own).
+
+Components of multiword names are now separate tokens.
 
 Duplicates in the underlying FinnTreebank 1 have been removed and
 sentences are now labeled with unique identifiers like "ekvje-124"
