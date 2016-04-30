@@ -1137,7 +1137,7 @@
 8	kirkkaalle	kirkas	ADJ	A,Sg,All	Case=All|Number=Sing	9	amod	_	_
 9	yöälylle	yöäly	NOUN	N,Sg,All	Case=All|Number=Sing	6	nmod	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
-11	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	13	dep	_	Missed-Rel=phrm
+11	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	_
 12	lopulta	lopulta	ADV	Adv	_	13	advmod	_	_
 13	todisti	todistaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	acl	_	_
 14	koko	koko	ADJ	A	_	15	amod	_	_
@@ -3829,7 +3829,7 @@
 7	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 8	vailla	vailla	ADP	Adp	_	9	case	_	_
 9	työtä	työ	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nmod	_	_
-10	yli	yli	ADV	Adv	_	11	dep	_	Missed-Rel=phrm
+10	yli	yli	ADV	Adv	_	11	advmod	_	_
 11	vuoden	vuosi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -5158,7 +5158,7 @@
 8	vuoden	vuosi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 9	syyskuun	syyskuu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
 10	loppupuolelle	loppupuoli	NOUN	N,Sg,All	Case=All|Number=Sing	4	nmod	_	_
-11	mennessä	mennä	VERB	V,Act,InfE,Ine	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Act	10	dep	_	Missed-Rel=phrm
+11	mennessä	mennessä	ADP	Adp	_	10	case	_	_
 12	siten	siten	ADV	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	että	että	SCONJ	Pcle,CS	_	16	mark	_	_
@@ -7373,7 +7373,7 @@
 6	kuuluu	kuulua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 
 #n6lnf-7116	Ja seuraavana Pasila
-1	Ja	ja	PART	Pcle	_	3	dep	_	Missed-Rel=phrm
+1	Ja	ja	CONJ	Pcle,CC	_	3	cc	_	_
 2	seuraavana	seuraava	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	3	nmod	_	_
 3	Pasila	pasila	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 
@@ -8443,7 +8443,7 @@
 3	yleensä	yleensä	ADV	Adv	_	4	advmod	_	_
 4	stressattua	stressata	VERB	V,Pass,PcpNut,Sg,Par	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
-6	joten	joten	ADV	Adv,Rel	PronType=Rel	9	advmod	_	_
+6	joten	joten	ADV	Adv,Rel	PronType=Rel	9	mark	_	_
 7	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	_
 8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 9	sitkeää	sitkeä	ADJ	A,Sg,Par	Case=Par|Number=Sing	4	conj	_	_
@@ -14647,7 +14647,7 @@
 6	maassamuutto	maassamuutto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 7	ja	ja	CONJ	Pcle,CC	_	4	cc	_	_
 8	1980-luvulta	1980-luku	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	3	nmod	_	_
-9	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	dep	_	Missed-Rel=phrm
+9	lähtien	lähtien	ADP	Adp	_	8	case	_	_
 10	myös	myös	PART	Pcle	_	11	advmod	_	_
 11	maahanmuutto	maahanmuutto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
