@@ -23,7 +23,7 @@
     <tag name="PART">5665</tag><!-- niin, jo, myös, vielä, vain, kyllä, ihan, sitten, enää, nyt -->
     <tag name="PRON">10572</tag><!-- se, hän, minä, joka, sinä, mikä, me, ne, tämä, he -->
     <tag name="PROPN">6773</tag><!-- suomi, helsinki, tampere, ruotsi, eurooppa, maija, mikko, venäjä, ranska, anna -->
-    <tag name="PUNCT">22565</tag><!-- ., ,, ?, ", !, -, :, ..., --, ; -->
+    <tag name="PUNCT">22565</tag><!-- ., ,, ?, ", !, -, :, ..., –, ; -->
     <tag name="SCONJ">4168</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kunnes, kunhan -->
     <tag name="SYM">22</tag><!-- %, &, /, +, *, @ -->
     <tag name="VERB">37600</tag><!-- olla, ei, tulla, saada, voida, tehdä, pitää, sanoa, mennä, ottaa -->
