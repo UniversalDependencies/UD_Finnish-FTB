@@ -90,3 +90,4 @@ Data available since: UD v1.1
 License: CC BY 4.0
 Genre: grammar-examples
 Contributors: Piitulainen, Jussi; Nurmi, Hanna
+Contact:
