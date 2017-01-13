@@ -1,6 +1,8 @@
 #! /usr/bin/env python3
 # -*- mode: Python; -*-
 
+# http://universaldependencies.org/v2/summary.html
+
 from argparse import ArgumentParser
 from itertools import groupby
 
@@ -16,23 +18,64 @@ def sentences(source):
 def print_comment(sentence):
    '''Prints v2 comment lines for the sentence. Input in v1
    Finnish-FTB contains exactly one comment line for each sentence:
-   unique id and token sequence, as two fields at this point.'''
+   unique id and token sequence, as two fields at this point. Note:
+   leaving sentence ids as they were, though martinpopel has wanted to
+   disallow the occasional dots, too; there are no slashes there and
+   that was the important point that got codified for v2.'''
    ident, toks = sentence[0]
-   print('# UID={}'.format(ident.lstrip('#')))
-   print('# TOK={}'.format(toks))
+   print('# sent_id = {}'.format(ident.lstrip('#')))
+   print('# text = {}'.format(toks))
 
-def rename(sentence):
-   '''Return a copy with v2 names for various elements, line by line.
-   At this point, sentence consists of content lines only, each split
-   it into its fields.'''
-   return [ line[:] for line in sentence ] # TO DO
+def rename(line):
+   '''Return a new content line with v2 names for various elements.'''
+   ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC = line
+
+   # Some spaces might be allowed in FORM and LEMMA now. TODO?
+
+   # Also something about AUX (expansion), PART (restriction), and
+   # PROJ/DET (more flexible). TODO.
+   if POS == 'CONJ': POS = 'CCONJ'
+
+   FEATS = rename_feats(FEATS, pos = POS, ftb = FTB)
+
+   # All *pass are removed but they are not used in Finnish-FTB
+   # either? Also some nmod->obl, but cannot be done locally? And cop
+   # is more restricted, but is it already so in Finnish-FTB?
+   if REL == 'dobj': REL = 'obj'
+   elif REL == 'neg': REL = 'aux' # aux ok?
+   elif REL == 'mwe': REL = 'fixed'
+   elif REL == 'name': REL = 'flat' # could be flat:name
+   elif REL == 'foreign': REL = 'flat' # could be flat:foreign
+
+   return ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC
+
+def rename_feats(FEATS, *, pos, ftb):
+   '''Renames Negative to Polarity, TODO at least Abbr=Yes,
+   Foreign=Yes, maybe Person=4?'''
+
+   if FEATS == '_':
+      feats = dict()
+   else:   
+      feats = dict(feat.split('=') for feat in FEATS.split('|'))
+
+   if 'Negative' in feats:
+      assert 'Polarity' not in feats
+      feats['Polarity'] = feats.pop('Negative')
+
+   if 'Foreign' in ftb:
+      assert 'Foreign' not in feats
+      feats['Foreign'] = 'Yes' # right?
+
+   # does one still want to sort it by str.lower? if so, TODO
+   FEATS = '|'.join('{}={}'.format(k,v) for k, v in sorted(feats.items()))
+   return FEATS or '_'
 
 def main():
    args = interface()
    with open(args.file) as source:
       for sentence in sentences(source):
          print_comment(sentence)
-         sentence2 = rename(sentence[1:])
+         sentence2 = [ rename(line) for line in sentence[1:]]
          for line in sentence2:
             print(*line, sep = '\t')
          print()
