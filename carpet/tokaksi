@@ -1,0 +1,51 @@
+#! /usr/bin/env python3
+# -*- mode: Python; -*-
+
+from argparse import ArgumentParser
+from itertools import groupby
+
+import signal
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+
+def sentences(source):
+   for kind, lines in groupby(source, str.isspace):
+      if kind: continue
+      yield [ line.rstrip('\n').split('\t') for line in lines ]
+
+def print_comment(sentence):
+   '''Prints v2 comment lines for the sentence. Input in v1
+   Finnish-FTB contains exactly one comment line for each sentence:
+   unique id and token sequence, as two fields at this point.'''
+   ident, toks = sentence[0]
+   print('# UID={}'.format(ident.lstrip('#')))
+   print('# TOK={}'.format(toks))
+
+def rename(sentence):
+   '''Return a copy with v2 names for various elements, line by line.
+   At this point, sentence consists of content lines only, each split
+   it into its fields.'''
+   return [ line[:] for line in sentence ] # TO DO
+
+def main():
+   args = interface()
+   with open(args.file) as source:
+      for sentence in sentences(source):
+         print_comment(sentence)
+         sentence2 = rename(sentence[1:])
+         for line in sentence2:
+            print(*line, sep = '\t')
+         print()
+
+def interface():
+   parser = ArgumentParser(description = '''
+                Transform a v1 UD_Finnish-FTB file to v2 stdout.
+                Approximately as usual.
+            ''')
+   parser.add_argument('file',
+                       help = 'the input file')
+
+   return parser.parse_args()
+
+if __name__ == '__main__':
+   main()
