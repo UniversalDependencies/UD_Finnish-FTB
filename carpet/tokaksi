@@ -50,8 +50,8 @@ def rename(line):
    return ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC
 
 def rename_feats(FEATS, *, pos, ftb):
-   '''Renames Negative to Polarity, TODO at least Abbr=Yes,
-   Foreign=Yes, maybe Person=4?'''
+   '''Renames Negative to Polarity, adds Foreign=Yes, and Abbr=Yes is
+   already used so do nothing about Abbr=Yes.'''
 
    if FEATS == '_':
       feats = dict()
