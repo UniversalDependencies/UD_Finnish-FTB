@@ -72,7 +72,7 @@ def rename(line):
    elif REL == 'name': REL = 'flat' # could be flat:name
    elif REL == 'foreign': REL = 'flat' # could be flat:foreign
 
-   return ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC
+   return [ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC]
 
 def rename_feats(FEATS, *, pos, ftb):
    '''Renames Negative to Polarity, adds Foreign=Yes, and Abbr=Yes is
@@ -95,14 +95,47 @@ def rename_feats(FEATS, *, pos, ftb):
    FEATS = '|'.join('{}={}'.format(k,v) for k, v in sorted(feats.items()))
    return FEATS or '_'
 
+def restruct(content, joining):
+   restruct_cc(content)
+
+def restruct_cc(content):
+   # "attach cc and internal punct to the immediately succeeding
+   # conjunct (instead of the first conjunct)" - should find the
+   # succeeding conjunct by following the token sequence until there
+   # is a conj to the old head; how to recognize a relevant punct?
+   # http://universaldependencies.org/v2/coordination.html
+
+   for record in content.values():
+      ID, HEAD, REL = record[0], record[6], record[7]
+      if REL == 'cc' and HEAD < ID:
+
+         # Re HEAD < ID: A handful of cc are already attached forward.
+         # These seem to be sentences that start with the cc, and
+         # coordinations that involve truncated compounds. Ignore
+         # those. Only re-attach when the original may have been
+         # according to the old convention (was attached backward).
+
+         them = ( content[k] for k in range(ID + 1, len(content) + 1)
+                  if content[k][6] == HEAD
+                  if content[k][7] == 'conj' )
+         it = next(them, None)
+         if it:
+            record[6] = it[0]
+         else:
+            # a handful of cc are at the end of the sentence, with
+            # nothing after them to re-attach them to - leave them
+            pass
+
 def main():
    args = interface()
    with open(args.file) as source:
       for comment, content, joining in sentences(source):
-         new_content = [ rename(record) for record in content.values() ]
+         new_content = { ID:rename(content[ID]) for ID in content }
+
+         restruct(new_content, joining)
 
          print_comment(comment)
-         for record in new_content:
+         for record in sorted(new_content.values()):
             ID = record[0]
             if ID in joining: print(*joining[ID], sep = '\t')
             print(*record, sep = '\t')
