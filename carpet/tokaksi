@@ -13,16 +13,41 @@ signal.signal(signal.SIGPIPE, signal.SIG_DFL)
 def sentences(source):
    for kind, lines in groupby(source, str.isspace):
       if kind: continue
-      yield [ line.rstrip('\n').split('\t') for line in lines ]
 
-def print_comment(sentence):
+      # Split each line in the group into its tab-separated fields and
+      # separate content (the tokens) from the one comment line and
+      # from the j-k lines that join tokens into words.
+
+      records = ( line.rstrip('\n').split('\t') for line in lines )
+
+      # Always one comment line _in the source FTB_.
+      comment = next(records)
+      content = {}
+      joining = {}
+      for record in records:
+         if record[0].isdigit():
+            # A token line. Make ID and HEAD ints for greater ease of
+            # further processing.
+            ID, HEAD = int(record[0]), int(record[6])
+            record[0], record[6] = ID, HEAD
+            content[ID] = record
+            continue
+
+         # A j-k line. Must leave "j-k" as string but store the record
+         # at j. This should crash if not a j-k line.
+         first, last = ( int(ID) for ID in record[0].split('-') )
+         joining[first] = record
+      
+      yield comment, content, joining
+
+def print_comment(comment):
    '''Prints v2 comment lines for the sentence. Input in v1
    Finnish-FTB contains exactly one comment line for each sentence:
    unique id and token sequence, as two fields at this point. Note:
    leaving sentence ids as they were, though martinpopel has wanted to
    disallow the occasional dots, too; there are no slashes there and
    that was the important point that got codified for v2.'''
-   ident, toks = sentence[0]
+   ident, toks = comment
    print('# sent_id = {}'.format(ident.lstrip('#')))
    print('# text = {}'.format(toks))
 
@@ -73,11 +98,14 @@ def rename_feats(FEATS, *, pos, ftb):
 def main():
    args = interface()
    with open(args.file) as source:
-      for sentence in sentences(source):
-         print_comment(sentence)
-         sentence2 = [ rename(line) for line in sentence[1:]]
-         for line in sentence2:
-            print(*line, sep = '\t')
+      for comment, content, joining in sentences(source):
+         new_content = [ rename(record) for record in content.values() ]
+
+         print_comment(comment)
+         for record in new_content:
+            ID = record[0]
+            if ID in joining: print(*joining[ID], sep = '\t')
+            print(*record, sep = '\t')
          print()
 
 def interface():
