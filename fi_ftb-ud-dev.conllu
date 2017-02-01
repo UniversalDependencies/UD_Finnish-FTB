@@ -370,7 +370,7 @@
 17	.	.	PUNCT	Pun	_	15	punct	_	_
 
 # sent_id = giqld-934
-# text = Ehk ei se tullut .
+# text = Ehkei se tullut .
 1-2	Ehkei	_	_	_	_	_	_	_	_
 1	Ehk	ehkä	PART	Pcle	Style=Coll	4	advmod	_	Join=Yes
 2	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
@@ -399,7 +399,7 @@
 4	.	.	PUNCT	Pun	_	3	punct	_	_
 
 # sent_id = rd9vy-1017
-# text = Turhautuneisuus johtui siitä , ett eivät --
+# text = Turhautuneisuus johtui siitä , etteivät --
 1	Turhautuneisuus	turhautuneisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	johtui	johtua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	6	expl	_	Alt=6_expl|Missed-Rel=phrm
@@ -949,7 +949,7 @@
 3	ojaan	oja	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
 
 # sent_id = mi54l-1678
-# text = Autotankkaamon letkut kelautuvat mittareiden sisään , ett eivät housunpuntit töhräänny .
+# text = Autotankkaamon letkut kelautuvat mittareiden sisään , etteivät housunpuntit töhräänny .
 1	Autotankkaamon	autotankkaamo	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	letkut	letku	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	nsubj	_	_
 3	kelautuvat	kelautua	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1589,7 +1589,7 @@
 6	ydinvoimalaitosyksiköstä	ydinvoimalaitosyksikkö	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 
 # sent_id = pt0rq-2353
-# text = " Istuu kymmenen vuotta pytyssä ell ei anna ilmi kavereitaan . "
+# text = " Istuu kymmenen vuotta pytyssä ellei anna ilmi kavereitaan . "
 1	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	2	punct	_	Missed-SUBCAT=QUOTATION
 2	Istuu	istua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kymmenen	kymmenen	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	4	nummod	_	_
@@ -2227,7 +2227,7 @@
 23	.	.	PUNCT	Pun	_	22	punct	_	_
 
 # sent_id = fe3tn-2743
-# text = Vuosi sitten Suomessa käynyt perheenpää oli laivalla valistanut perhettään ja muita matkatuttuja , ett ei kannata panna valuuttaa ravintoloihin .
+# text = Vuosi sitten Suomessa käynyt perheenpää oli laivalla valistanut perhettään ja muita matkatuttuja , ettei kannata panna valuuttaa ravintoloihin .
 1	Vuosi	vuosi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nmod	_	_
 2	sitten	sitten	ADP	Adp	_	1	case	_	_
 3	Suomessa	suomi	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
@@ -4398,7 +4398,7 @@
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = fid3a-4697
-# text = Kangen perässä putoaa ylhäältä hiekkaa ja roskia , mutt ei mitään isompaa .
+# text = Kangen perässä putoaa ylhäältä hiekkaa ja roskia , muttei mitään isompaa .
 1	Kangen	kanki	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 2	perässä	perässä	ADP	Adp	_	1	case	_	_
 3	putoaa	pudota	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -5966,7 +5966,7 @@
 16	.	.	PUNCT	Pun	_	15	punct	_	_
 
 # sent_id = ksx7v-5842
-# text = Tajusin silloin ett ei Iina ollut semmoinen kuin minä kurja olin luullut .
+# text = Tajusin silloin ettei Iina ollut semmoinen kuin minä kurja olin luullut .
 1	Tajusin	tajuta	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	silloin	silloin	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
 3-4	ettei	_	_	_	_	_	_	_	_
@@ -6320,7 +6320,7 @@
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = nikcv-6065
-# text = Tai jos multa joku kysyy niinku jotain , katuuki Vallilasta ni se o ihav varma ett en mä tiedäs sitä ,
+# text = Tai jos multa joku kysyy niinku jotain , katuuki Vallilasta ni se o ihav varma etten mä tiedäs sitä ,
 1	Tai	tai	CCONJ	Pcle,CC	_	5	cc	_	_
 2	jos	jos	SCONJ	Pcle,CS	_	5	mark	_	_
 3	multa	minä	PRON	Pron,Pers,Sg1,Abl	Case=Abl|Number=Sing|Person=1|PronType=Prs|Style=Coll	5	nmod	_	_
@@ -7137,7 +7137,7 @@
 13	.	.	PUNCT	Pun	_	12	punct	_	_
 
 # sent_id = psenr-6563
-# text = Arvaa , ell et tiedä .
+# text = Arvaa , ellet tiedä .
 1	Arvaa	arvata	VERB	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3-4	ellet	_	_	_	_	_	_	_	_
@@ -7495,7 +7495,7 @@
 7	?	?	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = lg59x-6749
-# text = Pitäkäähän varanne , ett eivät omat rakkaat lapsenne käänny joskus teitä vastaan .
+# text = Pitäkäähän varanne , etteivät omat rakkaat lapsenne käänny joskus teitä vastaan .
 1	Pitäkäähän	pitää	VERB	V,Act,Imprt,Pl2,Han	Clitic=Han|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	varanne	vara	NOUN	N,Sg,Nom,PxPl2	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	1	compound:prt	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
@@ -9145,7 +9145,7 @@
 13	.	.	PUNCT	Pun	_	12	punct	_	_
 
 # sent_id = ialbx-8133
-# text = Hän muistuttaa Suomen metsäpinta-alasta käsiteltävän vuosittain kuitenkin niin pienen pläntin , ett ei hoitotapojen muuttumista ihan heti havaitse .
+# text = Hän muistuttaa Suomen metsäpinta-alasta käsiteltävän vuosittain kuitenkin niin pienen pläntin , ettei hoitotapojen muuttumista ihan heti havaitse .
 1	Hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	muistuttaa	muistuttaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
@@ -9243,7 +9243,7 @@
 21	.	.	PUNCT	Pun	_	20	punct	_	_
 
 # sent_id = drn5i-8178
-# text = Miks ei ne pane lapselle nimeksi Mikko ?
+# text = Miksei ne pane lapselle nimeksi Mikko ?
 1-2	Miksei	_	_	_	_	_	_	_	_
 1	Miks	miksi	ADV	Adv,Interr	PronType=Int|Style=Coll	4	advmod	_	Join=Yes
 2	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
@@ -9937,7 +9937,7 @@
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = s59b3-8630
-# text = jos hän leikkasi Utulta hiukset , minä teinä kyllä pitäisin tarkoin varani ett en loukkaisi häntä .
+# text = jos hän leikkasi Utulta hiukset , minä teinä kyllä pitäisin tarkoin varani etten loukkaisi häntä .
 1	jos	jos	SCONJ	Pcle,CS	_	3	mark	_	_
 2	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 3	leikkasi	leikata	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	10	advcl	_	_
@@ -11214,7 +11214,7 @@
 2	jumalauta	jumalauta	INTJ	Pcle,Interj	_	0	root	_	_
 
 # sent_id = ztxq9-9558
-# text = Nykyisin menetykset ovat useamman satasen , ell ei tuhansienkin markkojen luokkaa .
+# text = Nykyisin menetykset ovat useamman satasen , ellei tuhansienkin markkojen luokkaa .
 1	Nykyisin	nykyisin	ADV	Adv	_	11	advmod	_	_
 2	menetykset	menetys	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	11	nsubj:cop	_	_
 3	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
@@ -11356,7 +11356,7 @@
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = b6rpa-9644
-# text = uudistustyö tapahtuu järkevässä aikataulussa , yhteiskunnan voimavarojen mukaisesti ja siten ett ei yksittäiseksi maksajaksi tule tavallinen pieni ihminen .
+# text = uudistustyö tapahtuu järkevässä aikataulussa , yhteiskunnan voimavarojen mukaisesti ja siten ettei yksittäiseksi maksajaksi tule tavallinen pieni ihminen .
 1	uudistustyö	uudistustyö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	tapahtuu	tapahtua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	järkevässä	järkevä	ADJ	A,Sg,Ine	Case=Ine|Number=Sing	4	amod	_	_
@@ -12067,7 +12067,7 @@
 16	.	.	PUNCT	Pun	_	15	punct	_	_
 
 # sent_id = rp4qa-10061
-# text = Suomalaisen lasten ja nuorisopsykiatrian erikoislääkäri sanoo lausunnossaan , ett ei lasten palauttamiselle Ruotsiin ole inhimillisiä eikä mielenterveydellisiä perusteita , vaikka siihen juridisia perusteita ilmeisesti onkin .
+# text = Suomalaisen lasten ja nuorisopsykiatrian erikoislääkäri sanoo lausunnossaan , ettei lasten palauttamiselle Ruotsiin ole inhimillisiä eikä mielenterveydellisiä perusteita , vaikka siihen juridisia perusteita ilmeisesti onkin .
 1	Suomalaisen	suomalainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	4	amod	_	_
 2	lasten	lapsi	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	4	conj	_	_
 3	ja	ja	CCONJ	Pcle,CC	_	4	cc	_	_
@@ -12483,7 +12483,7 @@
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
 # sent_id = b8eof-10275
-# text = Olisin suuttunut , joll et olisi päässyt tulemaan .
+# text = Olisin suuttunut , jollet olisi päässyt tulemaan .
 1	Olisin	olla	VERB	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	suuttunut	suuttua	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
@@ -12587,7 +12587,7 @@
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
 # sent_id = b1l87-10363
-# text = Joll ei Chirac olekaan mikään suuri ideologi , niin hän on varsinainen taktikko
+# text = Jollei Chirac olekaan mikään suuri ideologi , niin hän on varsinainen taktikko
 1-2	Jollei	_	_	_	_	_	_	_	_
 1	Joll	jos	SCONJ	Pcle,CS	_	7	mark	_	Join=Yes
 2	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
@@ -12738,7 +12738,7 @@
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
 # sent_id = d9365-10446
-# text = Olin niin hiljainen ett ei kukaan huomannut minua
+# text = Olin niin hiljainen ettei kukaan huomannut minua
 1	Olin	olla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
 2	niin	niin	PART	Pcle	_	3	advmod	_	_
 3	hiljainen	hiljainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
@@ -12750,7 +12750,7 @@
 8	minua	minä	PRON	Pron,Pers,Sg1,Par	Case=Par|Number=Sing|Person=1|PronType=Prs	7	obj	_	_
 
 # sent_id = g4h3j-10446
-# text = Olin niin hiljaa ett ei kukaan huomannut minua
+# text = Olin niin hiljaa ettei kukaan huomannut minua
 1	Olin	olla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	niin	niin	PART	Pcle	_	3	advmod	_	_
 3	hiljaa	hiljaa	ADV	Adv	_	1	advmod	_	_
@@ -12916,7 +12916,7 @@
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
 # sent_id = vu6mp-10568
-# text = Mikään ei myöskään viittaa siihen , ett eikö toiminta jatkuisi menestyksekkäänä tästä eteenkinpäin .
+# text = Mikään ei myöskään viittaa siihen , etteikö toiminta jatkuisi menestyksekkäänä tästä eteenkinpäin .
 1	Mikään	mikään	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	4	nsubj	_	FTB-PronType=Qnt
 2	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	myöskään	myös	PART	Pcle,Kaan	Clitic=Kaan	4	advmod	_	_
@@ -13058,7 +13058,7 @@
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
 # sent_id = coi2z-10653
-# text = En epäile ett eikö asia ole niin
+# text = En epäile etteikö asia ole niin
 1	En	ei	VERB	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	epäile	epäillä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3-4	etteikö	_	_	_	_	_	_	_	_
@@ -15120,7 +15120,7 @@
 3	televisiomainonta	televisiomainonta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = ofkoz-12598
-# text = Huomattakoon , ett ei asiaa liene vielä päätetty .
+# text = Huomattakoon , ettei asiaa liene vielä päätetty .
 1	Huomattakoon	huomata	VERB	V,Pass,Imprt	Mood=Imp|VerbForm=Fin|Voice=Pass	0	root	_	_
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3-4	ettei	_	_	_	_	_	_	_	_
@@ -15847,7 +15847,7 @@
 17	.	.	PUNCT	Pun	_	16	punct	_	_
 
 # sent_id = t0qgp-13071
-# text = Ulvisen mielestä metsään kannattaa mennä , vaikk ei mitään saisikaan poimittua .
+# text = Ulvisen mielestä metsään kannattaa mennä , vaikkei mitään saisikaan poimittua .
 1	Ulvisen	ulvinen	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 2	mielestä	mielestä	ADP	Adp	_	1	case	_	_
 3	metsään	metsä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	5	nmod	_	_
@@ -15935,7 +15935,7 @@
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = lhsbi-13098
-# text = Mikko huomasi , ett ei ovesta pääse .
+# text = Mikko huomasi , ettei ovesta pääse .
 1	Mikko	mikko	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	huomasi	huomata	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
@@ -16254,7 +16254,7 @@
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
 # sent_id = q0adq-13318
-# text = Miks et kysy Moonalta ? Anna ihmetteli .
+# text = Mikset kysy Moonalta ? Anna ihmetteli .
 1-2	Mikset	_	_	_	_	_	_	_	_
 1	Miks	miksi	ADV	Adv,Interr	PronType=Int|Style=Coll	3	advmod	_	Join=Yes
 2	et	ei	VERB	V,Neg,Act,Sg2	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
@@ -17114,7 +17114,7 @@
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
 # sent_id = hmprt-13888
-# text = Me pelkäsimme , ett ei hän tulisi .
+# text = Me pelkäsimme , ettei hän tulisi .
 1	Me	me	PRON	Pron,Pers,Pl1,Nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	2	nsubj	_	_
 2	pelkäsimme	pelätä	VERB	V,Act,Ind,Past,Pl1	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
@@ -19635,7 +19635,7 @@
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = worgd-15719
-# text = Ei ole mitään syytä olettaa ett eikö tämä sopisi Suomen tämän päivän politiikkaan
+# text = Ei ole mitään syytä olettaa etteikö tämä sopisi Suomen tämän päivän politiikkaan
 1	Ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	Alt=4_neg
 2	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	Alt=4_cop
 3	mitään	mikään	DET	Pron,Qnt,Par	Case=Par|PronType=Ind	4	det	_	_
@@ -20768,7 +20768,7 @@
 10	?	?	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = sanpe-16742
-# text = En minä sano , ett eikö vikaa olisi minussakin .
+# text = En minä sano , etteikö vikaa olisi minussakin .
 1	En	ei	VERB	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 2	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	sano	sanoa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -20782,7 +20782,7 @@
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = u7tlm-16767
-# text = Ketä muuta ne hyödyttävät , joll eivät palkansaajia .
+# text = Ketä muuta ne hyödyttävät , jolleivät palkansaajia .
 1	Ketä	kuka	DET	Pron,Interr,Sg,Par	Case=Par|Number=Sing|PronType=Int	2	det	_	_
 2	muuta	muu	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	4	obj	_	FTB-PronType=Qnt
 3	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	4	nsubj	_	_

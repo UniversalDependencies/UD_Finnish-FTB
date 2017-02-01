@@ -40,7 +40,7 @@ def sentences(source):
       
       yield comment, content, joining
 
-def print_comment(comment):
+def print_comment(comment, content, joining):
    '''Prints v2 comment lines for the sentence. Input in v1
    Finnish-FTB contains exactly one comment line for each sentence:
    unique id and token sequence, as two fields at this point. Note:
@@ -49,7 +49,21 @@ def print_comment(comment):
    that was the important point that got codified for v2.'''
    ident, toks = comment
    print('# sent_id = {}'.format(ident.lstrip('#')))
-   print('# text = {}'.format(toks))
+   print('# text = {}'.format(repair_text(toks, content, joining)))
+
+def repair_text(text, content, joining):
+   '''Rebuild text from content altogether - nerd-view spacing was not
+   accepted.'''
+   pieces = []
+   for k, token in sorted(content.items()):
+      if k - 1 in joining:
+         pass
+      elif k in joining:
+         pieces.append(joining[k][1])
+      else:
+         pieces.append(token[1])
+      
+   return ' '.join(pieces)
 
 def rename(line):
    '''Return a new content line with v2 names for various elements.'''
@@ -135,7 +149,7 @@ def main():
 
          restruct(new_content, joining)
 
-         print_comment(comment)
+         print_comment(comment, new_content, joining)
          for record in sorted(new_content.values()):
             ID = record[0]
             if ID in joining: print(*joining[ID], sep = '\t')
