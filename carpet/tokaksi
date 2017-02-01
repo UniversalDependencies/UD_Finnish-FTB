@@ -91,8 +91,9 @@ def rename_feats(FEATS, *, pos, ftb):
       assert 'Foreign' not in feats
       feats['Foreign'] = 'Yes' # right?
 
-   # does one still want to sort it by str.lower? if so, TODO
-   FEATS = '|'.join('{}={}'.format(k,v) for k, v in sorted(feats.items()))
+   # does one still want to sort features str.lower? yes
+   FEATS = '|'.join('{}={}'.format(k, feats[k])
+                    for k in sorted(feats, key = str.lower))
    return FEATS or '_'
 
 def restruct(content, joining):
