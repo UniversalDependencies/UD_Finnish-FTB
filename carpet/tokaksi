@@ -86,6 +86,8 @@ def rename(line):
    elif REL == 'name': REL = 'flat' # could be flat:name
    elif REL == 'foreign': REL = 'flat' # could be flat:foreign
 
+   if REL == 'cop' and POS == 'VERB': POS = 'AUX'
+
    return [ID, FORM, LEMMA, POS, FTB, FEATS, HEAD, REL, WEV, MISC]
 
 def rename_feats(FEATS, *, pos, ftb):

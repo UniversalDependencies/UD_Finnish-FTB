@@ -1,0 +1,9 @@
+# /bin/bash
+
+test -f carpet/tokaksi || { echo no carpet/tokaksi here ; exit 2 ; }
+
+for data in *.conllu
+do
+    echo $data
+    carpet/tokaksi carpet/$data > $data
+done
