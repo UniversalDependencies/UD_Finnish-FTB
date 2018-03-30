@@ -974,9 +974,9 @@
 2	metsäkone	metsäkone	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	liikkuu	liikkua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	paitsi	paitsi	ADV	Adv	_	7	mark	_	_
-5	eteen-	eteen-	X	Trunc,Prefix	_	7	conj	_	Prefix=Yes
+5	eteen-	eteen-	X	Trunc,Prefix	_	3	advmod	_	Prefix=Yes
 6	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
-7	taaksepäin	taaksepäin	ADV	Adv	_	3	advmod	_	_
+7	taaksepäin	taaksepäin	ADV	Adv	_	5	conj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	myös	myös	PART	Pcle	_	10	mark	_	_
 10	sivuittain	sivuittain	ADV	Adv	_	7	conj	_	_
@@ -1241,11 +1241,11 @@
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 3	yhä	yhä	PART	Pcle	_	4	advmod	_	_
 4	useammalle	usea	PRON	Pron,Qnt,Cmp,Sg,All	Case=All|Degree=Cmp|Number=Sing|PronType=Ind	9	nmod	_	FTB-PronType=Qnt
-5	kulku-	kulku-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+5	kulku-	kulku-	X	Trunc,Prefix	_	0	root	_	Prefix=Yes
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	harvoin	harvoin	ADV	Adv,Qnt	PronType=Ind	9	advmod	_	_
 8	enää	enää	PART	Pcle	_	9	advmod	_	_
-9	komeiluväline	komeiluväline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+9	komeiluväline	komeiluväline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = lnkw2-2209
@@ -2526,9 +2526,9 @@
 4	Muhosen	muhonen	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 5	mukaan	mukaan	ADP	Adp	_	4	case	_	_
 6	käyttää	käyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-7	huomautus-	huomautus-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+7	huomautus-	huomautus-	X	Trunc,Prefix	_	6	obj	_	Prefix=Yes
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-9	varoitusmenettelyä	varoitusmenettely	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	obj	_	_
+9	varoitusmenettelyä	varoitusmenettely	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	conj	_	_
 
 # sent_id = x9hju-3136
 # text = Puuttumatta edes pankkivaltuusmiesten ratkaisun myöhäiseen ajoitukseen on työmarkkinoilla ja valtiovarainministeriössä kaikki tosiasiat tällä hetkellä käsissä .
@@ -6671,9 +6671,9 @@
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	jos	jos	SCONJ	Pcle,CS	_	11	dep	_	_
 6	kohta	kohta	ADV	Adv	_	5	fixed	_	Missed-Rel=phrm
-7	ala-	ala-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+7	ala-	ala-	X	Trunc,Prefix	_	10	amod	_	Prefix=Yes
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-9	yrityskohtaisiakin	yrityskohtainen	ADJ	A,Pl,Par,Kin	Case=Par|Clitic=Kin|Number=Plur	10	amod	_	_
+9	yrityskohtaisiakin	yrityskohtainen	ADJ	A,Pl,Par,Kin	Case=Par|Clitic=Kin|Number=Plur	7	conj	_	_
 10	eroja	ero	NOUN	N,Pl,Par	Case=Par|Number=Plur	11	nsubj	_	_
 11	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -9926,9 +9926,9 @@
 23	isä	isä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj	_	_
 24	,	,	PUNCT	Pun	_	23	punct	_	_
 25	Raision	raisio	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	28	nmod	_	_
-26	tutkimus-	tutkimus-	X	Trunc,Prefix	_	28	conj	_	Prefix=Yes
+26	tutkimus-	tutkimus-	X	Trunc,Prefix	_	31	compound:nn	_	Prefix=Yes
 27	ja	ja	CCONJ	Pcle,CC	_	28	cc	_	_
-28	tuotekehityspäällikkö	tuotekehityspäällikkö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	31	compound:nn	_	Alt=compound:nn
+28	tuotekehityspäällikkö	tuotekehityspäällikkö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	26	conj	_	Alt=compound:nn
 29	,	,	PUNCT	Pun	_	28	punct	_	_
 30	kemisti	kemisti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	28	conj	_	_
 31	Ingmar	ingmar	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	23	nmod	_	Alt=name
@@ -10292,9 +10292,9 @@
 1	olisiko	olla	AUX	V,Act,Cond,Sg3,Ko	Clitic=Ko|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	6	cop	_	_
 2	viininvalmistus	viininvalmistus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 3	yrittäjälle	yrittäjä	NOUN	N,Sg,All	Case=All|Number=Sing	6	nmod	_	_
-4	sivu-	sivu-	X	Trunc,Prefix	_	6	conj	_	Prefix=Yes
+4	sivu-	sivu-	X	Trunc,Prefix	_	0	root	_	Prefix=Yes
 5	vai	vai	CCONJ	Pcle,CC	_	6	cc	_	_
-6	pääelinkeino	pääelinkeino	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+6	pääelinkeino	pääelinkeino	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 7	?	?	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = sr4zs-9546
@@ -10478,9 +10478,9 @@
 1	hallitus	hallitus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	pyytää	pyytää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	valtuuksia	valtuus	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
-4	vaihtovelkakirja-	vaihtovelkakirja-	X	Trunc,Prefix	_	6	conj	_	Prefix=Yes
+4	vaihtovelkakirja-	vaihtovelkakirja-	X	Trunc,Prefix	_	7	nmod:gobj	_	Prefix=Yes
 5	ja/tai	ja/tai	CCONJ	Pcle,CC	_	6	cc	_	_
-6	optiolainojen	optiolaina	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	7	nmod:gobj	_	Alt=nmod:gobj
+6	optiolainojen	optiolaina	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	4	conj	_	Alt=nmod:gobj
 7	ottamiseen	ottaminen	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
 
 # sent_id = m1jbq-9643
@@ -11046,9 +11046,9 @@
 4	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	13	expl	_	Alt=13_expl|Missed-Rel=phrm
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	13	mark	_	_
-7	nuha-	nuha-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+7	nuha-	nuha-	X	Trunc,Prefix	_	10	nmod	_	Prefix=Yes
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-9	yskänlääkkeiden	yskänlääke	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	10	nmod	_	_
+9	yskänlääkkeiden	yskänlääke	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	7	conj	_	_
 10	käyttö	käyttö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	_
 11	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
 12	harjoituskaudella	harjoituskausi	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	13	nmod	_	_
@@ -12133,9 +12133,9 @@
 4	pistäisi	pistää	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	11	advcl	_	_
 5	turbon	turbo	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	obj	_	_
 6	päälle	päälle	ADV	Adv	_	4	compound:prt	_	_
-7	unix-	unix-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+7	unix-	unix-	X	Trunc,Prefix	_	11	nmod	_	Prefix=Yes
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-9	mikroistumiskilvassa	mikroistumiskilpa	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	11	nmod	_	_
+9	mikroistumiskilvassa	mikroistumiskilpa	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	conj	_	_
 10	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	_
 11	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 12	pari	pari	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	13	nummod	_	_
@@ -14290,11 +14290,11 @@
 1	Jään	jäädä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	ensin	ensin	ADV	Adv	_	1	advmod	_	_
 3	pitkälle	pitkä	ADJ	A,Sg,All	Case=All|Number=Sing	8	amod	_	_
-4	isyys-	isyys-	X	Trunc,Prefix	_	8	conj	_	Prefix=Yes
+4	isyys-	isyys-	X	Trunc,Prefix	_	1	nmod	_	Prefix=Yes
 5	,	,	PUNCT	Pun	_	8	punct	_	FTB-rel=phrm
-6	sairaus-	sairaus-	X	Trunc,Prefix	_	8	conj	_	Prefix=Yes
+6	sairaus-	sairaus-	X	Trunc,Prefix	_	4	conj	_	Prefix=Yes
 7	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
-8	kesälomalle	kesäloma	NOUN	N,Sg,All	Case=All|Number=Sing	1	nmod	_	_
+8	kesälomalle	kesäloma	NOUN	N,Sg,All	Case=All|Number=Sing	4	conj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = aj6r0-11977
@@ -14349,9 +14349,9 @@
 # sent_id = n726c-12045
 # text = Lisäksi teräs- ja kupariteollisuus tekivät rahaa ennustettua enemmän .
 1	Lisäksi	lisäksi	ADV	Adv	_	5	advmod	_	_
-2	teräs-	teräs-	X	Trunc,Prefix	_	4	conj	_	Prefix=Yes
+2	teräs-	teräs-	X	Trunc,Prefix	_	5	nsubj	_	Prefix=Yes
 3	ja	ja	CCONJ	Pcle,CC	_	4	cc	_	_
-4	kupariteollisuus	kupariteollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	_
+4	kupariteollisuus	kupariteollisuus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	conj	_	_
 5	tekivät	tehdä	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	obj	_	_
 7	ennustettua	ennustaa	VERB	V,Pass,PcpNut,Sg,Par	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	advcl	_	FTB-Sub=comparison
@@ -14360,9 +14360,9 @@
 
 # sent_id = xm1dp-12046
 # text = 70- ja 80-luku jakoivat kansan kahtia .
-1	70-	70-	X	Trunc,Prefix	_	3	conj	_	Prefix=Yes
+1	70-	70-	X	Trunc,Prefix	_	4	nsubj	_	Prefix=Yes
 2	ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
-3	80-luku	80-luku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
+3	80-luku	80-luku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	conj	_	_
 4	jakoivat	jakaa	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	kansan	kansa	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	obj	_	_
 6	kahtia	kahtia	ADV	Adv	_	4	advmod	_	_
@@ -15086,16 +15086,16 @@
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	kunhan	kunhan	SCONJ	Pcle,CS	_	6	mark	_	_
 6	saa	saada	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
-7	työ-	työ-	X	Trunc,Prefix	_	9	conj	_	Prefix=Yes
+7	työ-	työ-	X	Trunc,Prefix	_	6	obj	_	Prefix=Yes
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-9	oleskeluluvat	oleskelulupa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	6	obj	_	_
+9	oleskeluluvat	oleskelulupa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	7	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = s8py7-12588
 # text = pankki- ja vakuutusmaailma
-1	pankki-	pankki-	X	Trunc,Prefix	_	3	conj	_	Prefix=Yes
+1	pankki-	pankki-	X	Trunc,Prefix	_	0	root	_	Prefix=Yes
 2	ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
-3	vakuutusmaailma	vakuutusmaailma	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+3	vakuutusmaailma	vakuutusmaailma	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	conj	_	_
 
 # sent_id = p8jx9-12595
 # text = Meille tuotiin vauva .
@@ -15461,9 +15461,9 @@
 # text = Tuoppia kumoutuu 70- ja 80-luvun diskomusan tahtiin .
 1	Tuoppia	tuoppi	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 2	kumoutuu	kumoutua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	70-	70-	X	Trunc,Prefix	_	5	conj	_	Prefix=Yes
+3	70-	70-	X	Trunc,Prefix	_	6	nmod	_	Prefix=Yes
 4	ja	ja	CCONJ	Pcle,CC	_	5	cc	_	_
-5	80-luvun	80-luku	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
+5	80-luvun	80-luku	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	conj	_	_
 6	diskomusan	diskomusa	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 7	tahtiin	tahti	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
@@ -17204,10 +17204,10 @@
 6	mun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	12	nmod	_	_
 7	mielest	mielestä	ADP	Adp	Style=Coll	6	case	_	_
 8	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	conj	_	_
-9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	conj	_	_
+9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	normaali	normaali	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	11	amod	_	_
 11	nuori	nuori	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	12	amod	_	_
-12	tyttö	tyttö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+12	tyttö	tyttö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	conj	_	_
 13	mut	mutta	CCONJ	Pcle,CC	Style=Coll	15	cc	_	_
 14	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	15	obj	_	_
 15	seurataan	seurata	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	_
@@ -18048,9 +18048,9 @@
 5	asettaa	asettaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 6	lentoturvallisuushallinnolle	lentoturvallisuushallinto	NOUN	N,Sg,All	Case=All|Number=Sing	5	nmod	_	_
 7	omat	oma	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	10	amod	_	_
-8	palvelu-	palvelu-	X	Trunc,Prefix	_	10	conj	_	Prefix=Yes
+8	palvelu-	palvelu-	X	Trunc,Prefix	_	5	obj	_	Prefix=Yes
 9	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
-10	tulostavoitteensa	tulostavoite	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	5	obj	_	_
+10	tulostavoitteensa	tulostavoite	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	8	conj	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
 # sent_id = jwe7u-14261

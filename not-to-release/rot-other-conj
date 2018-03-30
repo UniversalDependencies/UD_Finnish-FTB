@@ -1,0 +1,67 @@
+#! /usr/bin/env python3
+
+from itertools import groupby
+import argparse, signal
+signal.signal(signal.SIGINT, signal.SIG_DFL)
+signal.signal(signal.SIGPIPE, signal.SIG_DFL)
+
+parser = argparse.ArgumentParser(description = '''
+    Rotate remaining wayward conj in stdout, making leftmost
+    such conj the head of the system and siblings conj to it.
+    (To use after Prefix=Yes class is rotated; there are 27
+    of these remaining cases then .)
+''')
+parser.add_argument('infile', nargs = 1,
+                    type = argparse.FileType(encoding = 'UTF-8'),
+                    help = 'input file (conllu)')
+args = parser.parse_args()
+
+ID, HEAD, REL, MISC = 0, 6, 7, 9
+
+def isbad(record):
+    return ( record[ID].isdigit() and
+             record[REL] == 'conj' and
+             int(record[ID]) < int(record[HEAD]) )
+
+def process(sentence):
+    '''Rotate first target.'''
+
+    sub = []
+    for k, record in enumerate(sentence):
+        if isbad(record):
+            for target in sentence[k:]:
+                sub.append(target)
+                if target[ID] == record[HEAD]:
+                    break
+        if sub:
+            break
+
+    if sub:
+        #print(*sub, sep = '\n')
+        #print('=>')
+        sub[0][HEAD] = sub[-1][HEAD]
+        sub[0][REL] = sub[-1][REL]
+        sub[-1][HEAD] = sub[0][ID]
+        sub[-1][REL] = 'conj'
+        for tok in sub:
+            if ( tok[HEAD] == sub[-1][ID] and
+                 tok[REL] == 'conj' ):
+                tok[HEAD] = sub[0][ID]
+        #print(*sub, sep = '\n')
+        #print()
+
+    return bool(sub)
+
+for infile in args.infile:
+    with infile as source:
+        for isspace, group in groupby(source, str.isspace):
+            if isspace:
+                print()
+            else:
+                sentence = [ line.rstrip('\n').split('\t')
+                             for line in group ]
+                process(sentence) and process(sentence)
+                # not known if any two of these are in the
+                # same sentence - or, edit this comment if
+                for record in sentence:
+                    print(*record, sep = '\t')
