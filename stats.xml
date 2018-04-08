@@ -114,7 +114,7 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">3398</feat><!-- ollaan, voidaan, tehty, tehdään, tarvitaan, saadaan, mennään, otetaan, verrattuna, tehtiin -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="38">
+  <deps unique="37">
     <dep name="acl">2979</dep>
     <dep name="advcl">3393</dep>
     <dep name="advmod">14553</dep>
@@ -139,10 +139,9 @@
     <dep name="flat">818</dep>
     <dep name="goeswith">7</dep>
     <dep name="mark">4475</dep>
-    <dep name="nmod">22349</dep>
+    <dep name="nmod">22951</dep>
     <dep name="nmod:gobj">264</dep>
     <dep name="nmod:gsubj">101</dep>
-    <dep name="nmod:own">602</dep>
     <dep name="nsubj">13033</dep>
     <dep name="nsubj:cop">2739</dep>
     <dep name="nummod">1783</dep>

@@ -1,0 +1,8 @@
+To validate:
+1. nmod:own -> nmod
+2. rotated conj groups so that leftmost is head
+
+The latter was done with ./rot-{prefix,other}-conj
+in sequence - the two scripts do the same thing,
+but it seemed prudent to be more careful before
+being less careful.
