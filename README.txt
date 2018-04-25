@@ -1,4 +1,4 @@
-* Origin
+# Origin
 
 The UD version of FinnTreeBank 1 was derived from FinnTreeBank 1 2014
 by a scripted mapping of labels and some restructuring in an attempt
@@ -12,7 +12,7 @@ and further revised in FIN-CLARIN projects in the Department of Modern
 Languages, University of Helsinki.
 
 
-* Differences from the UD Finnish model
+# Differences from the UD Finnish model
 
 Some differences from the UD Finnish model remain unaddressed.
 
@@ -30,14 +30,14 @@ mapping could not be determined.
 Some FinnTreeBank annotations are retained in the MISC field.
 
 
-* Splitting
+# Splitting
 
 The previous version of the treebank was split into training,
 development, and test sets by repeatedly taking 8 sentences into
 training set, 1 into development set, and 1 into test set.
 
 
-* Statistics
+# Statistics
 
 Tree count:  18723
 Word count:  159612
@@ -47,7 +47,7 @@ POS tags: 16
 Category=value feature pairs: 70
 
 
-* Sources
+# Sources
 
 VISK = Auli Hakulinen, Maria Vilkuna, Riitta Korhonen, Vesa Koivisto,
 Tarja Riitta Heinonen and Irja Alho 2004: Iso suomen
@@ -58,14 +58,14 @@ Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 
 fin-clarin@helsinki.fi
 
-* Changelog
+# Changelog
 
-** UD v1.1 -> UD v1.2
+* UD v1.1 -> UD v1.2
 
 Negative=Yes was changed to Negative=Neg
 The data was re-split to resolve train/dev/test overlaps within the treebank as well as with UD_Finnish
 
-** UD v1.2 -> UD v1.3
+* UD v1.2 -> UD v1.3
 
 A major revision of the underlying FinnTreebank 1 with some manually
 annotated UD analyses (notably xcomp; manual annotations are visible
@@ -83,7 +83,7 @@ sentences are now labeled with unique identifiers like "ekvje-124"
 (the part before the hyphen identifies the sentence within
 FinnTreebank 1).
 
-** UD v1.3 -> UD v2
+* UD v1.3 -> UD v2
 
 nmod:own -> nmod, rotate conj groups to have head on left
 
