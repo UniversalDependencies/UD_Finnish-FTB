@@ -94,6 +94,7 @@ License: CC BY 4.0
 Includes text: yes
 Genre: grammar-examples
 Lemmas: converted from manual
+UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
