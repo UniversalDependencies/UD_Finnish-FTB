@@ -1,4 +1,10 @@
-# Origin
+# Summary
+
+FinnTreeBank 1 consists of manually annotated grammatical examples
+from VISK. The UD version of FinnTreeBank 1 was converted from a
+native annotation model with a script.
+
+# Introduction
 
 The UD version of FinnTreeBank 1 was derived from FinnTreeBank 1 2014
 by a scripted mapping of labels and some restructuring in an attempt
@@ -12,7 +18,7 @@ and further revised in FIN-CLARIN projects in the Department of Modern
 Languages, University of Helsinki.
 
 
-# Differences from the UD Finnish model
+## Differences from the UD Finnish model
 
 Some differences from the UD Finnish model remain unaddressed.
 
@@ -30,7 +36,7 @@ mapping could not be determined.
 Some FinnTreeBank annotations are retained in the MISC field.
 
 
-# Splitting
+## Splitting
 
 The previous version of the treebank was split into training,
 development, and test sets by repeatedly taking 8 sentences into
