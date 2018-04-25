@@ -83,11 +83,22 @@ sentences are now labeled with unique identifiers like "ekvje-124"
 (the part before the hyphen identifies the sentence within
 FinnTreebank 1).
 
---- Machine-readable metadata ---
-Documentation status: stub
-Data source: semi-automatic
+** UD v1.3 -> UD v2
+
+nmod:own -> nmod, rotate conj groups to have head on left
+
+<pre>
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
 License: CC BY 4.0
+Includes text: yes
 Genre: grammar-examples
+Lemmas: converted from manual
+XPOS: manual native
+Features: converted from manual
+Relations: converted from manual
 Contributors: Piitulainen, Jussi; Nurmi, Hanna
+Contributing: elsewhere
 Contact: fin-clarin@helsinki.fi
+===============================================================================
+</pre>
