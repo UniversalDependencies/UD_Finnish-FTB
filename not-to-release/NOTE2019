@@ -1,0 +1,10 @@
+There were 7577 "aux", all "VERB", that become "AUX".
+There were 3787 "AUX", all "cop", that remain "AUX".
+
+|       |  aux | olla |   ei | voida | pitää | saada | muu |
+|-------+------+------+------+-------+-------+-------+-----|
+| dev   |  778 |  278 |  317 |    56 |    27 |    16 |  84 |
+| train | 6052 | 2099 | 2295 |   527 |   252 |   171 | 709 |
+| test  |  747 |  280 |  274 |    69 |    27 |    24 |  74 |
+
+Fixed with not-to-release/verbaux.
