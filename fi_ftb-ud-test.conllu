@@ -1031,7 +1031,7 @@
 1	Hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
 2	tulkitsi	tulkita	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	sopimuspaperia	sopimuspaperi	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
-4	siten	siten	ADV	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
+4	siten	siten	PRON	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm|Was18=ADV
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
 7	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	9	det	_	_
@@ -5682,7 +5682,7 @@
 1	Voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 2	hyvinkin	hyvin	ADV	Adv,Kin	Clitic=Kin	3	advmod	_	_
 3	käydä	käydä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-4	niin	niin	ADV	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm
+4	niin	niin	PRON	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm|Was18=ADV
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
 7	isä	isä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
@@ -6379,7 +6379,7 @@
 3	saattaa	saattaa	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	hyvinkin	hyvin	ADV	Adv,Kin	Clitic=Kin	4	advmod	_	_
-6	niin	niin	ADV	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm
+6	niin	niin	PRON	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm|Was18=ADV
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	että	että	SCONJ	Pcle,CS	_	11	mark	_	_
 9	joku	joku	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	10	det	_	_
@@ -10887,7 +10887,7 @@
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	yleensä	yleensä	ADV	Adv	_	4	advmod	_	_
 4	tulkittu	tulkita	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-5	niin	niin	ADV	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
+5	niin	niin	PRON	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm|Was18=ADV
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
 8	kulttuuri	kulttuuri	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj	_	_
@@ -12628,7 +12628,7 @@
 # text = Asia on niin , että säännöt on hyvä osata , jotta niitä voi rikkoa .
 1	Asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	niin	niin	ADV	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm
+3	niin	niin	PRON	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm|Was18=ADV
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	että	että	SCONJ	Pcle,CS	_	8	mark	_	Alt=8_mark
 6	säännöt	sääntö	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	obj	_	_
@@ -12934,7 +12934,7 @@
 1	lakia	laki	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 2	ehdotetaan	ehdottaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 3	muutettavaksi	muuttaa	VERB	V,Pass,PcpVa,Sg,Tra	Case=Tra|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	advcl	_	_
-4	niin	niin	ADV	Adv,Dem	PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
+4	niin	niin	PRON	Adv,Dem	PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm|Was18=ADV
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
 7	valtioneuvosto	valtioneuvosto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
@@ -15857,7 +15857,7 @@
 9	sinuun	sinä	PRON	Pron,Pers,Sg2,Ill	Case=Ill|Number=Sing|Person=2|PronType=Prs	10	nmod	_	_
 10	suhtaudutaan	suhtautua	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 11	helposti	helposti	ADV	Adv	_	10	advmod	_	_
-12	niin	niin	ADV	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm
+12	niin	niin	PRON	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm|Was18=ADV
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	että	että	SCONJ	Pcle,CS	_	16	mark	_	_
 15	et	ei	AUX	V,Neg,Act,Sg2	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	_
@@ -15881,7 +15881,7 @@
 11	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	aux	_	_
 12	asennettu	asentaa	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	7	acl	_	_
 13	kattoon	katto	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	12	nmod	_	_
-14	niin	niin	ADV	Adv,Dem	PronType=Dem	26	expl	_	Alt=26_expl|Missed-Rel=phrm
+14	niin	niin	PRON	Adv,Dem	PronType=Dem	26	expl	_	Alt=26_expl|Missed-Rel=phrm|Was18=ADV
 15	että	että	SCONJ	Pcle,CS	_	26	mark	_	_
 16	aina	aina	ADV	Adv	_	26	advmod	_	_
 17	kun	kun	SCONJ	Pcle,CS	_	18	mark	_	_
@@ -16104,7 +16104,7 @@
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	muisti	muisti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 4	mennyt	mennä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-5	niin	niin	ADV	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
+5	niin	niin	PRON	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm|Was18=ADV
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
 8	uudemmat	uusi	ADJ	A,Cmp,Pl,Nom	Case=Nom|Degree=Cmp|Number=Plur	9	amod	_	_
@@ -16725,7 +16725,7 @@
 9	poika	poika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj	_	_
 10	teki	tehdä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 11	äkkipysähdyksiä	äkkipysähdys	NOUN	N,Pl,Par	Case=Par|Number=Plur	10	obj	_	_
-12	niin	niin	ADV	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm
+12	niin	niin	PRON	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm|Was18=ADV
 13	että	että	SCONJ	Pcle,CS	_	16	mark	_	_
 14	äiti	äiti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj	_	_
 15	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	16	aux	_	_
@@ -18598,7 +18598,7 @@
 
 # sent_id = pmo01-14594
 # text = Ikävä kyllä kuvia ei ole vielä saatavilla , mutta hyvää kannattaa odottaa .
-1	Ikävä	ikävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	advmod	_	_
+1	Ikävä	ikävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nmod	_	Was18=advmod
 2	kyllä	kyllä	PART	Pcle	_	1	fixed	_	_
 3	kuvia	kuva	NOUN	N,Pl,Par	Case=Par|Number=Plur	5	nsubj	_	_
 4	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
@@ -20252,7 +20252,7 @@
 2	seisoi	seisoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	totisena	totinen	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	2	nmod	_	_
 4	ovensuussa	ovensuu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
-5	niin	niin	ADV	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm
+5	niin	niin	PRON	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm|Was18=ADV
 6	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
 7	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	sanonut	sanoa	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_

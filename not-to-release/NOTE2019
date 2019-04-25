@@ -72,19 +72,24 @@ Also "punctuation ... non-projectivity" hate punctuation.
 And "advmod" should be ADV. They do not seem to care about PART,
 maybe, but about the others they do, so maybe 192 of these?
 
-| 9273 | ADV   |                          |
-| 5088 | PART  |                          |
-|  111 | PRON  | mostly Interr, a few Dem |
-|   23 | CCONJ |                          |
-|   22 | SCONJ |                          |
-|   17 | NOUN  |                          |
-|    9 | VERB  | ei                       |
-|    7 | X     | all but one Foreign=Yes  |
-|    2 | ADJ   |                          |
-|    1 | NUM   |                          |
+|      |       |                          | to   |
+|------+-------+--------------------------+------|
+| 9273 | ADV   |                          |      |
+| 5088 | PART  |                          |      |
+|  111 | PRON  | mostly Interr, a few Dem | nmod |
+|   23 | CCONJ |                          |      |
+|   22 | SCONJ |                          |      |
+|   17 | NOUN  |                          | nmod |
+|    9 | VERB  | ei                       |      |
+|    7 | X     | all but one Foreign=Yes  | dep  |
+|    2 | ADJ   |                          |      |
+|    1 | NUM   |                          |      |
 
 *Try* making PRON/advmod be PRON/nmod, leave in Misc a trace
 "Was18=advmod" - all 111 have previously empty Misc.
+
+Apparent *success*! Do the same for the 17 NOUN/advmod, blindly. And
+dep the 6 X[Foreign]/advmod at the same time.
 
 ** nummod should be NUM
 And "nummod" should be NUM. What are the 5 PROPN anyway?
@@ -97,9 +102,11 @@ And "nummod" should be NUM. What are the 5 PROPN anyway?
 Something "expl" should be PRON but is ADV. Question: should they be
 PRON because they have PronType, or because they are "expl"?
 
+*Try* them as PRON! Also when ADJ.
+
 | 447 | PRON |                                       |
 |  74 | ADV  | niin, siksi, siten, ...; PronType=Dem |
-|   3 | ADJ  |                                       |
+|   3 | ADJ  | sellaiset, PronType=Dem               |
 
 Occurrences of "siksi" (counted):
 | 9 | Siksi | ADV  | PronType=Dem                      | advmod |

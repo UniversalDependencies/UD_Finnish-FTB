@@ -3848,7 +3848,7 @@
 3	Darling	darling	X	Unknown,Foreign	Foreign=Yes	4	vocative	_	Missed-SUBCAT=FOREIGN
 4	Be	be	X	Unknown,Foreign	Foreign=Yes	13	csubj:cop	_	Alt=13_csubj|Missed-Rel=subj|Missed-SUBCAT=FOREIGN
 5	Home	home	X	Unknown,Foreign	Foreign=Yes	4	nmod	_	Alt=4_nmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN
-6	Soon	soon	X	Unknown,Foreign	Foreign=Yes	4	advmod	_	Alt=4_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN
+6	Soon	soon	X	Unknown,Foreign	Foreign=Yes	4	dep	_	Alt=4_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN|Was18=advmod
 7	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
 8	Leonard	leonard	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	10	nmod	_	Alt=name
 9	Cohenin	cohen	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	8	flat	_	_
@@ -4671,7 +4671,7 @@
 2	parhaiten	parhaiten	ADV	Adv,Sup	Degree=Sup	3	advmod	_	_
 3	lähtevät	lähteä	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	paikaltaan	paikaltaan	ADV	Adv,Px3	Person[psor]=3	3	advmod	_	_
-5	rinta	rinta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	advmod	_	_
+5	rinta	rinta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nmod	_	Was18=advmod
 6	rinnan	rinnan	ADV	Adv	_	5	fixed	_	_
 7	Ford	ford	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	FTB-rel=phrm
@@ -5712,7 +5712,7 @@
 9	syyskuun	syyskuu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
 10	loppupuolelle	loppupuoli	NOUN	N,Sg,All	Case=All|Number=Sing	4	nmod	_	_
 11	mennessä	mennessä	ADP	Adp	_	10	case	_	_
-12	siten	siten	ADV	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm
+12	siten	siten	PRON	Adv,Dem	PronType=Dem	16	expl	_	Alt=16_expl|Missed-Rel=phrm|Was18=ADV
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	että	että	SCONJ	Pcle,CS	_	16	mark	_	_
 15	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	16	nsubj	_	_
@@ -7216,7 +7216,7 @@
 4	kun	kun	SCONJ	Pcle,CS	_	6	mark	_	_
 5	työttömyys	työttömyys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
 6	poistuisi	poistua	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	2	csubj:cop	_	_
-7	siten	siten	ADV	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm
+7	siten	siten	PRON	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm|Was18=ADV
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	että	että	SCONJ	Pcle,CS	_	11	mark	_	_
 10	kaikki	kaikki	PRON	Pron,Qnt,Nom	Case=Nom|PronType=Ind	11	nsubj	_	FTB-PronType=Qnt
@@ -7910,8 +7910,8 @@
 12	the	the	X	Unknown,Foreign	Foreign=Yes	13	dep	_	Missed-Rel=attr|Missed-SUBCAT=FOREIGN
 13	cash	cash	X	Unknown,Foreign	Foreign=Yes	14	nsubj	_	Alt=14_nsubj|Missed-Rel=subj|Missed-SUBCAT=FOREIGN
 14	is	is	X	Unknown,Foreign	Foreign=Yes	9	acl	_	Alt=9_acl|Missed-Rel=mod|Missed-SUBCAT=FOREIGN
-15	out	out	X	Unknown,Foreign	Foreign=Yes	14	advmod	_	Alt=14_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN
-16	there	there	X	Unknown,Foreign	Foreign=Yes	14	advmod	_	Alt=14_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN
+15	out	out	X	Unknown,Foreign	Foreign=Yes	14	dep	_	Alt=14_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN|Was18=advmod
+16	there	there	X	Unknown,Foreign	Foreign=Yes	14	dep	_	Alt=14_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN|Was18=advmod
 17	.	.	PUNCT	Pun	_	16	punct	_	_
 
 # sent_id = w9ahe-6971
@@ -8586,7 +8586,7 @@
 # sent_id = mgdte-7624
 # text = Nauratti niin että suupielistä veti .
 1	Nauratti	naurattaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	niin	niin	ADV	Adv,Dem	PronType=Dem	5	expl	_	Alt=5_expl|Missed-Rel=phrm
+2	niin	niin	PRON	Adv,Dem	PronType=Dem	5	expl	_	Alt=5_expl|Missed-Rel=phrm|Was18=ADV
 3	että	että	SCONJ	Pcle,CS	_	5	mark	_	_
 4	suupielistä	suupieli	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	5	nmod	_	_
 5	veti	vetää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	advcl	_	_
@@ -10215,7 +10215,7 @@
 # text = Olemme matkustaneet incognito Ranskan halki aina Nizzaan saakka .
 1	Olemme	olla	AUX	V,Act,Ind,Pres,Pl1	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	matkustaneet	matkustaa	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-3	incognito	incognito	X	Unknown,Foreign	Foreign=Yes	2	advmod	_	Alt=2_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN
+3	incognito	incognito	X	Unknown,Foreign	Foreign=Yes	2	dep	_	Alt=2_advmod|Missed-Rel=advl|Missed-SUBCAT=FOREIGN|Was18=advmod
 4	Ranskan	ranska	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 5	halki	halki	ADP	Adp	_	4	case	_	_
 6	aina	aina	PART	Pcle	_	7	advmod	_	_
@@ -11366,7 +11366,7 @@
 7	voimavarojen	voimavara	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	4	conj	_	_
 8	mukaisesti	mukaisesti	ADP	Adp	_	7	case	_	_
 9	ja	ja	CCONJ	Pcle,CC	_	15	cc	_	_
-10	siten	siten	ADV	Adv,Dem	PronType=Dem	15	expl	_	Alt=15_expl|Missed-Rel=phrm
+10	siten	siten	PRON	Adv,Dem	PronType=Dem	15	expl	_	Alt=15_expl|Missed-Rel=phrm|Was18=ADV
 11-12	ettei	_	_	_	_	_	_	_	_
 11	ett	että	SCONJ	Pcle,CS	Style=Coll	15	mark	_	Join=Yes
 12	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -12408,7 +12408,7 @@
 1	Niitä	ne	PRON	Pron,Dem,Pl,Par	Case=Par|Number=Plur|PronType=Dem	3	obj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	tehdä	tehdä	VERB	V,Pass,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	siksi	siksi	ADV	Adv,Dem	PronType=Dem	7	expl	_	Alt=7_expl|Missed-Rel=phrm
+4	siksi	siksi	PRON	Adv,Dem	PronType=Dem	7	expl	_	Alt=7_expl|Missed-Rel=phrm|Was18=ADV
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	7	mark	_	_
 7	tiedettäisiin	tietää	VERB	V,Pass,Cond	Mood=Cnd|VerbForm=Fin|Voice=Pass	3	advcl	_	_
@@ -12418,7 +12418,7 @@
 11	huomenna	huomenna	ADV	Adv	_	12	advmod	_	_
 12	tapahtuu	tapahtua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
 13	vaan	vaan	CCONJ	Pcle,CC	_	17	cc	_	_
-14	siksi	siksi	ADV	Adv,Dem	PronType=Dem	17	expl	_	Alt=17_expl|Missed-Rel=phrm
+14	siksi	siksi	PRON	Adv,Dem	PronType=Dem	17	expl	_	Alt=17_expl|Missed-Rel=phrm|Was18=ADV
 15	,	,	PUNCT	Pun	_	14	punct	_	_
 16	että	että	SCONJ	Pcle,CS	_	17	mark	_	_
 17	ymmärrettäisiin	ymmärtää	VERB	V,Pass,Cond	Mood=Cnd|VerbForm=Fin|Voice=Pass	7	conj	_	_
@@ -13088,7 +13088,7 @@
 2	Kenian	kenia	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 3	harjoitusleiriltä	harjoitusleiri	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	1	nmod	_	_
 4	olivat	olla	AUX	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	siksi	siksi	ADV	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm
+5	siksi	siksi	PRON	Adv,Dem	PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm|Was18=ADV
 6	hyvät	hyvä	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	0	root	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	että	että	SCONJ	Pcle,CS	_	11	mark	_	_
@@ -13377,14 +13377,14 @@
 2	saa	saada	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	lukijan	lukija	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
 4	tuntemaan	tuntea	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	2	xcomp:ds	_	Alt=xcomp:ds
-5	niin	niin	ADV	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm
+5	niin	niin	PRON	Adv,Dem	PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm|Was18=ADV
 6	kuin	kuin	SCONJ	Pcle,CS	_	8	mark	_	_
 7	sinä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	8	nsubj	_	_
 8	tunsit	tuntea	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	tai	tai	CCONJ	Pcle,CC	_	11	cc	_	_
 11	ajattelemaan	ajatella	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	4	conj	_	_
-12	niin	niin	ADV	Adv,Dem	PronType=Dem	15	expl	_	Alt=15_expl|Missed-Rel=phrm
+12	niin	niin	PRON	Adv,Dem	PronType=Dem	15	expl	_	Alt=15_expl|Missed-Rel=phrm|Was18=ADV
 13	kuin	kuin	SCONJ	Pcle,CS	_	15	mark	_	_
 14	sinä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	_
 15	ajattelit	ajatella	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	_
@@ -17207,7 +17207,7 @@
 1	tuotantoideat	tuotantoidea	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 2	välittyisivät	välittyä	VERB	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 3	tuotantokoneistoon	tuotantokoneisto	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
-4	siten	siten	ADV	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
+4	siten	siten	PRON	Adv,Dem	PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm|Was18=ADV
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
 7	myös	myös	PART	Pcle	_	9	advmod	_	_
