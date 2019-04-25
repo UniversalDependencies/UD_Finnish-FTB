@@ -1,3 +1,5 @@
+* First report
+
 There were 7577 "aux", all "VERB", that become "AUX".
 There were 3787 "AUX", all "cop", that remain "AUX".
 
@@ -6,5 +8,139 @@ There were 3787 "AUX", all "cop", that remain "AUX".
 | dev   |  778 |  278 |  317 |    56 |    27 |    16 |  84 |
 | train | 6052 | 2099 | 2295 |   527 |   252 |   171 | 709 |
 | test  |  747 |  280 |  274 |    69 |    27 |    24 |  74 |
+|-------+------+------+------+-------+-------+-------+-----|
+|       | 7577 |      |      |       |       |       |     |
 
 Fixed with not-to-release/verbaux.
+
+Initial report said 798 + 6566 + 846 = 8210 syntax errors, so hope
+after this only 653 remains. But it may happen that something else
+breaks when things become AUX? Hope not, because their relation to
+their head should be the stronger condition, no?
+
+* Second report, after fixing VERB to AUX in aux
+
+Second report has 51 + 514 + 68 = 633 syntax errors so that is a few
+fewer than expected, at least not more. Not bothering to check.
+
+** "not a copula"
+
+Now they report that "X is not a copula in language [fi]" for a number
+of words X. There are 228 non-olla "cop" words. These could be tricky.
+Can they be kept as "cop" somehow? Because these are not typos or
+anything but a different, er, never mind.
+
+| 3561 | olla         |                 |
+|  146 | tulla        |                 |
+|   30 | tehdä        |                 |
+|   22 | ei           | "cop" of "conj" |
+|    5 | kasvaa       |                 |
+|    4 | saada        |                 |
+|    3 | kehittyä     |                 |
+|    2 | tulo         | NOUN            |
+|    2 | täyttää      |                 |
+|    2 | odottaa      |                 |
+|    2 | kehkeytyä    |                 |
+|    1 | viimeistellä |                 |
+|    1 | veikata      |                 |
+|    1 | toivoa       |                 |
+|    1 | sukeutua     |                 |
+|    1 | muovata      |                 |
+|    1 | muodostua    |                 |
+|    1 | leipoa       |                 |
+|    1 | kehittää     |                 |
+|    1 | ennustaa     |                 |
+|    1 | alkaa        |                 |
+
+No way can all those be allowed as AUX either any more now? And the
+two that are NOUN "tulo" are apparently intentionally so.
+
+| 3787 | AUX  | cop |
+|    2 | NOUN | cop |
+
+** should not have children
+
+Also instances of "case should not have children", "mark should not
+have children".
+
+** punctuation ... non-projectivity
+
+Also "punctuation ... non-projectivity" hate punctuation.
+
+** advmod should be ADV
+
+And "advmod" should be ADV. They do not seem to care about PART,
+maybe, but about the others they do, so maybe 192 of these?
+
+| 9273 | ADV   |                          |
+| 5088 | PART  |                          |
+|  111 | PRON  | mostly Interr, a few Dem |
+|   23 | CCONJ |                          |
+|   22 | SCONJ |                          |
+|   17 | NOUN  |                          |
+|    9 | VERB  | ei                       |
+|    7 | X     | all but one Foreign=Yes  |
+|    2 | ADJ   |                          |
+|    1 | NUM   |                          |
+
+*Try* making PRON/advmod be PRON/nmod, leave in Misc a trace
+"Was18=advmod" - all 111 have previously empty Misc.
+
+** nummod should be NUM
+And "nummod" should be NUM. What are the 5 PROPN anyway?
+
+| 1778 | NUM   |                                      |
+|    5 | PROPN | BMW, Windows, Ritalankatu, Panasonic |
+
+** expl should be PRON but is ADV
+
+Something "expl" should be PRON but is ADV. Question: should they be
+PRON because they have PronType, or because they are "expl"?
+
+| 447 | PRON |                                       |
+|  74 | ADV  | niin, siksi, siten, ...; PronType=Dem |
+|   3 | ADJ  |                                       |
+
+Occurrences of "siksi" (counted):
+| 9 | Siksi | ADV  | PronType=Dem                      | advmod |
+| 9 | siksi | ADV  | PronType=Dem                      | advmod |
+| 7 | siksi | ADV  | PronType=Dem                      | expl   |
+| 5 | siksi | ADV  | PronType=Dem                      | mark   |
+| 1 | siksi | PRON | Case=Tra,Number=Sing,PronType=Dem | expl   |
+| 1 | siksi | ADV  | PronType=Dem                      | root   |
+| 1 | Siksi | ADV  | PronType=Dem                      | mark   |
+| 1 | Siksi | ADV  | PronType=Dem                      | expl   |
+| 1 | siksi | ADV  | PronType=Dem                      | conj   |
+| 1 | Siks  | ADV  | PronType=Dem,Style=Coll           | expl   |
+
+Occurrences of "niin" (base-counted with rel and with feat):
+| 313 | niin | PART | mark   | : | 486 | niin | PART | _                       |
+| 296 | niin | PART | advmod | : | 147 | niin | PART | Style=Coll              |
+|  51 | niin | ADV  | expl   | : | 143 | niin | ADV  | PronType=Dem            |
+|  50 | niin | ADV  | mark   | : |   5 | niin | ADV  | Clitic=Han,PronType=Dem |
+|  43 | niin | ADV  | advmod | : |   3 | niin | ADV  | PronType=Dem,Style=Coll |
+|   9 | niin | PART | conj   | : |   3 | niin | ADV  | Clitic=Kin,PronType=Dem |
+|   6 | niin | PART | root   | : |   2 | niin | PART | Clitic=Kin              |
+|   6 | niin | PART | dep    | : |     |      |      |                         |
+|   5 | niin | PART | fixed  | : |     |      |      |                         |
+|   3 | niin | ADV  | root   | : |     |      |      |                         |
+|   3 | niin | ADV  | acl    | : |     |      |      |                         |
+|   2 | niin | ADV  | dep    | : |     |      |      |                         |
+|   2 | niin | ADV  | advcl  | : |     |      |      |                         |
+
+Occurrences of "siten" (counted):
+| 13 | siten | ADV | PronType=Dem | expl   |
+| 11 | siten | ADV | PronType=Dem | advmod |
+
+** goeswith goes wrong
+
+And goeswith goes in the wrong direction or has a gap.
+
+** one aux is still a ... NOUN?
+
+Oh, and one "aux" is NOUN "minkeillä" - probably a genuine error? Or
+else something really, really tricky.
+
+| 7577 | AUX  |           |
+|    1 | X    | did       |
+|    1 | NOUN | minkeillä |

@@ -2268,7 +2268,7 @@
 # sent_id = vze4d-3035
 # text = On millä mällätä .
 1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	millä	mikä	PRON	Pron,Interr,Ade	Case=Ade|PronType=Int	3	advmod	_	_
+2	millä	mikä	PRON	Pron,Interr,Ade	Case=Ade|PronType=Int	3	nmod	_	Was18=advmod
 3	mällätä	mällätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	csubj	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
 
@@ -5297,7 +5297,7 @@
 
 # sent_id = uukn0-5505
 # text = kenen luota lapsi hakee turvaa pelon hetkellä .
-1	kenen	kuka	PRON	Pron,Interr,Sg,Gen	Case=Gen|Number=Sing|PronType=Int	4	advmod	_	_
+1	kenen	kuka	PRON	Pron,Interr,Sg,Gen	Case=Gen|Number=Sing|PronType=Int	4	nmod	_	Was18=advmod
 2	luota	luota	ADP	Adp	_	1	case	_	_
 3	lapsi	lapsi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 4	hakee	hakea	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6616,7 +6616,7 @@
 9	mä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	10	nsubj	_	_
 10	kirjotan	kirjoittaa	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
-12	miltä	mikä	PRON	Pron,Interr,Abl	Case=Abl|PronType=Int	14	advmod	_	_
+12	miltä	mikä	PRON	Pron,Interr,Abl	Case=Abl|PronType=Int	14	nmod	_	Was18=advmod
 13	musta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs|Style=Coll	14	nmod	_	_
 14	tuntuu	tuntua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	ccomp	_	_
 15	,	,	PUNCT	Pun	_	14	punct	_	_
@@ -12976,7 +12976,7 @@
 
 # sent_id = tebpj-10844
 # text = mistä ei voi puhua , pitää vaieta .
-1	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	4	advmod	_	_
+1	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	4	nmod	_	Was18=advmod
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	voi	voida	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	puhua	puhua	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	7	advcl	_	_
@@ -13097,7 +13097,7 @@
 3	samaan	sama	DET	Pron,Qnt,Sg,Ill	Case=Ill|Number=Sing|PronType=Ind	4	det	_	_
 4	syöksykierteeseen	syöksykierre	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	8	mark	_	FTB-Sub=comparator
-6	missä	mikä	PRON	Pron,Interr,Ine	Case=Ine|PronType=Int	8	advmod	_	_
+6	missä	mikä	PRON	Pron,Interr,Ine	Case=Ine|PronType=Int	8	nmod	_	Was18=advmod
 7	Ruotsi	ruotsi	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
 8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	FTB-Sub=comparison
 9	.	.	PUNCT	Pun	_	8	punct	_	_
@@ -13195,7 +13195,7 @@
 2	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	enää	enää	PART	Pcle	_	4	advmod	_	_
 4	tiedä	tietää	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-5	mihin	mikä	PRON	Pron,Interr,Ill	Case=Ill|PronType=Int	6	advmod	_	_
+5	mihin	mikä	PRON	Pron,Interr,Ill	Case=Ill|PronType=Int	6	nmod	_	Was18=advmod
 6	uskoa	uskoa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	ccomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -14380,7 +14380,7 @@
 8	tuleva	tuleva	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 9	puheenjohtajamaa	puheenjohtajamaa	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 10	eli	eli	CCONJ	Pcle,CC	_	13	cc	_	_
-11	tätä	tämä	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	13	advmod	_	_
+11	tätä	tämä	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	13	nmod	_	Was18=advmod
 12	nykyä	nykyä	ADV	Adv	_	11	fixed	_	_
 13	Saksa	saksa	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	9	nmod	_	_
 14	,	,	PUNCT	Pun	_	13	punct	_	FTB-rel=phrm
@@ -15953,7 +15953,7 @@
 
 # sent_id = wd1pt-13190
 # text = Mitä alkeiskurssi maksaa ?
-1	Mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	3	advmod	_	_
+1	Mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	3	nmod	_	Was18=advmod
 2	alkeiskurssi	alkeiskurssi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	maksaa	maksaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	?	?	PUNCT	Pun	_	3	punct	_	_

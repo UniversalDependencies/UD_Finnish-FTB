@@ -111,7 +111,7 @@
 
 # sent_id = w06p8-360
 # text = mitäs se kiäns viäräle kaistale
-1	mitäs	mikä	PRON	Pron,Interr,Par,S	Case=Par|Clitic=S|PronType=Int	3	advmod	_	_
+1	mitäs	mikä	PRON	Pron,Interr,Par,S	Case=Par|Clitic=S|PronType=Int	3	nmod	_	Was18=advmod
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	kiäns	kääntää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	viäräle	väärä	ADJ	A,Sg,All	Case=All|Number=Sing|Style=Coll	5	amod	_	_
@@ -7098,7 +7098,7 @@
 6	sielä	siellä	ADV	Adv,Dem	PronType=Dem|Style=Coll	7	advmod	_	_
 7	Haapajärvellä	haapajärvi	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 8	niin	niin	PART	Pcle	_	12	mark	_	_
-9	mihin	mikä	PRON	Pron,Interr,Ill	Case=Ill|PronType=Int	12	advmod	_	_
+9	mihin	mikä	PRON	Pron,Interr,Ill	Case=Ill|PronType=Int	12	nmod	_	Was18=advmod
 10	saakka	saakka	ADP	Adp	_	9	case	_	_
 11	sää	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs|Style=Coll	12	nsubj	_	_
 12	arvioisit	arvioida	VERB	V,Act,Cond,Sg2	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	3	conj	_	_
@@ -11169,7 +11169,7 @@
 6	kaikessa	kaikki	DET	Pron,Qnt,Sg,Ine	Case=Ine|Number=Sing|PronType=Ind	7	det	_	_
 7	ystävyydessä	ystävyys	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
 8	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
-9	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	10	advmod	_	_
+9	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	10	nmod	_	Was18=advmod
 10	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
 11	kysymys	kysymys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj	_	_
 12	mutta	mutta	CCONJ	Pcle,CC	_	4	cc	_	_
@@ -12658,7 +12658,7 @@
 5	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	1	conj	_	Alt=1_conj
 6	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Alt=5_cop
 7	,	,	PUNCT	Pun	_	5	punct	_	_
-8	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	11	advmod	_	_
+8	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	11	nmod	_	Was18=advmod
 9	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	11	nsubj	_	_
 10	meille	me	PRON	Pron,Pers,Pl1,All	Case=All|Number=Plur|Person=1|PronType=Prs	11	nmod	_	_
 11	kuuluu	kuulua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	Alt=1_conj
@@ -12991,7 +12991,7 @@
 8	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 9	tarkkana	tarkka	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	8	nmod	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
-11	kenelle	kuka	PRON	Pron,Interr,Sg,All	Case=All|Number=Sing|PronType=Int	13	advmod	_	_
+11	kenelle	kuka	PRON	Pron,Interr,Sg,All	Case=All|Number=Sing|PronType=Int	13	nmod	_	Was18=advmod
 12	oven	ovi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	13	obj	_	_
 13	avaa	avata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	acl	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -19472,7 +19472,7 @@
 1	Piirroksen	piirros	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	nsubj	_	_
 2	tarvitsee	tarvita	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	syntyä	syntyä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-4	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	3	advmod	_	_
+4	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	3	nmod	_	Was18=advmod
 5	vain	vain	PART	Pcle	_	4	advmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	_
@@ -19801,7 +19801,7 @@
 # text = Kärsiikö kysyä mitä maksoi ?
 1	Kärsiikö	kärsiä	AUX	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	kysyä	kysyä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-3	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	4	advmod	_	_
+3	mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	4	nmod	_	Was18=advmod
 4	maksoi	maksaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	ccomp	_	_
 5	?	?	PUNCT	Pun	_	4	punct	_	_
 
@@ -20020,7 +20020,7 @@
 # text = Sanokaas muut miltä teistä tuntuu .
 1	Sanokaas	sanoa	VERB	V,Act,Imprt,Pl2,S	Clitic=S|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
 2	muut	muu	PRON	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	1	vocative	_	FTB-PronType=Qnt
-3	miltä	mikä	PRON	Pron,Interr,Abl	Case=Abl|PronType=Int	5	advmod	_	_
+3	miltä	mikä	PRON	Pron,Interr,Abl	Case=Abl|PronType=Int	5	nmod	_	Was18=advmod
 4	teistä	te	PRON	Pron,Pers,Pl2,Ela	Case=Ela|Number=Plur|Person=2|PronType=Prs	5	nmod	_	_
 5	tuntuu	tuntua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	ccomp	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
@@ -20640,7 +20640,7 @@
 
 # sent_id = uxa1c-16607
 # text = Minkä takia GSM-puhelut kaikuvat ?
-1	Minkä	mikä	PRON	Pron,Interr,Gen	Case=Gen|PronType=Int	4	advmod	_	_
+1	Minkä	mikä	PRON	Pron,Interr,Gen	Case=Gen|PronType=Int	4	nmod	_	Was18=advmod
 2	takia	takia	ADP	Adp	_	1	case	_	_
 3	GSM-puhelut	gsm-puhelu	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nsubj	_	_
 4	kaikuvat	kaikua	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
