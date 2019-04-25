@@ -1,3 +1,11 @@
+Reported count of errors in successive validation reports:
+|     |   | dev | train | test |   |  sum |
+|-----+---+-----+-------+------+---+------|
+| 1st |   | 798 |  6566 |  846 |   | 8210 |
+| 2nd |   |  51 |   514 |   68 |   |  633 |
+| 3rd |   |  59 |   427 |   44 |   |  530 |
+| 4th |   |  45 |   369 |   33 |   |  447 |
+
 * First report
 
 There were 7577 "aux", all "VERB", that become "AUX".
@@ -22,6 +30,13 @@ their head should be the stronger condition, no?
 
 Second report has 51 + 514 + 68 = 633 syntax errors so that is a few
 fewer than expected, at least not more. Not bothering to check.
+
+Third report has 59 + 427 + 44 = 530
+
+Fourth, 447.
+
+Stuff fixed with not-to-release/nmodPRONadvmod, nmodNOUNadvmod,
+PRON_ADV_expl.
 
 ** "not a copula"
 
@@ -91,6 +106,8 @@ maybe, but about the others they do, so maybe 192 of these?
 Apparent *success*! Do the same for the 17 NOUN/advmod, blindly. And
 dep the 6 X[Foreign]/advmod at the same time.
 
+Apparent success again.
+
 ** nummod should be NUM
 And "nummod" should be NUM. What are the 5 PROPN anyway?
 
@@ -102,7 +119,7 @@ And "nummod" should be NUM. What are the 5 PROPN anyway?
 Something "expl" should be PRON but is ADV. Question: should they be
 PRON because they have PronType, or because they are "expl"?
 
-*Try* them as PRON! Also when ADJ.
+*Try* them as PRON! Also when ADJ. Seems ok.
 
 | 447 | PRON |                                       |
 |  74 | ADV  | niin, siksi, siten, ...; PronType=Dem |
