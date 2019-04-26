@@ -129,6 +129,9 @@ def main(args):
                     break
                 else:
                     print('could not find new head', file = sys.stderr)
+                    for record in sen:
+                        print(*record, sep = '\t', file = sys.stderr)
+                    else: print(file = sys.stderr)
                     continue
                     
             # token[HEAD] != head

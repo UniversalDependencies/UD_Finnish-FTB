@@ -220,3 +220,15 @@ also been the other direction. See if nmod goes. Only five of these.
 ** Make an "X" ("eteen-") "dep" instead of "advmod"
 
 How was it ever an advmod, though?
+
+** Punctuation must not cause non-projectivity
+
+Validator and own tamepunct script report different sentences on this
+now, is at least one of them maybe in error? But both kinds of
+sentences appear to have cases where a punctuation mark skips a "case"
+which then crosses. Maybe allow linking punctuation marks to a "case"
+as a last resort even though a "case" must not have children?
+
+And now it found a way to link one comma forward in train. Why not
+before? But let it. Maybe it was not non-projective before. Another in
+test.
