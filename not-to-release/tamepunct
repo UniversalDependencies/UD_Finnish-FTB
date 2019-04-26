@@ -92,11 +92,11 @@ def main(args):
             own = int(ref)
             par = int(token[HEAD])
 
-            if ((par < own and all(par <= int(tok[HEAD]) <= own
-                                   for tok in toks[par:own - 1]))
-                or
-                (own < par and all(own <= int(tok[HEAD]) <= par
-                                   for tok in toks[own:par - 1]))):
+            lo, hi = sorted((par, own))
+
+            if (all(lo <= int(tok[HEAD]) <= hi for tok in toks[lo:hi - 1]) and
+                not any(lo < int(tok[HEAD]) < hi for tok in toks[:lo - 1]) and
+                not any(lo < int(tok[HEAD]) < hi for tok in toks[hi:])):
 
                 continue
 
