@@ -933,7 +933,7 @@
 4	dostojevskiläisittäin	dostojevskiläisittäin	ADV	Adv	_	5	advmod	_	_
 5	toteamaan	todeta	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	3	acl	_	_
 6	:	:	PUNCT	Pun	_	5	punct	_	_
-7	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	6	punct	_	Missed-SUBCAT=QUOTATION
+7	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	5	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:6
 8	Täytyi	täytyä	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
 9	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	ccomp	_	_
 10	jokin	jokin	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	11	det	_	_
@@ -948,7 +948,7 @@
 19	sielua	sielu	NOUN	N,Sg,Par	Case=Par|Number=Sing	18	obj	_	_
 20	ahtaalle	ahdas	ADJ	A,Sg,All	Case=All|Number=Sing	18	nmod	_	_
 21	.	.	PUNCT	Pun	_	20	punct	_	_
-22	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	21	punct	_	Missed-SUBCAT=QUOTATION
+22	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	20	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:21
 
 # sent_id = rgth5-1878
 # text = Lauteet ovat joko suorat yhdellä seinällä , kulmittain , vastakkain tai kehänä kiukaan ympärillä .
@@ -1044,7 +1044,7 @@
 14	ja	ja	CCONJ	Pcle,CC	_	15	cc	_	_
 15	tarkennuksia	tarkennus	NOUN	N,Pl,Par	Case=Par|Number=Plur	13	conj	_	_
 16	,	,	PUNCT	Pun	_	15	punct	_	_
-17	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	16	punct	_	Missed-SUBCAT=QUOTATION
+17	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	15	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:16
 18	koska	koska	SCONJ	Pcle,CS	_	24	mark	_	_
 19	kyseinen	kyseinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	20	amod	_	_
 20	virhe	virhe	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	24	nsubj:cop	_	_
@@ -1053,7 +1053,7 @@
 23	tekninen	tekninen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	24	amod	_	_
 24	virhe	virhe	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	advcl	_	_
 25	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	24	punct	_	Missed-SUBCAT=QUOTATION
-26	.	.	PUNCT	Pun	_	25	punct	_	_
+26	.	.	PUNCT	Pun	_	24	punct	_	Was18punch=punct:25
 
 # sent_id = v9pq0-2032
 # text = puolet Tenon pääuoman lohista on viettänyt viimeiset jokivuotensa sivupuroissa .
@@ -2199,7 +2199,7 @@
 8	CIA:n	cia	PROPN	N,Abbr,Prop,Sg,Gen	Abbr=Yes|Case=Gen|Number=Sing	9	nmod	_	_
 9	typeryyttä	typeryys	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	conj	_	_
 10	:	:	PUNCT	Pun	_	9	punct	_	_
-11	-	-	PUNCT	Pun	_	10	punct	_	Missed-SUBCAT=DASH
+11	-	-	PUNCT	Pun	_	9	punct	_	Missed-SUBCAT=DASH|Was18punch=punct:10
 12	Syrjäyttää	syrjäyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	conj	_	_
 13	nyt	nyt	PART	Pcle	_	12	advmod	_	_
 14	Sihanouk	sihanouk	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	12	obj	_	_
@@ -2404,7 +2404,7 @@
 14	(	(	PUNCT	Pun	PunctSide=Ini	13	punct	_	Missed-SUBCAT=BRACKET
 15	1994	1994	NUM	Num,Card	NumType=Card	12	nummod	_	_
 16	)	)	PUNCT	Pun	PunctSide=Fin	15	punct	_	Missed-SUBCAT=BRACKET
-17	.	.	PUNCT	Pun	_	16	punct	_	_
+17	.	.	PUNCT	Pun	_	15	punct	_	Was18punch=punct:16
 
 # sent_id = es9xb-3076
 # text = Nyt oli olemassa kolmenlaisia antiballistisia asetekniikoita : , lähestyvien ohjusten radoilla laukaistut ydinpommit , sekä suunnattua energiaa käyttävät aseet , koostuen lasereista ja hiukkassuihkuista .
@@ -2415,7 +2415,7 @@
 5	antiballistisia	antiballistinen	ADJ	A,Pl,Par	Case=Par|Number=Plur	6	amod	_	_
 6	asetekniikoita	asetekniikka	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	nsubj	_	_
 7	:	:	PUNCT	Pun	_	6	punct	_	_
-8	,	,	PUNCT	Pun	_	7	punct	_	_
+8	,	,	PUNCT	Pun	_	6	punct	_	Was18punch=punct:7
 9	lähestyvien	lähestyä	VERB	V,Act,PcpVa,Pl,Gen	Case=Gen|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Act	10	acl	_	_
 10	ohjusten	ohjus	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	11	nmod	_	_
 11	radoilla	rata	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	12	nmod	_	_
@@ -2476,7 +2476,7 @@
 12	aikaa	aika	NOUN	N,Sg,Par	Case=Par|Number=Sing	10	nmod	_	_
 13	maisemista	maisema	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	10	nmod	_	_
 14	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	13	punct	_	Missed-SUBCAT=QUOTATION
-15	.	.	PUNCT	Pun	_	14	punct	_	_
+15	.	.	PUNCT	Pun	_	13	punct	_	Was18punch=punct:14
 
 # sent_id = chev7-3100
 # text = Konsernin liikevaihto kasvoi 2,5 miljardilla markalla ollen nyt 8,5 miljardia markkaa .
@@ -5725,7 +5725,7 @@
 8	jätkää	jätkä	NOUN	N,Sg,Par	Case=Par|Number=Sing	9	obj	_	_
 9	vaivaa	vaivata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	csubj	_	_
 10	?	?	PUNCT	Pun	_	9	punct	_	_
-11	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	10	punct	_	Missed-SUBCAT=QUOTATION
+11	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	9	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:10
 12	Vares	vares	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	13	nsubj	_	_
 13	kysyi	kysyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -6031,7 +6031,7 @@
 7	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	6	punct	_	Missed-SUBCAT=QUOTATION
 8	väyrynen	väyrynen	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nmod	_	_
 9	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	8	punct	_	Missed-SUBCAT=QUOTATION
-10	,	,	PUNCT	Pun	_	9	punct	_	_
+10	,	,	PUNCT	Pun	_	8	punct	_	Was18punch=punct:9
 11	koska	koska	SCONJ	Pcle,CS	_	14	mark	_	_
 12	makeisen	makeinen	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	13	nmod	_	_
 13	kasvopuoli	kasvopuoli	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	_
@@ -6446,7 +6446,7 @@
 7	nollassa	nolla	NUM	Num,Card,Sg,Ine	Case=Ine|Number=Sing|NumType=Card	8	nummod	_	_
 8	sekunnissa	sekunti	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
 9	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	8	punct	_	Missed-SUBCAT=QUOTATION
-10	.	.	PUNCT	Pun	_	9	punct	_	_
+10	.	.	PUNCT	Pun	_	8	punct	_	Was18punch=punct:9
 
 # sent_id = cri60-6347
 # text = Puhemylly pyörii tusinalla kanavalla
@@ -11886,7 +11886,7 @@
 12	uudistumisen	uudistuminen	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	conj	_	_
 13	kehto	kehto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 14	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	13	punct	_	Missed-SUBCAT=QUOTATION
-15	.	.	PUNCT	Pun	_	14	punct	_	_
+15	.	.	PUNCT	Pun	_	13	punct	_	Was18punch=punct:14
 
 # sent_id = rlsie-10268
 # text = Jos hinta putoaa , niin minä ostan sen kirjan .
@@ -12887,7 +12887,7 @@
 2	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	1	punct	_	Missed-SUBCAT=QUOTATION
 3	kilpailulajin	kilpailulaji	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	24	nmod	_	_
 4	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	3	punct	_	Missed-SUBCAT=QUOTATION
-5	,	,	PUNCT	Pun	_	4	punct	_	_
+5	,	,	PUNCT	Pun	_	3	punct	_	Was18punch=punct:4
 6	joita	joka	PRON	Pron,Rel,Pl,Par	Case=Par|Number=Plur|PronType=Rel	3	acl	_	_
 7	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
 8	musiikki	musiikki	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	_
@@ -14098,7 +14098,7 @@
 4	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	3	punct	_	Missed-SUBCAT=QUOTATION
 5	Prinkkalan	prinkkala	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
 6	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	5	punct	_	Missed-SUBCAT=QUOTATION
-7	,	,	PUNCT	Pun	_	6	punct	_	_
+7	,	,	PUNCT	Pun	_	5	punct	_	Was18punch=punct:6
 8	mutta	mutta	CCONJ	Pcle,CC	_	9	cc	_	_
 9	tuloksetta	tulos	NOUN	N,Sg,Abe	Case=Abe|Number=Sing	1	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -16240,7 +16240,7 @@
 11	varmasti	varmasti	ADV	Adv	_	12	advmod	_	_
 12	karhu	karhu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	conj	_	_
 13	!	!	PUNCT	Pun	_	12	punct	_	_
-14	.	.	PUNCT	Pun	_	13	punct	_	_
+14	.	.	PUNCT	Pun	_	12	punct	_	Was18punch=punct:13
 
 # sent_id = z6e2a-13306
 # text = Enkä edes epäile vaan tiedän .
@@ -17153,7 +17153,7 @@
 4	tavallista	tavallinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	5	advcl	_	FTB-Sub=comparison
 5	hermostuneempi	hermostunut	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
 6	--	--	PUNCT	Pun	_	5	punct	_	Missed-SUBCAT=DASH
-7	,	,	PUNCT	Pun	_	6	punct	_	_
+7	,	,	PUNCT	Pun	_	5	punct	_	Was18punch=punct:6
 8	ja	ja	CCONJ	Pcle,CC	_	11	cc	_	_
 9	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	10	det	_	_
 10	silmäkulmassa	silmäkulma	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	11	nmod	_	_
@@ -17848,7 +17848,7 @@
 11	kokouksesta	kokous	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	10	nmod	_	_
 12	elävänä	elää	VERB	V,Act,PcpVa,Sg,Ess	Case=Ess|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	10	advcl	_	_
 13	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	12	punct	_	Missed-SUBCAT=QUOTATION
-14	,	,	PUNCT	Pun	_	13	punct	_	_
+14	,	,	PUNCT	Pun	_	12	punct	_	Was18punch=punct:13
 15	Kenian	kenia	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	17	nmod	_	_
 16	anglikaanisen	anglikaaninen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	17	amod	_	_
 17	kirkon	kirkko	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	18	nmod	_	_
@@ -19978,7 +19978,7 @@
 10	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	oppinut	oppia	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	_
 12	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	11	punct	_	Missed-SUBCAT=QUOTATION
-13	,	,	PUNCT	Pun	_	12	punct	_	_
+13	,	,	PUNCT	Pun	_	11	punct	_	Was18punch=punct:12
 14	Jouko	jouko	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	15	nsubj	_	_
 15	sanoo	sanoa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 16	.	.	PUNCT	Pun	_	15	punct	_	_
@@ -20962,7 +20962,7 @@
 5	hoitakaa	hoitaa	VERB	V,Act,Imprt,Pl2	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	2	conj	_	_
 6	tehtävänne	tehtävä	NOUN	N,Sg,Nom,PxPl2	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	obj	_	_
 7	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	6	punct	_	Missed-SUBCAT=QUOTATION
-8	.	.	PUNCT	Pun	_	7	punct	_	_
+8	.	.	PUNCT	Pun	_	6	punct	_	Was18punch=punct:7
 
 # sent_id = z9o4e-16408
 # text = Pojat - pitäkääkin vielä pintanne , niin minä hommaan teidät heti sairaalaan .
@@ -21214,7 +21214,7 @@
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	hullu	hullu	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
-7	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	6	punct	_	Missed-SUBCAT=QUOTATION
+7	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	5	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:6
 
 # sent_id = hxvb2-16600
 # text = Kuka on vaikutusvallaltaan painavin yritysjohtaja ?

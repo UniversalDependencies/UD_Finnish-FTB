@@ -206,3 +206,8 @@ Only "case" not "fixed"
 Rotate dependencies.
 
 There seem to have been only six of these, all in train.
+
+** Punctuation must not have children
+
+At least one genuine error (an "nmod" of "punct"), but script found
+much punctuation chains, now made more like bushes.

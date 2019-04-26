@@ -385,7 +385,7 @@
 3	käyny	käydä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	7	ccomp	_	_
 4	ulkomailla	ulkomaa	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	3	nmod	_	_
 5	?	?	PUNCT	Pun	_	4	punct	_	_
-6	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	5	punct	_	Missed-SUBCAT=QUOTATION
+6	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	4	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:5
 7	kysyi	kysyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	pikkupoika	pikkupoika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
 9	toiselta	toinen	PRON	Pron,Qnt,Sg,Abl	Case=Abl|Number=Sing|PronType=Ind	7	nmod	_	FTB-PronType=Qnt
@@ -537,7 +537,7 @@
 9	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	8	punct	_	Missed-SUBCAT=QUOTATION
 10	kyllä	kyllä	PART	Pcle	_	8	dep	_	Missed-Rel=obj
 11	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	10	punct	_	Missed-SUBCAT=QUOTATION
-12	.	.	PUNCT	Pun	_	11	punct	_	_
+12	.	.	PUNCT	Pun	_	10	punct	_	Was18punch=punct:11
 
 # sent_id = a8di4-1178
 # text = Sarkian loppusoinnut ovat yleensä briljeeraukseen asti täydelliset .
@@ -1006,7 +1006,7 @@
 11	höpöttää	höpöttää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 12	jotain	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	11	obj	_	FTB-PronType=Qnt
 13	.	.	PUNCT	Pun	_	12	punct	_	_
-14	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	13	punct	_	Missed-SUBCAT=QUOTATION
+14	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	12	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:13
 
 # sent_id = g6j7i-1744
 # text = Autoilla ajettiin liikennemerkeistä välittämättä pitkin käytäviä , jopa hautojen päällä .
@@ -1602,7 +1602,7 @@
 9	ilmi	ilmi	ADV	Adv	_	8	compound:prt	_	_
 10	kavereitaan	kaveri	NOUN	N,Pl,Par,Px3	Case=Par|Number=Plur|Person[psor]=3	8	obj	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
-12	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	11	punct	_	Missed-SUBCAT=QUOTATION
+12	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	10	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:11
 
 # sent_id = ewu0c-2357
 # text = Takalo-Eskola on taiteilija joka lyö mieluummin reilusti yli kuin jättää sanottavansa sanomatta .
@@ -6287,7 +6287,7 @@
 8	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	7	punct	_	Missed-SUBCAT=QUOTATION
 9	matkoilla	matka	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	6	nmod	_	_
 10	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	9	punct	_	Missed-SUBCAT=QUOTATION
-11	.	.	PUNCT	Pun	_	10	punct	_	_
+11	.	.	PUNCT	Pun	_	9	punct	_	Was18punch=punct:10
 
 # sent_id = nuwev-6035
 # text = Suihkut takoivat rinnettä ja luodit paukkuivat puihin ja kiviin ja sissit olivat kyyryssä paikoillaan .
@@ -7808,7 +7808,7 @@
 11	Tuula	tuula	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	12	nsubj	_	_
 12	sanoi	sanoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 13	:	:	PUNCT	Pun	_	12	punct	_	_
-14	-	-	PUNCT	Pun	_	13	punct	_	Missed-SUBCAT=DASH
+14	-	-	PUNCT	Pun	_	12	punct	_	Missed-SUBCAT=DASH|Was18punch=punct:13
 15	Punainen	punainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	22	nsubj:cop	_	_
 16	ja	ja	CCONJ	Pcle,CC	_	17	cc	_	_
 17	musta	musta	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	15	conj	_	_
@@ -7873,7 +7873,7 @@
 7	0,21	0,21	NUM	Num,Card	NumType=Card	8	nummod	_	_
 8	%	%	SYM	Sym	_	5	dep	_	Missed-Rel=mod
 9	)	)	PUNCT	Pun	PunctSide=Fin	8	punct	_	Missed-SUBCAT=BRACKET
-10	,	,	PUNCT	Pun	_	9	punct	_	_
+10	,	,	PUNCT	Pun	_	8	punct	_	Was18punch=punct:9
 11	ja	ja	CCONJ	Pcle,CC	_	16	cc	_	_
 12	äänirasian	äänirasia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	13	nmod	_	_
 13	taajuustoisto	taajuustoisto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj:cop	_	_
@@ -9875,7 +9875,7 @@
 8	sieltä	sieltä	ADV	Adv,Dem	PronType=Dem	7	advmod	_	_
 9	saarnaansa	saarna	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	_
 10	:	:	PUNCT	Pun	_	9	punct	_	_
-11	.	.	PUNCT	Pun	_	10	punct	_	_
+11	.	.	PUNCT	Pun	_	9	punct	_	Was18punch=punct:10
 
 # sent_id = lrvfp-8596
 # text = Teollisuudessa tilanne on pysynyt lähes samanlaisena kolmen viimeksi kuluneen vuoden ajan .
@@ -14502,7 +14502,7 @@
 17	sama	sama	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	15	conj	_	FTB-PronType=Qnt
 18	asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	acl	_	_
 19	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	18	punct	_	Missed-SUBCAT=QUOTATION
-20	,	,	PUNCT	Pun	_	19	punct	_	_
+20	,	,	PUNCT	Pun	_	18	punct	_	Was18punch=punct:19
 21	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	22	nsubj	_	_
 22	sanoo	sanoa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 23	.	.	PUNCT	Pun	_	22	punct	_	_
@@ -15631,7 +15631,7 @@
 10	syö	syödä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
 11	suklaata	suklaa	NOUN	N,Sg,Par	Case=Par|Number=Sing	10	obj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
-13	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	12	punct	_	Missed-SUBCAT=QUOTATION
+13	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	11	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:12
 
 # sent_id = ajxoh-12944
 # text = En ole saanut vielä virallista ilmoitusta .
@@ -16372,7 +16372,7 @@
 4	meidät	me	PRON	Pron,Pers,Pl1,Acc	Case=Acc|Number=Plur|Person=1|PronType=Prs	3	obj	_	_
 5	tuolla	tuolla	ADV	Adv,Dem	PronType=Dem	3	advmod	_	_
 6	?	?	PUNCT	Pun	_	5	punct	_	_
-7	.	.	PUNCT	Pun	_	6	punct	_	_
+7	.	.	PUNCT	Pun	_	5	punct	_	Was18punch=punct:6
 
 # sent_id = flt13-13410
 # text = Muualla maassa ei juuri muutoksia tapahdu
@@ -17446,7 +17446,7 @@
 8	jatkoi	jatkaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 9	epäröiden	epäröidä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	advcl	_	_
 10	:	:	PUNCT	Pun	_	9	punct	_	_
-11	-	-	PUNCT	Pun	_	10	punct	_	Missed-SUBCAT=DASH
+11	-	-	PUNCT	Pun	_	9	punct	_	Missed-SUBCAT=DASH|Was18punch=punct:10
 12	Näin	näin	ADV	Adv,Dem	PronType=Dem	18	advmod	_	_
 13	meidän	me	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	18	nmod	_	_
 14	kesken	kesken	ADP	Adp	_	13	case	_	_
@@ -17678,7 +17678,7 @@
 7	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	6	punct	_	Missed-SUBCAT=QUOTATION
 8	ahneutta	ahneus	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 9	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	8	punct	_	Missed-SUBCAT=QUOTATION
-10	.	.	PUNCT	Pun	_	9	punct	_	_
+10	.	.	PUNCT	Pun	_	8	punct	_	Was18punch=punct:9
 
 # sent_id = ozr4e-14248
 # text = salaisesta sotilasraportista kävi ilmi , että myös asevoimien komentaja Owe Viktorin on perääntymässä sukellusvenejahdin osalta .
@@ -17726,7 +17726,7 @@
 3	olympiakisojen	olympiakisa	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	4	nmod	_	_
 4	kehdossa	kehto	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	1	nmod	_	_
 5	:	:	PUNCT	Pun	_	4	punct	_	_
-6	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	5	punct	_	Missed-SUBCAT=QUOTATION
+6	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	4	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:5
 7	Vihdoinkin	vihdoin	PART	Pcle,Kin	Clitic=Kin	8	advmod	_	_
 8	olen	olla	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 9	täällä	täällä	ADV	Adv,Dem	PronType=Dem	8	advmod	_	_
@@ -18836,7 +18836,7 @@
 5	isokin	iso	ADJ	A,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing	6	amod	_	_
 6	lasku	lasku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 7	?	?	PUNCT	Pun	_	6	punct	_	_
-8	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	7	punct	_	Missed-SUBCAT=QUOTATION
+8	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	6	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:7
 
 # sent_id = t84mi-15155
 # text = Kerran kun olin lähdössä vankilasta lomille , mun selliin tuli yks vanhempi kingi .
@@ -20498,7 +20498,7 @@
 6	nykyään	nykyään	ADV	Adv	_	7	advmod	_	_
 7	puuhaa	puuhata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	12	csubj:cop	_	_
 8	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	7	punct	_	Missed-SUBCAT=QUOTATION
-9	,	,	PUNCT	Pun	_	8	punct	_	_
+9	,	,	PUNCT	Pun	_	7	punct	_	Was18punch=punct:8
 10	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	cop	_	_
 11	tuttu	tuttu	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	12	amod	_	_
 12	kysymys	kysymys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
@@ -20712,7 +20712,7 @@
 5	liksoja	liksa	NOUN	N,Pl,Par	Case=Par|Number=Plur	6	obj	_	_
 6	nostettiin	nostaa	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	10	ccomp	_	_
 7	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	6	punct	_	Missed-SUBCAT=QUOTATION
-8	,	,	PUNCT	Pun	_	7	punct	_	_
+8	,	,	PUNCT	Pun	_	6	punct	_	Was18punch=punct:7
 9	herrat	herra	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	10	nsubj	_	_
 10	nauravat	nauraa	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 11	partaansa	parta	NOUN	N,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3	10	compound:prt	_	_
@@ -20991,7 +20991,7 @@
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	setämies	setämies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	ccomp	_	_
 15	?	?	PUNCT	Pun	_	14	punct	_	_
-16	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	15	punct	_	Missed-SUBCAT=QUOTATION
+16	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	14	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:15
 
 # sent_id = u8e7d-16911
 # text = En kait , arvoisa poliisi , konstaapeli kaiken nähnyt ?
