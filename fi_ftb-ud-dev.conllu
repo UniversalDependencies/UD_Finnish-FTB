@@ -332,7 +332,7 @@
 6	tonnia	tonni	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nmod	_	_
 7	tavaraa	tavara	NOUN	N,Sg,Par	Case=Par|Number=Sing	8	obj	_	_
 8	tarvitset	tarvita	VERB	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	ccomp	_	_
-9	,	,	PUNCT	Pun	_	3	punct	_	FTB-rel=phrm
+9	,	,	PUNCT	Pun	_	8	punct	_	FTB-rel=phrm|Was18punct=non-proj:3
 10	nyt	nyt	ADV	Adv	_	3	conj	_	_
 
 # sent_id = hv2mf-878
@@ -2519,7 +2519,7 @@
 9	omassa	oma	ADJ	A,Sg,Ine	Case=Ine|Number=Sing	10	amod	_	_
 10	studiossa	studio	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	11	nmod	_	_
 11	säveltäen	säveltää	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	advcl	_	_
-12	,	,	PUNCT	Pun	_	7	punct	_	FTB-rel=phrm
+12	,	,	PUNCT	Pun	_	11	punct	_	FTB-rel=phrm|Was18punct=non-proj:7
 13	aamut	aamu	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	7	conj	_	_
 14	pitkälle	pitkälle	ADV	Adv	_	15	advmod	_	_
 15	iltapäivään	iltapäivä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	16	nmod	_	_
@@ -4970,7 +4970,7 @@
 4	tämä	tämä	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
 5	lopulta	lopulta	ADV	Adv	_	3	advmod	_	_
 6	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-7	,	,	PUNCT	Pun	_	3	punct	_	_
+7	,	,	PUNCT	Pun	_	6	punct	_	Was18punct=non-proj:3
 8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	10	obj	_	_
 9	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 10	pelaan	pelata	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	csubj:cop	_	_
@@ -6061,7 +6061,7 @@
 1	Kuka	kuka	PRON	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	0	root	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	6	expl	_	Alt=6_expl|Missed-Rel=phrm
 3	olikaan	olla	AUX	V,Act,Ind,Past,Sg3,Kaan	Clitic=Kaan|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
-4	,	,	PUNCT	Pun	_	1	punct	_	_
+4	,	,	PUNCT	Pun	_	3	punct	_	Was18punct=non-proj:1
 5	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	6	nsubj	_	_
 6	heitti	heittää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	csubj:cop	_	_
 7	väärän	väärä	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	8	amod	_	_
@@ -6629,7 +6629,7 @@
 3	saa	saada	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	yhden	yksi	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	5	det	_	_
 5	tiedon	tieto	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
-6	,	,	PUNCT	Pun	_	1	punct	_	FTB-rel=phrm
+6	,	,	PUNCT	Pun	_	5	punct	_	FTB-rel=phrm|Was18punct=non-proj:1
 7	toisesta	toinen	PRON	Pron,Qnt,Sg,Ela	Case=Ela|Number=Sing|PronType=Ind	1	conj	_	FTB-PronType=Qnt
 8	toisen	toinen	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	4	conj	_	FTB-PronType=Qnt
 9	ja	ja	CCONJ	Pcle,CC	_	12	cc	_	_
@@ -9728,7 +9728,7 @@
 15	tai	tai	CCONJ	Pcle,CC	_	16	cc	_	_
 16	kahden	kaksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	9	conj	_	_
 17	kuluttua	kuluttua	ADP	Adp	_	14	case	_	_
-18	.	.	PUNCT	Pun	_	14	punct	_	Was18=punct:17:case
+18	.	.	PUNCT	Pun	_	16	punct	_	Was18=punct:17:case|Was18punct=non-proj:14
 
 # sent_id = pw6ub-8516
 # text = Ympäristön kannalta on aivan sama , poltetaanko hiili täällä vai Tanskassa .
@@ -12291,7 +12291,7 @@
 2	itseni	itse	PRON	Pron,Refl,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	1	obj	_	_
 3	milloin	milloin	ADV	Adv,Qnt	PronType=Ind	1	advmod	_	_
 4	Muumipeikoksi	muumipeikko	PROPN	N,Prop,Sg,Tra	Case=Tra|Number=Sing	1	nmod	_	_
-5	,	,	PUNCT	Pun	_	3	punct	_	FTB-rel=phrm
+5	,	,	PUNCT	Pun	_	4	punct	_	FTB-rel=phrm|Was18punct=non-proj:3
 6	milloin	milloin	ADV	Adv,Qnt	PronType=Ind	3	conj	_	_
 7	Pikku-Myyksi	pikku-myy	PROPN	N,Prop,Sg,Tra	Case=Tra|Number=Sing	4	conj	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
@@ -16558,7 +16558,7 @@
 2	asiako	asia	NOUN	N,Sg,Nom,Ko	Case=Nom|Clitic=Ko|Number=Sing	0	root	_	_
 3	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	8	expl	_	Alt=8_expl|Missed-Rel=phrm
 4	olikin	olla	AUX	V,Act,Ind,Past,Sg3,Kin	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-5	,	,	PUNCT	Pun	_	2	punct	_	_
+5	,	,	PUNCT	Pun	_	4	punct	_	Was18punct=non-proj:2
 6	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 7	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	piinannut	piinata	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	csubj:cop	_	_

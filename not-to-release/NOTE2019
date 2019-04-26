@@ -5,6 +5,7 @@ Reported count of errors in successive validation reports:
 | 2nd |   |  51 |   514 |   68 |   |  633 |
 | 3rd |   |  59 |   427 |   44 |   |  530 |
 | 4th |   |  45 |   369 |   33 |   |  447 |
+| 5th |   |  43 |   358 |   31 |   |  432 |
 
 * First report
 
@@ -168,3 +169,19 @@ else something really, really tricky.
 | 7577 | AUX  |           |
 |    1 | X    | did       |
 |    1 | NOUN | minkeillä |
+
+* Fifth report, after hoisting children of case
+
+Now, after copulas, non-projective punctuation seems to dominate.
+Looking at instances, these would be punctuation marks that are linked
+rather far, possibly because in actual FTB some punctuation marks were
+considered phrase markers or something.
+
+Try this, if a token between a punctuation mark has its head on the
+other side of the punctuation mark, link the punctuation mark to a
+token next to it. First link ,.:!? preferably backwards, and this
+should be idempotent, right?
+
+Seems to be idempotent but leaves a handful of cases that are still
+non-projective where a new head can not be found (five in train, one
+in dev).
