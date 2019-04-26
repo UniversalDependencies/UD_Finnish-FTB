@@ -79,6 +79,12 @@ two that are NOUN "tulo" are apparently intentionally so.
 Also instances of "case should not have children", "mark should not
 have children".
 
+Hoisted children of "case" to parent before fifth report.
+
+Hoisted "case" children of "mark" after fifth report.
+
+Hope did not hoist any "fixed" children of "case" and what else?
+
 ** punctuation ... non-projectivity
 
 Also "punctuation ... non-projectivity" hate punctuation.
@@ -185,3 +191,4 @@ should be idempotent, right?
 Seems to be idempotent but leaves a handful of cases that are still
 non-projective where a new head can not be found (five in train, one
 in dev).
+

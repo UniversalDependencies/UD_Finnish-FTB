@@ -1,0 +1,118 @@
+#! /usr/bin/env python3
+# -*- mode: Python; -*-
+
+from argparse import ArgumentParser
+from itertools import groupby
+import os, sys
+
+def parseargs():
+    description = '''
+
+    Move children of "mark" to the parent of the "mark".  Leave in
+    Misc a trace "Was18mark=r:k" where r is the rel of the child and k
+    the id of the "mark".
+
+    '''
+    parser = ArgumentParser(description = description)
+
+    parser.add_argument('inf',
+                        help = '''
+                        
+                        input file in *.conllu
+
+                        ''')
+                        
+    parser.add_argument('--in-place', '-i',
+                        dest = 'inplace',
+                        action = 'store_true',
+                        help = '''
+
+                        write to "{input-file}-temp" and replace input
+                        file with output file at end
+                        
+
+                        ''')
+
+    return parser.parse_args()
+
+def sentences(ins):
+    for between, group in groupby(ins, str.isspace):
+        if between: continue
+        yield [
+            line.rstrip('\r\n').split('\t')
+            for line in group
+        ]
+
+def tokens(sen):
+    return [
+        record
+        for record in sen
+        if record[0].isdigit()
+    ]
+
+def main(args):
+
+    if not args.inf.endswith('.conllu'):
+        print('error: input file not in *.conllu:', args.inf,
+              file = sys.stderr)
+        exit(1)
+
+    # used if args.inplace
+    ouf = '{}-temp'.format(args.inf)
+
+    # assumes sys.stdout is UTF-8 - please make it so
+    out = (open(ouf, mode = 'w', encoding = 'UTF-8')
+           if args.inplace
+           else sys.stdout)
+
+    [ REF, WORD, BASE,
+      UPOS, XPOS,
+      FEAT, HEAD, REL,
+      WEV, MISC ] = range(10)
+
+    for sen in sentences(open(args.inf, encoding = 'UTF-8')):
+        
+        # toks contains token records of sen; sen also contains other
+        # records; each index in a token record (as a string) is
+        # 1-based, so off by 1 with respect to toks as a Python list
+        
+        toks = tokens(sen)
+        for token in toks:
+            
+            [ ref, word, base,
+              upos, xpos,
+              feat, head, rel,
+              wev, misc ] = token
+
+            if rel == 'root': continue
+
+            parent = toks[int(token[HEAD]) - 1]
+            # validator only seems to complain of "case";
+            # there be plenty of "fixed" as children of "mark"
+            # but guess they do not count so do not hoist them
+            if (parent[REL] == 'mark' and token[REL] in ('case',)):
+                trace = 'Was18mark={}:{}'.format(rel, head)
+                token[HEAD] = parent[HEAD]
+                token[MISC] = '|'.join(sorted(([]
+                                               if misc == '_'
+                                               else misc.split('|'))
+                                              + [trace],
+                                              key = str.lower))
+            else: continue  
+
+        for record in sen:
+            print(*record, sep = '\t', file = out)
+        else: print(file = out)
+
+    if args.inplace:
+        out.close()
+        os.rename(args.inf, '{}~'.format(args.inf))
+        os.rename(ouf, args.inf)
+
+if __name__ == '__main__':
+    try:
+        main(parseargs())
+    except BrokenPipeError as exn:
+        print(exn)
+    except KeyboardInterrupt as exn:
+        print(exn)
