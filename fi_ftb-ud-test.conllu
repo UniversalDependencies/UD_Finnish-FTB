@@ -6706,7 +6706,7 @@
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	vaan	vaan	CCONJ	Pcle,CC	_	21	cc	_	_
 15	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	21	mark	_	_
-16	vuoksi	vuoksi	ADP	Adp	_	15	case	_	_
+16	vuoksi	vuoksi	ADP	Adp	_	21	case	_	Was18mark=case:15
 17	,	,	PUNCT	Pun	_	15	punct	_	Was18=punct:16:case
 18	että	että	SCONJ	Pcle,CS	_	15	fixed	_	_
 19	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	21	nsubj:cop	_	_
