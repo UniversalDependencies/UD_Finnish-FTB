@@ -18049,7 +18049,7 @@
 4	Organ	organ	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	3	flat	_	Alt=name
 5	Blasterin	blaster	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	flat	_	Alt=6_nmod
 6	kappaleen	kappale	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
-7	BWV	bwv	PROPN	N,Abbr,Prop,Sg,Nom	Abbr=Yes|Case=Nom|Number=Sing	6	nummod	_	Alt=name
+7	BWV	bwv	PROPN	N,Abbr,Prop,Sg,Nom	Abbr=Yes|Case=Nom|Number=Sing	6	nmod	_	Alt=name|Was18propnum=nummod
 8	680	680	NUM	Num,Card	NumType=Card	7	flat	_	_
 
 # sent_id = pcrm8-14501
