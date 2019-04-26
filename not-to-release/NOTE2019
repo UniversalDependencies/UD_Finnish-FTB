@@ -6,6 +6,7 @@ Reported count of errors in successive validation reports:
 | 3rd |   |  59 |   427 |   44 |   |  530 |
 | 4th |   |  45 |   369 |   33 |   |  447 |
 | 5th |   |  43 |   358 |   31 |   |  432 |
+| 6th |   |  32 |   235 |   26 |   |  293 |
 
 * First report
 
@@ -88,6 +89,8 @@ Hope did not hoist any "fixed" children of "case" and what else?
 ** punctuation ... non-projectivity
 
 Also "punctuation ... non-projectivity" hate punctuation.
+
+Much tamed after fifth report.
 
 ** advmod should be ADV
 
@@ -183,6 +186,8 @@ Looking at instances, these would be punctuation marks that are linked
 rather far, possibly because in actual FTB some punctuation marks were
 considered phrase markers or something.
 
+** Punctuation non-projectivity
+
 Try this, if a token between a punctuation mark has its head on the
 other side of the punctuation mark, link the punctuation mark to a
 token next to it. First link ,.:!? preferably backwards, and this
@@ -192,3 +197,12 @@ Seems to be idempotent but leaves a handful of cases that are still
 non-projective where a new head can not be found (five in train, one
 in dev).
 
+** Hoisted "mark" childer
+
+Only "case" not "fixed"
+
+** TODO Go right with
+
+Rotate dependencies.
+
+There seem to have been only six of these, all in train.
