@@ -277,18 +277,93 @@ hand.
 |     1 | ennustaa     | AUX  |        |
 |     1 | alkaa        | AUX  |        |
 
-** Working non-standard copulas by hand
+** Working non-standard copulas in dev by hand
 
 "Easy" cases first.
 
-Skip "ei" h96i1 in dev.
-Skip "ei" fs4mp in dev.
-Skip "tuli mitä tuli" figj7 in dev (double cop).
-Skip "joka teki minusta" ruqdj in dev (huh).
-Skip "ei" wytpo in dev.
+Skip "ei" h96i1
+Skip "ei" fs4mp
+Skip "tuli mitä tuli" figj7 (double cop)
+Skip "joka teki minusta" ruqdj (huh)
+Skip "ei" wytpo
 
-Wonder about unbxk node 1.
+Wonder about unbxk node 1
 
-Skip "tehdä häistä show" k1i3u in dev.
+Skip "tehdä häistä show" k1i3u
 
-Kept not-to-release/nst-cop-dev-1.txt report of this round.
+Kept not-to-release/nst-cop-dev-1.txt report of this round
+
+Validation report looks promising - no surprises
+
+** Working non-standard copulas in train by hand
+
+Skip "ei" bxvs7
+Skip "ei" jcvlm
+
+Wonder some about wi2xa, tricky.
+
+Skip "ei" x4bxh
+Skip "tekevät merestä meren" rbzms
+Skip "tekivät McCarthysta tähden" p7n5v
+Skip "tekee hänestä ehdokkaan" eyspq
+Skip "ei" pnpak
+Skip "ei" xoadr
+
+Wonder about "Mikasta leivottiin mestari" yqhnu but why not?
+
+Skip "toivon hänestä ehdokasta" s5jm4
+Skip "veikkaavat kaudesta pahinta" izagl
+Skip "vuodesta ennustetaan tappiollista" zegwo
+Skip "hänestä tehtiin laulaja" heo29
+
+Similarly wonder about "hänestä odotettiin Carusoa" ruwct
+
+Skip "saat kakusta kuohkean" sjnox
+Skip "ei" qo2wp
+Skip "teemme sinusta johtajan" ai305
+Skip "tehdä Jerusalemista pääkaupunki" c53g8
+Skip "aidasta hän teki lujan" kmzrn
+Skip "hoitajasta tehdään päätoiminen" qmodj
+Skip "teimme hoitajasta päätoimisen" n27y3
+Skip "heikoista tehdään heikompia" ajd97
+Skip "kasvoista tehtiin tunnistamattomat" odlsv
+Skip "neuvotteluista tehtiin nappula" ojwh6
+Skip "salmonellasta tehtäisi peikkoa" b75zo
+Skip "kuntoilusta tekemässä lajia" bguy1
+
+Similarly wonder about "lakosta odotetaan pitkää" cfux5
+
+Skip "hänestä tehtiin ministeri" auief
+Skip "hänestä pitäisi tehdä ministeri" dovmc
+Skip "tehkää hänestä ministeri" dq7zk
+Skip "teki tästä Unkarin" d6git
+Skip "tekee tarinasta koskettavan" ndc38
+Skip "muovanneet Masista Masin" hlfgj
+Skip "ei" qy0ad
+Skip "ei" vhvkm
+Skip "sinusta on tulossa juoppo" c56qb
+Skip "tuli, mitä tuli" eqt05
+Skip "ei" ah67z
+Skip "ei" gfs2h
+Skip "ei" df8op
+Skip "ei" yrcj9
+Skip "ei" gzklf
+Skip "ei" zut13
+Skip "tehnyt Litmasesta pelaajaa" xql5u
+Skip "ei" saylg
+Skip "tehnyt ihmisistä omavaraisia" zh7gq
+Skip "tehdään alokkaista miehiä" nwr25
+
+(Weird coordination structure/root in dzdkb)
+
+Skip "ei" z3kw6
+Skip "tehdä minusta sairaan" e1en8
+Skip "ei" k0wzk
+Skip "tästä tehdään paikka" jjr27
+Skip "kehittää lapsille keino" cr34e
+
+(Tricky "josta hänen piti viimeistellä teos" oo0zk - made "josta" nobj)
+
+Skip "ei" k60wf"
+Skip "siitä turnaus on tulossa" hmqo9
+Skip "tehdä hänestä miehen" zqc6d
