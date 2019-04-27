@@ -1978,9 +1978,9 @@
 
 # sent_id = hch0w-2824
 # text = sattui tulemaan kuuluisia
-1	sattui	sattua	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	tulemaan	tulla	AUX	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	3	cop	_	_
-3	kuuluisia	kuuluisa	ADJ	A,Pl,Par	Case=Par|Number=Plur	0	root	_	_
+1	sattui	sattua	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	aux	_	_
+2	tulemaan	tulla	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	0	root	_	_
+3	kuuluisia	kuuluisa	ADJ	A,Pl,Par	Case=Par|Number=Plur	2	xcomp	_	_
 
 # sent_id = vhu69-2854
 # text = Minä haluaisin opiskella saksaa .
@@ -6745,11 +6745,11 @@
 13	jo	jo	PART	Pcle	_	14	advmod	_	_
 14	nyt	nyt	ADV	Adv	_	12	advmod	_	_
 15	:	:	PUNCT	Pun	_	14	punct	_	_
-16	Valmentajaa	valmentaja	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	conj	_	_
-17	minusta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs	16	nmod	_	_
-18	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	16	aux	_	_
-19	tule	tulla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
-20	koskaan	koskaan	ADV	Adv	_	16	advmod	_	_
+16	Valmentajaa	valmentaja	NOUN	N,Sg,Par	Case=Par|Number=Sing	19	xcomp	_	_
+17	minusta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	_
+18	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	19	aux	_	_
+19	tule	tulla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
+20	koskaan	koskaan	ADV	Adv	_	19	advmod	_	_
 21	.	.	PUNCT	Pun	_	20	punct	_	_
 
 # sent_id = q3hbz-6614
@@ -7312,12 +7312,12 @@
 6	Railin	raili	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	conj	_	_
 7	kanssa	kanssa	ADP	Adp	_	2	case	_	_
 8	vetoa	veto	NOUN	N,Sg,Par	Case=Par|Number=Sing	1	compound:prt	_	_
-9	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	14	expl	_	Alt=14_expl|Missed-Rel=phrm
+9	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	13	expl	_	Alt=14_expl|Missed-Rel=phrm
 10	,	,	PUNCT	Pun	_	9	punct	_	_
-11	että	että	SCONJ	Pcle,CS	_	14	mark	_	_
-12	Tuomiojasta	tuomioja	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	14	nmod	_	_
-13	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
-14	presidentti	presidentti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	acl	_	_
+11	että	että	SCONJ	Pcle,CS	_	13	mark	_	_
+12	Tuomiojasta	tuomioja	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	13	nsubj	_	_
+13	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	acl	_	_
+14	presidentti	presidentti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	xcomp	_	_
 15	.	.	PUNCT	Pun	_	14	punct	_	_
 
 # sent_id = bm86l-7055
@@ -7676,8 +7676,8 @@
 
 # sent_id = c1xva-7432
 # text = Tulee kylmä .
-1	Tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
-2	kylmä	kylmä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	kylmä	kylmä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	1	xcomp	_	_
 3	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = lfge6-7446
@@ -7875,8 +7875,8 @@
 
 # sent_id = j9jph-7607
 # text = Tuli kuuma
-1	Tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-2	kuuma	kuuma	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	kuuma	kuuma	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	1	xcomp	_	_
 
 # sent_id = icz97-7635
 # text = kysyimme isännältä , että missä palaa .
@@ -7890,17 +7890,17 @@
 
 # sent_id = bqn6c-7638
 # text = Toivottavasti huomenna tulee kaunista .
-1	Toivottavasti	toivottavasti	ADV	Adv	_	4	advmod	_	_
-2	huomenna	huomenna	ADV	Adv	_	4	advmod	_	_
-3	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	kaunista	kaunis	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+1	Toivottavasti	toivottavasti	ADV	Adv	_	3	advmod	_	_
+2	huomenna	huomenna	ADV	Adv	_	3	advmod	_	_
+3	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	kaunista	kaunis	ADJ	A,Sg,Par	Case=Par|Number=Sing	3	xcomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = d9da6-7642
 # text = Nyt tulee aamu
-1	Nyt	nyt	ADV	Adv	_	3	advmod	_	_
-2	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	aamu	aamu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Nyt	nyt	ADV	Adv	_	2	advmod	_	_
+2	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	aamu	aamu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 
 # sent_id = khj4w-7657
 # text = Syitä ennätystehtailuun on esitetty useita .
@@ -7935,11 +7935,11 @@
 
 # sent_id = u356n-7701
 # text = Sihteerintoimesta ei kuitenkaan tullut pitkäaikaista .
-1	Sihteerintoimesta	sihteerintoimi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	5	nmod	_	_
-2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
-3	kuitenkaan	kuitenkaan	PART	Pcle	_	5	advmod	_	_
-4	tullut	tulla	AUX	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-5	pitkäaikaista	pitkäaikainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+1	Sihteerintoimesta	sihteerintoimi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nsubj	_	_
+2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
+3	kuitenkaan	kuitenkaan	PART	Pcle	_	4	advmod	_	_
+4	tullut	tulla	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	pitkäaikaista	pitkäaikainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	4	xcomp	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
 
 # sent_id = nwdzu-7716
@@ -8478,19 +8478,19 @@
 # sent_id = doamk-8193
 # text = Nää kalathan tuli hyviä .
 1	Nää	nämä	DET	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem|Style=Coll	2	det	_	_
-2	kalathan	kala	NOUN	N,Pl,Nom,Han	Case=Nom|Clitic=Han|Number=Plur	4	nsubj:cop	_	_
-3	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	hyviä	hyvä	ADJ	A,Pl,Par	Case=Par|Number=Plur	0	root	_	_
+2	kalathan	kala	NOUN	N,Pl,Nom,Han	Case=Nom|Clitic=Han|Number=Plur	3	nsubj	_	_
+3	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+4	hyviä	hyvä	ADJ	A,Pl,Par	Case=Par|Number=Plur	3	xcomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = t162y-8211
 # text = Jari Mantilasta on kasvanut varsinainen tekijämies .
-1	Jari	jari	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nmod	_	Alt=name
+1	Jari	jari	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	Alt=name
 2	Mantilasta	mantila	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	1	flat	_	_
-3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
-4	kasvanut	kasvaa	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	cop	_	_
+3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	kasvanut	kasvaa	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	varsinainen	varsinainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
-6	tekijämies	tekijämies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+6	tekijämies	tekijämies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	xcomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = cn70l-8213
@@ -8832,22 +8832,22 @@
 3	marjoja	marja	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5-6	ettei	_	_	_	_	_	_	_	_
-5	ett	että	SCONJ	Pcle,CS	Style=Coll	9	mark	_	Join=Yes
-6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
-7	mehusta	mehu	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	9	nmod	_	_
-8	tule	tulla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
-9	sameaa	samea	ADJ	A,Sg,Par	Case=Par|Number=Sing	2	advcl	_	_
+5	ett	että	SCONJ	Pcle,CS	Style=Coll	8	mark	_	Join=Yes
+6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
+7	mehusta	mehu	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	8	nsubj	_	_
+8	tule	tulla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
+9	sameaa	samea	ADJ	A,Sg,Par	Case=Par|Number=Sing	8	xcomp	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = k5f7z-8426
 # text = hampurilaisista ja pizzoista on tullut suomalaista kansallisruokaa .
-1	hampurilaisista	hampurilainen	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	7	nmod	_	_
+1	hampurilaisista	hampurilainen	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	5	nsubj	_	_
 2	ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
 3	pizzoista	pizza	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	1	conj	_	_
-4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-5	tullut	tulla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	cop	_	_
+4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
+5	tullut	tulla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	suomalaista	suomalainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	7	amod	_	_
-7	kansallisruokaa	kansallisruoka	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+7	kansallisruokaa	kansallisruoka	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	xcomp	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = k95ea-8439
@@ -9445,9 +9445,9 @@
 
 # sent_id = jkurm-8907
 # text = Hiljaa hyvä tulee , meillä Suomessa sanotaan .
-1	Hiljaa	hiljaa	ADV	Adv	_	2	advmod	_	_
-2	hyvä	hyvä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	7	ccomp	_	_
-3	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
+1	Hiljaa	hiljaa	ADV	Adv	_	3	advmod	_	_
+2	hyvä	hyvä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	3	xcomp	_	_
+3	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
 4	,	,	PUNCT	Pun	_	7	punct	_	FTB-rel=phrm
 5	meillä	me	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	7	nmod	_	_
 6	Suomessa	suomi	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	7	nmod	_	_
@@ -12168,14 +12168,14 @@
 # text = Olennaista on se , että tästä ylipäänsä voi tulla jotain .
 1	Olennaista	olennainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
-3	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
+3	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	expl	_	Alt=10_expl|Missed-Rel=phrm
 4	,	,	PUNCT	Pun	_	3	punct	_	_
-5	että	että	SCONJ	Pcle,CS	_	10	mark	_	_
-6	tästä	tämä	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	10	nmod	_	_
-7	ylipäänsä	ylipäänsä	ADV	Adv,Px3	Person[psor]=3	10	advmod	_	_
-8	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
-9	tulla	tulla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	10	cop	_	_
-10	jotain	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	1	csubj:cop	_	FTB-PronType=Qnt
+5	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
+6	tästä	tämä	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	9	nsubj	_	_
+7	ylipäänsä	ylipäänsä	ADV	Adv,Px3	Person[psor]=3	9	advmod	_	_
+8	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	tulla	tulla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	csubj:cop	_	_
+10	jotain	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	9	xcomp	_	FTB-PronType=Qnt
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
 # sent_id = hit3k-10427
@@ -13923,9 +13923,9 @@
 
 # sent_id = wi5au-11548
 # text = Minulle tuli kylmä .
-1	Minulle	minä	PRON	Pron,Pers,Sg1,All	Case=All|Number=Sing|Person=1|PronType=Prs	3	nmod	_	_
-2	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	kylmä	kylmä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Minulle	minä	PRON	Pron,Pers,Sg1,All	Case=All|Number=Sing|Person=1|PronType=Prs	2	nmod	_	_
+2	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+3	kylmä	kylmä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
 
 # sent_id = til3r-11551
@@ -13983,13 +13983,13 @@
 
 # sent_id = pna6r-11647
 # text = Kuinka Helsingin työläiskaupunginosan Kallion tytöstä tuli presidentti ?
-1	Kuinka	kuinka	ADV	Adv,Interr	PronType=Int	7	advmod	_	_
+1	Kuinka	kuinka	ADV	Adv,Interr	PronType=Int	6	advmod	_	_
 2	Helsingin	helsinki	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 3	työläiskaupunginosan	työläiskaupunginosa	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
 4	Kallion	kallio	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
-5	tytöstä	tyttö	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	7	nmod	_	_
-6	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop	_	_
-7	presidentti	presidentti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+5	tytöstä	tyttö	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	6	nsubj	_	_
+6	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+7	presidentti	presidentti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	xcomp	_	_
 8	?	?	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = zu4qc-11665
