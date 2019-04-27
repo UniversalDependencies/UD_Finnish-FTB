@@ -114,13 +114,13 @@ def main(args):
             for record in sen:
                 # there are no dependents of a "cop" (grep ^cop)
                 kind = ('#' if not record[0].isdigit() else
-                        'COP' if record is token else
-                        'PAR' if record is parent
+                        'COP     ' if record is token else
+                        'PAR     ' if record is parent
 
-                        else '{}-cop'.format(record[REL])
+                        else '{:8}-cop'.format(record[REL])
                         if record[HEAD] == token[REF]
 
-                        else '{}-par'.format(record[REL])
+                        else '{:8}-par'.format(record[REL])
                         if record[HEAD] == parent[REF]
                         
                         else

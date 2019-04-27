@@ -1,0 +1,352 @@
+#	# sent_id = winv6-489
+#	# text = Lapseni paras ystävä täytti kolme vuotta .
+.	1	Lapseni	NOUN	3	nmod
+.	2	paras	ADJ	3	amod
+nsubj:cop-par	3	ystävä	NOUN	6	nsubj:cop
+COP     	4	täytti	AUX	6	cop
+nummod  -par	5	kolme	NUM	6	nummod
+PAR     	6	vuotta	NOUN	0	root
+punct   -par	7	.	PUNCT	6	punct
+
+#	# sent_id = dukwx-660
+#	# text = Koodista tulisi loputtoman pitkä ja etenkin ulkopuolisen lienisi hankala lukea sitä
+nsubj:cop-par	1	Koodista	NOUN	4	nsubj:cop
+COP     	2	tulisi	AUX	4	cop
+amod    -par	3	loputtoman	ADJ	4	amod
+PAR     	4	pitkä	ADJ	0	root
+.	5	ja	CCONJ	9	cc
+.	6	etenkin	PART	7	advmod
+xout	7	ulkopuolisen	NOUN	10	nsubj
+.	8	lienisi	AUX	9	cop
+conj    -par	9	hankala	ADJ	4	conj
+.	10	lukea	VERB	9	xcomp:ds
+.	11	sitä	PRON	10	obj
+
+#	# sent_id = to61a-772
+#	# text = Se on tullunna harmmoopäeseks
+nsubj:cop-par	1	Se	PRON	4	nsubj:cop
+aux     -par	2	on	AUX	4	aux
+COP     	3	tullunna	AUX	4	cop
+PAR     	4	harmmoopäeseks	ADJ	0	root
+
+#	# sent_id = h96i1-1205
+#	# text = Duuman kuohunta olisi kiusallista , mutta ei vielä vaarallista .
+.	1	Duuman	PROPN	2	nmod
+.	2	kuohunta	NOUN	4	nsubj:cop
+.	3	olisi	AUX	4	cop
+.	4	kiusallista	ADJ	0	root
+.	5	,	PUNCT	4	punct
+cc      -par	6	mutta	CCONJ	9	cc
+COP     	7	ei	AUX	9	cop
+advmod  -par	8	vielä	PART	9	advmod
+PAR     	9	vaarallista	ADJ	4	conj
+punct   -par	10	.	PUNCT	9	punct
+
+#	# sent_id = x0rzc-1288
+#	# text = Tekotimantista tulee pian yhtä kestävä kimaltelija kuin kuvan aidosta .
+nmod    -par	1	Tekotimantista	NOUN	6	nmod
+COP     	2	tulee	AUX	6	cop
+advmod  -par	3	pian	ADV	6	advmod
+.	4	yhtä	ADV	5	advmod
+amod    -par	5	kestävä	ADJ	6	amod
+PAR     	6	kimaltelija	NOUN	0	root
+.	7	kuin	SCONJ	9	mark
+.	8	kuvan	NOUN	9	nmod
+xin	9	aidosta	ADJ	5	advcl
+.	10	.	PUNCT	9	punct
+
+#	# sent_id = rc7ux-2847
+#	# text = Hänestä voi tulla sensaatio .
+nmod    -par	1	Hänestä	PRON	4	nmod
+aux     -par	2	voi	AUX	4	aux
+COP     	3	tulla	AUX	4	cop
+PAR     	4	sensaatio	NOUN	0	root
+punct   -par	5	.	PUNCT	4	punct
+
+#	# sent_id = mxuyz-3566
+#	# text = Vichyvedellä lettutaikinasta tulee kuohkeampaa .
+nmod    -par	1	Vichyvedellä	NOUN	4	nmod
+nmod    -par	2	lettutaikinasta	NOUN	4	nmod
+COP     	3	tulee	AUX	4	cop
+PAR     	4	kuohkeampaa	ADJ	0	root
+punct   -par	5	.	PUNCT	4	punct
+
+#	# sent_id = q7t2v-4277
+#	# text = Kuopiolaisesta poliisikoira Akusta tulee Suomen ensimmäinen sankarikoira .
+.	1	Kuopiolaisesta	ADJ	3	amod
+.	2	poliisikoira	NOUN	3	compound:nn
+nmod    -par	3	Akusta	PROPN	7	nmod
+COP     	4	tulee	AUX	7	cop
+nmod    -par	5	Suomen	PROPN	7	nmod
+amod    -par	6	ensimmäinen	ADJ	7	amod
+PAR     	7	sankarikoira	NOUN	0	root
+punct   -par	8	.	PUNCT	7	punct
+
+#	# sent_id = ibgic-4599
+#	# text = Jos lankkua naista yritetään topata muodokkaaksi , hänestä tulee lähinnä koominen .
+.	1	Jos	SCONJ	4	mark
+.	2	lankkua	NOUN	3	compound:nn
+xin	3	naista	NOUN	5	obj
+advcl   -par	4	yritetään	VERB	11	advcl
+.	5	topata	VERB	4	xcomp
+.	6	muodokkaaksi	ADJ	5	nmod
+.	7	,	PUNCT	6	punct
+nmod    -par	8	hänestä	PRON	11	nmod
+COP     	9	tulee	AUX	11	cop
+advmod  -par	10	lähinnä	PART	11	advmod
+PAR     	11	koominen	ADJ	0	root
+punct   -par	12	.	PUNCT	11	punct
+
+#	# sent_id = fs4mp-4773
+#	# text = Mutta ei sen pahempi kuin yleensä miehet tällä alalla .
+cc      -par	1	Mutta	CCONJ	4	cc
+COP     	2	ei	AUX	4	cop
+det     -par	3	sen	DET	4	det
+PAR     	4	pahempi	ADJ	0	root
+.	5	kuin	SCONJ	7	mark
+.	6	yleensä	ADV	7	advmod
+advcl   -par	7	miehet	NOUN	4	advcl
+.	8	tällä	DET	9	det
+.	9	alalla	NOUN	7	nmod
+.	10	.	PUNCT	9	punct
+
+#	# sent_id = eqmot-5610
+#	# text = Sehän tekisi kaikista , mukaan lukien vähäosaisimmista , teoriaherrojen poliittisten pakkomielteiden maksumiehiä ja uhreja
+nsubj:cop-par	1	Sehän	PRON	12	nsubj:cop
+COP     	2	tekisi	AUX	12	cop
+nmod    -par	3	kaikista	PRON	12	nmod
+.	4	,	PUNCT	3	punct
+.	5	mukaan	ADV	7	dep
+.	6	lukien	VERB	5	fixed
+.	7	vähäosaisimmista	ADJ	3	amod
+.	8	,	PUNCT	7	punct
+.	9	teoriaherrojen	NOUN	11	nmod
+.	10	poliittisten	ADJ	11	amod
+nmod    -par	11	pakkomielteiden	NOUN	12	nmod
+PAR     	12	maksumiehiä	NOUN	0	root
+.	13	ja	CCONJ	14	cc
+conj    -par	14	uhreja	NOUN	12	conj
+
+#	# sent_id = juwry-5849
+#	# text = Ritari polvistui neidon eteen ja pyysi tämän isältä lupaa viedä neito Roomaan , jossa hänestä tulisi keisarin puoliso .
+.	1	Ritari	NOUN	2	nsubj
+.	2	polvistui	VERB	0	root
+.	3	neidon	NOUN	2	nmod
+.	4	eteen	ADP	3	case
+.	5	ja	CCONJ	6	cc
+.	6	pyysi	VERB	2	conj
+.	7	tämän	DET	8	det
+.	8	isältä	NOUN	6	nmod
+.	9	lupaa	NOUN	6	obj
+.	10	viedä	VERB	9	acl
+.	11	neito	NOUN	10	obj
+.	12	Roomaan	PROPN	10	nmod
+.	13	,	PUNCT	12	punct
+nmod    -par	14	jossa	PRON	18	nmod
+nmod    -par	15	hänestä	PRON	18	nmod
+COP     	16	tulisi	AUX	18	cop
+nmod    -par	17	keisarin	NOUN	18	nmod
+PAR     	18	puoliso	NOUN	12	acl
+punct   -par	19	.	PUNCT	18	punct
+
+#	# sent_id = figj7-5900
+#	# text = Minä lähden sinne rapakon taakse , tuli mitä tuli .
+.	1	Minä	PRON	2	nsubj
+.	2	lähden	VERB	0	root
+.	3	sinne	ADV	4	advmod
+.	4	rapakon	NOUN	2	nmod
+.	5	taakse	ADP	4	case
+.	6	,	PUNCT	4	punct
+COP     	7	tuli	AUX	8	cop
+PAR     	8	mitä	PRON	2	advcl
+cop     -par	9	tuli	AUX	8	cop
+punct   -par	10	.	PUNCT	8	punct
+
+#	# sent_id = figj7-5900
+#	# text = Minä lähden sinne rapakon taakse , tuli mitä tuli .
+.	1	Minä	PRON	2	nsubj
+.	2	lähden	VERB	0	root
+.	3	sinne	ADV	4	advmod
+.	4	rapakon	NOUN	2	nmod
+.	5	taakse	ADP	4	case
+.	6	,	PUNCT	4	punct
+cop     -par	7	tuli	AUX	8	cop
+PAR     	8	mitä	PRON	2	advcl
+COP     	9	tuli	AUX	8	cop
+punct   -par	10	.	PUNCT	8	punct
+
+#	# sent_id = u4wyv-7429
+#	# text = Porvoosta tulee Helsingin lähiö .
+nmod    -par	1	Porvoosta	PROPN	4	nmod
+COP     	2	tulee	AUX	4	cop
+nmod    -par	3	Helsingin	PROPN	4	nmod
+PAR     	4	lähiö	NOUN	0	root
+punct   -par	5	.	PUNCT	4	punct
+
+#	# sent_id = gusmj-7603
+#	# text = Tuli hiljaista
+COP     	1	Tuli	AUX	2	cop
+PAR     	2	hiljaista	ADJ	0	root
+
+#	# sent_id = lkm9s-7684
+#	# text = Salonkeja ja muotiliikkeita tuli kuitenkin uusia .
+nsubj:cop-par	1	Salonkeja	NOUN	6	nsubj:cop
+.	2	ja	CCONJ	3	cc
+.	3	muotiliikkeita	NOUN	1	conj
+COP     	4	tuli	AUX	6	cop
+advmod  -par	5	kuitenkin	PART	6	advmod
+PAR     	6	uusia	ADJ	0	root
+punct   -par	7	.	PUNCT	6	punct
+
+#	# sent_id = ruqdj-7695
+#	# text = Se oli isku , joka teki minusta pihtiputaalaisen .
+.	1	Se	PRON	3	nsubj:cop
+.	2	oli	AUX	3	cop
+.	3	isku	NOUN	0	root
+.	4	,	PUNCT	3	punct
+nsubj:cop-par	5	joka	PRON	8	nsubj:cop
+COP     	6	teki	AUX	8	cop
+nmod    -par	7	minusta	PRON	8	nmod
+PAR     	8	pihtiputaalaisen	ADJ	3	acl
+punct   -par	9	.	PUNCT	8	punct
+
+#	# sent_id = a46az-7710
+#	# text = Hänestä tulee laulaja
+nmod    -par	1	Hänestä	PRON	3	nmod
+COP     	2	tulee	AUX	3	cop
+PAR     	3	laulaja	NOUN	0	root
+
+#	# sent_id = qr0q5-7740
+#	# text = Minun tulee sääli häntä .
+nsubj:cop-par	1	Minun	PRON	3	nsubj:cop
+COP     	2	tulee	AUX	3	cop
+PAR     	3	sääli	NOUN	0	root
+nmod    -par	4	häntä	PRON	3	nmod
+.	5	.	PUNCT	4	punct
+
+#	# sent_id = oyb7p-8293
+#	# text = kirjailija Pentti Saarikoski ja professori Matti Klinge joista tuli elämänikäiset ystävät .
+.	1	kirjailija	NOUN	2	compound:nn
+.	2	Pentti	PROPN	0	root
+.	3	Saarikoski	PROPN	2	flat
+.	4	ja	CCONJ	6	cc
+.	5	professori	NOUN	6	compound:nn
+.	6	Matti	PROPN	2	conj
+.	7	Klinge	PROPN	6	flat
+nmod    -par	8	joista	PRON	11	nmod
+COP     	9	tuli	AUX	11	cop
+amod    -par	10	elämänikäiset	ADJ	11	amod
+PAR     	11	ystävät	NOUN	2	acl
+punct   -par	12	.	PUNCT	11	punct
+
+#	# sent_id = eu4oe-11087
+#	# text = Hänestä on tullut isoäiti , ja hänen asunnostaan Tukholman vanhassa kaupungissa miltei matkailunähtävyys .
+nmod    -par	1	Hänestä	PRON	4	nmod
+aux     -par	2	on	AUX	4	aux
+COP     	3	tullut	AUX	4	cop
+PAR     	4	isoäiti	NOUN	0	root
+punct   -par	5	,	PUNCT	4	punct
+.	6	ja	CCONJ	13	cc
+.	7	hänen	DET	8	det
+.	8	asunnostaan	NOUN	1	conj
+.	9	Tukholman	PROPN	11	nmod
+.	10	vanhassa	ADJ	11	amod
+.	11	kaupungissa	NOUN	8	nmod
+.	12	miltei	PART	13	advmod
+conj    -par	13	matkailunähtävyys	NOUN	4	conj
+.	14	.	PUNCT	13	punct
+
+#	# sent_id = wytpo-11133
+#	# text = Ruoka on tasoltaan yleisesti ottaen ihan syötävää , joskaan ei erinomaista .
+.	1	Ruoka	NOUN	7	nsubj:cop
+.	2	on	AUX	7	cop
+.	3	tasoltaan	NOUN	7	nmod
+.	4	yleisesti	ADV	5	advmod
+.	5	ottaen	VERB	7	advcl
+.	6	ihan	PART	7	advmod
+.	7	syötävää	VERB	0	root
+.	8	,	PUNCT	7	punct
+cc      -par	9	joskaan	CCONJ	11	cc
+COP     	10	ei	AUX	11	cop
+PAR     	11	erinomaista	ADJ	7	conj
+punct   -par	12	.	PUNCT	11	punct
+
+#	# sent_id = ryrk9-11301
+#	# text = Mikä sinun nyt tuli ?
+PAR     	1	Mikä	PRON	0	root
+nsubj:cop-par	2	sinun	PRON	1	nsubj:cop
+advmod  -par	3	nyt	ADV	1	advmod
+COP     	4	tuli	AUX	1	cop
+punct   -par	5	?	PUNCT	1	punct
+
+#	# sent_id = xjs82-13070
+#	# text = Kun Peacockin yleisö hurraa , tulee sellainen tunne , että ihan kuin ei olisi Suomessa ollenkaan .
+.	1	Kun	SCONJ	4	mark
+.	2	Peacockin	PROPN	3	nmod
+.	3	yleisö	NOUN	4	nsubj
+advcl   -par	4	hurraa	VERB	8	advcl
+.	5	,	PUNCT	4	punct
+COP     	6	tulee	AUX	8	cop
+amod    -par	7	sellainen	DET	8	amod
+PAR     	8	tunne	NOUN	0	root
+punct   -par	9	,	PUNCT	8	punct
+.	10	että	SCONJ	14	mark
+.	11	ihan	PART	14	mark
+.	12	kuin	SCONJ	11	fixed
+.	13	ei	AUX	14	aux
+acl     -par	14	olisi	VERB	8	acl
+.	15	Suomessa	PROPN	14	nmod
+.	16	ollenkaan	ADV	14	advmod
+.	17	.	PUNCT	16	punct
+
+#	# sent_id = u6cei-13821
+#	# text = Tällöin myös Koivuselästä tuli monikansallinen kylä .
+advmod  -par	1	Tällöin	ADV	6	advmod
+.	2	myös	PART	3	advmod
+nmod    -par	3	Koivuselästä	PROPN	6	nmod
+COP     	4	tuli	AUX	6	cop
+amod    -par	5	monikansallinen	ADJ	6	amod
+PAR     	6	kylä	NOUN	0	root
+punct   -par	7	.	PUNCT	6	punct
+
+#	# sent_id = ed1ci-14888
+#	# text = Marjamäen tapaama viehättävä neitonen , josta sittemmin oli tuleva rouva Marjamäki oli tietämätön sanan merkityksestä .
+.	1	Marjamäen	PROPN	2	nsubj
+.	2	tapaama	VERB	4	acl
+.	3	viehättävä	ADJ	4	amod
+.	4	neitonen	NOUN	13	nsubj:cop
+.	5	,	PUNCT	4	punct
+nmod    -par	6	josta	PRON	11	nmod
+advmod  -par	7	sittemmin	ADV	11	advmod
+aux     -par	8	oli	AUX	11	aux
+COP     	9	tuleva	AUX	11	cop
+compound:nn-par	10	rouva	NOUN	11	compound:nn
+PAR     	11	Marjamäki	PROPN	4	acl
+.	12	oli	AUX	13	cop
+.	13	tietämätön	VERB	0	root
+.	14	sanan	NOUN	15	nmod
+.	15	merkityksestä	NOUN	13	nmod
+.	16	.	PUNCT	15	punct
+
+#	# sent_id = unbxk-15145
+#	# text = " Tästäpä taitaa tulla isokin lasku ? "
+.	1	"	PUNCT	2	punct
+nmod    -par	2	Tästäpä	PRON	6	nmod
+aux     -par	3	taitaa	AUX	6	aux
+COP     	4	tulla	AUX	6	cop
+amod    -par	5	isokin	ADJ	6	amod
+PAR     	6	lasku	NOUN	0	root
+punct   -par	7	?	PUNCT	6	punct
+punct   -par	8	"	PUNCT	6	punct
+
+#	# sent_id = k1i3u-17021
+#	# text = Tehdä nyt Figaron häistä yhden miehen show .
+COP     	1	Tehdä	AUX	7	cop
+advmod  -par	2	nyt	PART	7	advmod
+.	3	Figaron	PROPN	4	nmod
+nmod    -par	4	häistä	NOUN	7	nmod
+.	5	yhden	NUM	6	nummod
+nmod    -par	6	miehen	NOUN	7	nmod
+PAR     	7	show	NOUN	0	root
+punct   -par	8	.	PUNCT	7	punct
+

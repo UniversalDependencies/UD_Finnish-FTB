@@ -245,6 +245,8 @@ Validator still reports 262 errors, now mostly "not a copula in
 language" then a few about "SCONJ" not being a good "advmod" and only
 a handful of others.
 
+** Non-standard copulas
+
 Counting different copulas, there are 228 occurrences of a "cop" other
 than "olla". Now asked in GitHub. Answer is that only "olla" can be
 "cop". Further investigation (with not-to-release/seecop to find and
@@ -274,3 +276,19 @@ hand.
 |     1 | kehittää     | AUX  |        |
 |     1 | ennustaa     | AUX  |        |
 |     1 | alkaa        | AUX  |        |
+
+** Working non-standard copulas by hand
+
+"Easy" cases first.
+
+Skip "ei" h96i1 in dev.
+Skip "ei" fs4mp in dev.
+Skip "tuli mitä tuli" figj7 in dev (double cop).
+Skip "joka teki minusta" ruqdj in dev (huh).
+Skip "ei" wytpo in dev.
+
+Wonder about unbxk node 1.
+
+Skip "tehdä häistä show" k1i3u in dev.
+
+Kept not-to-release/nst-cop-dev-1.txt report of this round.

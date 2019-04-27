@@ -131,10 +131,10 @@
 # text = Lapseni paras ystävä täytti kolme vuotta .
 1	Lapseni	lapsi	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 2	paras	paras	ADJ	A,Sup,Sg,Nom	Case=Nom|Degree=Sup|Number=Sing	3	amod	_	_
-3	ystävä	ystävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	_
-4	täytti	täyttää	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	ystävä	ystävä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
+4	täytti	täyttää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	kolme	kolme	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	_
-6	vuotta	vuosi	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+6	vuotta	vuosi	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	xcomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = h1erg-511
@@ -224,10 +224,10 @@
 
 # sent_id = dukwx-660
 # text = Koodista tulisi loputtoman pitkä ja etenkin ulkopuolisen lienisi hankala lukea sitä
-1	Koodista	koodi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nsubj:cop	_	Alt=4_nsubj
-2	tulisi	tulla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	cop	_	Alt=4_cop
+1	Koodista	koodi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	2	nsubj	_	Alt=4_nsubj
+2	tulisi	tulla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	Alt=4_cop
 3	loputtoman	loputon	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	4	amod	_	Alt=4_amod
-4	pitkä	pitkä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	Alt=0_root
+4	pitkä	pitkä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	Alt=0_root
 5	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	Alt=4_cc
 6	etenkin	etenkin	PART	Pcle	_	7	advmod	_	Alt=7_advmod
 7	ulkopuolisen	ulkopuolinen	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nsubj	_	Alt=10_nsubj
@@ -271,10 +271,10 @@
 
 # sent_id = to61a-772
 # text = Se on tullunna harmmoopäeseks
-1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	4	nsubj:cop	_	_
-2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	tullunna	tulla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	4	cop	_	_
-4	harmmoopäeseks	harmaapäinen	ADJ	A,Sg,Tra	Case=Tra|Number=Sing|Style=Coll	0	root	_	_
+1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tullunna	tulla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
+4	harmmoopäeseks	harmaapäinen	ADJ	A,Sg,Tra	Case=Tra|Number=Sing|Style=Coll	3	xcomp	_	_
 
 # sent_id = dmzv7-818
 # text = On se Annillakkii oikeus suaha mies jolla joka paikka pelloo .
@@ -680,12 +680,12 @@
 
 # sent_id = x0rzc-1288
 # text = Tekotimantista tulee pian yhtä kestävä kimaltelija kuin kuvan aidosta .
-1	Tekotimantista	tekotimantti	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	6	nmod	_	_
-2	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-3	pian	pian	ADV	Adv	_	6	advmod	_	_
+1	Tekotimantista	tekotimantti	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	2	nsubj	_	_
+2	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	pian	pian	ADV	Adv	_	2	advmod	_	_
 4	yhtä	yhtä	ADV	Adv	_	5	advmod	_	_
 5	kestävä	kestävä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
-6	kimaltelija	kimaltelija	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+6	kimaltelija	kimaltelija	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 7	kuin	kuin	SCONJ	Pcle,CS	_	9	mark	_	FTB-Sub=comparator
 8	kuvan	kuva	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 9	aidosta	aito	ADJ	A,Sg,Ela	Case=Ela|Number=Sing	5	advcl	_	FTB-Sub=comparison
@@ -2382,10 +2382,10 @@
 
 # sent_id = rc7ux-2847
 # text = Hänestä voi tulla sensaatio .
-1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
-2	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	tulla	tulla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	cop	_	_
-4	sensaatio	sensaatio	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tulla	tulla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
+4	sensaatio	sensaatio	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	xcomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = gbywq-2859
@@ -3003,10 +3003,10 @@
 
 # sent_id = mxuyz-3566
 # text = Vichyvedellä lettutaikinasta tulee kuohkeampaa .
-1	Vichyvedellä	vichyvesi	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	4	nmod	_	_
-2	lettutaikinasta	lettutaikina	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
-3	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-4	kuohkeampaa	kuohkea	ADJ	A,Cmp,Sg,Par	Case=Par|Degree=Cmp|Number=Sing	0	root	_	_
+1	Vichyvedellä	vichyvesi	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
+2	lettutaikinasta	lettutaikina	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	3	nsubj	_	_
+3	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+4	kuohkeampaa	kuohkea	ADJ	A,Cmp,Sg,Par	Case=Par|Degree=Cmp|Number=Sing	3	xcomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = breh7-3570
@@ -3757,11 +3757,11 @@
 # text = Kuopiolaisesta poliisikoira Akusta tulee Suomen ensimmäinen sankarikoira .
 1	Kuopiolaisesta	kuopiolainen	ADJ	A,Sg,Ela	Case=Ela|Number=Sing	3	amod	_	_
 2	poliisikoira	poliisikoira	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	compound:nn	_	Alt=compound:nn
-3	Akusta	aku	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	7	nmod	_	_
-4	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
+3	Akusta	aku	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	4	nsubj	_	_
+4	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 6	ensimmäinen	ensimmäinen	ADJ	A,Ord,Sg,Nom	Case=Nom|Number=Sing|NumType=Ord	7	amod	_	_
-7	sankarikoira	sankarikoira	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+7	sankarikoira	sankarikoira	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	xcomp	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = r8t23-4280
@@ -4208,14 +4208,14 @@
 1	Jos	jos	SCONJ	Pcle,CS	_	4	mark	_	_
 2	lankkua	lankku	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	compound:nn	_	Alt=compound:nn
 3	naista	nainen	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	obj	_	_
-4	yritetään	yrittää	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	11	advcl	_	_
+4	yritetään	yrittää	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	9	advcl	_	_
 5	topata	topata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	xcomp	_	Alt=4_xcomp
 6	muodokkaaksi	muodokas	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	5	nmod	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
-8	hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	11	nmod	_	_
-9	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
+8	hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	_
+9	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 10	lähinnä	lähinnä	PART	Pcle	_	11	advmod	_	_
-11	koominen	koominen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+11	koominen	koominen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	9	xcomp	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
 # sent_id = uq2mr-4604
@@ -5746,8 +5746,8 @@
 
 # sent_id = eqmot-5610
 # text = Sehän tekisi kaikista , mukaan lukien vähäosaisimmista , teoriaherrojen poliittisten pakkomielteiden maksumiehiä ja uhreja
-1	Sehän	se	PRON	Pron,Dem,Sg,Nom,Han	Case=Nom|Clitic=Han|Number=Sing|PronType=Dem	12	nsubj:cop	_	_
-2	tekisi	tehdä	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	cop	_	_
+1	Sehän	se	PRON	Pron,Dem,Sg,Nom,Han	Case=Nom|Clitic=Han|Number=Sing|PronType=Dem	2	nsubj	_	_
+2	tekisi	tehdä	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kaikista	kaikki	PRON	Pron,Qnt,Pl,Ela	Case=Ela|Number=Plur|PronType=Ind	12	nmod	_	FTB-PronType=Qnt
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	mukaan	mukaan	ADV	Adv	_	7	dep	_	_
@@ -5757,7 +5757,7 @@
 9	teoriaherrojen	teoriaherra	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	11	nmod	_	_
 10	poliittisten	poliittinen	ADJ	A,Pl,Gen	Case=Gen|Number=Plur	11	amod	_	_
 11	pakkomielteiden	pakkomielle	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	12	nmod	_	_
-12	maksumiehiä	maksumies	NOUN	N,Pl,Par	Case=Par|Number=Plur	0	root	_	_
+12	maksumiehiä	maksumies	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	xcomp:ds	_	_
 13	ja	ja	CCONJ	Pcle,CC	_	14	cc	_	_
 14	uhreja	uhri	NOUN	N,Pl,Par	Case=Par|Number=Plur	12	conj	_	_
 
@@ -6012,11 +6012,11 @@
 11	neito	neito	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	obj	_	_
 12	Roomaan	rooma	PROPN	N,Prop,Sg,Ill	Case=Ill|Number=Sing	10	nmod	_	_
 13	,	,	PUNCT	Pun	_	12	punct	_	_
-14	jossa	joka	PRON	Pron,Rel,Sg,Ine	Case=Ine|Number=Sing|PronType=Rel	18	nmod	_	_
-15	hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	18	nmod	_	_
-16	tulisi	tulla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	18	cop	_	_
+14	jossa	joka	PRON	Pron,Rel,Sg,Ine	Case=Ine|Number=Sing|PronType=Rel	16	nmod	_	_
+15	hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	16	nsubj	_	_
+16	tulisi	tulla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	12	acl	_	_
 17	keisarin	keisari	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	18	nmod	_	_
-18	puoliso	puoliso	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	12	acl	_	_
+18	puoliso	puoliso	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	xcomp	_	_
 19	.	.	PUNCT	Pun	_	18	punct	_	_
 
 # sent_id = c47ze-5856
@@ -8426,10 +8426,10 @@
 
 # sent_id = u4wyv-7429
 # text = Porvoosta tulee Helsingin lähiö .
-1	Porvoosta	porvoo	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
-2	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
+1	Porvoosta	porvoo	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	2	nsubj	_	_
+2	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	Helsingin	helsinki	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
-4	lähiö	lähiö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+4	lähiö	lähiö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = cve7n-7441
@@ -8580,8 +8580,8 @@
 
 # sent_id = gusmj-7603
 # text = Tuli hiljaista
-1	Tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
-2	hiljaista	hiljainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+1	Tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+2	hiljaista	hiljainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	1	xcomp	_	_
 
 # sent_id = mgdte-7624
 # text = Nauratti niin että suupielistä veti .
@@ -8656,12 +8656,12 @@
 
 # sent_id = lkm9s-7684
 # text = Salonkeja ja muotiliikkeita tuli kuitenkin uusia .
-1	Salonkeja	salonki	NOUN	N,Pl,Par	Case=Par|Number=Plur	6	nsubj:cop	_	_
+1	Salonkeja	salonki	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	nsubj	_	_
 2	ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
 3	muotiliikkeita	muotiliike	NOUN	N,Pl,Par	Case=Par|Number=Plur	1	conj	_	_
-4	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	kuitenkin	kuitenkin	PART	Pcle	_	6	advmod	_	_
-6	uusia	uusi	ADJ	A,Pl,Par	Case=Par|Number=Plur	0	root	_	_
+4	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+5	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+6	uusia	uusi	ADJ	A,Pl,Par	Case=Par|Number=Plur	4	xcomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = ruqdj-7695
@@ -8678,9 +8678,9 @@
 
 # sent_id = a46az-7710
 # text = Hänestä tulee laulaja
-1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
-2	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	laulaja	laulaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	_
+2	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	laulaja	laulaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 
 # sent_id = iqx6d-7714
 # text = Hän valmistui papiksi
@@ -8690,9 +8690,9 @@
 
 # sent_id = qr0q5-7740
 # text = Minun tulee sääli häntä .
-1	Minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	3	nsubj:cop	_	_
-2	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-3	sääli	sääli	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+3	sääli	sääli	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	xcomp	_	_
 4	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	3	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -9384,10 +9384,10 @@
 5	professori	professori	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	compound:nn	_	Alt=compound:nn
 6	Matti	matti	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	2	conj	_	Alt=name
 7	Klinge	klinge	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	flat	_	_
-8	joista	joka	PRON	Pron,Rel,Pl,Ela	Case=Ela|Number=Plur|PronType=Rel	11	nmod	_	_
-9	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	cop	_	_
+8	joista	joka	PRON	Pron,Rel,Pl,Ela	Case=Ela|Number=Plur|PronType=Rel	9	nsubj	_	_
+9	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	acl	_	_
 10	elämänikäiset	elämänikäinen	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	11	amod	_	_
-11	ystävät	ystävä	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	acl	_	_
+11	ystävät	ystävä	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	xcomp	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
 # sent_id = u3bq1-8299
@@ -13608,10 +13608,10 @@
 
 # sent_id = eu4oe-11087
 # text = Hänestä on tullut isoäiti , ja hänen asunnostaan Tukholman vanhassa kaupungissa miltei matkailunähtävyys .
-1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	4	nmod	_	_
-2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	tullut	tulla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	cop	_	_
-4	isoäiti	isoäiti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+1	Hänestä	hän	PRON	Pron,Pers,Sg3,Ela	Case=Ela|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
+3	tullut	tulla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
+4	isoäiti	isoäiti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	xcomp	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	13	cc	_	_
 7	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	det	_	_
@@ -13919,10 +13919,10 @@
 
 # sent_id = ryrk9-11301
 # text = Mikä sinun nyt tuli ?
-1	Mikä	mikä	PRON	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	0	root	_	_
-2	sinun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs	1	nsubj:cop	_	_
-3	nyt	nyt	ADV	Adv	_	1	advmod	_	_
-4	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+1	Mikä	mikä	PRON	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	4	xcomp	_	_
+2	sinun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs	4	nsubj	_	_
+3	nyt	nyt	ADV	Adv	_	4	advmod	_	_
+4	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	?	?	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = d27yc-11311
@@ -15831,17 +15831,17 @@
 1	Kun	kun	SCONJ	Pcle,CS	_	4	mark	_	_
 2	Peacockin	peacock	PROPN	N,Prop,Sg,Gen,Kin	Case=Gen|Clitic=Kin|Number=Sing	3	nmod	_	_
 3	yleisö	yleisö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
-4	hurraa	hurrata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	advcl	_	_
+4	hurraa	hurrata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	advcl	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
-6	tulee	tulla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	sellainen	sellainen	DET	A,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	8	amod	_	Alt=DET
-8	tunne	tunne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+8	tunne	tunne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	xcomp	_	_
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	että	että	SCONJ	Pcle,CS	_	14	mark	_	_
 11	ihan	ihan	PART	Pcle	_	14	mark	_	_
 12	kuin	kuin	SCONJ	Pcle,CS	_	11	fixed	_	_
 13	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
-14	olisi	olla	VERB	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	8	acl	_	_
+14	olisi	olla	VERB	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	6	acl	_	_
 15	Suomessa	suomi	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	14	nmod	_	_
 16	ollenkaan	ollenkaan	ADV	Adv	_	14	advmod	_	_
 17	.	.	PUNCT	Pun	_	16	punct	_	_
@@ -16922,12 +16922,12 @@
 
 # sent_id = u6cei-13821
 # text = Tällöin myös Koivuselästä tuli monikansallinen kylä .
-1	Tällöin	tällöin	ADV	Adv,Dem	PronType=Dem	6	advmod	_	_
+1	Tällöin	tällöin	ADV	Adv,Dem	PronType=Dem	4	advmod	_	_
 2	myös	myös	PART	Pcle	_	3	advmod	_	_
-3	Koivuselästä	koivuselkä	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	6	nmod	_	_
-4	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
+3	Koivuselästä	koivuselkä	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	4	nsubj	_	_
+4	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	monikansallinen	monikansallinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
-6	kylä	kylä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+6	kylä	kylä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	xcomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = thc47-13825
@@ -18581,12 +18581,12 @@
 3	viehättävä	viehättävä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	amod	_	_
 4	neitonen	neitonen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
-6	josta	joka	PRON	Pron,Rel,Sg,Ela	Case=Ela|Number=Sing|PronType=Rel	11	nmod	_	_
-7	sittemmin	sittemmin	ADV	Adv,Cmp	Degree=Cmp	11	advmod	_	_
-8	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	aux	_	_
-9	tuleva	tulla	AUX	V,Act,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	11	cop	_	_
+6	josta	joka	PRON	Pron,Rel,Sg,Ela	Case=Ela|Number=Sing|PronType=Rel	9	nsubj	_	_
+7	sittemmin	sittemmin	ADV	Adv,Cmp	Degree=Cmp	9	advmod	_	_
+8	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	9	aux	_	_
+9	tuleva	tulla	VERB	V,Act,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	acl	_	_
 10	rouva	rouva	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	11	compound:nn	_	Alt=compound:nn
-11	Marjamäki	marjamäki	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	4	acl	_	_
+11	Marjamäki	marjamäki	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	9	xcomp	_	_
 12	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop	_	_
 13	tietämätön	tietää	VERB	V,PcpNeg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Neg|VerbForm=Part	0	root	_	_
 14	sanan	sana	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	15	nmod	_	_
@@ -18830,11 +18830,11 @@
 # sent_id = unbxk-15145
 # text = " Tästäpä taitaa tulla isokin lasku ? "
 1	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	2	punct	_	Missed-SUBCAT=QUOTATION
-2	Tästäpä	tämä	PRON	Pron,Dem,Sg,Ela,Pa	Case=Ela|Clitic=Pa|Number=Sing|PronType=Dem	6	nmod	_	_
-3	taitaa	taitaa	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
-4	tulla	tulla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	6	cop	_	_
+2	Tästäpä	tämä	PRON	Pron,Dem,Sg,Ela,Pa	Case=Ela|Clitic=Pa|Number=Sing|PronType=Dem	4	nmod	_	_
+3	taitaa	taitaa	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
+4	tulla	tulla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	isokin	iso	ADJ	A,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing	6	amod	_	_
-6	lasku	lasku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+6	lasku	lasku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	xcomp	_	_
 7	?	?	PUNCT	Pun	_	6	punct	_	_
 8	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	6	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:7
 
