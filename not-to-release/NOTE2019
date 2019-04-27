@@ -7,6 +7,7 @@ Reported count of errors in successive validation reports:
 | 4th |   |  45 |   369 |   33 |   |  447 |
 | 5th |   |  43 |   358 |   31 |   |  432 |
 | 6th |   |  32 |   235 |   26 |   |  293 |
+| 7th |   |  31 |   208 |   23 |   |  262 |
 
 * First report
 
@@ -232,3 +233,44 @@ as a last resort even though a "case" must not have children?
 And now it found a way to link one comma forward in train. Why not
 before? But let it. Maybe it was not non-projective before. Another in
 test.
+
+With an improved test for non-projectivity (also detect links from
+outside into the range between child and parent, not just links out),
+own script appears to find and fix the cases that validator flags.
+Locally detected but not fixable cases remain detected and not fixed.
+
+* Seventh report
+
+Validator still reports 262 errors, now mostly "not a copula in
+language" then a few about "SCONJ" not being a good "advmod" and only
+a handful of others.
+
+Counting different copulas, there are 228 occurrences of a "cop" other
+than "olla". Now asked in GitHub. Answer is that only "olla" can be
+"cop". Further investigation (with not-to-release/seecop to find and
+display the cases) indicates that this is not scriptable. Work them by
+hand.
+
+| count | word         | upos | gloss  |
+|-------+--------------+------+--------|
+|  3561 | olla         | AUX  | be     |
+|   146 | tulla        | AUX  | become |
+|    30 | tehdä        | AUX  | make   |
+|    22 | ei           | AUX  | not    |
+|     5 | kasvaa       | AUX  | grow   |
+|     4 | saada        | AUX  |        |
+|     3 | kehittyä     | AUX  |        |
+|     2 | tulo         | NOUN |        |
+|     2 | täyttää      | AUX  |        |
+|     2 | odottaa      | AUX  |        |
+|     2 | kehkeytyä    | AUX  |        |
+|     1 | viimeistellä | AUX  |        |
+|     1 | veikata      | AUX  |        |
+|     1 | toivoa       | AUX  |        |
+|     1 | sukeutua     | AUX  |        |
+|     1 | muovata      | AUX  |        |
+|     1 | muodostua    | AUX  |        |
+|     1 | leipoa       | AUX  |        |
+|     1 | kehittää     | AUX  |        |
+|     1 | ennustaa     | AUX  |        |
+|     1 | alkaa        | AUX  |        |
