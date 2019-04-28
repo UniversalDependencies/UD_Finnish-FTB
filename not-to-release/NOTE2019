@@ -661,3 +661,16 @@ figj7 in dev
 |  9 | tuli    | 8  cop    |   | 7 xcomp |
 | 10 | .       | 8  punct  |   |         |
 
+
+eqt05 in train
+|   |               |              |   | make it |
+|---+---------------+--------------+---+---------|
+| 1 | Kun           | 5      mark  |   | 3 mark  |
+| 2 | Tappajahaista | 5      nmod  |   | 3 nmod  |
+| 3 | tuli          | 5      cop   |   | 0 root  |
+| 4 | ,             | 5      punct |   |         |
+| 5 | mitä          | 0      root  |   | 6 xcomp |
+| 6 | tuli          | 5      cop   |   | 3 xcomp |
+| 7 | .             | 5      punct |   | 6 punct |
+
+Not sure why the comma is linked forward. Leave it be.
