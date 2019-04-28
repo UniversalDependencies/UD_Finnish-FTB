@@ -609,4 +609,28 @@ enlf4
 | 17 | .                | 16 | punct     |         |   |
 
 Same thing: "case" cannot have children. Make it "dep" and let the
-validator be happy.
+validator be happy. With "jälkeen" a "conj" of "ennen".
+
+dzdkb
+|  1 | Hannu               |  3 | nsubj  |       |   |
+|  2 | Salamasta           |  1 | flat   |       |   |
+|  3 | tuli                |  8 | conj   | 3 < 8 | ! |
+|  4 | kuitenkin           |  3 | advmod |       |   |
+|  5 | väkevän             |  6 | amod   |       |   |
+|  6 | alkutuotantonsa     |  3 | nmod   |       |   |
+|  7 | takia               |  6 | case   |       |   |
+|  8 | tamperelais-        |  0 | root   |       |   |
+|  9 | ja                  | 11 | cc     |       |   |
+| 10 | erityisesti         | 11 | advmod |       |   |
+| 11 | pispalaiskirjailija |  3 | xcomp  |       |   |
+| 12 | .                   | 11 | punct  |       |   |
+
+Er, this one is all wrong. Possibly made wrong by "cop" fixes but
+anyway.
+
+Make it
+- root(tuli)
+- xmod(tamperelais-)
+- conj(pispalaiskirjailija)
+
+Wow?
