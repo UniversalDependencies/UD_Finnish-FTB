@@ -8673,7 +8673,7 @@
 5	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj:cop	_	_
 6	teki	tehdä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	_
 7	minusta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
-8	pihtiputaalaisen	pihtiputaalainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	6	xmod	_	_
+8	pihtiputaalaisen	pihtiputaalainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	6	xcomp	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = a46az-7710
