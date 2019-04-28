@@ -469,7 +469,8 @@ ai305
 * After ninth report
 
 There are "SCONJ" as "advmod" and a couple of "conj" go the wrong way
-and then the still remaining "cop" issues.
+and then the still remaining "cop" issues. And the one "mark" that
+should not be "PRON". And an "aux" that should not be "NOUN".
 
 ** Make "SCONJ" as "advmod" something else
 
@@ -528,3 +529,57 @@ Except
 - made "koska" in b79wk "ADV"
 - made "koska" in oro5l "ADV"
 - made "koska" in im1qb "ADV"
+** The "aux" that was "NOUN"
+
+That at least was a genuine error.
+
+nid74 in test
+- nmod(minkeillä) was aux
+- on oltava uintimahdollisuus
+** The "mark" that was "PRON"
+
+Ouch, "parempi *mitä* moni kuvittelee".
+
+Looks like a "PART" can be a "mark" so made this "mitä" "PART" with
+base form also "mitä" and no features.
+
+Looks like "kuin" is "SCONJ" when it is used so, but maybe not want to
+make "mitä" "SCONJ".
+** Mis-directions of "conj"
+
+Line 43611 Sent d8qjz-5639:
+- Violation of guidelines: relation 'conj' must go left-to-right
+
+d8qjz
+|  1 | Annokset       |  3 | nsubj:cop |         |   |
+|  2 | ovat           |  3 | cop       |         |   |
+|  3 | kookkaita      |  0 | root      |         |   |
+|  4 | ,              |  3 | punct     |         |   |
+|  5 | palvelu        |  1 | conj      | 5 > 1   |   |
+|  6 | huomaavaista   |  3 | conj      | 6 > 3   |   |
+|  7 | ja             |  8 | cc        |         |   |
+|  8 | nopeaa         |  3 | conj      | 8 > 3   |   |
+|  9 | ;              |  8 | punct     |         |   |
+| 10 | hinnat         |  1 | conj      | 10 > 1  |   |
+| 11 | kohtuulliset   |  3 | conj      | 11 > 3  |   |
+| 12 | ,              | 11 | punct     |         |   |
+| 13 | alta           | 17 | case      |         |   |
+| 14 | ja             | 15 | cc        |         |   |
+| 15 | päälle         | 17 | conj      | 15 < 17 | ! |
+| 16 | viidenkymmenen | 17 | nummod    |         |   |
+| 17 | markan         | 11 | nmod      |         |   |
+| 18 | .              | 17 | punct     |         |   |
+
+This is one tricky system of conjunctions.
+
+Grepping the direction of "conj" in general, to learn the meaning of
+"left-to-right" intended here, it appears that the only offending node
+is node 15 where "päälle" is "conj" of "markan". So *head* must *left*
+and dependent *right* exactly the othe way around of what is written
+in the notation. Shoot.
+
+Looks like it should be 15 > 13, but see if "alta ja päälle" is even
+possible when "case" is not supposed to have children - try linking
+"päälle" to "alta" and see. Er, REDACTED. This had already been that
+way and rejected by the validator precisely because. No can do. Link
+it where it belongs but make the relation "dep".
