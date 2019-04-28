@@ -795,3 +795,38 @@ euplm in test
 | 9 | .                    | 8 | punct     |         |
 
 And same thing.
+
+With this change, these sentences pass the validator.
+Too simple.
+
+Do the same for the 18 in train.
+| bxvs7 |  6 | same
+| jcvlm |  6 | same
+| x4bxh |  1 | different!
+| pnpak |  6 | same (funny thing)
+| xoadr |  8 | hm? treat "eikä ihme" as same
+| qo2wp | 21 | same
+| qy0ad |  8 |same
+| vhvkm |  7 | same
+| ah67z | 10 | same
+| gfs2h |  7 |same
+| df8op |  8 | same
+| yrcj9 |  6 | same (this time "en")
+| gzklf |  9 | same
+| zut13 | 11 | same
+| saylg |  4 | same ok, also has nsubj:cop
+| z3kw6 | 23 | different
+| k0wzk |  6 | different? and looks maybe wrong
+| k60wf |  9 | same
+
+x4bhx elides something like "kuulu" so "ihmeempää" is raised to its
+place, but now "ei" becomes "orphan".
+
+pnpak elided a copula but also already had another parallel case where
+the "ei" was already an "aux" - heh.
+
+Looks like hh9my and obi8q should be done with "orphan", maybe? Not
+doing that now. Only placating the validator now.
+
+z3kw6 "ei suurensuuri" is elisionist for "ei mahtuisi suurensuuri
+pöytä", make "ei" "orphan" (long sentence)
