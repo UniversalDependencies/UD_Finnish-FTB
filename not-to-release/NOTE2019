@@ -8,7 +8,8 @@ Reported count of errors in successive validation reports:
 | 5th |   |  43 |   358 |   31 |   |  432 |
 | 6th |   |  32 |   235 |   26 |   |  293 |
 | 7th |   |  31 |   208 |   23 |   |  262 |
-
+| 8th |   |   9 |    77 |    7 |   |   93 |
+  
 * First report
 
 There were 7577 "aux", all "VERB", that become "AUX".
@@ -381,3 +382,83 @@ Currently remaining non-projective punctuation and a couple of random
 things and a recent thinko. Also leaving a couple of trickies for now,
 and there are still those non-standard copulas that were skipped on
 first round.
+
+** Working "tehdä" as "cop" by hand in test
+
+These were skipped on first round.
+
+Must respect that they *were* analyzed as copulas.
+Making them now so that j2zxy becomes (in shorthand)
+- nsubj(Finlandiasta)
+- tehtäisiin
+- xcomp(kaunokirjallisuuspalkinto)
+
+Oops, yes, dn52w cannot be made so but becomes
+- nsubj(hän)
+- tekikin
+- nmod(urheilullisuudesta)
+- xcomp(ansion)
+
+So probably all these ex-copulas now have too many subjects. They
+will remain so for now.
+
+** Working "tehdä" as "cop" by hand in dev
+
+ruqdj
+- nsubj(joka)
+- teki
+- nmod(minusta)
+- xcomp(pihtiputaalaisen)
+
+k1i3u
+tehdä
+- nmod(häistä)
+- xcomp(show)
+
+** Working "tehdä" and others as "cop" by hand in train
+
+...
+
+heo29
+- nmod(hänestä)
+- tehtiin
+- xcomp(laulaja)
+
+So that has no nsubj any more and some other similar analyses should
+also be remade so the elative thing is not an nsubj any more. Oops.
+Live and learn.
+
+Going back to some other verbs in train, too.
+
+s5jm4
+- toivon
+- nmod(hänestä)
+- xcomp(ehdokasta)
+
+izagl
+- nsubj(säätieteilijät)
+- veikkaavat
+- nmod(hurrikaanikaudesta)
+- xcomp(pahinta)
+
+zegwo
+- nmod(vuodesta)
+- ennustetaan
+- xcomp(tappiollista)
+
+sjnox
+- saat
+- nmod(kakusta)
+- xcomp(kuohkean)
+
+ai305
+- nsubj(me)
+- teemme
+- nmod(sinusta)
+- xcomp(johtajan)
+
+...
+
+(Fixed nsubj to nmod in cfux5, "nmod(lakosta) odotetaan", btw.)
+
+...

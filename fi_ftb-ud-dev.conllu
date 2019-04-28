@@ -8671,9 +8671,9 @@
 3	isku	isku	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj:cop	_	_
-6	teki	tehdä	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
-7	minusta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
-8	pihtiputaalaisen	pihtiputaalainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	3	acl	_	_
+6	teki	tehdä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	acl	_	_
+7	minusta	minä	PRON	Pron,Pers,Sg1,Ela	Case=Ela|Number=Sing|Person=1|PronType=Prs	6	nmod	_	_
+8	pihtiputaalaisen	pihtiputaalainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	6	xmod	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = a46az-7710
@@ -21138,13 +21138,13 @@
 
 # sent_id = k1i3u-17021
 # text = Tehdä nyt Figaron häistä yhden miehen show .
-1	Tehdä	tehdä	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	7	cop	_	_
-2	nyt	nyt	PART	Pcle	_	7	advmod	_	_
+1	Tehdä	tehdä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
+2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
 3	Figaron	figaro	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
-4	häistä	hää	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	7	nmod	_	_
+4	häistä	hää	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	1	nmod	_	_
 5	yhden	yksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	6	nummod	_	_
 6	miehen	mies	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
-7	show	show	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
+7	show	show	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	xcomp	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = csjzu-17022
