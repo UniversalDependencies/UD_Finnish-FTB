@@ -13456,7 +13456,7 @@
 3	merkittävä	merkittävä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	vaikka	vaikka	CCONJ	Pcle,CC	_	8	cc	_	_
-6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	cop	_	_
+6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	mitenkään	mitenkään	ADV	Adv,Qnt	PronType=Ind	8	advmod	_	_
 8	vallankumouksellinen	vallankumouksellinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	3	conj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_

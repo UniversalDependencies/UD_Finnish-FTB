@@ -1,18 +1,19 @@
 # -*- mode: Org; -*-
 
 Reported count of errors in successive validation reports:
-|     |   | dev | train | test |   |  sum |
-|-----+---+-----+-------+------+---+------|
-| 1st |   | 798 |  6566 |  846 |   | 8210 |
-| 2nd |   |  51 |   514 |   68 |   |  633 |
-| 3rd |   |  59 |   427 |   44 |   |  530 |
-| 4th |   |  45 |   369 |   33 |   |  447 |
-| 5th |   |  43 |   358 |   31 |   |  432 |
-| 6th |   |  32 |   235 |   26 |   |  293 |
-| 7th |   |  31 |   208 |   23 |   |  262 |
-| 8th |   |   9 |    77 |    7 |   |   93 |
-| 9th |   |   7 |    46 |    5 |   |   58 |
-  
+|      |   | dev | train | test |   |  sum |
+|------+---+-----+-------+------+---+------|
+| 1st  |   | 798 |  6566 |  846 |   | 8210 |
+| 2nd  |   |  51 |   514 |   68 |   |  633 |
+| 3rd  |   |  59 |   427 |   44 |   |  530 |
+| 4th  |   |  45 |   369 |   33 |   |  447 |
+| 5th  |   |  43 |   358 |   31 |   |  432 |
+| 6th  |   |  32 |   235 |   26 |   |  293 |
+| 7th  |   |  31 |   208 |   23 |   |  262 |
+| 8th  |   |   9 |    77 |    7 |   |   93 |
+| 9th  |   |   7 |    46 |    5 |   |   58 |
+| 10th |   |   3 |    18 |    1 |   |   22 |
+
 * First report
 
 There were 7577 "aux", all "VERB", that become "AUX".
@@ -707,3 +708,90 @@ hmqo9 in train
 | 10 | on      |  3 | ccomp |   |          |
 | 11 | tulossa |  9 | cop   |   | 10 nmod  |
 | 12 | .       | 11 | punct |   |          |
+
+* Tenth report, all about "ei" not a "cop" any more
+
+A victory of sorts. Of course there is the documentation issue, too.
+But all remaining data issues are "ei" as a "cop" now.
+
+** TODO The missing document
+
+This is confusing.
+
+Looks like they are going to lose three Finnish treebanks over this.
+
+The Finnish-specific documentation appears to pertain to UDv1 still.
+
+** TODO Make them "ei" not "cop"
+
+These are tricky. Turn out that there may be a relation "orphan" in
+UDv2 to treat (most of) these as cases where the main verb is missing.
+Since two years or so? Paper by Schuster, Lamm, Manning.
+
+h96i1 in dev
+|    |             |   |           | make it |
+|----+-------------+---+-----------+---------|
+|  1 | Duuman      | 2 | nmod      |         |
+|  2 | kuohunta    | 4 | nsubj:cop |         |
+|  3 | olisi       | 4 | cop       |         |
+|  4 | kiusallista | 0 | root      |         |
+|  5 | ,           | 4 | punct     |         |
+|  6 | mutta       | 9 | cc        |         |
+|  7 | ei          | 9 | cop       | 9 aux   |
+|  8 | vielä       | 9 | advmod    |         |
+|  9 | vaarallista | 4 | conj      |         |
+| 10 | .           | 9 | punct     |         | 
+
+Actually no place for the "orphan" here since the head of the
+construction that is missing the copula was never the copula.
+
+fs4mp in dev
+|    |         |   |        | make it |
+|----+---------+---+--------+---------|
+|  1 | Mutta   | 4 | cc     |         |
+|  2 | ei      | 4 | cop    | 4 aux   |
+|  3 | sen     | 4 | det    |         |
+|  4 | pahempi | 0 | root   |         |
+|  5 | kuin    | 7 | mark   |         |
+|  6 | yleensä | 7 | advmod |         |
+|  7 | miehet  | 4 | advcl  |         |
+|  8 | tällä   | 9 | det    |         |
+|  9 | alalla  | 7 | nmod   |         |
+| 10 | .       | 9 | punct  |         |
+
+That weird. An "orphan" relation would signal that there is something
+missing here but the missing item - the copula - does not have any
+dependents that would become "orphan".
+
+wytpo in dev
+|    |             |    |           | make it |
+|----+-------------+----+-----------+---------|
+|  1 | Ruoka       |  7 | nsubj:cop |         |
+|  2 | on          |  7 | cop       |         |
+|  3 | tasoltaan   |  7 | nmod      |         |
+|  4 | yleisesti   |  5 | advmod    |         |
+|  5 | ottaen      |  7 | advcl     |         |
+|  6 | ihan        |  7 | advmod    |         |
+|  7 | syötävää    |  0 | root      |         |
+|  8 | ,           |  7 | punct     |         |
+|  9 | joskaan     | 11 | cc        |         |
+| 10 | ei          | 11 | cop       | 11 aux  |
+| 11 | erinomaista |  7 | conj      |         |
+| 12 | .           | 11 | punct     |         |
+
+Same thing.
+
+euplm in test
+|   |                      |   |           | make it |
+|---+----------------------+---+-----------+---------|
+| 1 | Tapahtuma            | 3 | nsubj:cop |         |
+| 2 | oli                  | 3 | cop       |         |
+| 3 | merkittävä           | 0 | root      |         |
+| 4 | ,                    | 3 | punct     |         |
+| 5 | vaikka               | 8 | cc        |         |
+| 6 | ei                   | 8 | cop       | 8 aux   |
+| 7 | mitenkään            | 8 | advmod    |         |
+| 8 | vallankumouksellinen | 3 | conj      |         |
+| 9 | .                    | 8 | punct     |         |
+
+And same thing.

@@ -568,7 +568,7 @@
 4	kiusallista	kiusallinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	mutta	mutta	CCONJ	Pcle,CC	_	9	cc	_	_
-7	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	cop	_	_
+7	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
 8	vielä	vielä	PART	Pcle	_	9	advmod	_	_
 9	vaarallista	vaarallinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	4	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -4480,7 +4480,7 @@
 # sent_id = fs4mp-4773
 # text = Mutta ei sen pahempi kuin yleensä miehet tällä alalla .
 1	Mutta	mutta	CCONJ	Pcle,CC	_	4	cc	_	_
-2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	cop	_	_
+2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	4	det	_	_
 4	pahempi	paha	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	7	mark	_	FTB-Sub=comparator
@@ -13713,7 +13713,7 @@
 7	syötävää	syödä	VERB	V,Pass,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	joskaan	joskaan	CCONJ	Pcle,CC	_	11	cc	_	_
-10	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	cop	_	_
+10	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
 11	erinomaista	erinomainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	7	conj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
