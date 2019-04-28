@@ -674,3 +674,36 @@ eqt05 in train
 | 7 | .             | 5      punct |   | 6 punct |
 
 Not sure why the comma is linked forward. Leave it be.
+** The two cases of "tulo" as "cop"
+
+Where "tulo" alone is not even a verb but "on tulossa" is whatever it
+is. How does one do?
+
+c56qb in train
+|   |         |   |       |   | make it |
+|---+---------+---+-------+---+---------|
+| 1 | Minusta | 2 | nmod  |   |         |
+| 2 | näyttää | 0 | root  |   |         |
+| 3 | ,       | 2 | punct |   |         |
+| 4 | että    | 6 | mark  |   |         |
+| 5 | sinusta | 8 | nmod  |   | 6 nmod  |
+| 6 | on      | 2 | advcl |   |         |
+| 7 | tulossa | 8 | cop   |   | 6 nmod  |
+| 8 | juoppo  | 6 | nmod  |   | 6 xmod  |
+| 9 | .       | 8 | punct |   |         |
+
+hmqo9 in train
+|    |         |    |       |   | make it |
+|----+---------+----+-------+---+---------|
+|  1 | Enhän   |  3 | aux   |   |         |
+|  2 | minä    |  3 | nsubj |   |         |
+|  3 | sanonut |  0 | root  |   |         |
+|  4 | ,       |  3 | punct |   |         |
+|  5 | että    | 10 | mark  |   |         |
+|  6 | siitä   |  9 | nmod  |   | 10 nmod |
+|  7 | mikään  |  9 | det   |   |         |
+|  8 | helppo  |  9 | amod  |   |         |
+|  9 | turnaus | 10 | nmod  |   | 10 xmod |
+| 10 | on      |  3 | ccomp |   |         |
+| 11 | tulossa |  9 | cop   |   | 10 nmod |
+| 12 | .       | 11 | punct |   |         |
