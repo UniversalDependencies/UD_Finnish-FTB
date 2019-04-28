@@ -1,3 +1,5 @@
+# -*- mode: Org; -*-
+
 Reported count of errors in successive validation reports:
 |     |   | dev | train | test |   |  sum |
 |-----+---+-----+-------+------+---+------|
@@ -9,6 +11,7 @@ Reported count of errors in successive validation reports:
 | 6th |   |  32 |   235 |   26 |   |  293 |
 | 7th |   |  31 |   208 |   23 |   |  262 |
 | 8th |   |   9 |    77 |    7 |   |   93 |
+| 9th |   |   7 |    46 |    5 |   |   58 |
   
 * First report
 
@@ -462,3 +465,66 @@ ai305
 (Fixed nsubj to nmod in cfux5, "nmod(lakosta) odotetaan", btw.)
 
 ...
+
+* After ninth report
+
+There are "SCONJ" as "advmod" and a couple of "conj" go the wrong way
+and then the still remaining "cop" issues.
+
+** Make "SCONJ" as "advmod" something else
+
+- Validator wants "advmod" to be "ADV"
+- Offending instances are all of "koska" or "kun"
+- "kun" does not occur as "ADV"
+
+Offences (cut irrelevant-looking columns)
+| 14 | kun   | kun   | SCONJ | Pcle,CS | 15 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  3 | kun   | kun   | SCONJ | Pcle,CS | 10 | advmod |
+|  4 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  7 | ku    | kun   | SCONJ | Pcle,CS |  9 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  6 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  7 | kun   | kun   | SCONJ | Pcle,CS | 10 | advmod |
+|  6 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  6 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  1 | Kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  4 | advmod |
+|  4 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  5 | ku    | kun   | SCONJ | Pcle,CS |  8 | advmod |
+|  3 | kun   | kun   | SCONJ | Pcle,CS |  7 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+
+"koska" occurs so (! marks offences)
+| 115 | SCONJ | mark   |   |
+|   9 | ADV   | advmod |   |
+|   4 | PART  | mark   |   |
+|   3 | SCONJ | advmod | ! |
+|   1 | SCONJ | conj   |   |
+
+"kun" occurs so (! marks offences)
+| 638 | SCONJ | mark   |   |
+|  45 | SCONJ | fixed  |   |
+|  19 | SCONJ | advmod | ! |
+|  13 | SCONJ | dep    |   |
+|   5 | SCONJ | conj   |   |
+|   4 | PART  | fixed  |   |
+|   2 | SCONJ | root   |   |
+
+Looking at the offending "kun" reveals "kerran" as "PART advmod" and
+there are plenty of other such.
+
+Make the offending "koska" and "kun" be "PART" then. Both already
+occur as "PART" elsewhere.
+
+Except
+- made "ku" in v5m14 "mark"
+- made "koska" in b79wk "ADV"
+- made "koska" in oro5l "ADV"
+- made "koska" in im1qb "ADV"

@@ -10533,7 +10533,7 @@
 11	vähän	vähän	ADV	Adv	_	0	root	_	_
 12	-	-	PUNCT	Pun	_	11	punct	_	Missed-SUBCAT=DASH
 13	huuhteluaineet	huuhteluaine	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	15	nsubj	_	_
-14	kun	kun	SCONJ	Pcle,CS	_	15	advmod	_	_
+14	kun	kun	PART	Pcle,CS	_	15	advmod	_	_
 15	rasittavat	rasittaa	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	dep	_	Missed-Rel=advl
 16	luontoa	luonto	NOUN	N,Sg,Par	Case=Par|Number=Sing	15	obj	_	_
 17	.	.	PUNCT	Pun	_	16	punct	_	_
@@ -20957,7 +20957,7 @@
 # sent_id = ldgsj-16896
 # text = Voi ku se jo lähtis .
 1	Voi	voi	INTJ	Pcle,Interj	_	2	discourse	_	Alt=2_discourse
-2	ku	kun	SCONJ	Pcle,CS	Style=Coll	5	advmod	_	_
+2	ku	kun	PART	Pcle,CS	Style=Coll	5	advmod	_	_
 3	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	nsubj	_	_
 4	jo	jo	PART	Pcle	_	5	advmod	_	_
 5	lähtis	lähteä	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|Style=Coll|VerbForm=Fin|Voice=Act	0	root	_	_

@@ -7338,7 +7338,7 @@
 # sent_id = lefpo-7065
 # text = Voi kun olisi edes 100 hevosvoimaa enemmän Ari Vatanen huokaa .
 1	Voi	voi	INTJ	Pcle,Interj	_	2	discourse	_	Alt=2_discourse
-2	kun	kun	SCONJ	Pcle,CS	_	3	advmod	_	_
+2	kun	kun	PART	Pcle,CS	_	3	advmod	_	_
 3	olisi	olla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	ccomp	_	_
 4	edes	edes	PART	Pcle	_	5	advmod	_	_
 5	100	100	NUM	Num,Card	NumType=Card	6	nummod	_	_
@@ -17370,7 +17370,7 @@
 # text = Harri Dahlström kun ei ole tyypillinen harmaaseen massaan sulautuva virkamies .
 1	Harri	harri	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	10	nsubj:cop	_	Alt=name
 2	Dahlström	dahlström	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	1	flat	_	_
-3	kun	kun	SCONJ	Pcle,CS	_	10	advmod	_	_
+3	kun	kun	PART	Pcle,CS	_	10	advmod	_	_
 4	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
 5	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 6	tyypillinen	tyypillinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	amod	_	_
@@ -18934,7 +18934,7 @@
 1	Ai	ai	INTJ	Pcle,Interj	_	5	discourse	_	Alt=5_discourse
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
-4	kun	kun	SCONJ	Pcle,CS	_	5	advmod	_	_
+4	kun	kun	PART	Pcle,CS	_	5	advmod	_	_
 5	luulin	luulla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
 7	sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	8	nmod	_	Alt=nmod:own
