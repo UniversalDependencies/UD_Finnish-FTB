@@ -583,3 +583,30 @@ possible when "case" is not supposed to have children - try linking
 "päälle" to "alta" and see. Er, REDACTED. This had already been that
 way and rejected by the validator precisely because. No can do. Link
 it where it belongs but make the relation "dep".
+
+Apparently validator was happy with that "dep". No one else is.
+
+Wait. It was the "case" that should have been "dep" and the "conj"
+should be to that node. Fix again.
+
+enlf4
+|  1 | Meno             |  7 | nsubj:cop |         |   |
+|  2 | on               |  7 | cop       |         |   |
+|  3 | tosin            |  7 | advmod    |         |   |
+|  4 | joskus           |  5 | advmod    |         |   |
+|  5 | päivälläkin      |  7 | nmod      |         |   |
+|  6 | aika             |  7 | advmod    |         |   |
+|  7 | rentoa           |  0 | root      |         |   |
+|  8 | -                |  7 | punct     |         |   |
+|  9 | nimittäin        |  7 | advmod    |         |   |
+| 10 | ennen            | 16 | case      |         |   |
+| 11 | ja               | 12 | cc        |         |   |
+| 12 | jälkeen          | 16 | conj      | 12 < 16 | ! |
+| 13 | 24               | 14 | nummod    |         |   |
+| 14 | tunnin           | 15 | nmod      |         |   |
+| 15 | risteilylaivojen | 16 | nmod      |         |   |
+| 16 | lähtöä           |  7 | nmod      |         |   |
+| 17 | .                | 16 | punct     |         |   |
+
+Same thing: "case" cannot have children. Make it "dep" and let the
+validator be happy.
