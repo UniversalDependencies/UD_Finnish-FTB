@@ -642,3 +642,21 @@ Because it was an all-foreign sentence
 - so technically not foreign
 - because "foreign" means all other languages
 - but I digress
+** Remaining cases of "tulla" as "cop"
+
+Remaining because involve more than one "tulla" as in "tuli mitä
+tuli". Time to do them now.
+
+|    |         |           |   | make it |
+|----+---------+-----------+---+---------|
+|  1 | Minä    | 2  nsubj  |   |         |
+|  2 | lähden  | 0  root   |   |         |
+|  3 | sinne   | 4  advmod |   |         |
+|  4 | rapakon | 2  nmod   |   |         |
+|  5 | taakse  | 4  case   |   |         |
+|  6 | ,       | 4  punct  |   |         |
+|  7 | tuli    | 8  cop    |   | 2 advcl |
+|  8 | mitä    | 2  advcl  |   | 9 xcomp |
+|  9 | tuli    | 8  cop    |   | 7 xcomp |
+| 10 | .       | 8  punct  |   |         |
+

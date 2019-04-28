@@ -6129,9 +6129,9 @@
 4	rapakon	rapakko	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 5	taakse	taakse	ADP	Adp	_	4	case	_	_
 6	,	,	PUNCT	Pun	_	4	punct	_	Was18=punct:5:case
-7	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	Alt=8_cop
-8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	2	advcl	_	Alt=2_advcl
-9	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	Alt=8_cop
+7	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
+8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	9	xcomp	_	_
+9	tuli	tulla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	xcomp	_	_
 10	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = d3an6-5906
