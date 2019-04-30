@@ -2,7 +2,7 @@
 
 FinnTreeBank 1 consists of manually annotated grammatical examples
 from VISK. The UD version of FinnTreeBank 1 was converted from a
-native annotation model with a script.
+native annotation model with a script and later manually revised.
 
 # Introduction
 
@@ -33,7 +33,8 @@ clause head.
 As a catchall, the dep relation is used as intended when a more proper
 mapping could not be determined.
 
-Some FinnTreeBank annotations are retained in the MISC field.
+Some FinnTreeBank annotations and other notes are retained in the MISC
+field.
 
 
 ## Splitting
@@ -48,9 +49,9 @@ training set, 1 into development set, and 1 into test set.
 Tree count:  18723
 Word count:  159612
 Token count: 159314
-Dep. relations: 40 of which 8 language specific
-POS tags: 16
-Category=value feature pairs: 70
+Dep. relations: 38 of which 8? language specific
+POS tags: 17
+Category=value feature pairs: 80
 
 
 # Sources
@@ -92,6 +93,17 @@ FinnTreebank 1).
 * UD v1.3 -> UD v2
 
 nmod:own -> nmod, rotate conj groups to have head on left
+
+* UD v2 -> UD v2.4
+
+Revised annotations that were rejected by the validator
+- VERB/aux - change pos to AUX
+- non-ADV/advmod, non-NUM/nummod - change pos or rel
+- children of 'case' and 'mark' - hoist to parent
+- cop other than 'olla' - re-annotate manually
+- non-projective punctuation - re-attached by script
+- 'koska' and 'kun' as SCONJ/advmod - changed most to PART
+- etc.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
