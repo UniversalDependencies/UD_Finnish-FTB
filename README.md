@@ -97,6 +97,7 @@ nmod:own -> nmod, rotate conj groups to have head on left
 * UD v2 -> UD v2.4
 
 Revised annotations that were rejected by the validator
+(except those that the validator only rejects since 2019-05-01)
 - VERB/aux - change pos to AUX
 - non-ADV/advmod, non-NUM/nummod - change pos or rel
 - children of 'case' and 'mark' - hoist to parent
