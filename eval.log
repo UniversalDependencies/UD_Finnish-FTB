@@ -3,8 +3,8 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Finnish-FTB:
-commit 93040121751224cd007580921635bcc2df561769
-Merge: 881f860 02257e2
+commit 75bd668aadc7d66f1168adbffba3297bcd17aa36
+Merge: 9334486 65609d7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 159612 of 159612 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1454917403183.
@@ -15,11 +15,11 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 113891 out of 159612 total words have one or more features.
+Features: 113890 out of 159612 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
-Universal relations: 30 out of 37 found in the corpus.
+Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi: found 3916 bugs.
+Udapi: found 3508 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 159612 words.
 Genres: found 1 out of 17 known.
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-dev.conllu
@@ -35,8 +35,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.734355179835878) = 0.188296199957917
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.754655038468286) = 0.232201550297934
-(weight=0.0769230769230769) * (score{udeprels}=0.648648648648649) = 0.0498960498960499
-(TOTAL score=0.710816122927165) * (availability=1) * (validity=1) = 0.710816122927165
+(weight=0.307692307692308) * (score{udapi}=0.78021702628875) = 0.240066777319615
+(weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
+(TOTAL score=0.720344551612048) * (availability=1) * (validity=1) = 0.720344551612048
 STARS = 3.5
-UD_Finnish-FTB	0.710816122927165	3.5
+UD_Finnish-FTB	0.720344551612048	3.5
