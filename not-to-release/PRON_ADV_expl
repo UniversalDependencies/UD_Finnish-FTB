@@ -1,0 +1,86 @@
+#! /usr/bin/env python3
+# -*- mode: Python; -*-
+
+from argparse import ArgumentParser
+import os, sys
+
+def parseargs():
+    description = '''
+
+    Replace upos "ADV" or "ADJ" with "PRON" when rel is "expl". Leave
+    a trace "Was18=ADV" or "Was18=ADJ" in Misc.
+
+    '''
+    parser = ArgumentParser(description = description)
+
+    parser.add_argument('inf',
+                        help = '''
+                        
+                        input file in *.conllu
+
+                        ''')
+                        
+    parser.add_argument('--in-place', '-i',
+                        dest = 'inplace',
+                        action = 'store_true',
+                        help = '''
+
+                        write to "{input-file}-temp" and replace input
+                        file with output file at end
+                        
+
+                        ''')
+
+    return parser.parse_args()
+
+def main(args):
+
+    if not args.inf.endswith('.conllu'):
+        print('error: input file not in *.conllu:', args.inf,
+              file = sys.stderr)
+        exit(1)
+
+    # used if args.inplace
+    ouf = '{}-temp'.format(args.inf)
+
+    # assumes sys.stdout is UTF-8 - please make it so
+    out = (open(ouf, mode = 'w', encoding = 'UTF-8')
+           if args.inplace
+           else sys.stdout)
+
+    for line in open(args.inf, encoding = 'UTF-8'):
+        if not line[:1].isdigit():
+            print(line, end = '', file = out)
+            continue
+
+        [ ref, word, base,
+          upos, xpos,
+          feat, head, rel,
+          wev, misc ] = line.rstrip('\r\n').split('\t')
+
+        trace = None
+        if upos in ('ADV', 'ADJ') and rel == 'expl':
+            trace = 'Was18={}'.format(upos)
+            upos = 'PRON'
+            
+            # these tend to have non-empty Misc previously
+            misc = '|'.join(sorted(([] if misc == '_' else misc.split('|'))
+                                   + [trace],
+                                   key = str.lower))
+
+        print(ref, word, base, upos, xpos, feat, head, rel, wev, misc,
+              sep = '\t',
+              file = out)
+
+    if args.inplace:
+        out.close()
+        os.rename(args.inf, '{}~'.format(args.inf))
+        os.rename(ouf, args.inf)
+
+if __name__ == '__main__':
+    try:
+        main(parseargs())
+    except BrokenPipeError as exn:
+        print(exn)
+    except KeyboardInterrupt as exn:
+        print(exn)

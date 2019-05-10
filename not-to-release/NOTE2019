@@ -1,0 +1,832 @@
+# -*- mode: Org; -*-
+
+Reported count of errors in successive validation reports:
+|      |   | dev | train | test |   |  sum |
+|------+---+-----+-------+------+---+------|
+| 1st  |   | 798 |  6566 |  846 |   | 8210 |
+| 2nd  |   |  51 |   514 |   68 |   |  633 |
+| 3rd  |   |  59 |   427 |   44 |   |  530 |
+| 4th  |   |  45 |   369 |   33 |   |  447 |
+| 5th  |   |  43 |   358 |   31 |   |  432 |
+| 6th  |   |  32 |   235 |   26 |   |  293 |
+| 7th  |   |  31 |   208 |   23 |   |  262 |
+| 8th  |   |   9 |    77 |    7 |   |   93 |
+| 9th  |   |   7 |    46 |    5 |   |   58 |
+| 10th |   |   3 |    18 |    1 |   |   22 |
+
+* First report
+
+There were 7577 "aux", all "VERB", that become "AUX".
+There were 3787 "AUX", all "cop", that remain "AUX".
+
+|       |  aux | olla |   ei | voida | pitää | saada | muu |
+|-------+------+------+------+-------+-------+-------+-----|
+| dev   |  778 |  278 |  317 |    56 |    27 |    16 |  84 |
+| train | 6052 | 2099 | 2295 |   527 |   252 |   171 | 709 |
+| test  |  747 |  280 |  274 |    69 |    27 |    24 |  74 |
+|-------+------+------+------+-------+-------+-------+-----|
+|       | 7577 |      |      |       |       |       |     |
+
+Fixed with not-to-release/verbaux.
+
+Initial report said 798 + 6566 + 846 = 8210 syntax errors, so hope
+after this only 653 remains. But it may happen that something else
+breaks when things become AUX? Hope not, because their relation to
+their head should be the stronger condition, no?
+
+* Second report, after fixing VERB to AUX in aux
+
+Second report has 51 + 514 + 68 = 633 syntax errors so that is a few
+fewer than expected, at least not more. Not bothering to check.
+
+Third report has 59 + 427 + 44 = 530
+
+Fourth, 447.
+
+Stuff fixed with not-to-release/nmodPRONadvmod, nmodNOUNadvmod,
+PRON_ADV_expl.
+
+** "not a copula"
+
+Now they report that "X is not a copula in language [fi]" for a number
+of words X. There are 228 non-olla "cop" words. These could be tricky.
+Can they be kept as "cop" somehow? Because these are not typos or
+anything but a different, er, never mind.
+
+| 3561 | olla         |                 |
+|  146 | tulla        |                 |
+|   30 | tehdä        |                 |
+|   22 | ei           | "cop" of "conj" |
+|    5 | kasvaa       |                 |
+|    4 | saada        |                 |
+|    3 | kehittyä     |                 |
+|    2 | tulo         | NOUN            |
+|    2 | täyttää      |                 |
+|    2 | odottaa      |                 |
+|    2 | kehkeytyä    |                 |
+|    1 | viimeistellä |                 |
+|    1 | veikata      |                 |
+|    1 | toivoa       |                 |
+|    1 | sukeutua     |                 |
+|    1 | muovata      |                 |
+|    1 | muodostua    |                 |
+|    1 | leipoa       |                 |
+|    1 | kehittää     |                 |
+|    1 | ennustaa     |                 |
+|    1 | alkaa        |                 |
+
+No way can all those be allowed as AUX either any more now? And the
+two that are NOUN "tulo" are apparently intentionally so.
+
+| 3787 | AUX  | cop |
+|    2 | NOUN | cop |
+
+** should not have children
+
+Also instances of "case should not have children", "mark should not
+have children".
+
+Hoisted children of "case" to parent before fifth report.
+
+Hoisted "case" children of "mark" after fifth report.
+
+Hope did not hoist any "fixed" children of "case" and what else?
+
+** punctuation ... non-projectivity
+
+Also "punctuation ... non-projectivity" hate punctuation.
+
+Much tamed after fifth report.
+
+** advmod should be ADV
+
+And "advmod" should be ADV. They do not seem to care about PART,
+maybe, but about the others they do, so maybe 192 of these?
+
+|      |       |                          | to   |
+|------+-------+--------------------------+------|
+| 9273 | ADV   |                          |      |
+| 5088 | PART  |                          |      |
+|  111 | PRON  | mostly Interr, a few Dem | nmod |
+|   23 | CCONJ |                          |      |
+|   22 | SCONJ |                          |      |
+|   17 | NOUN  |                          | nmod |
+|    9 | VERB  | ei                       |      |
+|    7 | X     | all but one Foreign=Yes  | dep  |
+|    2 | ADJ   |                          |      |
+|    1 | NUM   |                          |      |
+
+*Try* making PRON/advmod be PRON/nmod, leave in Misc a trace
+"Was18=advmod" - all 111 have previously empty Misc.
+
+Apparent *success*! Do the same for the 17 NOUN/advmod, blindly. And
+dep the 6 X[Foreign]/advmod at the same time.
+
+Apparent success again.
+
+** nummod should be NUM
+And "nummod" should be NUM. What are the 5 PROPN anyway?
+
+| 1778 | NUM   |                                      |
+|    5 | PROPN | BMW, Windows, Ritalankatu, Panasonic |
+
+** expl should be PRON but is ADV
+
+Something "expl" should be PRON but is ADV. Question: should they be
+PRON because they have PronType, or because they are "expl"?
+
+*Try* them as PRON! Also when ADJ. Seems ok.
+
+| 447 | PRON |                                       |
+|  74 | ADV  | niin, siksi, siten, ...; PronType=Dem |
+|   3 | ADJ  | sellaiset, PronType=Dem               |
+
+Occurrences of "siksi" (counted):
+| 9 | Siksi | ADV  | PronType=Dem                      | advmod |
+| 9 | siksi | ADV  | PronType=Dem                      | advmod |
+| 7 | siksi | ADV  | PronType=Dem                      | expl   |
+| 5 | siksi | ADV  | PronType=Dem                      | mark   |
+| 1 | siksi | PRON | Case=Tra,Number=Sing,PronType=Dem | expl   |
+| 1 | siksi | ADV  | PronType=Dem                      | root   |
+| 1 | Siksi | ADV  | PronType=Dem                      | mark   |
+| 1 | Siksi | ADV  | PronType=Dem                      | expl   |
+| 1 | siksi | ADV  | PronType=Dem                      | conj   |
+| 1 | Siks  | ADV  | PronType=Dem,Style=Coll           | expl   |
+
+Occurrences of "niin" (base-counted with rel and with feat):
+| 313 | niin | PART | mark   | : | 486 | niin | PART | _                       |
+| 296 | niin | PART | advmod | : | 147 | niin | PART | Style=Coll              |
+|  51 | niin | ADV  | expl   | : | 143 | niin | ADV  | PronType=Dem            |
+|  50 | niin | ADV  | mark   | : |   5 | niin | ADV  | Clitic=Han,PronType=Dem |
+|  43 | niin | ADV  | advmod | : |   3 | niin | ADV  | PronType=Dem,Style=Coll |
+|   9 | niin | PART | conj   | : |   3 | niin | ADV  | Clitic=Kin,PronType=Dem |
+|   6 | niin | PART | root   | : |   2 | niin | PART | Clitic=Kin              |
+|   6 | niin | PART | dep    | : |     |      |      |                         |
+|   5 | niin | PART | fixed  | : |     |      |      |                         |
+|   3 | niin | ADV  | root   | : |     |      |      |                         |
+|   3 | niin | ADV  | acl    | : |     |      |      |                         |
+|   2 | niin | ADV  | dep    | : |     |      |      |                         |
+|   2 | niin | ADV  | advcl  | : |     |      |      |                         |
+
+Occurrences of "siten" (counted):
+| 13 | siten | ADV | PronType=Dem | expl   |
+| 11 | siten | ADV | PronType=Dem | advmod |
+
+** goeswith goes wrong
+
+And goeswith goes in the wrong direction or has a gap.
+
+** one aux is still a ... NOUN?
+
+Oh, and one "aux" is NOUN "minkeillä" - probably a genuine error? Or
+else something really, really tricky.
+
+| 7577 | AUX  |           |
+|    1 | X    | did       |
+|    1 | NOUN | minkeillä |
+
+* Fifth report, after hoisting children of case
+
+Now, after copulas, non-projective punctuation seems to dominate.
+Looking at instances, these would be punctuation marks that are linked
+rather far, possibly because in actual FTB some punctuation marks were
+considered phrase markers or something.
+
+** Punctuation non-projectivity
+
+Try this, if a token between a punctuation mark has its head on the
+other side of the punctuation mark, link the punctuation mark to a
+token next to it. First link ,.:!? preferably backwards, and this
+should be idempotent, right?
+
+Seems to be idempotent but leaves a handful of cases that are still
+non-projective where a new head can not be found (five in train, one
+in dev).
+
+** Hoisted "mark" childer
+
+Only "case" not "fixed"
+
+** TODO Go right with
+
+Rotate dependencies.
+
+There seem to have been only six of these, all in train.
+
+** Punctuation must not have children
+
+At least one genuine error (an "nmod" of "punct"), but script found
+much punctuation chains, now made more like bushes.
+
+** Make advmod nmod when PROPN
+
+These may have been thought "name" at one point but maybe that has
+also been the other direction. See if nmod goes. Only five of these.
+
+** Make an "X" ("eteen-") "dep" instead of "advmod"
+
+How was it ever an advmod, though?
+
+** Punctuation must not cause non-projectivity
+
+Validator and own tamepunct script report different sentences on this
+now, is at least one of them maybe in error? But both kinds of
+sentences appear to have cases where a punctuation mark skips a "case"
+which then crosses. Maybe allow linking punctuation marks to a "case"
+as a last resort even though a "case" must not have children?
+
+And now it found a way to link one comma forward in train. Why not
+before? But let it. Maybe it was not non-projective before. Another in
+test.
+
+With an improved test for non-projectivity (also detect links from
+outside into the range between child and parent, not just links out),
+own script appears to find and fix the cases that validator flags.
+Locally detected but not fixable cases remain detected and not fixed.
+
+* Seventh report
+
+Validator still reports 262 errors, now mostly "not a copula in
+language" then a few about "SCONJ" not being a good "advmod" and only
+a handful of others.
+
+** Non-standard copulas
+
+Counting different copulas, there are 228 occurrences of a "cop" other
+than "olla". Now asked in GitHub. Answer is that only "olla" can be
+"cop". Further investigation (with not-to-release/seecop to find and
+display the cases) indicates that this is not scriptable. Work them by
+hand.
+
+| count | word         | upos | gloss  |
+|-------+--------------+------+--------|
+|  3561 | olla         | AUX  | be     |
+|   146 | tulla        | AUX  | become |
+|    30 | tehdä        | AUX  | make   |
+|    22 | ei           | AUX  | not    |
+|     5 | kasvaa       | AUX  | grow   |
+|     4 | saada        | AUX  |        |
+|     3 | kehittyä     | AUX  |        |
+|     2 | tulo         | NOUN |        |
+|     2 | täyttää      | AUX  |        |
+|     2 | odottaa      | AUX  |        |
+|     2 | kehkeytyä    | AUX  |        |
+|     1 | viimeistellä | AUX  |        |
+|     1 | veikata      | AUX  |        |
+|     1 | toivoa       | AUX  |        |
+|     1 | sukeutua     | AUX  |        |
+|     1 | muovata      | AUX  |        |
+|     1 | muodostua    | AUX  |        |
+|     1 | leipoa       | AUX  |        |
+|     1 | kehittää     | AUX  |        |
+|     1 | ennustaa     | AUX  |        |
+|     1 | alkaa        | AUX  |        |
+
+** Working non-standard copulas in dev by hand
+
+"Easy" cases first.
+
+Skip "ei" h96i1
+Skip "ei" fs4mp
+Skip "tuli mitä tuli" figj7 (double cop)
+Skip "joka teki minusta" ruqdj (huh)
+Skip "ei" wytpo
+
+Wonder about unbxk node 1
+
+Skip "tehdä häistä show" k1i3u
+
+Kept not-to-release/nst-cop-dev-1.txt report of this round
+
+Validation report looks promising - no surprises
+
+** Working non-standard copulas in train by hand
+
+Skip "ei" bxvs7
+Skip "ei" jcvlm
+
+Wonder some about wi2xa, tricky.
+
+Skip "ei" x4bxh
+Skip "tekevät merestä meren" rbzms
+Skip "tekivät McCarthysta tähden" p7n5v
+Skip "tekee hänestä ehdokkaan" eyspq
+Skip "ei" pnpak
+Skip "ei" xoadr
+
+Wonder about "Mikasta leivottiin mestari" yqhnu but why not?
+
+Skip "toivon hänestä ehdokasta" s5jm4
+Skip "veikkaavat kaudesta pahinta" izagl
+Skip "vuodesta ennustetaan tappiollista" zegwo
+Skip "hänestä tehtiin laulaja" heo29
+
+Similarly wonder about "hänestä odotettiin Carusoa" ruwct
+
+Skip "saat kakusta kuohkean" sjnox
+Skip "ei" qo2wp
+Skip "teemme sinusta johtajan" ai305
+Skip "tehdä Jerusalemista pääkaupunki" c53g8
+Skip "aidasta hän teki lujan" kmzrn
+Skip "hoitajasta tehdään päätoiminen" qmodj
+Skip "teimme hoitajasta päätoimisen" n27y3
+Skip "heikoista tehdään heikompia" ajd97
+Skip "kasvoista tehtiin tunnistamattomat" odlsv
+Skip "neuvotteluista tehtiin nappula" ojwh6
+Skip "salmonellasta tehtäisi peikkoa" b75zo
+Skip "kuntoilusta tekemässä lajia" bguy1
+
+Similarly wonder about "lakosta odotetaan pitkää" cfux5
+
+Skip "hänestä tehtiin ministeri" auief
+Skip "hänestä pitäisi tehdä ministeri" dovmc
+Skip "tehkää hänestä ministeri" dq7zk
+Skip "teki tästä Unkarin" d6git
+Skip "tekee tarinasta koskettavan" ndc38
+Skip "muovanneet Masista Masin" hlfgj
+Skip "ei" qy0ad
+Skip "ei" vhvkm
+Skip "sinusta on tulossa juoppo" c56qb
+Skip "tuli, mitä tuli" eqt05
+Skip "ei" ah67z
+Skip "ei" gfs2h
+Skip "ei" df8op
+Skip "ei" yrcj9
+Skip "ei" gzklf
+Skip "ei" zut13
+Skip "tehnyt Litmasesta pelaajaa" xql5u
+Skip "ei" saylg
+Skip "tehnyt ihmisistä omavaraisia" zh7gq
+Skip "tehdään alokkaista miehiä" nwr25
+
+(Weird coordination structure/root in dzdkb)
+
+Skip "ei" z3kw6
+Skip "tehdä minusta sairaan" e1en8
+Skip "ei" k0wzk
+Skip "tästä tehdään paikka" jjr27
+Skip "kehittää lapsille keino" cr34e
+
+(Tricky "josta hänen piti viimeistellä teos" oo0zk - made "josta" nobj)
+(Update: tried again to make it obj, there is no nobj)
+
+Skip "ei" k60wf"
+Skip "siitä turnaus on tulossa" hmqo9
+Skip "tehdä hänestä miehen" zqc6d
+
+** Working non-standard copulas in test by hand
+
+Skip "ei" euplm
+Skip "Finlandiasta tehtäisiin palkinto" j2xzy
+Skip "tekikin urheilullisuudesta ansion" dn52w
+
+** Stray edits in interim report
+
+Currently remaining non-projective punctuation and a couple of random
+things and a recent thinko. Also leaving a couple of trickies for now,
+and there are still those non-standard copulas that were skipped on
+first round.
+
+** Working "tehdä" as "cop" by hand in test
+
+These were skipped on first round.
+
+Must respect that they *were* analyzed as copulas.
+Making them now so that j2zxy becomes (in shorthand)
+- nsubj(Finlandiasta)
+- tehtäisiin
+- xcomp(kaunokirjallisuuspalkinto)
+
+Oops, yes, dn52w cannot be made so but becomes
+- nsubj(hän)
+- tekikin
+- nmod(urheilullisuudesta)
+- xcomp(ansion)
+
+So probably all these ex-copulas now have too many subjects. They
+will remain so for now.
+
+** Working "tehdä" as "cop" by hand in dev
+
+ruqdj
+- nsubj(joka)
+- teki
+- nmod(minusta)
+- xcomp(pihtiputaalaisen)
+
+k1i3u
+tehdä
+- nmod(häistä)
+- xcomp(show)
+
+** Working "tehdä" and others as "cop" by hand in train
+
+...
+
+heo29
+- nmod(hänestä)
+- tehtiin
+- xcomp(laulaja)
+
+So that has no nsubj any more and some other similar analyses should
+also be remade so the elative thing is not an nsubj any more. Oops.
+Live and learn.
+
+Going back to some other verbs in train, too.
+
+s5jm4
+- toivon
+- nmod(hänestä)
+- xcomp(ehdokasta)
+
+izagl
+- nsubj(säätieteilijät)
+- veikkaavat
+- nmod(hurrikaanikaudesta)
+- xcomp(pahinta)
+
+zegwo
+- nmod(vuodesta)
+- ennustetaan
+- xcomp(tappiollista)
+
+sjnox
+- saat
+- nmod(kakusta)
+- xcomp(kuohkean)
+
+ai305
+- nsubj(me)
+- teemme
+- nmod(sinusta)
+- xcomp(johtajan)
+
+...
+
+(Fixed nsubj to nmod in cfux5, "nmod(lakosta) odotetaan", btw.)
+
+...
+
+* After ninth report
+
+There are "SCONJ" as "advmod" and a couple of "conj" go the wrong way
+and then the still remaining "cop" issues. And the one "mark" that
+should not be "PRON". And an "aux" that should not be "NOUN".
+
+** Make "SCONJ" as "advmod" something else
+
+- Validator wants "advmod" to be "ADV"
+- Offending instances are all of "koska" or "kun"
+- "kun" does not occur as "ADV"
+
+Offences (cut irrelevant-looking columns)
+| 14 | kun   | kun   | SCONJ | Pcle,CS | 15 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  3 | kun   | kun   | SCONJ | Pcle,CS | 10 | advmod |
+|  4 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  7 | ku    | kun   | SCONJ | Pcle,CS |  9 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  6 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  2 | ku    | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  7 | kun   | kun   | SCONJ | Pcle,CS | 10 | advmod |
+|  6 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  5 | advmod |
+|  6 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  1 | Kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  4 | advmod |
+|  4 | koska | koska | SCONJ | Pcle,CS |  7 | advmod |
+|  5 | ku    | kun   | SCONJ | Pcle,CS |  8 | advmod |
+|  3 | kun   | kun   | SCONJ | Pcle,CS |  7 | advmod |
+|  2 | kun   | kun   | SCONJ | Pcle,CS |  3 | advmod |
+
+"koska" occurs so (! marks offences)
+| 115 | SCONJ | mark   |   |
+|   9 | ADV   | advmod |   |
+|   4 | PART  | mark   |   |
+|   3 | SCONJ | advmod | ! |
+|   1 | SCONJ | conj   |   |
+
+"kun" occurs so (! marks offences)
+| 638 | SCONJ | mark   |   |
+|  45 | SCONJ | fixed  |   |
+|  19 | SCONJ | advmod | ! |
+|  13 | SCONJ | dep    |   |
+|   5 | SCONJ | conj   |   |
+|   4 | PART  | fixed  |   |
+|   2 | SCONJ | root   |   |
+
+Looking at the offending "kun" reveals "kerran" as "PART advmod" and
+there are plenty of other such.
+
+Make the offending "koska" and "kun" be "PART" then. Both already
+occur as "PART" elsewhere.
+
+Except
+- made "ku" in v5m14 "mark"
+- made "koska" in b79wk "ADV"
+- made "koska" in oro5l "ADV"
+- made "koska" in im1qb "ADV"
+** The "aux" that was "NOUN"
+
+That at least was a genuine error.
+
+nid74 in test
+- nmod(minkeillä) was aux
+- on oltava uintimahdollisuus
+** The "mark" that was "PRON"
+
+Ouch, "parempi *mitä* moni kuvittelee".
+
+Looks like a "PART" can be a "mark" so made this "mitä" "PART" with
+base form also "mitä" and no features.
+
+Looks like "kuin" is "SCONJ" when it is used so, but maybe not want to
+make "mitä" "SCONJ".
+** Mis-directions of "conj"
+
+Line 43611 Sent d8qjz-5639:
+- Violation of guidelines: relation 'conj' must go left-to-right
+
+d8qjz
+|  1 | Annokset       |  3 | nsubj:cop |         |   |
+|  2 | ovat           |  3 | cop       |         |   |
+|  3 | kookkaita      |  0 | root      |         |   |
+|  4 | ,              |  3 | punct     |         |   |
+|  5 | palvelu        |  1 | conj      | 5 > 1   |   |
+|  6 | huomaavaista   |  3 | conj      | 6 > 3   |   |
+|  7 | ja             |  8 | cc        |         |   |
+|  8 | nopeaa         |  3 | conj      | 8 > 3   |   |
+|  9 | ;              |  8 | punct     |         |   |
+| 10 | hinnat         |  1 | conj      | 10 > 1  |   |
+| 11 | kohtuulliset   |  3 | conj      | 11 > 3  |   |
+| 12 | ,              | 11 | punct     |         |   |
+| 13 | alta           | 17 | case      |         |   |
+| 14 | ja             | 15 | cc        |         |   |
+| 15 | päälle         | 17 | conj      | 15 < 17 | ! |
+| 16 | viidenkymmenen | 17 | nummod    |         |   |
+| 17 | markan         | 11 | nmod      |         |   |
+| 18 | .              | 17 | punct     |         |   |
+
+This is one tricky system of conjunctions.
+
+Grepping the direction of "conj" in general, to learn the meaning of
+"left-to-right" intended here, it appears that the only offending node
+is node 15 where "päälle" is "conj" of "markan". So *head* must *left*
+and dependent *right* exactly the othe way around of what is written
+in the notation. Shoot.
+
+Looks like it should be 15 > 13, but see if "alta ja päälle" is even
+possible when "case" is not supposed to have children - try linking
+"päälle" to "alta" and see. Er, REDACTED. This had already been that
+way and rejected by the validator precisely because. No can do. Link
+it where it belongs but make the relation "dep".
+
+Apparently validator was happy with that "dep". No one else is.
+
+Wait. It was the "case" that should have been "dep" and the "conj"
+should be to that node. Fix again.
+
+enlf4
+|  1 | Meno             |  7 | nsubj:cop |         |   |
+|  2 | on               |  7 | cop       |         |   |
+|  3 | tosin            |  7 | advmod    |         |   |
+|  4 | joskus           |  5 | advmod    |         |   |
+|  5 | päivälläkin      |  7 | nmod      |         |   |
+|  6 | aika             |  7 | advmod    |         |   |
+|  7 | rentoa           |  0 | root      |         |   |
+|  8 | -                |  7 | punct     |         |   |
+|  9 | nimittäin        |  7 | advmod    |         |   |
+| 10 | ennen            | 16 | case      |         |   |
+| 11 | ja               | 12 | cc        |         |   |
+| 12 | jälkeen          | 16 | conj      | 12 < 16 | ! |
+| 13 | 24               | 14 | nummod    |         |   |
+| 14 | tunnin           | 15 | nmod      |         |   |
+| 15 | risteilylaivojen | 16 | nmod      |         |   |
+| 16 | lähtöä           |  7 | nmod      |         |   |
+| 17 | .                | 16 | punct     |         |   |
+
+Same thing: "case" cannot have children. Make it "dep" and let the
+validator be happy. With "jälkeen" a "conj" of "ennen".
+
+dzdkb
+|  1 | Hannu               |  3 | nsubj  |       |   |
+|  2 | Salamasta           |  1 | flat   |       |   |
+|  3 | tuli                |  8 | conj   | 3 < 8 | ! |
+|  4 | kuitenkin           |  3 | advmod |       |   |
+|  5 | väkevän             |  6 | amod   |       |   |
+|  6 | alkutuotantonsa     |  3 | nmod   |       |   |
+|  7 | takia               |  6 | case   |       |   |
+|  8 | tamperelais-        |  0 | root   |       |   |
+|  9 | ja                  | 11 | cc     |       |   |
+| 10 | erityisesti         | 11 | advmod |       |   |
+| 11 | pispalaiskirjailija |  3 | xcomp  |       |   |
+| 12 | .                   | 11 | punct  |       |   |
+
+Er, this one is all wrong. Possibly made wrong by "cop" fixes but
+anyway.
+
+Make it
+- root(tuli)
+- xmod(tamperelais-)
+- conj(pispalaiskirjailija)
+
+Wow?
+** Another "aux" was "X"
+
+Because it was an all-foreign sentence
+- only made the "aux" "dep"
+- also, that (quoted) sentence was actually English
+- so technically not foreign
+- because "foreign" means all other languages
+- but I digress
+** Remaining cases of "tulla" as "cop"
+
+Remaining because involve more than one "tulla" as in "tuli mitä
+tuli". Time to do them now.
+
+figj7 in dev
+|    |         |           |   | make it |
+|----+---------+-----------+---+---------|
+|  1 | Minä    | 2  nsubj  |   |         |
+|  2 | lähden  | 0  root   |   |         |
+|  3 | sinne   | 4  advmod |   |         |
+|  4 | rapakon | 2  nmod   |   |         |
+|  5 | taakse  | 4  case   |   |         |
+|  6 | ,       | 4  punct  |   |         |
+|  7 | tuli    | 8  cop    |   | 2 advcl |
+|  8 | mitä    | 2  advcl  |   | 9 xcomp |
+|  9 | tuli    | 8  cop    |   | 7 xcomp |
+| 10 | .       | 8  punct  |   |         |
+
+
+eqt05 in train
+|   |               |              |   | make it |
+|---+---------------+--------------+---+---------|
+| 1 | Kun           | 5      mark  |   | 3 mark  |
+| 2 | Tappajahaista | 5      nmod  |   | 3 nmod  |
+| 3 | tuli          | 5      cop   |   | 0 root  |
+| 4 | ,             | 5      punct |   |         |
+| 5 | mitä          | 0      root  |   | 6 xcomp |
+| 6 | tuli          | 5      cop   |   | 3 xcomp |
+| 7 | .             | 5      punct |   | 6 punct |
+
+Not sure why the comma is linked forward. Leave it be.
+** The two cases of "tulo" as "cop"
+
+Where "tulo" alone is not even a verb but "on tulossa" is whatever it
+is. How does one do?
+
+c56qb in train
+|   |         |   |       |   | make it |
+|---+---------+---+-------+---+---------|
+| 1 | Minusta | 2 | nmod  |   |         |
+| 2 | näyttää | 0 | root  |   |         |
+| 3 | ,       | 2 | punct |   |         |
+| 4 | että    | 6 | mark  |   |         |
+| 5 | sinusta | 8 | nmod  |   | 6 nmod  |
+| 6 | on      | 2 | advcl |   |         |
+| 7 | tulossa | 8 | cop   |   | 6 nmod  |
+| 8 | juoppo  | 6 | nmod  |   | 6 xcomp |
+| 9 | .       | 8 | punct |   |         |
+
+hmqo9 in train
+|    |         |    |       |   | make it  |
+|----+---------+----+-------+---+----------|
+|  1 | Enhän   |  3 | aux   |   |          |
+|  2 | minä    |  3 | nsubj |   |          |
+|  3 | sanonut |  0 | root  |   |          |
+|  4 | ,       |  3 | punct |   |          |
+|  5 | että    | 10 | mark  |   |          |
+|  6 | siitä   |  9 | nmod  |   | 10 nmod  |
+|  7 | mikään  |  9 | det   |   |          |
+|  8 | helppo  |  9 | amod  |   |          |
+|  9 | turnaus | 10 | nmod  |   | 10 xcomp |
+| 10 | on      |  3 | ccomp |   |          |
+| 11 | tulossa |  9 | cop   |   | 10 nmod  |
+| 12 | .       | 11 | punct |   |          |
+
+* Tenth report, all about "ei" not a "cop" any more
+
+A victory of sorts. Of course there is the documentation issue, too.
+But all remaining data issues are "ei" as a "cop" now.
+
+** TODO The missing document
+
+This is confusing.
+
+Looks like they are going to lose three Finnish treebanks over this.
+
+The Finnish-specific documentation appears to pertain to UDv1 still.
+
+** TODO Make them "ei" not "cop"
+
+These are tricky. Turn out that there may be a relation "orphan" in
+UDv2 to treat (most of) these as cases where the main verb is missing.
+Since two years or so? Paper by Schuster, Lamm, Manning.
+
+h96i1 in dev
+|    |             |   |           | make it |
+|----+-------------+---+-----------+---------|
+|  1 | Duuman      | 2 | nmod      |         |
+|  2 | kuohunta    | 4 | nsubj:cop |         |
+|  3 | olisi       | 4 | cop       |         |
+|  4 | kiusallista | 0 | root      |         |
+|  5 | ,           | 4 | punct     |         |
+|  6 | mutta       | 9 | cc        |         |
+|  7 | ei          | 9 | cop       | 9 aux   |
+|  8 | vielä       | 9 | advmod    |         |
+|  9 | vaarallista | 4 | conj      |         |
+| 10 | .           | 9 | punct     |         | 
+
+Actually no place for the "orphan" here since the head of the
+construction that is missing the copula was never the copula.
+
+fs4mp in dev
+|    |         |   |        | make it |
+|----+---------+---+--------+---------|
+|  1 | Mutta   | 4 | cc     |         |
+|  2 | ei      | 4 | cop    | 4 aux   |
+|  3 | sen     | 4 | det    |         |
+|  4 | pahempi | 0 | root   |         |
+|  5 | kuin    | 7 | mark   |         |
+|  6 | yleensä | 7 | advmod |         |
+|  7 | miehet  | 4 | advcl  |         |
+|  8 | tällä   | 9 | det    |         |
+|  9 | alalla  | 7 | nmod   |         |
+| 10 | .       | 9 | punct  |         |
+
+That weird. An "orphan" relation would signal that there is something
+missing here but the missing item - the copula - does not have any
+dependents that would become "orphan".
+
+wytpo in dev
+|    |             |    |           | make it |
+|----+-------------+----+-----------+---------|
+|  1 | Ruoka       |  7 | nsubj:cop |         |
+|  2 | on          |  7 | cop       |         |
+|  3 | tasoltaan   |  7 | nmod      |         |
+|  4 | yleisesti   |  5 | advmod    |         |
+|  5 | ottaen      |  7 | advcl     |         |
+|  6 | ihan        |  7 | advmod    |         |
+|  7 | syötävää    |  0 | root      |         |
+|  8 | ,           |  7 | punct     |         |
+|  9 | joskaan     | 11 | cc        |         |
+| 10 | ei          | 11 | cop       | 11 aux  |
+| 11 | erinomaista |  7 | conj      |         |
+| 12 | .           | 11 | punct     |         |
+
+Same thing.
+
+euplm in test
+|   |                      |   |           | make it |
+|---+----------------------+---+-----------+---------|
+| 1 | Tapahtuma            | 3 | nsubj:cop |         |
+| 2 | oli                  | 3 | cop       |         |
+| 3 | merkittävä           | 0 | root      |         |
+| 4 | ,                    | 3 | punct     |         |
+| 5 | vaikka               | 8 | cc        |         |
+| 6 | ei                   | 8 | cop       | 8 aux   |
+| 7 | mitenkään            | 8 | advmod    |         |
+| 8 | vallankumouksellinen | 3 | conj      |         |
+| 9 | .                    | 8 | punct     |         |
+
+And same thing.
+
+With this change, these sentences pass the validator.
+Too simple.
+
+Do the same for the 18 in train.
+| bxvs7 |  6 | same
+| jcvlm |  6 | same
+| x4bxh |  1 | different!
+| pnpak |  6 | same (funny thing)
+| xoadr |  8 | hm? treat "eikä ihme" as same
+| qo2wp | 21 | same
+| qy0ad |  8 |same
+| vhvkm |  7 | same
+| ah67z | 10 | same
+| gfs2h |  7 |same
+| df8op |  8 | same
+| yrcj9 |  6 | same (this time "en")
+| gzklf |  9 | same
+| zut13 | 11 | same
+| saylg |  4 | same ok, also has nsubj:cop
+| z3kw6 | 23 | different
+| k0wzk |  6 | different? and looks maybe wrong
+| k60wf |  9 | same
+
+x4bhx elides something like "kuulu" so "ihmeempää" is raised to its
+place, but now "ei" becomes "orphan".
+
+pnpak elided a copula but also already had another parallel case where
+the "ei" was already an "aux" - heh.
+
+Looks like hh9my and obi8q should be done with "orphan", maybe? Not
+doing that now. Only placating the validator now.
+
+z3kw6 "ei suurensuuri" is elisionist for "ei mahtuisi suurensuuri
+pöytä", make "ei" "orphan" (long sentence)

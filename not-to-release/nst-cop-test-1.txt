@@ -1,0 +1,211 @@
+#	# sent_id = hch0w-2824
+#	# text = sattui tulemaan kuuluisia
+aux     -par	1	sattui	AUX	3	aux
+COP     	2	tulemaan	AUX	3	cop
+PAR     	3	kuuluisia	ADJ	0	root
+
+#	# sent_id = c8cx5-6612
+#	# text = Uransa päätöstä Thomas ei halua ajatella , mutta yhden asian hän tietää jo nyt : Valmentajaa minusta ei tule koskaan .
+.	1	Uransa	NOUN	2	nmod
+.	2	päätöstä	NOUN	6	obj
+.	3	Thomas	PROPN	5	nsubj
+.	4	ei	AUX	5	aux
+.	5	halua	VERB	0	root
+.	6	ajatella	VERB	5	xcomp
+.	7	,	PUNCT	6	punct
+.	8	mutta	CCONJ	12	cc
+.	9	yhden	NUM	10	nummod
+.	10	asian	NOUN	12	obj
+.	11	hän	PRON	12	nsubj
+.	12	tietää	VERB	5	conj
+.	13	jo	PART	14	advmod
+.	14	nyt	ADV	12	advmod
+.	15	:	PUNCT	14	punct
+PAR     	16	Valmentajaa	NOUN	5	conj
+nmod    -par	17	minusta	PRON	16	nmod
+aux     -par	18	ei	AUX	16	aux
+COP     	19	tule	AUX	16	cop
+advmod  -par	20	koskaan	ADV	16	advmod
+.	21	.	PUNCT	20	punct
+
+#	# sent_id = sg3nj-7053
+#	# text = Löin Schwartzin , Reinon ja Railin kanssa vetoa siitä , että Tuomiojasta tulee presidentti .
+.	1	Löin	VERB	0	root
+.	2	Schwartzin	PROPN	1	nmod
+.	3	,	PUNCT	2	punct
+.	4	Reinon	PROPN	2	conj
+.	5	ja	CCONJ	6	cc
+.	6	Railin	PROPN	2	conj
+.	7	kanssa	ADP	2	case
+.	8	vetoa	NOUN	1	compound:prt
+expl    -par	9	siitä	PRON	14	expl
+.	10	,	PUNCT	9	punct
+mark    -par	11	että	SCONJ	14	mark
+nmod    -par	12	Tuomiojasta	PROPN	14	nmod
+COP     	13	tulee	AUX	14	cop
+PAR     	14	presidentti	NOUN	8	acl
+punct   -par	15	.	PUNCT	14	punct
+
+#	# sent_id = c1xva-7432
+#	# text = Tulee kylmä .
+COP     	1	Tulee	AUX	2	cop
+PAR     	2	kylmä	ADJ	0	root
+punct   -par	3	.	PUNCT	2	punct
+
+#	# sent_id = j9jph-7607
+#	# text = Tuli kuuma
+COP     	1	Tuli	AUX	2	cop
+PAR     	2	kuuma	ADJ	0	root
+
+#	# sent_id = bqn6c-7638
+#	# text = Toivottavasti huomenna tulee kaunista .
+advmod  -par	1	Toivottavasti	ADV	4	advmod
+advmod  -par	2	huomenna	ADV	4	advmod
+COP     	3	tulee	AUX	4	cop
+PAR     	4	kaunista	ADJ	0	root
+punct   -par	5	.	PUNCT	4	punct
+
+#	# sent_id = d9da6-7642
+#	# text = Nyt tulee aamu
+advmod  -par	1	Nyt	ADV	3	advmod
+COP     	2	tulee	AUX	3	cop
+PAR     	3	aamu	NOUN	0	root
+
+#	# sent_id = u356n-7701
+#	# text = Sihteerintoimesta ei kuitenkaan tullut pitkäaikaista .
+nmod    -par	1	Sihteerintoimesta	NOUN	5	nmod
+aux     -par	2	ei	AUX	5	aux
+advmod  -par	3	kuitenkaan	PART	5	advmod
+COP     	4	tullut	AUX	5	cop
+PAR     	5	pitkäaikaista	ADJ	0	root
+punct   -par	6	.	PUNCT	5	punct
+
+#	# sent_id = doamk-8193
+#	# text = Nää kalathan tuli hyviä .
+.	1	Nää	DET	2	det
+nsubj:cop-par	2	kalathan	NOUN	4	nsubj:cop
+COP     	3	tuli	AUX	4	cop
+PAR     	4	hyviä	ADJ	0	root
+punct   -par	5	.	PUNCT	4	punct
+
+#	# sent_id = t162y-8211
+#	# text = Jari Mantilasta on kasvanut varsinainen tekijämies .
+nmod    -par	1	Jari	PROPN	6	nmod
+.	2	Mantilasta	PROPN	1	flat
+aux     -par	3	on	AUX	6	aux
+COP     	4	kasvanut	AUX	6	cop
+amod    -par	5	varsinainen	ADJ	6	amod
+PAR     	6	tekijämies	NOUN	0	root
+punct   -par	7	.	PUNCT	6	punct
+
+#	# sent_id = axzpu-8422
+#	# text = Älä painele marjoja , ettei mehusta tule sameaa .
+.	1	Älä	AUX	2	aux
+.	2	painele	VERB	0	root
+.	3	marjoja	NOUN	2	obj
+.	4	,	PUNCT	3	punct
+#	5-6	ettei	_	_	_
+mark    -par	5	ett	SCONJ	9	mark
+aux     -par	6	ei	AUX	9	aux
+nmod    -par	7	mehusta	NOUN	9	nmod
+COP     	8	tule	AUX	9	cop
+PAR     	9	sameaa	ADJ	2	advcl
+punct   -par	10	.	PUNCT	9	punct
+
+#	# sent_id = k5f7z-8426
+#	# text = hampurilaisista ja pizzoista on tullut suomalaista kansallisruokaa .
+nmod    -par	1	hampurilaisista	NOUN	7	nmod
+.	2	ja	CCONJ	3	cc
+.	3	pizzoista	NOUN	1	conj
+aux     -par	4	on	AUX	7	aux
+COP     	5	tullut	AUX	7	cop
+amod    -par	6	suomalaista	ADJ	7	amod
+PAR     	7	kansallisruokaa	NOUN	0	root
+punct   -par	8	.	PUNCT	7	punct
+
+#	# sent_id = jkurm-8907
+#	# text = Hiljaa hyvä tulee , meillä Suomessa sanotaan .
+advmod  -par	1	Hiljaa	ADV	2	advmod
+PAR     	2	hyvä	ADJ	7	ccomp
+COP     	3	tulee	AUX	2	cop
+.	4	,	PUNCT	7	punct
+.	5	meillä	PRON	7	nmod
+.	6	Suomessa	PROPN	7	nmod
+.	7	sanotaan	VERB	0	root
+.	8	.	PUNCT	7	punct
+
+#	# sent_id = fr7o0-10418
+#	# text = Olennaista on se , että tästä ylipäänsä voi tulla jotain .
+.	1	Olennaista	ADJ	0	root
+.	2	on	AUX	1	cop
+expl    -par	3	se	PRON	10	expl
+.	4	,	PUNCT	3	punct
+mark    -par	5	että	SCONJ	10	mark
+nmod    -par	6	tästä	PRON	10	nmod
+advmod  -par	7	ylipäänsä	ADV	10	advmod
+aux     -par	8	voi	AUX	10	aux
+COP     	9	tulla	AUX	10	cop
+PAR     	10	jotain	PRON	1	csubj:cop
+punct   -par	11	.	PUNCT	10	punct
+
+#	# sent_id = euplm-11132
+#	# text = Tapahtuma oli merkittävä , vaikka ei mitenkään vallankumouksellinen .
+.	1	Tapahtuma	NOUN	3	nsubj:cop
+.	2	oli	AUX	3	cop
+.	3	merkittävä	ADJ	0	root
+.	4	,	PUNCT	3	punct
+cc      -par	5	vaikka	CCONJ	8	cc
+COP     	6	ei	AUX	8	cop
+advmod  -par	7	mitenkään	ADV	8	advmod
+PAR     	8	vallankumouksellinen	ADJ	3	conj
+punct   -par	9	.	PUNCT	8	punct
+
+#	# sent_id = wi5au-11548
+#	# text = Minulle tuli kylmä .
+nmod    -par	1	Minulle	PRON	3	nmod
+COP     	2	tuli	AUX	3	cop
+PAR     	3	kylmä	ADJ	0	root
+punct   -par	4	.	PUNCT	3	punct
+
+#	# sent_id = pna6r-11647
+#	# text = Kuinka Helsingin työläiskaupunginosan Kallion tytöstä tuli presidentti ?
+advmod  -par	1	Kuinka	ADV	7	advmod
+.	2	Helsingin	PROPN	3	nmod
+.	3	työläiskaupunginosan	NOUN	4	nmod
+.	4	Kallion	PROPN	5	nmod
+nmod    -par	5	tytöstä	NOUN	7	nmod
+COP     	6	tuli	AUX	7	cop
+PAR     	7	presidentti	NOUN	0	root
+punct   -par	8	?	PUNCT	7	punct
+
+#	# sent_id = j2xzy-14108
+#	# text = Toiseksi he ehdottavat , että Finlandiasta tehtäisiin puhtaasti kaunokirjallisuuspalkinto .
+.	1	Toiseksi	ADV	3	advmod
+.	2	he	PRON	3	nsubj
+.	3	ehdottavat	VERB	0	root
+.	4	,	PUNCT	3	punct
+mark    -par	5	että	SCONJ	9	mark
+nmod    -par	6	Finlandiasta	PROPN	9	nmod
+COP     	7	tehtäisiin	AUX	9	cop
+advmod  -par	8	puhtaasti	ADV	9	advmod
+PAR     	9	kaunokirjallisuuspalkinto	NOUN	3	ccomp
+punct   -par	10	.	PUNCT	9	punct
+
+#	# sent_id = dn52w-16829
+#	# text = Sen ymmärsi Urho Kekkonen , ja hän se tekikin urheilullisuudesta vakavasti otettavan poliittisen ansion .
+.	1	Sen	PRON	2	obj
+.	2	ymmärsi	VERB	0	root
+.	3	Urho	PROPN	2	nsubj
+.	4	Kekkonen	PROPN	3	flat
+.	5	,	PUNCT	3	punct
+cc      -par	6	ja	CCONJ	14	cc
+nsubj:cop-par	7	hän	PRON	14	nsubj:cop
+.	8	se	PRON	7	nmod
+COP     	9	tekikin	AUX	14	cop
+nmod    -par	10	urheilullisuudesta	NOUN	14	nmod
+.	11	vakavasti	ADV	12	advmod
+acl     -par	12	otettavan	VERB	14	acl
+amod    -par	13	poliittisen	ADJ	14	amod
+PAR     	14	ansion	NOUN	2	conj
+punct   -par	15	.	PUNCT	14	punct
+
