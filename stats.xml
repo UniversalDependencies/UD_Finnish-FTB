@@ -6,28 +6,31 @@
        The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
   <size>
     <total><sentences>18723</sentences><tokens>159314</tokens><words>159612</words><fused>298</fused></total>
+    <train><sentences>14981</sentences><tokens>127359</tokens><words>127602</words><fused>243</fused></train>
+    <dev><sentences>1875</sentences><tokens>15694</tokens><words>15724</words><fused>30</fused></dev>
+    <test><sentences>1867</sentences><tokens>16261</tokens><words>16286</words><fused>25</fused></test>
   </size>
-  <lemmas unique="21527" /><!-- ., olla, ,, ja, ei, se, että, hän, minä, tulla, ?, tämä, joka, niin, saada -->
+  <lemmas unique="21528" /><!-- ., olla, ,, ja, ei, se, että, hän, minä, tulla, ?, tämä, joka, niin, saada -->
   <forms unique="43842" /><!-- ., ,, on, ja, ei, että, oli, se, hän, ?, kuin, niin, kun, ole, nyt -->
   <fusions unique="33" /><!-- ettei, etten, ellei, etteikö, miksei, etteivät, jollei, muttei, vaikkei, ettet, jolleivät, elleivät, ellet, ettenkö, ehkei -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
-    <tag name="ADJ">10494</tag><!-- hyvä, oma, uusi, suuri, koko, suomalainen, pieni, vanha, ensimmäinen, nuori -->
+    <tag name="ADJ">10491</tag><!-- hyvä, oma, uusi, suuri, koko, suomalainen, pieni, vanha, ensimmäinen, nuori -->
     <tag name="ADP">2731</tag><!-- kanssa, mukaan, jälkeen, ennen, asti, ilman, sitten, takia, vuoksi, kautta -->
-    <tag name="ADV">10204</tag><!-- nyt, sitten, aina, siellä, paljon, täällä, hyvin, miten, vähän, niin -->
-    <tag name="AUX">3787</tag><!-- olla, tulla, tehdä, ei, kasvaa, saada, kehittyä, kehkeytyä, odottaa, täyttää -->
+    <tag name="ADV">10133</tag><!-- nyt, sitten, aina, siellä, paljon, täällä, hyvin, miten, vähän, silloin -->
+    <tag name="AUX">11161</tag><!-- olla, ei, voida, pitää, saada, täytyä, tulla, alkaa, saattaa, kannattaa -->
     <tag name="CCONJ">4776</tag><!-- ja, mutta, tai, vai, vaan, sekä, eli, että, joko, kuin -->
     <tag name="DET">4109</tag><!-- se, tämä, kaikki, jokin, mikään, muu, mikä, ne, moni, hän -->
     <tag name="INTJ">341</tag><!-- no, voi, hei, joo, ai, jumalauta, saatana, okei, heh, senkin -->
     <tag name="NOUN">37036</tag><!-- vuosi, asia, mies, aika, lapsi, ihminen, päivä, työ, nainen, auto -->
     <tag name="NUM">2252</tag><!-- kaksi, yksi, kolme, viisi, puoli, kymmenen, neljä, pari, miljoona, sata -->
-    <tag name="PART">5665</tag><!-- niin, jo, myös, vielä, vain, kyllä, ihan, sitten, enää, nyt -->
-    <tag name="PRON">10572</tag><!-- se, hän, minä, joka, sinä, mikä, me, ne, tämä, he -->
+    <tag name="PART">5684</tag><!-- niin, jo, myös, vielä, vain, kyllä, ihan, sitten, enää, nyt -->
+    <tag name="PRON">10648</tag><!-- se, hän, minä, joka, sinä, mikä, me, ne, tämä, he -->
     <tag name="PROPN">6773</tag><!-- suomi, helsinki, tampere, ruotsi, eurooppa, maija, mikko, venäjä, ranska, anna -->
     <tag name="PUNCT">22565</tag><!-- ., ,, ?, ", !, -, :, ..., –, ; -->
-    <tag name="SCONJ">4168</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kunnes, kunhan -->
+    <tag name="SCONJ">4147</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kunnes, kunhan -->
     <tag name="SYM">22</tag><!-- %, &, /, +, *, @ -->
-    <tag name="VERB">33813</tag><!-- olla, ei, tulla, saada, voida, tehdä, pitää, sanoa, mennä, ottaa -->
+    <tag name="VERB">26439</tag><!-- olla, tulla, tehdä, saada, sanoa, mennä, lähteä, ottaa, haluta, tietää -->
     <tag name="X">304</tag><!-- 70-, in, sosiaali-, the, ala-, kauppa-, keng-, maa-, 50-, aquis -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -47,13 +50,13 @@
     <feat name="Case" value="Ins" upos="ADJ,AUX,DET,NOUN,NUM,PRON,VERB">404</feat><!-- ollen, määrin, ottaen, käsin, lukien, osin, tavoin, tullen, ajoin, katsoen -->
     <feat name="Case" value="Lat" upos="AUX,VERB">3395</feat><!-- olla, tehdä, mennä, tulla, saada, ottaa, lähteä, sanoa, käydä, käyttää -->
     <feat name="Case" value="Nom" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">29633</feat><!-- se, hän, minä, joka, mä, ne, kaikki, ollut, tämä, sinä -->
-    <feat name="Case" value="Par" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12500</feat><!-- sitä, mitä, mitään, minua, niitä, vuotta, aikaa, jotain, häntä, tätä -->
+    <feat name="Case" value="Par" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">12499</feat><!-- sitä, mitä, mitään, minua, niitä, vuotta, aikaa, jotain, häntä, tätä -->
     <feat name="Case" value="Tra" upos="ADJ,AUX,DET,NOUN,NUM,PRON,PROPN,VERB">1156</feat><!-- valmiiksi, valituksi, päästäkseen, vuodeksi, hoidetuksi, nimekseen, sääliksi, toiseksi, hyväksi, kuuluisaksi -->
     <feat name="Clitic" value="Han" upos="ADJ,ADP,ADV,AUX,DET,NOUN,PART,PRON,PROPN,VERB">276</feat><!-- eihän, onhan, sehän, Mitähän, ainahan, enhän, niinhän, Minähän, sinähän, Antakaahan -->
     <feat name="Clitic" value="Han,Ka" upos="ADV">3</feat><!-- Mihinkähä, Miksikähän, mihinkähän -->
     <feat name="Clitic" value="Han,Kin" upos="NOUN,PRON">3</feat><!-- lapsijakkiihan, nekinhän, rahatkinhan -->
     <feat name="Clitic" value="Han,Ko" upos="ADV,AUX,PRON,VERB">52</feat><!-- eiköhän, Onkohan, Enköhän, Olisikohan, Uskaltaisikohan, haluaakohan, olikohan, Eivätköhän, Kokeilisikohan, Kukakohan -->
-    <feat name="Clitic" value="Han,Pa" upos="VERB">1</feat><!-- Eipähän -->
+    <feat name="Clitic" value="Han,Pa" upos="AUX">1</feat><!-- Eipähän -->
     <feat name="Clitic" value="Ka" upos="ADV,AUX,VERB">187</feat><!-- eikä, enkä, eivätkä, emmekä, äläkä, etkä, mitenkä, ettekä, minnekkä -->
     <feat name="Clitic" value="Ka,S" upos="ADV,DET">4</feat><!-- mitenkäs, Millonkas, mihinkäs -->
     <feat name="Clitic" value="Kaan" upos="ADJ,ADP,ADV,AUX,DET,NOUN,NUM,PART,PRON,PROPN,VERB">321</feat><!-- myöskään, olekaan, ollutkaan, yksikään, vieläkään, kertaakaan, olikaan, hetkeäkään, kovinkaan, muukaan -->
@@ -64,7 +67,7 @@
     <feat name="Clitic" value="Ko,S" upos="ADV,AUX,DET,NOUN,PART,PRON,VERB">48</feat><!-- Eikös, onkos, Jokos, Kerrankos, Oletkos, enkös, menetkös, Kuulitkos, Käytitkös, Luvattiinkos -->
     <feat name="Clitic" value="Pa" upos="ADJ,ADV,AUX,NOUN,PART,PRON,VERB">149</feat><!-- eipä, onpa, vaikkapa, kukapa, siinäpä, arvatkaapa, koskapa, Mitäpä, oletpa, ollapa -->
     <feat name="Clitic" value="Pa,S" upos="AUX,PART,PRON,VERB">42</feat><!-- eipäs, ollaanpas, Olipas, kuulkaapas, meeppäs, otapas, Arvaappas, Autapas, Enpäs, Hänpäs -->
-    <feat name="Clitic" value="S" upos="ADJ,ADV,DET,PART,PRON,VERB">90</feat><!-- mitäs, mikäs, entäs, kuinkas, Annas, kukas, kuules, Ettäs, Katos, Katotaas -->
+    <feat name="Clitic" value="S" upos="ADJ,ADV,AUX,DET,PART,PRON,VERB">90</feat><!-- mitäs, mikäs, entäs, kuinkas, Annas, kukas, kuules, Ettäs, Katos, Katotaas -->
     <feat name="Connegative" value="Yes" upos="AUX,VERB">2738</feat><!-- ole, ollut, voi, olisi, saa, tiedä, oo, tule, halua, pysty -->
     <feat name="Degree" value="Cmp" upos="ADJ,ADP,ADV,DET,NOUN,PRON,VERB">839</feat><!-- enemmän, myöhemmin, parempi, paremmin, vähemmän, aikaisemmin, enempää, aiemmin, suurempi, pikemminkin -->
     <feat name="Degree" value="Sup" upos="ADJ,ADP,ADV,DET,NOUN,PRON">544</feat><!-- suurin, parasta, paras, eniten, parhaiten, mahdollisimman, parhaat, useimmat, pahin, useimmiten -->
@@ -99,7 +102,7 @@
     <feat name="PronType" value="Int" upos="ADJ,ADV,DET,PRON">1109</feat><!-- mitä, miten, kuinka, mikä, miksi, kuka, missä, mistä, minkä, mihin -->
     <feat name="PronType" value="Prs" upos="DET,PRON">4839</feat><!-- hän, minä, mä, hänen, sinä, he, me, minun, minulla, minua -->
     <feat name="PronType" value="Rcp" upos="DET,PRON">82</feat><!-- toisiaan, toisensa, toistensa, toistaan, toisiinsa, toisilleen, toisistaan, toisemme, toisestaan, toisiamme -->
-    <feat name="PronType" value="Rel" upos="ADJ,ADV,DET,PRON">1093</feat><!-- joka, mitä, jotka, jonka, jossa, jota, mikä, joita, jolla, josta -->
+    <feat name="PronType" value="Rel" upos="ADJ,ADV,DET,PRON">1092</feat><!-- joka, mitä, jotka, jonka, jossa, jota, mikä, joita, jolla, josta -->
     <feat name="PunctSide" value="Fin" upos="PUNCT">228</feat><!-- ", ) -->
     <feat name="PunctSide" value="Ini" upos="PUNCT">228</feat><!-- ", ( -->
     <feat name="Reflex" value="Yes" upos="DET,PRON">324</feat><!-- itse, itsensä, itseään, itselleen, itsekin, itseni, itseäni, itsestään, itseensä, itseäsi -->
@@ -114,43 +117,44 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">3398</feat><!-- ollaan, voidaan, tehty, tehdään, tarvitaan, saadaan, mennään, otetaan, verrattuna, tehtiin -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="37">
+  <deps unique="38">
     <dep name="acl">2979</dep>
     <dep name="advcl">3393</dep>
-    <dep name="advmod">14553</dep>
+    <dep name="advmod">14417</dep>
     <dep name="amod">6894</dep>
     <dep name="appos">2</dep>
-    <dep name="aux">7579</dep>
-    <dep name="case">2699</dep>
+    <dep name="aux">7597</dep>
+    <dep name="case">2697</dep>
     <dep name="cc">4727</dep>
     <dep name="ccomp">1788</dep>
     <dep name="compound">1</dep>
     <dep name="compound:nn">361</dep>
     <dep name="compound:prt">380</dep>
     <dep name="conj">6497</dep>
-    <dep name="cop">3789</dep>
+    <dep name="cop">3561</dep>
     <dep name="csubj">282</dep>
     <dep name="csubj:cop">231</dep>
-    <dep name="dep">281</dep>
+    <dep name="dep">291</dep>
     <dep name="det">3868</dep>
     <dep name="discourse">308</dep>
     <dep name="expl">524</dep>
     <dep name="fixed">545</dep>
     <dep name="flat">818</dep>
     <dep name="goeswith">7</dep>
-    <dep name="mark">4475</dep>
-    <dep name="nmod">22951</dep>
+    <dep name="mark">4476</dep>
+    <dep name="nmod">22976</dep>
     <dep name="nmod:gobj">264</dep>
     <dep name="nmod:gsubj">101</dep>
-    <dep name="nsubj">13033</dep>
-    <dep name="nsubj:cop">2739</dep>
-    <dep name="nummod">1783</dep>
-    <dep name="obj">8660</dep>
+    <dep name="nsubj">13174</dep>
+    <dep name="nsubj:cop">2706</dep>
+    <dep name="nummod">1778</dep>
+    <dep name="obj">8661</dep>
+    <dep name="orphan">2</dep>
     <dep name="punct">22565</dep>
     <dep name="reparandum">17</dep>
     <dep name="root">18723</dep>
     <dep name="vocative">159</dep>
-    <dep name="xcomp">1268</dep>
-    <dep name="xcomp:ds">368</dep>
+    <dep name="xcomp">1473</dep>
+    <dep name="xcomp:ds">369</dep>
   </deps>
 </treebank>
