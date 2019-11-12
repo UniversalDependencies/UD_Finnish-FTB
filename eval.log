@@ -3,9 +3,9 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Finnish-FTB:
-commit 75bd668aadc7d66f1168adbffba3297bcd17aa36
-Merge: 9334486 65609d7
+commit 82b93315e8abd36ec23f75029e57ea819fc739d3
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri May 10 21:10:10 2019 +0200
 Size: counted 159612 of 159612 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1454917403183.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -23,12 +23,48 @@ Udapi: found 3508 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 159612 words.
 Genres: found 1 out of 17 known.
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-dev.conllu
-*** PASSED ***
+[Line 32 Sent oqlyi-183 Node 1]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 874 Sent wcl0q-1603 Node 2]: [L5 Morpho aux-lemma] 'alkaa' is not an auxiliary verb in language [fi]
+[Line 1330 Sent zpad5-2094 Node 12]: [L5 Morpho aux-lemma] 'alkaa' is not an auxiliary verb in language [fi]
+[Line 1529 Sent aoaxl-2327 Node 10]: [L5 Morpho aux-lemma] 'ottaa' is not an auxiliary verb in language [fi]
+[Line 1543 Sent jwap1-2328 Node 9]: [L5 Morpho aux-lemma] 'ottaa' is not an auxiliary verb in language [fi]
+[Line 1618 Sent ewu0c-2357 Node 10]: [L5 Morpho aux-lemma] 'jättää' is not an auxiliary verb in language [fi]
+[Line 1734 Sent qny7g-2445 Node 9]: [L5 Morpho aux-lemma] 'kannattaa' is not an auxiliary verb in language [fi]
+[Line 1816 Sent lsiop-2529 Node 3]: [L5 Morpho aux-lemma] 'uhata' is not an auxiliary verb in language [fi]
+[Line 1881 Sent h3jkc-2548 Node 11]: [L5 Morpho aux-lemma] 'ehtiä' is not an auxiliary verb in language [fi]
+...suppressing further errors regarding Morpho
+Morpho errors: 70
+*** FAILED *** with 70 errors
+Exit code: 1
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-test.conllu
-*** PASSED ***
+[Line 226 Sent wj6g1-676 Node 4]: [L5 Morpho aux-lemma] 'sattua' is not an auxiliary verb in language [fi]
+[Line 237 Sent tht9f-721 Node 2]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 250 Sent y65s9-725 Node 6]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 907 Sent bdu6n-1814 Node 15]: [L5 Morpho aux-lemma] 'alkaa' is not an auxiliary verb in language [fi]
+[Line 1451 Sent me1g9-2360 Node 3]: [L5 Morpho aux-lemma] 'näyttää' is not an auxiliary verb in language [fi]
+[Line 1723 Sent ljgpq-2549 Node 14]: [L5 Morpho aux-lemma] 'joutaa' is not an auxiliary verb in language [fi]
+[Line 1981 Sent hch0w-2824 Node 1]: [L5 Morpho aux-lemma] 'sattua' is not an auxiliary verb in language [fi]
+[Line 2515 Sent pzdt3-3112 Node 7]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 3141 Sent uzlxr-3527 Node 5]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+...suppressing further errors regarding Morpho
+Morpho errors: 74
+*** FAILED *** with 74 errors
+Exit code: 1
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 43 Sent m79fd-182 Node 1]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
+[Line 217 Sent thw1t-252 Node 1]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 502 Sent d8yxd-368 Node 3]: [L5 Morpho aux-lemma] 'osata' is not an auxiliary verb in language [fi]
+[Line 1108 Sent p1gml-570 Node 2]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 1118 Sent x05ve-571 Node 2]: [L5 Morpho aux-lemma] 'tahtoa' is not an auxiliary verb in language [fi]
+[Line 1498 Sent ypg59-677 Node 11]: [L5 Morpho aux-lemma] 'yrittää' is not an auxiliary verb in language [fi]
+[Line 1558 Sent dm9qa-701 Node 3]: [L5 Morpho aux-lemma] 'tulla' is not an auxiliary verb in language [fi]
+[Line 1622 Sent cush9-727 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
+[Line 1688 Sent tv9fc-734 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
+...suppressing further errors regarding Morpho
+Morpho errors: 613
+*** FAILED *** with 613 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
 (weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
 (weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
@@ -37,6 +73,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
 (weight=0.307692307692308) * (score{udapi}=0.78021702628875) = 0.240066777319615
 (weight=0.0769230769230769) * (score{udeprels}=0.67027027027027) = 0.0515592515592516
-(TOTAL score=0.720344551612048) * (availability=1) * (validity=1) = 0.720344551612048
-STARS = 3.5
-UD_Finnish-FTB	0.720344551612048	3.5
+(TOTAL score=0.720344551612048) * (availability=1) * (validity=0.01) = 0.00720344551612048
+STARS = 0
+UD_Finnish-FTB	0.00720344551612048	0
