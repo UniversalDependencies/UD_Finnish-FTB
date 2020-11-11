@@ -6132,7 +6132,7 @@
 7	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
 8	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	9	xcomp	_	_
 9	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	xcomp	_	_
-10	.	.	PUNCT	Pun	_	8	punct	_	_
+10	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = d3an6-5906
 # text = Keiteleen selkävesien luodot ja saaret ovat linnustollisesti merkittäviä .
@@ -9728,7 +9728,7 @@
 15	tai	tai	CCONJ	Pcle,CC	_	16	cc	_	_
 16	kahden	kaksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	9	conj	_	_
 17	kuluttua	kuluttua	ADP	Adp	_	14	case	_	_
-18	.	.	PUNCT	Pun	_	16	punct	_	Was18=punct:17:case|Was18punct=non-proj:14
+18	.	.	PUNCT	Pun	_	5	punct	_	Was18=punct:17:case|Was18punct=non-proj:14
 
 # sent_id = pw6ub-8516
 # text = Ympäristön kannalta on aivan sama , poltetaanko hiili täällä vai Tanskassa .
