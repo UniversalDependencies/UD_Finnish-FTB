@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Finnish-FTB:
-commit cda1fda41bb4e02ee903e98e80859f2678f1acf4
+commit a955b30fd6f74399dacaaea76a5e0d6e48ef8957
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 13 09:09:03 2021 +0200
+Date:   Wed Nov 3 16:12:20 2021 +0100
 Size: counted 159612 of 159612 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1454917403183.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -63,8 +63,8 @@ validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-train.conllu
 [Line 1622 Sent cush9-727 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
 [Line 1688 Sent tv9fc-734 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
 ...suppressing further errors regarding Morpho
-Morpho errors: 613
-*** FAILED *** with 613 errors
+Morpho errors: 641
+*** FAILED *** with 641 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
