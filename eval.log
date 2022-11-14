@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Finnish-FTB:
-commit a955b30fd6f74399dacaaea76a5e0d6e48ef8957
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:12:20 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Finnish-FTB:
+commit 5744e0410c792ed6054a7592704525056d7a3a41
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat May 14 14:06:07 2022 +0200
 Size: counted 159612 of 159612 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1454917403183.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -35,8 +35,14 @@ validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-dev.conllu
 [Line 1816 Sent lsiop-2529 Node 3]: [L5 Morpho aux-lemma] 'uhata' is not an auxiliary verb in language [fi]
 [Line 1881 Sent h3jkc-2548 Node 11]: [L5 Morpho aux-lemma] 'ehtiä' is not an auxiliary verb in language [fi]
 ...suppressing further errors regarding Morpho
+[Line 2723 Sent hz2jt-3331 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7456 Sent fhpyr-6725 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [15, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 12913 Sent hmhx4-10560 Node 8]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 14798 Sent pprdq-12296 Node 14]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [11, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 15338 Sent q1la2-12765 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 3]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 Morpho errors: 70
-*** FAILED *** with 70 errors
+Syntax errors: 5
+*** FAILED *** with 75 errors
 Exit code: 1
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-test.conllu
 [Line 226 Sent wj6g1-676 Node 4]: [L5 Morpho aux-lemma] 'sattua' is not an auxiliary verb in language [fi]
@@ -47,15 +53,20 @@ validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-test.conllu
 [Line 1723 Sent ljgpq-2549 Node 14]: [L5 Morpho aux-lemma] 'joutaa' is not an auxiliary verb in language [fi]
 [Line 1981 Sent hch0w-2824 Node 1]: [L5 Morpho aux-lemma] 'sattua' is not an auxiliary verb in language [fi]
 [Line 2515 Sent pzdt3-3112 Node 7]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
+[Line 2707 Sent c294w-3238 Node 15]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 12]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 3141 Sent uzlxr-3527 Node 5]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
 ...suppressing further errors regarding Morpho
+[Line 16546 Sent zx2j1-13480 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 17228 Sent c1ro6-13800 Node 30]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [23, 27]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 Morpho errors: 74
-*** FAILED *** with 74 errors
+Syntax errors: 3
+*** FAILED *** with 77 errors
 Exit code: 1
 validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-train.conllu
 [Line 43 Sent m79fd-182 Node 1]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
 [Line 217 Sent thw1t-252 Node 1]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
 [Line 502 Sent d8yxd-368 Node 3]: [L5 Morpho aux-lemma] 'osata' is not an auxiliary verb in language [fi]
+[Line 795 Sent h1ivz-510 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 1108 Sent p1gml-570 Node 2]: [L5 Morpho aux-lemma] 'saada' is not an auxiliary verb in language [fi]
 [Line 1118 Sent x05ve-571 Node 2]: [L5 Morpho aux-lemma] 'tahtoa' is not an auxiliary verb in language [fi]
 [Line 1498 Sent ypg59-677 Node 11]: [L5 Morpho aux-lemma] 'yrittää' is not an auxiliary verb in language [fi]
@@ -63,8 +74,18 @@ validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-train.conllu
 [Line 1622 Sent cush9-727 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
 [Line 1688 Sent tv9fc-734 Node 2]: [L5 Morpho aux-lemma] 'ruveta' is not an auxiliary verb in language [fi]
 ...suppressing further errors regarding Morpho
+[Line 22026 Sent ktaex-3332 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 23502 Sent c3sbf-3480 Node 7]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 25746 Sent ecspv-3721 Node 11]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 10]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 26103 Sent v4c7h-3750.2 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 18]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 55963 Sent s98nw-6694 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 64129 Sent cm60g-7590 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [1, 4]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 69960 Sent xc35r-8198 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 5]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 81565 Sent dmt6f-9339 Node 17]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 15]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
 Morpho errors: 641
-*** FAILED *** with 641 errors
+Syntax errors: 37
+*** FAILED *** with 678 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
