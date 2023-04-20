@@ -1,0 +1,47 @@
+April 2023, after rotating non-validating AUX-VERB, these AUX are
+still rejected, cases annotated from ocular inspection by hand.
+- four were missed in rotation list, now DONE
+- one annotated was edited, now DONE
+- rest mainly have an explicit copula and non-VERB head, TODO
+- some have no explicit copula but still non-VERB head, TODO
+
+[dev]:
+[Line 20950 Sent kb8go-16883 Node 7]: 'alkaa' (alkaisin) olla (mustasukkainen)
+[train]:
+[Line 1558 Sent dm9qa-701 Node 3]: 'tulla' ei (tulene) olemaan (ongelma)
+[Line 11564 Sent m2czp-2319 Node 2]: 'käydä' ei (käy) (kieltäminen)
+[Line 16540 Sent ssq3y-2825 Node 3]: 'käydä' ei (käy) (kieltäminen)
+[Line 16824 Sent xz8hc-2851 Node 3]: 'ruveta' (rupesi) olemaan (kuumaa)
+[Line 31992 Sent s3cy9-4428 Node 7]: 'alkaa' (alkavat) olla riittävän (pimeitä)
+[Line 34611 Sent l5d7m-4711 Node 10]: 'saada' (saisivat) olla (suurempia)
+[Line 36433 Sent aemkf-4896 Node 2]: 'tulla' (tulee) aina olemaan (edullinen)
+[Line 42515 Sent h3vct-5526 Node 2]: 'tulla' (tulee) aina olemaan (edullinen)  -- same?
+[Line 45399 Sent aj2sm-5809 Node 3]: 'ehtiä' (ehti) ennen sitä (juoks-)  -- repair
+[Line 51971 Sent ydv3c-6352 Node 16]: 'alkaa' (alkoi) olla kiusallisen (mukava)
+[Line 54657 Sent hrnwj-6576 Node 2]: 'pystyä' (pysty) (näkemään)  -- MISSED, DONE
+[Line 58560 Sent aeid2-6920 Node 9]: 'haluta' ei (halua) olla Tehyn osaston (jäsen)
+[Line 64221 Sent bb09f-7596 Node 6]: 'tulla' (tulee) olemaan (kovaa)
+[Line 72274 Sent wgb16-8410 Node 7]: 'saada' ei (saisi) olla yli 200:aa (becquerelliä)
+[Line 72532 Sent bguy1-8433 Node 13]: 'näyttää' (näyttää) olevan (hyvä)
+[Line 90541 Sent xkwnx-10014 Node 21]: 'ruveta' (rupee) kohta oleen yli puolet (naisia)
+[Line 93850 Sent ed4gw-10234 Node 11]: 'tulla' (tulisi) olla siitä (riippuvainen)
+[Line 98335 Sent dsofv-10558 Node 15]: 'alkaa' (alkaa) olla jo (kiire)
+[Line 106150 Sent gzklf-11163 Node 3]: 'saada' ei (saa) olla liian (hieno)
+[Line 108973 Sent nu0lw-11478 Node 9]: 'sattua' et (satu) olemaan vähän latvasta (laho)
+[Line 125087 Sent hkfdb-13056 Node 5]: 'saada' (saa) olla (tyytyväinen)
+[Line 125098 Sent v0s1q-13057 Node 5]: 'saada' (saa) olla (tyytyväinen)
+[Line 125105 Sent te4oi-13058 Node 1]: 'kannattaa' (kannattaisi) olla (iloinen)
+[Line 135695 Sent nnsh5-13793 Node 2]: 'vaikuttaa' (vaikuttaisivat) olevan miehiä (alttiimpia)
+[Line 143370 Sent o4k1w-14345 Node 10]: 'kuulua' (kuuluu) olevan (voimakas)
+[Line 146407 Sent ltjqh-14683 Node 2]: 'tulla' (tulee) olemaan (voittaja)
+[Line 149063 Sent rd74o-14874 Node 8]: 'tulla' (tuli) olemaan (kolmitahoista)
+[Line 153630 Sent otkvf-15259 Node 11]: 'käydä' ei (käy) kiistäminen
+[Line 160368 Sent ry2ls-15891 Node 3]: 'auttaa' ei (auta) (odottaa)  -- MISSED, DONE
+[Line 160401 Sent h643v-15894 Node 3]: 'parata' ei (parane) (mennä)  -- MISSED, DONE
+[Line 163372 Sent rst1o-16178 Node 6]: 'pyrkiä' (pyritään) olemaan puolessa tunnissa (valmiita)
+[Line 166415 Sent ic9on-16536 Node 3]: 'VERB'  -- annotation error corrected by hand, DONE
+[test]:
+[Line 6432 Sent fg2u7-6337 Node 11]: 'näyttää' (näyttää) olevan yhtä (huoletonta)
+[Line 10381 Sent i092b-9561 Node 5]: 'alkaa' (alkavat) olla vähintäänkin yhtä (tärkeitä)
+[Line 14406 Sent u4z5b-12065 Node 6]: 'alkaa' (alkavat) olla antiikkisia (termejä)
+[Line 19189 Sent wnpx4-14942 Node 4]: 'parata' (paranisi) (esittää)  -- MISSED, DONE
