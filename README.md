@@ -61,7 +61,7 @@ Tarja Riitta Heinonen and Irja Alho 2004: Iso suomen
 kielioppi. Helsinki: Suomalaisen Kirjallisuuden Seura. Online version.
 Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 
-<http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/>
+<http://urn.fi/urn:nbn:fi:lb-20140730138> (native treebank version)
 
 fin-clarin@helsinki.fi
 
