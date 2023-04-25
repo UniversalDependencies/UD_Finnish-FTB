@@ -106,6 +106,16 @@ Revised annotations that were rejected by the validator
 - 'koska' and 'kun' as SCONJ/advmod - changed most to PART
 - etc.
 
+* UD v2.2 -> UD v2.12
+
+Revised annotations that were rejected by the validator
+- AUX-aux-VERB rotated to VERB-ccomp-VERB (lemma rejected as AUX)
+- AUX-aux-OTHER rotated to VERB-xcomp-OTHER (lemma rejected as AUX)
+- removed non-head annotations in six or so goeswith constructions
+- marked first subject as :outer when there were two
+- corrected non-projective punctuation marks (some from rotations)
+- corrected two instances of conj direction
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
