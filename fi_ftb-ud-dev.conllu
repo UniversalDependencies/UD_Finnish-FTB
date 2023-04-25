@@ -20947,9 +20947,9 @@
 4	puuttuisi	puuttua	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
-7	alkaisin	alkaa	AUX	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	9	aux	_	_
+7	alkaisin	alkaa	VERB	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	4	csubj	_	_
 8	olla	olla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	9	cop	_	_
-9	mustasukkainen	mustasukkainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	csubj	_	_
+9	mustasukkainen	mustasukkainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	7	xcomp	_	_
 10	siitä	se	DET	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	11	det	_	_
 11	akasta	akka	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	9	nmod	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
