@@ -61,7 +61,7 @@ Tarja Riitta Heinonen and Irja Alho 2004: Iso suomen
 kielioppi. Helsinki: Suomalaisen Kirjallisuuden Seura. Online version.
 Available: http://scripta.kotus.fi/visk URN:ISBN:978-952-5446-35-7
 
-<http://www.ling.helsinki.fi/kieliteknologia/tutkimus/treebank/>
+<http://urn.fi/urn:nbn:fi:lb-20140730138> (native treebank version)
 
 fin-clarin@helsinki.fi
 
@@ -105,6 +105,16 @@ Revised annotations that were rejected by the validator
 - non-projective punctuation - re-attached by script
 - 'koska' and 'kun' as SCONJ/advmod - changed most to PART
 - etc.
+
+* UD v2.2 -> UD v2.12
+
+Revised annotations that were rejected by the validator
+- AUX-aux-VERB rotated to VERB-ccomp-VERB (lemma rejected as AUX)
+- AUX-aux-OTHER rotated to VERB-xcomp-OTHER (lemma rejected as AUX)
+- removed non-head annotations in six or so goeswith constructions
+- marked first subject as :outer when there were two
+- corrected non-projective punctuation marks (some from rotations)
+- corrected two instances of conj direction
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

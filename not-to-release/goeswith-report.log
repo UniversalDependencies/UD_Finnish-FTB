@@ -1,0 +1,51 @@
+April 2023 validator report on goeswith
+- only half a dozen sentences, mind
+- corrected by hand as indicated ~
+
+[dev]:
+
+[train]:
+
+### Siis semmosta (ruokaruoka tyyppistä) .
+[Line 10035 Sent j2a58-2089.2 Node 3]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 10036 Sent j2a58-2089.2 Node 4]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 10036 Sent j2a58-2089.2 Node 4]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 10036 Sent j2a58-2089.2 Node 4]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### Niin tää (feminismi sana) tuli tuli [...]
+[Line 26117 Sent gxa5d-3750.3 Node 3]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 26118 Sent gxa5d-3750.3 Node 4]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 26118 Sent gxa5d-3750.3 Node 4]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 26118 Sent gxa5d-3750.3 Node 4]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### sika hyvä
+[Line 30923 Sent perlm-4297 Node 5]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 30924 Sent perlm-4297 Node 6]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 30924 Sent perlm-4297 Node 6]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 30924 Sent perlm-4297 Node 6]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### takatukka-viikset yhdistelmä
+[Line 33150 Sent dsv2o-4552 Node 11]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 33151 Sent dsv2o-4552 Node 12]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 33151 Sent dsv2o-4552 Node 12]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 33151 Sent dsv2o-4552 Node 12]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### pari valssia ja (b-molli skertso)
+[Line 51964 Sent ydv3c-6352 Node 9]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 51965 Sent ydv3c-6352 Node 10]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 51965 Sent ydv3c-6352 Node 10]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 51965 Sent ydv3c-6352 Node 10]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### Wiipuri , (tupla veellä) ,
+[Line 137216 Sent gncbu-13876 Node 7]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 137217 Sent gncbu-13876 Node 8]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 137217 Sent gncbu-13876 Node 8]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 137217 Sent gncbu-13876 Node 8]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+### (Favora ihogeeli) leviää keveästi
+[Line 154184 Sent dm6nk-15303 Node 1]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 154185 Sent dm6nk-15303 Node 2]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 154185 Sent dm6nk-15303 Node 2]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 154185 Sent dm6nk-15303 Node 2]: [L3 Morpho goeswith-feats] The morphological features of a 'goeswith'-connected word must be annotated only at the first part.
+
+[test]:
