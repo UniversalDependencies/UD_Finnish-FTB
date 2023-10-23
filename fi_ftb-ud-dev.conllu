@@ -18751,7 +18751,7 @@
 4	vasta	vasta	PART	Pcle	_	5	advmod	_	_
 5	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	9	mark	_	_
 6	jälkeen	jälkeen	ADP	Adp	_	9	case	_	Was18mark=case:5
-7	kun	kun	SCONJ	Pcle,CS	_	5	fixed	_	_
+7	kun	kun	SCONJ	Pcle,CS	_	5	flat	_	_
 8	Orvo	orvo	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 9	joutui	joutua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
 10	lusimaan	lusia	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	9	xcomp	_	Alt=xcomp
