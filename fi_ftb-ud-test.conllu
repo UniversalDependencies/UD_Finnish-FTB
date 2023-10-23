@@ -6708,7 +6708,7 @@
 15	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	21	mark	_	_
 16	vuoksi	vuoksi	ADP	Adp	_	21	case	_	Was18mark=case:15
 17	,	,	PUNCT	Pun	_	18	punct	_	Was18=punct:16:case|Was18punct=non-proj:15
-18	että	että	SCONJ	Pcle,CS	_	15	flat	_	_
+18	että	että	SCONJ	Pcle,CS	_	15	fixed	_	_
 19	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	21	nsubj:cop	_	_
 20	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	21	cop	_	_
 21	palkkatyö	palkkatyö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	12	conj	_	_
