@@ -1,0 +1,28 @@
+October 2023, validator begins to detect gaps in fixed,
+of the 13 cases 12 are se-kun or se-että and one is odd
+either way. Try flat instead. Will not restructure.
+Will not even check any manual. Need real grammarian.
+
+dev:18752:	vasta SEN jälkeen KUN(fixed -> flat)
+test:6708:	vaan SEN vuoksi , ETTÄ(fixed -> flat)
+train:8409:	NIIN , että koko rakennus KAJAHTI(fixed -> flat)
+train:55323:	SIKSI lue , ETTÄ(fixed -> flat)
+train:59127:	SEN vuoksi, ETTÄ(fixed -> flat)
+train:92138:	SEN jälkeen KUN(fixed -> flat)
+train:92573:	SIITÄ asti KUN(fixed -> flat)
+train:92904:	SEN jälkeen KUN(fixed -> flat)
+train:93662:	SEN takia ETTÄ(fixed -> flat)
+train:95211:	SIITÄ huolimatta ETTÄ(fixed -> flat)
+train:121030:	SIT voidaan kattoo SIT(fixed -> flat) ku
+train:141355:	SEN jälkeen KUN(fixed -> flat)
+train:158840:	SEN jälkee KU(fixed -> flat)
+
+Was not so simple. Making the change to flat in dev, test produced the
+following new issues:
+
+- 'mark' should not be 'PRON'
+- 'mark' not expected to have children (5:sen:mark --> 7:kun:flat)
+- 'mark' should not be 'PRON'
+- 'mark' not expected to have children (15:sen:mark --> 18:että:flat)
+
+Giving up for now. Give me a grammarian.
