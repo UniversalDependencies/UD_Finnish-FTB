@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit e9726a6a7d6913193d90edb45a4cb549235c5b16
+commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sat Nov 4 17:10:55 2023 +0100
+Date:   Sun May 5 09:21:16 2024 +0200
 Evaluating the following revision of UD_Finnish-FTB:
-commit 04cb95ac74d6962a04f9d9dc31ef333439835cb8
-Merge: 985c27c 948615b
+commit a567a2a269cf2b0803f808888724c8964297eb03
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 6 11:49:57 2023 +0100
 Size: counted 159612 of 159612 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1454917403183.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -42,6 +42,7 @@ Warnings: 1
 [Line 93662 Sent jr9pw-10221 Node 13]: [L3 Warning fixed-gap] Gaps in fixed expression [13, 15] 'sen * että'
 [Line 95211 Sent gz650-10338 Node 1]: [L3 Warning fixed-gap] Gaps in fixed expression [1, 3] 'Siitä * että'
 [Line 121030 Sent quper-12725.2 Node 11]: [L3 Warning fixed-gap] Gaps in fixed expression [11, 14] 'sit * * sit'
+[Line 141355 Sent vzv3r-14200 Node 4]: [L3 Warning fixed-gap] Gaps in fixed expression [4, 6] 'sen * kun'
 ...suppressing further errors regarding Warning
 Warnings: 11
 *** PASSED ***
