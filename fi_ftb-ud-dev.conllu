@@ -2152,7 +2152,7 @@
 6	hyllyistään	hylly	NOUN	N,Pl,Ela,Px3	Case=Ela|Number=Plur|Person[psor]=3	5	nmod	_	_
 7	brittituotteita	brittituote	NOUN	N,Pl,Par	Case=Par|Number=Plur	5	obj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
-9	muun	muu	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	11	det	_	_
+9	muun	muu	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	11	nmod	_	_
 10	muassa	muassa	ADP	Adp	_	9	case	_	_
 11	säilykkeitä	säilyke	NOUN	N,Pl,Par	Case=Par|Number=Plur	7	nmod	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -3243,7 +3243,7 @@
 5	12	12	NUM	Num,Card	NumType=Card	7	nummod	_	_
 6	aitoa	aito	ADJ	A,Sg,Par	Case=Par|Number=Sing	7	amod	_	_
 7	vaakunaa	vaakuna	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	nsubj	_	_
-8	kaikilta	kaikki	DET	Pron,Qnt,Pl,Abl	Case=Abl|Number=Plur|PronType=Ind	9	det	_	_
+8	kaikilta	kaikki	DET	Pron,Qnt,Pl,Abl	Case=Abl|Number=Plur|PronType=Ind	10	det	_	_
 9	niiltä	ne	DET	Pron,Dem,Pl,Abl	Case=Abl|Number=Plur|PronType=Dem	10	det	_	_
 10	paikkakunnilta	paikkakunta	NOUN	N,Pl,Abl	Case=Abl|Number=Plur	7	nmod	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
@@ -7471,7 +7471,7 @@
 9	Namibia-rahastoihin	namibia-rahasto	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	6	nmod	_	_
 10	enemmän	enemmän	ADV	Adv,Cmp	Degree=Cmp	6	advmod	_	_
 11	kuin	kuin	SCONJ	Pcle,CS	_	14	mark	_	FTB-Sub=comparator
-12	mikään	mikään	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	13	det	_	_
+12	mikään	mikään	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	14	det	_	_
 13	muu	muu	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	14	det	_	_
 14	maa	maa	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	advcl	_	FTB-Sub=comparison
 15	YK:ssa	yk	PROPN	N,Abbr,Prop,Sg,Ine	Abbr=Yes|Case=Ine|Number=Sing	14	nmod	_	_
@@ -8856,7 +8856,7 @@
 1	Myös	myös	PART	Pcle	_	2	advmod	_	_
 2	mustarastaita	mustarastas	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	nsubj	_	_
 3	ja	ja	CCONJ	Pcle,CC	_	6	cc	_	_
-4	monia	moni	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	5	det	_	_
+4	monia	moni	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	6	det	_	_
 5	muita	muu	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	6	det	_	_
 6	pikkulintuja	pikkulintu	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	conj	_	_
 7	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -9027,7 +9027,7 @@
 7	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
 8	rikkipäästöin	rikkipäästö	NOUN	N,Pl,Ins	Case=Ins|Number=Plur	6	conj	_	_
 9	kuin	kuin	SCONJ	Pcle,CS	_	12	mark	_	FTB-Sub=comparator
-10	monet	moni	DET	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	11	det	_	_
+10	monet	moni	DET	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	12	det	_	_
 11	muut	muu	DET	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	12	det	_	_
 12	teollisuusmaat	teollisuusmaa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	advcl	_	FTB-Sub=comparison
 13	.	.	PUNCT	Pun	_	12	punct	_	_
@@ -10300,7 +10300,7 @@
 1	Lehtola	lehtola	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	3	obj	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	valittu	valita	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
-4	kahden	kaksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	5	nummod	_	_
+4	kahden	kaksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	6	nummod	_	_
 5	muun	muu	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	6	det	_	_
 6	kuurosokean	kuurosokea	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 7	tavoin	tavoin	ADP	Adp	_	6	case	_	_
@@ -13454,7 +13454,7 @@
 14	minkä	mikä	PRON	Pron,Interr,Gen	Case=Gen|PronType=Int	17	obj	_	_
 15	vanha	vanha	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	16	amod	_	_
 16	järjestelmä	järjestelmä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	17	nsubj	_	_
-17	antoi	antaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	11	advcl	_	FTB-Sub=comparison
+17	antoi	antaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	FTB-Sub=comparison
 18	.	.	PUNCT	Pun	_	17	punct	_	_
 
 # sent_id = qftpg-10932
@@ -13911,7 +13911,7 @@
 # text = Sinä päästit sen yhden tyypin karkuun .
 1	Sinä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
 2	päästit	päästää	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	4	det	_	_
+3	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	5	det	_	_
 4	yhden	yksi	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	5	det	_	_
 5	tyypin	tyyppi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
 6	karkuun	karkuun	ADV	Adv	_	2	advmod	_	_
@@ -14844,7 +14844,7 @@
 
 # sent_id = gv918-12312
 # text = meidän jokaisen apuna
-1	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	det	_	_
+1	meidän	me	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
 2	jokaisen	jokainen	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	1	nmod	_	FTB-PronType=Qnt
 3	apuna	apu	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	0	root	_	_
 
@@ -18750,7 +18750,7 @@
 3	tapahtui	tapahtua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vasta	vasta	PART	Pcle	_	5	advmod	_	_
 5	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	9	mark	_	_
-6	jälkeen	jälkeen	ADP	Adp	_	9	case	_	Was18mark=case:5
+6	jälkeen	jälkeen	ADP	Adp	_	5	fixed	_	Was18mark=case:5
 7	kun	kun	SCONJ	Pcle,CS	_	5	fixed	_	_
 8	Orvo	orvo	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 9	joutui	joutua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	advcl	_	_
@@ -18937,7 +18937,7 @@
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 3	pitäisi	pitää	AUX	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	8	aux	_	_
 4	olla	olla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	8	cop	_	_
-5	minkään	mikään	DET	Pron,Qnt,Gen	Case=Gen|PronType=Ind	6	det	_	_
+5	minkään	mikään	DET	Pron,Qnt,Gen	Case=Gen|PronType=Ind	7	det	_	_
 6	muun	muu	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	7	det	_	_
 7	asian	asia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 8	korvike	korvike	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
@@ -21183,7 +21183,7 @@
 9	sillon	silloin	ADV	Adv,Dem	PronType=Dem|Style=Coll	12	mark	_	_
 10	kun	kun	SCONJ	Pcle,CS	_	9	fixed	_	FTB-Sub=comparator
 11	edellistä	edellinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	14	obj	_	_
-12	olit	olla	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	6	advcl	_	FTB-Sub=comparison
+12	olit	olla	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	FTB-Sub=comparison
 13	menossa	meno	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	12	nmod	_	_
 14	synnyttämään	synnyttää	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	13	dep	_	Missed-Rel=advl
 15	.	.	PUNCT	Pun	_	14	punct	_	_

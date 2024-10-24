@@ -6388,7 +6388,7 @@
 12	toista	toinen	DET	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	13	det	_	_
 13	mieltä	mieli	NOUN	N,Sg,Par	Case=Par|Number=Sing	11	compound:prt	_	_
 14	kuin	kuin	SCONJ	Pcle,CS	_	15	mark	_	FTB-Sub=comparator
-15	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	advcl	_	FTB-Sub=comparison
+15	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	advcl	_	FTB-Sub=comparison
 16	.	.	PUNCT	Pun	_	15	punct	_	_
 
 # sent_id = ky32g-6311
@@ -6706,7 +6706,7 @@
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	vaan	vaan	CCONJ	Pcle,CC	_	21	cc	_	_
 15	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	21	mark	_	_
-16	vuoksi	vuoksi	ADP	Adp	_	21	case	_	Was18mark=case:15
+16	vuoksi	vuoksi	ADP	Adp	_	15	fixed	_	Was18mark=case:15
 17	,	,	PUNCT	Pun	_	18	punct	_	Was18=punct:16:case|Was18punct=non-proj:15
 18	että	että	SCONJ	Pcle,CS	_	15	fixed	_	_
 19	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	21	nsubj:cop	_	_
@@ -6943,7 +6943,7 @@
 7	kuistilla	kuisti	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 8	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
 9	pyrkinyt	pyrkiä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	_
-10	muiden	muu	PRON	Pron,Qnt,Pl,Gen	Case=Gen|Number=Plur|PronType=Ind	12	nmod	_	FTB-PronType=Qnt
+10	muiden	muu	PRON	Pron,Qnt,Pl,Gen	Case=Gen|Number=Plur|PronType=Ind	13	nmod	_	FTB-PronType=Qnt
 11	kanssa	kanssa	ADP	Adp	_	10	case	_	_
 12	samaan	sama	DET	Pron,Qnt,Sg,Ill	Case=Ill|Number=Sing|PronType=Ind	13	det	_	_
 13	kahvipöytään	kahvipöytä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	9	nmod	_	_
@@ -12015,7 +12015,7 @@
 9	aamusta	aamu	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	7	nmod	_	_
 10	yöhön	yö	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	7	nmod	_	_
 11	tarjolla	tarjolla	ADV	Adv	_	7	advmod	_	_
-12	muun	muu	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	14	det	_	_
+12	muun	muu	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	14	nmod	_	_
 13	muassa	muassa	ADP	Adp	_	12	case	_	_
 14	lohta	lohi	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	_
 15	,	,	PUNCT	Pun	_	14	punct	_	FTB-rel=phrm
@@ -12043,7 +12043,7 @@
 3	raskas	raskas	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	amod	_	_
 4	rikos	rikos	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	_
 5	painaisi	painaa	VERB	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	0	root	_	_
-6	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	7	det	_	_
+6	teidän	te	PRON	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	8	nmod:poss	_	_
 7	kummankin	kumpikin	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	8	det	_	_
 8	omaatuntoa	omatunto	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	obj	_	_
 9	?	?	PUNCT	Pun	_	8	punct	_	_
@@ -12261,7 +12261,7 @@
 6	muutakin	muu	DET	Pron,Qnt,Sg,Par,Kin	Case=Par|Clitic=Kin|Number=Sing|PronType=Ind	7	det	_	_
 7	elämää	elämä	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	nsubj	_	_
 8	kuin	kuin	SCONJ	Pcle,CS	_	9	mark	_	FTB-Sub=comparator
-9	projekti	projekti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	advcl	_	FTB-Sub=comparison
+9	projekti	projekti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	advcl	_	FTB-Sub=comparison
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
 12	silti	silti	PART	Pcle	_	13	advmod	_	_
@@ -13004,7 +13004,7 @@
 4	tärkeämpi	tärkeä	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	9	mark	_	FTB-Sub=comparator
 6	ehkä	ehkä	PART	Pcle	_	9	advmod	_	_
-7	millekään	mikään	DET	Pron,Qnt,All	Case=All|PronType=Ind	8	det	_	_
+7	millekään	mikään	DET	Pron,Qnt,All	Case=All|PronType=Ind	9	det	_	_
 8	muulle	muu	DET	Pron,Qnt,Sg,All	Case=All|Number=Sing|PronType=Ind	9	det	_	_
 9	kansalle	kansa	NOUN	N,Sg,All	Case=All|Number=Sing	4	advcl	_	FTB-Sub=comparison
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -13099,7 +13099,7 @@
 5	kuin	kuin	SCONJ	Pcle,CS	_	8	mark	_	FTB-Sub=comparator
 6	missä	mikä	PRON	Pron,Interr,Ine	Case=Ine|PronType=Int	8	nmod	_	Was18=advmod
 7	Ruotsi	ruotsi	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
-8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	FTB-Sub=comparison
+8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	FTB-Sub=comparison
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = ikx6r-10936
@@ -15063,8 +15063,8 @@
 1	Altistus	altistus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	obj	_	_
 2	tälle	tämä	PRON	Pron,Dem,Sg,All	Case=All|Number=Sing|PronType=Dem	1	nmod	_	_
 3	todettiin	todeta	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	niin	niin	PART	Pcle	_	5	mark	_	_
-5	minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	det	_	_
+4	niin	niin	CCONJ	Pcle	_	5	cc:preconj	_	_
+5	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	8	nmod:poss	_	_
 6	kuin	kuin	CCONJ	Pcle,CC	_	7	cc	_	_
 7	kuopuksenkin	kuopus	NOUN	N,Sg,Gen,Kin	Case=Gen|Clitic=Kin|Number=Sing	5	conj	_	_
 8	verikokeista	verikoe	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	3	nmod	_	_
@@ -16397,7 +16397,7 @@
 5	äänellä	ääni	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	2	nmod	_	_
 6	klik	klik	INTJ	Pcle,Interj	_	2	discourse	_	Alt=2_discourse|Missed-Rel=obj
 7	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
-8	kuulosti	kuulostaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	_
+8	kuulosti	kuulostaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	acl	_	_
 9	siltä	se	PRON	Pron,Dem,Sg,Abl	Case=Abl|Number=Sing|PronType=Dem	14	expl	_	Alt=14_expl|Missed-Rel=phrm
 10	että	että	SCONJ	Pcle,CS	_	14	mark	_	_
 11	puhelin	puhelin	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	_
