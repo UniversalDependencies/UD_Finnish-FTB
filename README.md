@@ -116,6 +116,11 @@ Revised annotations that were rejected by the validator
 - corrected non-projective punctuation marks (some from rotations)
 - corrected two instances of conj direction
 
+* UD v2.12 -> UD v2.15
+
+Revised annotations rejected by the validator
+- det dependency children 
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
@@ -127,7 +132,7 @@ UPOS: converted from manual
 XPOS: manual native
 Features: converted from manual
 Relations: converted from manual
-Contributors: Piitulainen, Jussi; Nurmi, Hanna
+Contributors: Piitulainen, Jussi; Nurmi, Hanna; Rueter, Jack
 Contributing: elsewhere
 Contact: fin-clarin@helsinki.fi
 ===============================================================================
