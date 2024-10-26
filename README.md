@@ -121,6 +121,7 @@ Revised annotations that were rejected by the validator
 Revised annotations rejected by the validator
 - det dependency children 
 - plural personal pronouns take singular lemmas: minä, sinä, hän
+- personal pronouns in genitive with NP head possessum take nmod:poss dependency
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
