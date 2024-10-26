@@ -140,7 +140,7 @@
 1	Mää	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	6	nsubj	_	_
 2	jo	jo	PART	Pcle	_	6	advmod	_	_
 3	tälle	tämä	DET	Pron,Dem,Sg,All	Case=All|Number=Sing|PronType=Dem	5	det	_	_
-4	meitin	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs|Style=Coll	5	det	_	_
+4	meitin	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs|Style=Coll	5	nmod:poss	_	_
 5	Aksulle	aksu	PROPN	N,Prop,Sg,All	Case=All|Number=Sing	6	nmod	_	_
 6	sanoin	sanoa	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
@@ -601,7 +601,7 @@
 4	lupsakkaaksi	lupsakas	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	2	nmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
-7	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	det	_	_
+7	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	8	nmod:poss	_	_
 8	äitinsäkin	äiti	NOUN	N,Sg,Nom,Px3,Kin	Case=Nom|Clitic=Kin|Number=Sing|Person[psor]=3	9	nsubj	_	_
 9	haukkoisi	haukkoa	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	4	acl	_	_
 10	henkeä	henki	NOUN	N,Sg,Par	Case=Par|Number=Sing	9	obj	_	_
@@ -3517,7 +3517,7 @@
 1	Poika	poika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	kääntyi	kääntyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
-4	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	det	_	_
+4	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 5	pienillä	pieni	ADJ	A,Pl,Ade	Case=Ade|Number=Plur	6	amod	_	_
 6	kasvoillaan	kasvo	NOUN	N,Pl,Ade,Px3	Case=Ade|Number=Plur|Person[psor]=3	7	nmod	_	_
 7	vilahti	vilahtaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -3872,7 +3872,7 @@
 5	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
 6	edes	edes	PART	Pcle	_	7	advmod	_	_
 7	kuullut	kuulla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	_
-8	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	det	_	_
+8	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	9	nmod:poss	_	_
 9	tuloaan	tulo	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -4068,7 +4068,7 @@
 
 # sent_id = rai3j-4460
 # text = Minä katson morsiantani .
-1	Minä	minä	DET	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	det	_	_
 2	katson	katsoa	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	morsiantani	morsian	NOUN	N,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
@@ -5635,7 +5635,7 @@
 10	uskoo	uskoa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
 12	että	että	SCONJ	Pcle,CS	_	15	mark	_	_
-13	heillä	he	DET	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	14	det	_	_
+13	heillä	hän	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	14	det	_	_
 14	kahdella	kaksi	NUM	Num,Card,Sg,Ade	Case=Ade|Number=Sing|NumType=Card	15	nmod	_	Alt=nmod:own
 15	olisi	olla	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	ccomp	_	_
 16	yhteistä	yhteinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	17	amod	_	_
@@ -5899,7 +5899,7 @@
 
 # sent_id = ohwjm-6034
 # text = Minun naamani ei miellyttänyt erästä virastopäällikköä .
-1	Minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+1	Minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	naamani	naama	NOUN	N,Sg,Nom,PxSg1	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	_
 3	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	miellyttänyt	miellyttää	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -6554,7 +6554,7 @@
 # text = Minä teitittelen teidän ikäistänne miestä , Kiduttaja sanoi .
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	teitittelen	teititellä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
-3	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	det	_	_
+3	teidän	sinä	PRON	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	nmod	_	_
 4	ikäistänne	ikäinen	ADJ	A,Sg,Par,PxPl2	Case=Par|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	amod	_	_
 5	miestä	mies	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
@@ -7606,7 +7606,7 @@
 1	Kivan	kiva	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	2	amod	_	_
 2	näköinen	näköinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 3	toi	tuo	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem|Style=Coll	6	det	_	_
-4	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	det	_	_
+4	teidän	sinä	PRON	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	6	nmod:poss	_	_
 5	uusi	uusi	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
 6	veranta	veranta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -8018,7 +8018,7 @@
 # text = Kaksoset muistuttavat minun isotätiäni .
 1	Kaksoset	kaksonen	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 2	muistuttavat	muistuttaa	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	det	_	_
+3	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod:poss	_	_
 4	isotätiäni	isotäti	NOUN	N,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	2	obj	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -8360,7 +8360,7 @@
 6	mikään	mikään	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	8	nsubj	_	FTB-PronType=Qnt
 7	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	estä	estää	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
-9	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	det	_	_
+9	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	10	nmod:poss	_	_
 10	pyrkimyksiään	pyrkimys	NOUN	N,Pl,Par,Px3	Case=Par|Number=Plur|Person[psor]=3	8	obj	_	_
 11	saattaa	saattaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	10	acl	_	_
 12	miehensä	mies	NOUN	N,Sg,Nom,Px3	Case=Nom|Number=Sing|Person[psor]=3	11	obj	_	_
@@ -10029,7 +10029,7 @@
 7	tarmolla	tarmo	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	12	nsubj	_	_
-10	meistä	me	DET	Pron,Pers,Pl1,Ela	Case=Ela|Number=Plur|Person=1|PronType=Prs	11	det	_	_
+10	meistä	minä	PRON	Pron,Pers,Pl1,Ela	Case=Ela|Number=Plur|Person=1|PronType=Prs	11	det	_	_
 11	suomalaisista	suomalainen	ADJ	A,Pl,Ela	Case=Ela|Number=Plur	12	nmod	_	_
 12	löytyy	löytyä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	acl	_	_
 13	.	.	PUNCT	Pun	_	12	punct	_	_
@@ -13467,7 +13467,7 @@
 2	piti	pitää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	ukosta	ukko	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	2	nmod	_	_
 4	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
-5	minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	det	_	_
+5	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	nmod:poss	_	_
 6	kiusakseni	kiusa	NOUN	N,Sg,Tra,PxSg1	Case=Tra|Number=Sing|Number[psor]=Sing|Person[psor]=1	8	nmod	_	_
 7	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	kikatteli	kikatella	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -13537,7 +13537,7 @@
 # sent_id = s2dar-11182
 # text = Työnsin hänen kätensä pois , en ymmärrä miksi , mutta tein niin .
 1	Työnsin	työntää	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+2	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 3	kätensä	käsi	NOUN	N,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3	1	obj	_	_
 4	pois	pois	ADV	Adv	_	1	advmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -14169,7 +14169,7 @@
 1	Aina	aina	ADV	Adv	_	3	advmod	_	_
 2	te	sinä	PRON	Pron,Pers,Pl2,Nom	Case=Nom|Number=Plur|Person=2|PronType=Prs	3	nsubj	_	_
 3	olette	olla	VERB	V,Act,Ind,Pres,Pl2	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	det	_	_
+4	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nmod:poss	_	_
 5	vaimoni	vaimo	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
 6	kimpussa	kimpussa	ADP	Adp	_	5	case	_	_
 7	turhine	turha	ADJ	A,Com	Case=Com	8	amod	_	_
@@ -14685,7 +14685,7 @@
 # text = Kerron kiitoksenne meidän tavallamme .
 1	Kerron	kertoa	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	kiitoksenne	kiitos	NOUN	N,Sg,Gen,PxPl2	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=2	1	obj	_	_
-3	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	det	_	_
+3	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	4	nmod:poss	_	_
 4	tavallamme	tapa	NOUN	N,Sg,Ade,PxPl1	Case=Ade|Number=Sing|Number[psor]=Plur|Person[psor]=1	1	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -14693,7 +14693,7 @@
 # text = Ristoko on teidän nuorimmaisenne ?
 1	Ristoko	risto	PROPN	N,Prop,Sg,Nom,Ko	Case=Nom|Clitic=Ko|Number=Sing	4	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	det	_	_
+3	teidän	sinä	PRON	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	4	nmod:poss	_	_
 4	nuorimmaisenne	nuorimmainen	ADJ	A,Sg,Nom,PxPl2	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	0	root	_	_
 5	?	?	PUNCT	Pun	_	4	punct	_	_
 
@@ -14701,7 +14701,7 @@
 # text = Teos jäi hänen viimeisekseen .
 1	Teos	teos	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	jäi	jäädä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	det	_	_
+3	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod:poss	_	_
 4	viimeisekseen	viimeinen	ADJ	A,Sg,Tra,Px3	Case=Tra|Number=Sing|Person[psor]=3	2	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -14770,13 +14770,13 @@
 
 # sent_id = p6fxt-12324
 # text = teidän kunta
-1	teidän	te	DET	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	det	_	_
+1	teidän	sinä	PRON	Pron,Pers,Pl2,Gen	Case=Gen|Number=Plur|Person=2|PronType=Prs	2	nmod:poss	_	_
 2	kunta	kunta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 
 # sent_id = avaes-12326
 # text = Ei meidän perheen koti minnekään siirry .
 1	Ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
-2	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	det	_	_
+2	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
 3	perheen	perhe	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
 4	koti	koti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
 5	minnekään	minnekään	ADV	Adv,Qnt	PronType=Ind	6	advmod	_	_
@@ -14788,7 +14788,7 @@
 1	Pohjoismaisessa	pohjoismainen	ADJ	A,Sg,Ine	Case=Ine|Number=Sing	2	amod	_	_
 2	puolustusministerikokouksessa	puolustusministerikokous	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 3	olin	olla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	det	_	_
+4	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	_
 5	ministerin	ministeri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	sijaisena	sijainen	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	3	nmod	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -14834,7 +14834,7 @@
 6	ollut	olla	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 7	mitään	mikään	DET	Pron,Qnt,Par	Case=Par|PronType=Ind	8	det	_	_
 8	viitteitä	viite	NOUN	N,Pl,Par	Case=Par|Number=Plur	6	nsubj	_	_
-9	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	det	_	_
+9	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	11	nmod:poss	_	_
 10	äkilliseen	äkillinen	ADJ	A,Sg,Ill	Case=Ill|Number=Sing	11	amod	_	_
 11	poismenoon	poismeno	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	8	nmod	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -15222,7 +15222,7 @@
 
 # sent_id = x0gby-12658
 # text = Te khmerit olette hiton lempeetä , hyväntuulista ja vieraanvaraista porukkaa , mutta minusta tuntuu , että jos teitä ärsytetään liikaa , niin silloin räjähtää .
-1	Te	te	DET	Pron,Pers,Pl2,Nom	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	det	_	_
+1	Te	sinä	PRON	Pron,Pers,Pl2,Nom	Case=Nom|Number=Plur|Person=2|PronType=Prs	2	det	_	_
 2	khmerit	khmer	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	10	nsubj:cop	_	_
 3	olette	olla	AUX	V,Act,Ind,Pres,Pl2	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 4	hiton	hitto	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
@@ -15315,7 +15315,7 @@
 1	Ihmettelen	ihmetellä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3	mikä	mikä	PRON	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	8	nsubj	_	_
-4	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	det	_	_
+4	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	5	nmod:poss	_	_
 5	sukupolven	sukupolvi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	ihmisiä	ihminen	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	obj	_	_
 7	oikein	oikein	ADV	Adv	_	8	advmod	_	_
@@ -15474,7 +15474,7 @@
 2	kaiholla	kaiholla	ADV	Adv	_	3	advmod	_	_
 3	katsellut	katsella	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	tässä	tämä	DET	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	6	det	_	_
-5	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	det	_	_
+5	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	6	nmod:poss	_	_
 6	mäessä	mäki	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	9	nmod	_	_
 7	Kalliotien	kalliotie	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 8	varrella	varrella	ADP	Adp	_	7	case	_	_
@@ -17031,7 +17031,7 @@
 2	kuvaa	kuvata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kirjailijan	kirjailija	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 4	ja	ja	CCONJ	Pcle,CC	_	6	cc	_	_
-5	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	det	_	_
+5	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	6	nmod:poss	_	_
 6	ystäviensä	ystävä	NOUN	N,Pl,Gen,Px3	Case=Gen|Number=Plur|Person[psor]=3	3	conj	_	_
 7	päämäärätöntä	päämäärätön	ADJ	A,Sg,Par	Case=Par|Number=Sing	8	amod	_	_
 8	vaeltelua	vaeltelu	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
@@ -19244,7 +19244,7 @@
 15	tuhoavaa	tuhoava	ADJ	A,Sg,Par	Case=Par|Number=Sing	9	conj	_	_
 16	saisi	saada	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 17	luultavasti	luultavasti	ADV	Adv	_	16	advmod	_	_
-18	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	det	_	_
+18	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	19	nmod:poss	_	_
 19	tuomionsa	tuomio	NOUN	N,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3	16	obj	_	_
 20	.	.	PUNCT	Pun	_	19	punct	_	_
 
@@ -20029,7 +20029,7 @@
 # sent_id = qpcix-15578
 # text = Kyllä meidän rantamme minun tietääkseni ovat ihan hyvässä kunnossa .
 1	Kyllä	kyllä	PART	Pcle	_	6	advmod	_	_
-2	meidän	me	DET	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	det	_	_
+2	meidän	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs	3	nmod:poss	_	_
 3	rantamme	ranta	NOUN	N,Pl,Nom,PxPl1	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	6	nsubj	_	_
 4	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 5	tietääkseni	tietää	VERB	V,Act,InfA,Tra,PxSg1	Case=Tra|InfForm=1|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	6	advcl	_	_
@@ -20721,7 +20721,7 @@
 8	seuraavas	seuraava	ADJ	A,Sg,Ine	Case=Ine|Number=Sing|Style=Coll	9	amod	_	_
 9	numerossa	numero	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	6	nmod	_	_
 10	sitä	se	DET	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	12	det	_	_
-11	sun	sinä	DET	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Coll	12	det	_	_
+11	sun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Coll	12	nmod:poss	_	_
 12	hanketta	hanke	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	obj	_	_
 
 # sent_id = ow2kb-16227
@@ -20826,7 +20826,7 @@
 1	Et	ei	AUX	V,Neg,Act,Sg2	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 2	ala	alkaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	roikkua	roikkua	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	ccomp	_	_
-4	mun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	5	det	_	_
+4	mun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	5	nmod:poss	_	_
 5	kaulassa	kaula	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
 
@@ -20947,7 +20947,7 @@
 3	herra	herra	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	compound:nn	_	Alt=compound:nn
 4	Ketola	ketola	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	2	vocative	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
-6	minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	det	_	_
+6	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	nmod:poss	_	_
 7	vakuutusasiani	vakuutusasia	NOUN	N,Pl,Nom,PxSg1	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	8	nsubj	_	_
 8	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 9	kunnossa	kunto	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	8	nmod	_	_
@@ -21677,7 +21677,7 @@
 
 # sent_id = ayngq-16910
 # text = Minun poikaniko murhaaja !
-1	Minun	minä	DET	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	det	_	_
+1	Minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
 2	poikaniko	poika	NOUN	N,Sg,Nom,PxSg1,Ko	Case=Nom|Clitic=Ko|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	_
 3	murhaaja	murhaaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	!	!	PUNCT	Pun	_	3	punct	_	_
@@ -21750,7 +21750,7 @@
 # sent_id = k8csh-16986
 # text = Helvetti sun bileitäs .
 1	Helvetti	helvetti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	discourse	_	Alt=3_discourse
-2	sun	sinä	DET	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Coll	3	det	_	_
+2	sun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Coll	3	nmod:poss	_	_
 3	bileitäs	bileet	NOUN	N,Pl,Par,PxSg2	Case=Par|Number=Plur|Number[psor]=Sing|Person[psor]=2|Style=Coll	0	root	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
 
@@ -21790,7 +21790,7 @@
 # sent_id = us5wb-17046
 # text = Vein hänen haudalleen kynttilää ja kukkaa ja tein sillä tavalla surutyötä .
 1	Vein	viedä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	hänen	hän	DET	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	det	_	_
+2	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	3	nmod:poss	_	_
 3	haudalleen	hauta	NOUN	N,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3	1	nmod	_	_
 4	kynttilää	kynttilä	NOUN	N,Sg,Par	Case=Par|Number=Sing	1	obj	_	_
 5	ja	ja	CCONJ	Pcle,CC	_	6	cc	_	_
