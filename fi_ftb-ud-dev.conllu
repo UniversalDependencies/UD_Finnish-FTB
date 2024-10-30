@@ -1324,9 +1324,9 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
 8	pian	pian	ADV	Adv	_	13	advmod	_	_
-9	roolin	rooli	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nsubj	_	_
+9	roolin	rooli	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	obl:agent	_	_
 10	virittämät	virittää	VERB	V,PcpAg,Pl,Nom	Case=Nom|Number=Plur|PartForm=Agt|VerbForm=Part	11	acl	_	_
-11	jännitteet	jännite	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	13	nsubj	_	_
+11	jännitteet	jännite	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	12	nsubj	_	_
 12	alkavat	alkaa	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
 13	kiinnostaa	kiinnostaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	12	ccomp	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -1386,7 +1386,7 @@
 # sent_id = z0iam-2204
 # text = loputtomien raha- ja pahenevien terveyshuolien hapertama mies
 1	loputtomien	loputon	ADJ	A,Pl,Gen	Case=Gen|Number=Plur	2	amod	_	_
-2	raha-	raha-	X	Trunc,Prefix	_	6	nsubj	_	Prefix=Yes
+2	raha-	raha-	X	Trunc,Prefix	_	6	obl:agent	_	Prefix=Yes
 3	ja	ja	CCONJ	Pcle,CC	_	5	cc	_	_
 4	pahenevien	paheneva	ADJ	A,Pl,Gen	Case=Gen|Number=Plur	5	amod	_	_
 5	terveyshuolien	terveyshuoli	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	2	conj	_	_
@@ -2717,9 +2717,9 @@
 
 # sent_id = hz2jt-3331
 # text = Lehtoniittykin oli kulttuurin muovaama .
-1	Lehtoniittykin	lehtoniitty	NOUN	N,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing	4	nsubj:outer	_	_
+1	Lehtoniittykin	lehtoniitty	NOUN	N,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing	4	nsubj	_	_
 2	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	kulttuurin	kulttuuri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	nsubj:cop	_	_
+3	kulttuurin	kulttuuri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	obl:agent	_	_
 4	muovaama	muovata	VERB	V,PcpAg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -3652,7 +3652,7 @@
 1	Tällä	tämä	DET	Pron,Dem,Sg,Ade	Case=Ade|Number=Sing|PronType=Dem	2	det	_	_
 2	päätöksellä	päätös	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 3	kumotaan	kumota	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-4	sosiaali-	sosiaali-	X	Trunc,Prefix	_	8	nsubj	_	Prefix=Yes
+4	sosiaali-	sosiaali-	X	Trunc,Prefix	_	8	obl:agent	_	Prefix=Yes
 5	ja	ja	CCONJ	Pcle,CC	_	6	cc	_	_
 6	terveysministeriön	terveysministeriö	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	conj	_	_
 7	28.5.1975	28.5.1975	NUM	Num	_	8	nmod	_	_
@@ -3662,7 +3662,7 @@
 11	perustamisesta	perustaminen	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	9	nmod	_	_
 12	ja	ja	CCONJ	Pcle,CC	_	16	cc	_	_
 13	seuraavat	seuraava	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	16	amod	_	_
-14	työsuojeluhallituksen	työsuojeluhallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	15	nsubj	_	_
+14	työsuojeluhallituksen	työsuojeluhallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	15	obl:agent	_	_
 15	antamat	antaa	VERB	V,PcpAg,Pl,Nom	Case=Nom|Number=Plur|PartForm=Agt|VerbForm=Part	16	acl	_	_
 16	päätökset	päätös	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	conj	_	_
 17	koneiden	kone	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	20	nmod	_	_
@@ -4348,7 +4348,7 @@
 
 # sent_id = bk16f-4666
 # text = Liisa Nevalaisen ja Toini Vuoriston käsikirjoittama sarja oli ensimmäinen suomalainen perhesellainen .
-1	Liisa	liisa	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	Alt=name
+1	Liisa	liisa	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	obl:agent	_	Alt=name
 2	Nevalaisen	nevalainen	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	1	flat	_	_
 3	ja	ja	CCONJ	Pcle,CC	_	4	cc	_	_
 4	Toini	toini	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	1	conj	_	Alt=name
@@ -7174,7 +7174,7 @@
 6	alkuperäisiä	alkuperäinen	ADJ	A,Pl,Par	Case=Par|Number=Plur	7	amod	_	_
 7	luonnonmaisemia	luonnonmaisema	NOUN	N,Pl,Par	Case=Par|Number=Plur	0	root	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	FTB-rel=phrm
-9	asutuksen	asutus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nsubj	_	_
+9	asutuksen	asutus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	obl:agent	_	_
 10	muovaamia	muovata	VERB	V,PcpAg,Pl,Par	Case=Par|Number=Plur|PartForm=Agt|VerbForm=Part	11	acl	_	_
 11	kulttuurimaisemia	kulttuurimaisema	NOUN	N,Pl,Par	Case=Par|Number=Plur	7	conj	_	_
 12	tai	tai	CCONJ	Pcle,CC	_	13	cc	_	_
@@ -7827,7 +7827,7 @@
 
 # sent_id = san8t-6923
 # text = Hallituksen esittämä 1,5 miljardin leikkaus ansiosidonnaiseen työttömyysturvaan ei tyydytä , koska esitys ei muuta itse järjestelmää .
-1	Hallituksen	hallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nsubj	_	_
+1	Hallituksen	hallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obl:agent	_	_
 2	esittämä	esittää	VERB	V,PcpAg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part	5	acl	_	_
 3	1,5	1,5	NUM	Num,Card	NumType=Card	4	nummod	_	_
 4	miljardin	miljardi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	5	nummod	_	_
@@ -9043,7 +9043,7 @@
 7	voitaisiin	voida	AUX	V,Pass,Cond	Mood=Cnd|VerbForm=Fin|Voice=Pass	8	aux	_	_
 8	ohjata	ohjata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	advcl	_	_
 9	niihin	ne	PRON	Pron,Dem,Pl,Ill	Case=Ill|Number=Plur|PronType=Dem	8	nmod	_	_
-10	tilannemuutosten	tilannemuutos	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	11	nsubj	_	_
+10	tilannemuutosten	tilannemuutos	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	11	obl:agent	_	_
 11	edellyttämällä	edellyttää	VERB	V,PcpAg,Sg,Ade	Case=Ade|Number=Sing|PartForm=Agt|VerbForm=Part	12	acl	_	_
 12	tavalla	tapa	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	8	nmod	_	_
 13	.	.	PUNCT	Pun	_	12	punct	_	_
@@ -14792,9 +14792,9 @@
 8	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	14	expl	_	Alt=14_expl|Missed-Rel=phrm
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	että	että	SCONJ	Pcle,CS	_	14	mark	_	_
-11	sivusto	sivusto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj:outer	_	_
+11	sivusto	sivusto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj:cop	_	_
 12	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	14	cop	_	_
-13	sinun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs	14	nsubj:cop	_	_
+13	sinun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs	14	obl:agent	_	_
 14	tekemäsi	tehdä	VERB	V,PcpAg,Sg,Nom,PxSg2	Case=Nom|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=2|VerbForm=Part	7	acl	_	_
 15	.	.	PUNCT	Pun	_	14	punct	_	_
 
@@ -14802,7 +14802,7 @@
 # text = Se on hänen suuresti arvostamansa työvaihe .
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	6	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-3	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	_
+3	hänen	hän	PRON	Pron,Pers,Sg3,Gen	Case=Gen|Number=Sing|Person=3|PronType=Prs	5	obl:agent	_	_
 4	suuresti	suuresti	ADV	Adv	_	5	advmod	_	_
 5	arvostamansa	arvostaa	VERB	V,PcpAg,Sg,Nom,Px3	Case=Nom|Number=Sing|PartForm=Agt|Person[psor]=3|VerbForm=Part	6	acl	_	_
 6	työvaihe	työvaihe	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
@@ -15309,7 +15309,7 @@
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3	missä	mikä	PRON	Pron,Rel,Ine	Case=Ine|PronType=Rel	4	nmod	_	_
 4	esiteltiin	esitellä	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	1	acl	_	_
-5	poliisien	poliisi	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	7	nsubj	_	_
+5	poliisien	poliisi	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	7	obl:agent	_	_
 6	työssään	työ	NOUN	N,Sg,Ine,Px3	Case=Ine|Number=Sing|Person[psor]=3	7	nmod	_	_
 7	tarvitsemia	tarvita	VERB	V,PcpAg,Pl,Par	Case=Par|Number=Plur|PartForm=Agt|VerbForm=Part	8	acl	_	_
 8	välineitä	väline	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	obj	_	_
@@ -15383,7 +15383,7 @@
 8	askellaji	askellaji	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 9	pysyy	pysyä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	ccomp	_	_
 10	aina	aina	ADV	Adv	_	9	advmod	_	_
-11	sääntöjen	sääntö	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	12	nsubj	_	_
+11	sääntöjen	sääntö	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	12	obl:agent	_	_
 12	vaatimana	vaatia	VERB	V,PcpAg,Sg,Ess	Case=Ess|Number=Sing|PartForm=Agt|VerbForm=Part	9	advcl	_	_
 13	.	.	PUNCT	Pun	_	12	punct	_	_
 
@@ -18576,7 +18576,7 @@
 
 # sent_id = ed1ci-14888
 # text = Marjamäen tapaama viehättävä neitonen , josta sittemmin oli tuleva rouva Marjamäki oli tietämätön sanan merkityksestä .
-1	Marjamäen	marjamäki	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nsubj	_	_
+1	Marjamäen	marjamäki	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	obl:agent	_	_
 2	tapaama	tavata	VERB	V,PcpAg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part	4	acl	_	_
 3	viehättävä	viehättävä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	amod	_	_
 4	neitonen	neitonen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	_
@@ -19915,7 +19915,7 @@
 4	vuosisataa	vuosisata	NOUN	N,Sg,Par	Case=Par|Number=Sing	10	nmod	_	_
 5	tuleekaan	tulla	VERB	V,Act,Ind,Pres,Sg3,Kaan	Clitic=Kaan|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	Balkanin	balkan	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
-7	sodan	sota	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nsubj	_	_
+7	sodan	sota	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	obl:agent	_	_
 8	herättämä	herättää	VERB	V,PcpAg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part	9	acl	_	_
 9	viha	viha	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj	_	_
 10	säilymään	säilyä	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	5	ccomp	_	_

@@ -122,6 +122,7 @@ Revised annotations rejected by the validator
 - det dependency children 
 - plural personal pronouns take singular lemmas: minä, sinä, hän
 - personal pronouns in genitive with NP head possessum take nmod:poss dependency
+- deprel obl:agent is used for marking the genitive-case agent of the agent participle, -mA, and InfMa,Abe
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
