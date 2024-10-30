@@ -2509,7 +2509,7 @@
 1	Raatikon	raatikko	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	ensemble	ensemble	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
-4	kenenkään	kukaan	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	6	nsubj	_	FTB-PronType=Qnt
+4	kenenkään	kukaan	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	6	obl:agent	_	FTB-PronType=Qnt
 5	asiaan	asia	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	6	nmod	_	_
 6	puuttumatta	puuttua	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	8	advcl	_	_
 7	saanut	saada	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
