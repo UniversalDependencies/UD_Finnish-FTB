@@ -372,7 +372,7 @@
 # sent_id = giqld-934
 # text = Ehkei se tullut .
 1-2	Ehkei	_	_	_	_	_	_	_	_
-1	Ehk	ehkä	PART	Pcle	Style=Coll	4	advmod	_	Join=Yes
+1	Ehk	ehkä	ADV	Adv,Pcle	Style=Coll	4	advmod	_	Join=Yes
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	4	nsubj	_	_
 4	tullut	tulla	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -1128,7 +1128,7 @@
 4	rasitukset	rasitus	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	nsubj	_	_
 5	näkyivät	näkyä	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 6	selvimmin	selvimmin	ADV	Adv,Sup	Degree=Sup	5	advmod	_	_
-7	ehkä	ehkä	PART	Pcle	_	9	advmod	_	_
+7	ehkä	ehkä	ADV	Adv,Pcle	_	9	advmod	_	_
 8	juuri	juuri	PART	Pcle	_	9	advmod	_	_
 9	Lindströmissä	lindström	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	5	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -3782,7 +3782,7 @@
 # text = Loistavaa , aivan nappi suoritus .
 1	Loistavaa	loistaa	VERB	V,Act,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	0	root	_	_
 2	,	,	PUNCT	Pun	_	1	punct	_	_
-3	aivan	aivan	PART	Pcle	_	4	advmod	_	_
+3	aivan	aivan	ADV	Adv,Pcle	_	4	advmod	_	_
 4	nappi	nappi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	compound:nn	_	Alt=compound:nn
 5	suoritus	suoritus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	conj	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
@@ -3929,7 +3929,7 @@
 1	Isyys	isyys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 3	minulle	minä	PRON	Pron,Pers,Sg1,All	Case=All|Number=Sing|Person=1|PronType=Prs	7	nmod	_	_
-4	ehkä	ehkä	PART	Pcle	_	7	advmod	_	_
+4	ehkä	ehkä	ADV	Adv,Pcle	_	7	advmod	_	_
 5	kaikista	kaikki	PRON	Pron,Qnt,Pl,Ela	Case=Ela|Number=Plur|PronType=Ind	6	nmod	_	FTB-PronType=Qnt
 6	tärkein	tärkeä	ADJ	A,Sup,Sg,Nom	Case=Nom|Degree=Sup|Number=Sing	7	amod	_	_
 7	asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
@@ -4941,7 +4941,7 @@
 
 # sent_id = wsyq3-5086
 # text = Aivan pilkulleen Ketolan perustelua ei kannata ottaa .
-1	Aivan	aivan	PART	Pcle	_	2	advmod	_	_
+1	Aivan	aivan	ADV	Adv,Pcle	_	2	advmod	_	_
 2	pilkulleen	pilkku	NOUN	N,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3	7	nmod	_	_
 3	Ketolan	ketola	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
 4	perustelua	perustelu	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	obj	_	_
@@ -5344,7 +5344,7 @@
 5	perusteltu	perustella	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	työllisyyssyillä	työllisyyssyy	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	5	nmod	_	_
 7	eikä	ei	VERB	V,Neg,Act,Sg3,Ka	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	conj	_	_
-8	aivan	aivan	PART	Pcle	_	9	advmod	_	_
+8	aivan	aivan	ADV	Adv,Pcle	_	9	advmod	_	_
 9	syyttä	syy	NOUN	N,Sg,Abe	Case=Abe|Number=Sing	7	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -5993,7 +5993,7 @@
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	nämä	nämä	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	11	nsubj:cop	_	_
 9	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-10	aivan	aivan	PART	Pcle	_	11	advmod	_	_
+10	aivan	aivan	ADV	Adv,Pcle	_	11	advmod	_	_
 11	hyviä	hyvä	ADJ	A,Pl,Par	Case=Par|Number=Plur	4	conj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -7241,7 +7241,7 @@
 # text = Laitetta ajetaan aivan kuin polkupyörää .
 1	Laitetta	laite	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 2	ajetaan	ajaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	aivan	aivan	PART	Pcle	ExtPos=SCONJ	5	mark	_	_
+3	aivan	aivan	ADV	Adv,Pcle	ExtPos=SCONJ	5	mark	_	_
 4	kuin	kuin	SCONJ	Pcle,CS	_	3	fixed	_	_
 5	polkupyörää	polkupyörä	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nmod	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
@@ -7990,7 +7990,7 @@
 # text = Kun hyökkäsi aivan äitiin kiinni , ei erottanut omaa kulkuaan .
 1	Kun	kun	SCONJ	Pcle,CS	_	2	mark	_	_
 2	hyökkäsi	hyökätä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	advcl	_	_
-3	aivan	aivan	PART	Pcle	_	5	advmod	_	_
+3	aivan	aivan	ADV	Adv,Pcle	_	5	advmod	_	_
 4	äitiin	äiti	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	5	nmod	_	_
 5	kiinni	kiinni	ADV	Adv	_	2	advmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
@@ -9130,7 +9130,7 @@
 
 # sent_id = mqvi9-8112
 # text = Ehkä Jumala on pitänyt oikeana kääntää miljardista särmästään meitä kohti juuri tämän .
-1	Ehkä	ehkä	PART	Pcle	_	4	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	4	advmod	_	_
 2	Jumala	jumala	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	pitänyt	pitää	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -9442,7 +9442,7 @@
 8	ruusu	ruusu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	conj	_	_
 9	oisin	olla	AUX	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|Style=Coll|VerbForm=Fin|Voice=Act	8	cop	_	_
 10	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
-11	aivan	aivan	PART	Pcle	_	12	advmod	_	_
+11	aivan	aivan	ADV	Adv,Pcle	_	12	advmod	_	_
 12	uutta	uusi	ADJ	A,Sg,Par	Case=Par|Number=Sing	13	amod	_	_
 13	Katri-Helenaa	katri-helena	PROPN	N,Prop,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -9585,7 +9585,7 @@
 3	määrä	määrä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj:cop	_	_
 4	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
 5	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-6	aivan	aivan	PART	Pcle	_	8	advmod	_	_
+6	aivan	aivan	ADV	Adv,Pcle	_	8	advmod	_	_
 7	viittä	viisi	NUM	Num,Card,Sg,Par	Case=Par|Number=Sing|NumType=Card	8	nummod	_	_
 8	prosenttia	prosentti	NOUN	N,Sg,Par	Case=Par|Number=Sing	10	nmod	_	_
 9	voimalan	voimala	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
@@ -9735,7 +9735,7 @@
 1	Ympäristön	ympäristö	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 2	kannalta	kannalta	ADP	Adp	_	1	case	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	aivan	aivan	PART	Pcle	_	5	advmod	_	_
+4	aivan	aivan	ADV	Adv,Pcle	_	5	advmod	_	_
 5	sama	sama	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	0	root	_	FTB-PronType=Qnt
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	poltetaanko	polttaa	VERB	V,Pass,Ind,Pres,Ko	Clitic=Ko|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	csubj:cop	_	_
@@ -10581,7 +10581,7 @@
 # sent_id = q17wn-9120
 # text = Olisi ehkä parempi olla puhumatta koko asiasta .
 1	Olisi	olla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	cop	_	Alt=3_cop
-2	ehkä	ehkä	PART	Pcle	_	3	advmod	_	Alt=3_advmod
+2	ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	Alt=3_advmod
 3	parempi	parempi	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	Alt=0_root|FTB-Rel=modal
 4	olla	olla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	aux	_	_
 5	puhumatta	puhua	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	3	xcomp:ds	_	Alt=3_xcomp:ds
@@ -10591,7 +10591,7 @@
 
 # sent_id = qxofa-9120
 # text = Ehkä se pilaa tunnelman .
-1	Ehkä	ehkä	PART	Pcle	_	3	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	pilaa	pilata	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	tunnelman	tunnelma	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
@@ -12763,7 +12763,7 @@
 
 # sent_id = de4gy-10485
 # text = aivan yhtä paljon heidän hermoilleen käy se , kun meillä menee hyvin .
-1	aivan	aivan	PART	Pcle	_	2	advmod	_	_
+1	aivan	aivan	ADV	Adv,Pcle	_	2	advmod	_	_
 2	yhtä	yhtä	ADV	Adv	_	3	advmod	_	_
 3	paljon	paljon	ADV	Adv	_	6	advmod	_	_
 4	heidän	hän	PRON	Pron,Pers,Pl3,Gen	Case=Gen|Number=Plur|Person=3|PronType=Prs	5	nmod:poss	_	_
@@ -18660,7 +18660,7 @@
 
 # sent_id = kguem-14955
 # text = Ehkä siinä on jotain totta .
-1	Ehkä	ehkä	PART	Pcle	_	3	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	_
 2	siinä	se	PRON	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	3	nmod	_	_
 3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	jotain	jokin	DET	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	5	det	_	_
@@ -18692,7 +18692,7 @@
 # sent_id = u91ne-14983
 # text = Voisi ehkä sanoa , että em. ´ itsetietoisuus ´ on postmodernin fiktion välttämätön joskaan ei riittävä ehto .
 1	Voisi	voida	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	ehkä	ehkä	PART	Pcle	_	3	advmod	_	_
+2	ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	_
 3	sanoa	sanoa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	että	että	SCONJ	Pcle,CS	_	17	mark	_	_
@@ -19320,19 +19320,19 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	onko	olla	AUX	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
 8	asiakas	asiakas	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj:cop	_	_
-9	ehkä	ehkä	PART	Pcle	_	10	advmod	_	_
+9	ehkä	ehkä	ADV	Adv,Pcle	_	10	advmod	_	_
 10	terroristi	terroristi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	ccomp	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
 # sent_id = r51c7-15524
 # text = Ehkä se sai uuden kodin , ehkä pääsi hengestään .
-1	Ehkä	ehkä	PART	Pcle	_	3	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	sai	saada	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	uuden	uusi	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	5	amod	_	_
 5	kodin	koti	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	ehkä	ehkä	PART	Pcle	_	8	advmod	_	_
+7	ehkä	ehkä	ADV	Adv,Pcle	_	8	advmod	_	_
 8	pääsi	päästä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 9	hengestään	henki	NOUN	N,Sg,Ela,Px3	Case=Ela|Number=Sing|Person[psor]=3	8	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_

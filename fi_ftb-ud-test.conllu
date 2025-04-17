@@ -625,7 +625,7 @@
 6	eikä	ei	AUX	V,Neg,Act,Sg3,Ka	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	juoksu	juoksu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
 8	tuntunut	tuntua	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	_
-9	aivan	aivan	PART	Pcle	_	10	advmod	_	_
+9	aivan	aivan	ADV	Adv,Pcle	_	10	advmod	_	_
 10	täydelliseltä	täydellinen	ADJ	A,Sg,Abl	Case=Abl|Number=Sing	8	nmod	_	_
 
 # sent_id = t5etx-1534
@@ -1099,7 +1099,7 @@
 4	avaimet	avain	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	obj	_	_
 5	käteensä	käsi	NOUN	N,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3	2	nmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	aivan	aivan	PART	Pcle	_	12	mark	_	_
+7	aivan	aivan	ADV	Adv,Pcle	_	12	mark	_	_
 8	kuin	kuin	SCONJ	Pcle,CS	_	7	fixed	_	_
 9	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	_
 10	olisivat	olla	AUX	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -2726,7 +2726,7 @@
 2	puupinnat	puupinta	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	nsubj	_	_
 3	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	italialaishenkisesti	italialaishenkisesti	ADV	Adv	_	3	advmod	_	_
-5	aivan	aivan	PART	Pcle	_	6	advmod	_	_
+5	aivan	aivan	ADV	Adv,Pcle	_	6	advmod	_	_
 6	sileinä	sileä	ADJ	A,Pl,Ess	Case=Ess|Number=Plur	3	nmod	_	_
 7	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
 8	himmeästi	himmeästi	ADV	Adv	_	9	advmod	_	_
@@ -3345,7 +3345,7 @@
 # text = Siellä lähellä aivan meren rannalla on se sellainen grillikatos ja penkkejä ja pöytä .
 1	Siellä	siellä	ADV	Adv,Dem	PronType=Dem	2	advmod	_	_
 2	lähellä	lähellä	ADV	Adv	_	6	advmod	_	_
-3	aivan	aivan	PART	Pcle	_	5	advmod	_	_
+3	aivan	aivan	ADV	Adv,Pcle	_	5	advmod	_	_
 4	meren	meri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 5	rannalla	ranta	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	6	nmod	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -4082,7 +4082,7 @@
 5	etsintöjen	etsintä	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	6	nmod:gobj	_	Alt=nmod:gobj
 6	saattamisesta	saattaminen	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 7	loppuun	loppu	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	6	nmod	_	_
-8	aivan	aivan	PART	Pcle	_	9	advmod	_	_
+8	aivan	aivan	ADV	Adv,Pcle	_	9	advmod	_	_
 9	lähipäivinä	lähipäivä	NOUN	N,Pl,Ess	Case=Ess|Number=Plur	6	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -4548,7 +4548,7 @@
 4	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	aux	_	_
 5	Fennoskandian	fennoskandia	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	kansoista	kansa	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	8	nmod	_	_
-7	ehkä	ehkä	PART	Pcle	_	8	advmod	_	_
+7	ehkä	ehkä	ADV	Adv,Pcle	_	8	advmod	_	_
 8	parhaiten	parhaiten	ADV	Adv,Sup	Degree=Sup	9	advmod	_	_
 9	ymmärtäneet	ymmärtää	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 10	toisiaan	toinen	PRON	Pron,Recip,Pl,Par,Px3	Case=Par|Number=Plur|Person[psor]=3|PronType=Rcp	9	obj	_	_
@@ -4569,7 +4569,7 @@
 
 # sent_id = aq1hi-4844
 # text = Ehkä mielenkiintoisin kaikista vertailun arvostelukohteista oli ruuvinvääntökapasiteetti .
-1	Ehkä	ehkä	PART	Pcle	_	2	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	2	advmod	_	_
 2	mielenkiintoisin	mielenkiintoinen	ADJ	A,Sup,Sg,Nom	Case=Nom|Degree=Sup|Number=Sing	7	nsubj:cop	_	_
 3	kaikista	kaikki	DET	Pron,Qnt,Pl,Ela	Case=Ela|Number=Plur|PronType=Ind	5	det	_	_
 4	vertailun	vertailu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
@@ -6468,7 +6468,7 @@
 
 # sent_id = ss46u-6369
 # text = Ehkä siinä meni parin sijan myötä sata taalaa .
-1	Ehkä	ehkä	PART	Pcle	_	3	advmod	_	_
+1	Ehkä	ehkä	ADV	Adv,Pcle	_	3	advmod	_	_
 2	siinä	se	PRON	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	3	nmod	_	_
 3	meni	mennä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	parin	pari	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	5	nummod	_	_
@@ -7485,7 +7485,7 @@
 # text = Sinä olet aivan ihana .
 1	Sinä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj:cop	_	_
 2	olet	olla	AUX	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	aivan	aivan	PART	Pcle	_	4	advmod	_	_
+3	aivan	aivan	ADV	Adv,Pcle	_	4	advmod	_	_
 4	ihana	ihana	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -8071,7 +8071,7 @@
 2	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	leikannut	leikata	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	hiuksensa	hius	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	3	obj	_	_
-5	aivan	aivan	PART	Pcle	_	6	advmod	_	_
+5	aivan	aivan	ADV	Adv,Pcle	_	6	advmod	_	_
 6	lyhyiksi	lyhyt	ADJ	A,Pl,Tra	Case=Tra|Number=Plur	3	nmod	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -9497,7 +9497,7 @@
 
 # sent_id = qpmje-8982
 # text = Aivan pienenä olin äidin mukana pyykillä .
-1	Aivan	aivan	PART	Pcle	_	2	advmod	_	_
+1	Aivan	aivan	ADV	Adv,Pcle	_	2	advmod	_	_
 2	pienenä	pieni	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	3	nmod	_	_
 3	olin	olla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	äidin	äiti	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
@@ -10671,7 +10671,7 @@
 4	kurissa	kuri	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	1	compound:prt	_	_
 5	ja	ja	CCONJ	Pcle,CC	_	6	cc	_	_
 6	voit	voida	VERB	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
-7	aivan	aivan	PART	Pcle	_	8	advmod	_	_
+7	aivan	aivan	ADV	Adv,Pcle	_	8	advmod	_	_
 8	loistavasti	loistavasti	ADV	Adv	_	6	advmod	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
@@ -13003,7 +13003,7 @@
 3	suomalaisille	suomalainen	ADJ	A,Pl,All	Case=All|Number=Plur	4	nmod	_	_
 4	tärkeämpi	tärkeä	ADJ	A,Cmp,Sg,Nom	Case=Nom|Degree=Cmp|Number=Sing	0	root	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	9	mark	_	FTB-Sub=comparator
-6	ehkä	ehkä	PART	Pcle	_	9	advmod	_	_
+6	ehkä	ehkä	ADV	Adv,Pcle	_	9	advmod	_	_
 7	millekään	mikään	DET	Pron,Qnt,All	Case=All|PronType=Ind	9	det	_	_
 8	muulle	muu	DET	Pron,Qnt,Sg,All	Case=All|Number=Sing|PronType=Ind	9	det	_	_
 9	kansalle	kansa	NOUN	N,Sg,All	Case=All|Number=Sing	4	advcl	_	FTB-Sub=comparison
@@ -13065,7 +13065,7 @@
 4	saada	saada	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	145	145	NUM	Num,Card	NumType=Card	10	nummod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	ehkä	ehkä	PART	Pcle	_	9	advmod	_	_
+7	ehkä	ehkä	ADV	Adv,Pcle	_	9	advmod	_	_
 8	jopa	jopa	PART	Pcle	_	9	advmod	_	_
 9	150	150	NUM	Num,Card	NumType=Card	5	conj	_	_
 10	kansanedustajapaikkaa	kansanedustajapaikka	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
@@ -15740,7 +15740,7 @@
 8	opettaja	opettaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	Alt=nsubj
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	niin	niin	PART	Pcle	_	13	mark	_	_
-11	ehkäpä	ehkä	PART	Pcle,Pa	Clitic=Pa	13	advmod	_	_
+11	ehkäpä	ehkä	ADV	Adv,Pcle,Pa	Clitic=Pa	13	advmod	_	_
 12	siinä	se	PRON	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	13	nmod	_	_
 13	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 14	yksi	yksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	15	nummod	_	_
@@ -19328,7 +19328,7 @@
 5-6	ettet	_	_	_	_	_	_	_	_
 5	ett	että	SCONJ	Pcle,CS	Style=Coll	10	mark	_	Join=Yes
 6	et	ei	AUX	V,Neg,Act,Sg2	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
-7	ehkä	ehkä	PART	Pcle	_	10	advmod	_	_
+7	ehkä	ehkä	ADV	Adv,Pcle	_	10	advmod	_	_
 8	ehdi	ehtiä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
 9	kaikkea	kaikki	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	10	obj	_	FTB-PronType=Qnt
 10	hoitaa	hoitaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	8	ccomp	_	_
@@ -19942,7 +19942,7 @@
 # sent_id = h5uey-15516
 # text = Oletteko ehkä kotoisin Raumalta ?
 1	Oletteko	olla	VERB	V,Act,Ind,Pres,Pl2,Ko	Clitic=Ko|Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ehkä	ehkä	PART	Pcle	_	1	advmod	_	_
+2	ehkä	ehkä	ADV	Adv,Pcle	_	1	advmod	_	_
 3	kotoisin	kotoisin	ADV	Adv	_	1	advmod	_	_
 4	Raumalta	rauma	PROPN	N,Prop,Sg,Abl	Case=Abl|Number=Sing	3	nmod	_	_
 5	?	?	PUNCT	Pun	_	4	punct	_	_
