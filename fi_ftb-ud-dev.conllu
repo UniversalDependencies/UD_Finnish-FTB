@@ -1914,7 +1914,7 @@
 7	mutta	mutta	CCONJ	Pcle,CC	_	11	cc	_	_
 8	kaikki	kaikki	PRON	Pron,Qnt,Nom	Case=Nom|PronType=Ind	11	nsubj	_	FTB-PronType=Qnt
 9	eivät	ei	AUX	V,Neg,Act,Pl3	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
-10	silti	silti	PART	Pcle	_	11	advmod	_	_
+10	silti	silti	ADV	Adv	_	11	advmod	_	_
 11	pitäneet	pitää	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	2	conj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -5033,7 +5033,7 @@
 1	Viimekesäinen	viimekesäinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	amod	_	_
 2	rällästäminen	rällästäminen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj:cop	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	kuitenkin	kuitenkin	PART	Pcle	_	5	advmod	_	_
+4	kuitenkin	kuitenkin	ADV	Adv	_	5	advmod	_	_
 5	ollutta	olla	VERB	V,Act,PcpNut,Sg,Par	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
 7	mennyttä	mennä	VERB	V,Act,PcpNut,Sg,Par	Case=Par|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	conj	_	_
@@ -7327,7 +7327,7 @@
 4	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
 5	yleisöllehän	yleisö	NOUN	N,Sg,All,Han	Case=All|Clitic=Han|Number=Sing	8	nmod	_	_
 6	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	8	nmod	_	_
-7	kuitenkin	kuitenkin	PART	Pcle	_	8	advmod	_	_
+7	kuitenkin	kuitenkin	ADV	Adv	_	8	advmod	_	_
 8	esiinnytään	esiintyä	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	2	ccomp	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
@@ -8660,7 +8660,7 @@
 2	ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
 3	muotiliikkeita	muotiliike	NOUN	N,Pl,Par	Case=Par|Number=Plur	1	conj	_	_
 4	tuli	tulla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+5	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	_
 6	uusia	uusi	ADJ	A,Pl,Par	Case=Par|Number=Plur	4	xcomp	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -9152,7 +9152,7 @@
 4	metsäpinta-alasta	metsäpinta-ala	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	5	nmod	_	_
 5	käsiteltävän	käsitellä	VERB	V,Pass,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	ccomp	_	_
 6	vuosittain	vuosittain	ADV	Adv	_	5	advmod	_	_
-7	kuitenkin	kuitenkin	PART	Pcle	_	5	advmod	_	_
+7	kuitenkin	kuitenkin	ADV	Adv	_	5	advmod	_	_
 8	niin	niin	PART	Pcle	_	9	advmod	_	_
 9	pienen	pieni	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	10	amod	_	_
 10	pläntin	pläntti	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	obj	_	_
@@ -12531,7 +12531,7 @@
 
 # sent_id = fqu30-10334
 # text = Silti en lähde vielä nukkumaan .
-1	Silti	silti	PART	Pcle	_	3	advmod	_	_
+1	Silti	silti	ADV	Adv	_	3	advmod	_	_
 2	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	lähde	lähteä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	vielä	vielä	PART	Pcle	_	3	advmod	_	_
@@ -16454,7 +16454,7 @@
 1	Venäjän	venäjä	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	ote	ote	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj:cop	_	_
 3	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	5	cop	_	_
-4	kuitenkin	kuitenkin	PART	Pcle	_	5	advmod	_	_
+4	kuitenkin	kuitenkin	ADV	Adv	_	5	advmod	_	_
 5	heikko	heikko	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 6	maantieteellisesti	maantieteellisesti	ADV	Adv	_	9	advmod	_	_
 7	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
@@ -16600,7 +16600,7 @@
 3	tai	tai	CCONJ	Pcle,CC	_	4	cc	_	_
 4	virukset	virus	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	conj	_	_
 5	näyttävät	näyttää	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-6	kuitenkin	kuitenkin	PART	Pcle	_	7	advmod	_	_
+6	kuitenkin	kuitenkin	ADV	Adv	_	7	advmod	_	_
 7	tunkeutuvan	tunkeutua	VERB	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	5	ccomp	_	_
 8	makrofagisolujen	makrofagisolu	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	7	nmod	_	_
 9	sisään	sisään	ADP	Adp	_	8	case	_	_
@@ -18956,7 +18956,7 @@
 # sent_id = ss8aj-15221
 # text = Luulisin kuitenkin , että kyseiset luurangot ovat peräisin jostain 1800-luvulta .
 1	Luulisin	luulla	VERB	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
-2	kuitenkin	kuitenkin	PART	Pcle	_	1	advmod	_	_
+2	kuitenkin	kuitenkin	ADV	Adv	_	1	advmod	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	että	että	SCONJ	Pcle,CS	_	7	mark	_	_
 5	kyseiset	kyseinen	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	6	amod	_	_
@@ -19170,7 +19170,7 @@
 # sent_id = l4ct8-15341
 # text = Varmaa kuitenkin on , että Finnairin ja SAS:n välit on jossakin vaiheessa selvitettävä perinpohjin .
 1	Varmaa	varma	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
-2	kuitenkin	kuitenkin	PART	Pcle	_	1	advmod	_	_
+2	kuitenkin	kuitenkin	ADV	Adv	_	1	advmod	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 4	,	,	PUNCT	Pun	_	1	punct	_	_
 5	että	että	SCONJ	Pcle,CS	_	13	mark	_	_

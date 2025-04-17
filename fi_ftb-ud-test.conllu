@@ -1168,7 +1168,7 @@
 # text = Alkukesä on kuitenkin sen parasta tekoaikaa .
 1	Alkukesä	alkukesä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	6	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	6	advmod	_	_
 4	sen	se	DET	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	6	det	_	_
 5	parasta	paras	ADJ	A,Sup,Sg,Par	Case=Par|Degree=Sup|Number=Sing	6	amod	_	_
 6	tekoaikaa	tekoaika	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
@@ -1709,7 +1709,7 @@
 # text = Aattoon on kuitenkin vain kolme kiireistä yötä ja päivää , joten en enempää jouda raapustella .
 1	Aattoon	aatto	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	2	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	2	advmod	_	_
 4	vain	vain	PART	Pcle	_	5	advmod	_	_
 5	kolme	kolme	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
 6	kiireistä	kiireinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	7	amod	_	_
@@ -2394,7 +2394,7 @@
 4	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	nousussa	nousu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
 6	edustaen	edustaa	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	4	advcl	_	_
-7	kuitenkin	kuitenkin	PART	Pcle	_	6	advmod	_	_
+7	kuitenkin	kuitenkin	ADV	Adv	_	6	advmod	_	_
 8	vielä	vielä	PART	Pcle	_	10	advmod	_	_
 9	kansainvälisesti	kansainvälisesti	ADV	Adv	_	10	advmod	_	_
 10	vaatimatonta	vaatimaton	ADJ	A,Sg,Par	Case=Par|Number=Sing	12	amod	_	_
@@ -3112,7 +3112,7 @@
 2	tulkinta	tulkinta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj:cop	_	_
-5	kuitenkin	kuitenkin	PART	Pcle	_	8	advmod	_	_
+5	kuitenkin	kuitenkin	ADV	Adv	_	8	advmod	_	_
 6	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop	_	_
 7	historiallisesti	historiallisesti	ADV	Adv	_	8	advmod	_	_
 8	mahdoton	mahdoton	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	acl	_	_
@@ -3569,7 +3569,7 @@
 2	viikinkivallan	viikinkivalta	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 3	kaupunki	kaupunki	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	_
 4	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	cop	_	_
-5	kuitenkin	kuitenkin	PART	Pcle	_	6	advmod	_	_
+5	kuitenkin	kuitenkin	ADV	Adv	_	6	advmod	_	_
 6	Jorvik	jorvik	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -4077,7 +4077,7 @@
 # text = Poliisi on kuitenkin toiveikas etsintöjen saattamisesta loppuun aivan lähipäivinä .
 1	Poliisi	poliisi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	_
 4	toiveikas	toiveikas	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 5	etsintöjen	etsintä	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	6	nmod:gobj	_	Alt=nmod:gobj
 6	saattamisesta	saattaminen	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
@@ -4253,7 +4253,7 @@
 10	näin	näin	PART	Pcle	_	11	advmod	_	_
 11	pehmeitä	pehmeä	ADJ	A,Pl,Par	Case=Par|Number=Plur	7	obj	_	_
 12	ja	ja	CCONJ	Pcle,CC	_	14	cc	_	_
-13	silti	silti	PART	Pcle	_	14	advmod	_	_
+13	silti	silti	ADV	Adv	_	14	advmod	_	_
 14	säilyttää	säilyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	7	conj	_	_
 15	paikkansa	paikka	NOUN	N,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3	14	obj	_	_
 16	?	?	PUNCT	Pun	_	15	punct	_	_
@@ -4431,7 +4431,7 @@
 # sent_id = ly9eh-4756
 # text = Ja silti Ranskasta on Englantiin tolkun paljon lyhyempi matka kuin Hollolasta Öllölään .
 1	Ja	ja	CCONJ	Pcle,CC	_	4	cc	_	_
-2	silti	silti	PART	Pcle	_	4	advmod	_	_
+2	silti	silti	ADV	Adv	_	4	advmod	_	_
 3	Ranskasta	ranska	PROPN	N,Prop,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 4	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	Englantiin	englanti	PROPN	N,Prop,Sg,Ill	Case=Ill|Number=Sing	4	nmod	_	_
@@ -5532,7 +5532,7 @@
 2	lasketusta	laskea	VERB	V,Pass,PcpNut,Sg,Ela	Case=Ela|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	3	acl	_	_
 3	tavoitteesta	tavoite	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	8	nmod	_	_
 4	ollaan	olla	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-5	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+5	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	_
 6	vielä	vielä	PART	Pcle	_	4	advmod	_	_
 7	hieman	hieman	ADV	Adv	_	8	advmod	_	_
 8	jäljessä	jäljessä	ADV	Adv	_	4	advmod	_	_
@@ -7042,7 +7042,7 @@
 # sent_id = id0bk-6874
 # text = Mutta silti potilaat kaipasivat toipumislomaa , ellei enää Tahitilla , niin ainakin Portugalissa .
 1	Mutta	mutta	CCONJ	Pcle,CC	_	4	cc	_	_
-2	silti	silti	PART	Pcle	_	4	advmod	_	_
+2	silti	silti	ADV	Adv	_	4	advmod	_	_
 3	potilaat	potilas	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nsubj	_	_
 4	kaipasivat	kaivata	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	toipumislomaa	toipumisloma	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
@@ -7324,7 +7324,7 @@
 # text = Voi perkele kuitenkin , Harjunpää sanoi .
 1	Voi	voi	INTJ	Pcle,Interj	_	2	discourse	_	Alt=2_discourse
 2	perkele	perkele	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	discourse	_	Alt=6_discourse
-3	kuitenkin	kuitenkin	PART	Pcle	_	2	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	2	advmod	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	Harjunpää	harjunpää	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
 6	sanoi	sanoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -8419,7 +8419,7 @@
 7	perinteitä	perinne	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
 8	tuoden	tuoda	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	2	advcl	_	_
 9	siihen	se	PRON	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	8	nmod	_	_
-10	kuitenkin	kuitenkin	PART	Pcle	_	8	advmod	_	_
+10	kuitenkin	kuitenkin	ADV	Adv	_	8	advmod	_	_
 11	oman	oma	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	12	amod	_	_
 12	lisänsä	lisä	NOUN	N,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3	8	obj	_	_
 13	.	.	PUNCT	Pun	_	12	punct	_	_
@@ -9967,7 +9967,7 @@
 5	2,5	2,5	NUM	Num,Card	NumType=Card	6	nummod	_	_
 6	prosenttia	prosentti	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nmod	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
-8	kuitenkin	kuitenkin	PART	Pcle	_	2	advmod	_	_
+8	kuitenkin	kuitenkin	ADV	Adv	_	2	advmod	_	_
 9	vähintään	vähintään	PART	Pcle	_	10	advmod	_	_
 10	220	220	NUM	Num,Card	NumType=Card	11	nummod	_	_
 11	markkaa	markka	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	conj	_	_
@@ -10630,7 +10630,7 @@
 7	ototiedottaja	ototiedottaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing|Style=Coll	4	conj	_	_
 8	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
 9	nyt	nyt	ADV	Adv	_	11	advmod	_	_
-10	kuitenkin	kuitenkin	PART	Pcle	_	11	advmod	_	_
+10	kuitenkin	kuitenkin	ADV	Adv	_	11	advmod	_	_
 11	saanut	saada	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -11473,7 +11473,7 @@
 2	miljardiratkaisu	miljardiratkaisu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	toteutuu	toteutua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
-5	silti	silti	PART	Pcle	_	7	advmod	_	_
+5	silti	silti	ADV	Adv	_	7	advmod	_	_
 6	velkaa	velka	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	_
 7	jää	jäädä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 8	vielä	vielä	PART	Pcle	_	10	advmod	_	_
@@ -12072,7 +12072,7 @@
 3	jo	jo	PART	Pcle	_	4	advmod	_	_
 4	myöhä	myöhä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	8	advcl	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
-6	silti	silti	PART	Pcle	_	8	advmod	_	_
+6	silti	silti	ADV	Adv	_	8	advmod	_	_
 7	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	lähde	lähteä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 9	vielä	vielä	PART	Pcle	_	8	advmod	_	_
@@ -12109,7 +12109,7 @@
 # sent_id = elh4d-10368.2
 # text = Ja kuitenkin tiesin , että paeta ei voinut , ei tästä tilanteesta , ei enää .
 1	Ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
-2	kuitenkin	kuitenkin	PART	Pcle	_	3	advmod	_	_
+2	kuitenkin	kuitenkin	ADV	Adv	_	3	advmod	_	_
 3	tiesin	tietää	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	että	että	SCONJ	Pcle,CS	_	6	mark	_	_
@@ -12264,7 +12264,7 @@
 9	projekti	projekti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	advcl	_	FTB-Sub=comparison
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
-12	silti	silti	PART	Pcle	_	13	advmod	_	_
+12	silti	silti	ADV	Adv	_	13	advmod	_	_
 13	selvittiin	selvitä	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
 14	hyvin	hyvin	ADV	Adv	_	13	advmod	_	_
 15	.	.	PUNCT	Pun	_	14	punct	_	_
@@ -12431,7 +12431,7 @@
 # sent_id = zxhcw-10580
 # text = Yllätyin silti , että he tekivät sen niin komeasti .
 1	Yllätyin	yllättyä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	silti	silti	PART	Pcle	_	1	advmod	_	_
+2	silti	silti	ADV	Adv	_	1	advmod	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	että	että	SCONJ	Pcle,CS	_	6	mark	_	_
 5	he	hän	PRON	Pron,Pers,Pl3,Nom	Case=Nom|Number=Plur|Person=3|PronType=Prs	6	nsubj	_	_
@@ -13140,7 +13140,7 @@
 # text = Kiistatonta kai kuitenkin on se , että kirjailija tiesi yhtä jos toistakin vanhan Egyptin , Bysantin ja menneen ajan Välimeren alueen asioista .
 1	Kiistatonta	kiistaton	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 2	kai	kai	PART	Pcle	_	1	advmod	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	1	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	1	advmod	_	_
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 5	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
 6	,	,	PUNCT	Pun	_	5	punct	_	_
@@ -17123,7 +17123,7 @@
 # text = Elämä on kuitenkin arvaamatonta .
 1	Elämä	elämä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	_
 4	arvaamatonta	arvata	VERB	V,PcpNeg,Sg,Par	Case=Par|Number=Sing|PartForm=Neg|VerbForm=Part	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -19169,7 +19169,7 @@
 # text = Taivasta kannattaa kuitenkin katsoa vähintään puoli tuntia , sillä valoilmiöt tulevat satunnaisesti .
 1	Taivasta	taivas	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 2	kannattaa	kannattaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	kuitenkin	kuitenkin	PART	Pcle	_	4	advmod	_	_
+3	kuitenkin	kuitenkin	ADV	Adv	_	4	advmod	_	_
 4	katsoa	katsoa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	ccomp	_	_
 5	vähintään	vähintään	PART	Pcle	_	6	advmod	_	_
 6	puoli	puoli	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
