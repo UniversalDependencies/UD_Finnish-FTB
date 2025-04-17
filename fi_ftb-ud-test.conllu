@@ -39,7 +39,7 @@
 8	käynyp	käydä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
 9	pitkkää	pitkä	ADJ	A,Sg,Ill	Case=Ill|Number=Sing|Style=Coll	10	amod	_	_
 10	aikkaav	aika	NOUN	N,Sg,Ill	Case=Ill|Number=Sing|Style=Coll	8	nmod	_	_
-11	varmmaam	varmaan	PART	Pcle	Style=Coll	12	advmod	_	Alt=12_advmod
+11	varmmaam	varmaan	ADV	Adv	Style=Coll	12	advmod	_	Alt=12_advmod
 12	monneen	moni	DET	Pron,Qnt,Sg,Ill	Case=Ill|Number=Sing|PronType=Ind|Style=Coll	13	det	_	_
 13	kuukkautteenkaa	kuukausi	NOUN	N,Sg,Ill,Kaan	Case=Ill|Clitic=Kaan|Number=Sing|Style=Coll	8	nmod	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -15815,7 +15815,7 @@
 1	Ja	ja	CCONJ	Pcle,CC	_	3	cc	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
 3	tekee	tehdä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	varmaan	varmaan	PART	Pcle	_	3	advmod	_	_
+4	varmaan	varmaan	ADV	Adv	_	3	advmod	_	_
 5	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	18	expl	_	Alt=18_expl|Missed-Rel=phrm
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	että	että	SCONJ	Pcle,CS	_	18	mark	_	_
@@ -19985,7 +19985,7 @@
 
 # sent_id = ejn6e-15533
 # text = Varmaa yhdeltoist myöhäsintää .
-1	Varmaa	varmaan	PART	Pcle	Style=Coll	2	advmod	_	_
+1	Varmaa	varmaan	ADV	Adv	Style=Coll	2	advmod	_	_
 2	yhdeltoist	yksitoista	NUM	Num,Card,Sg,Abl	Case=Abl|Number=Sing|NumType=Card|Style=Coll	0	root	_	_
 3	myöhäsintää	myöhäisintään	ADV	Adv	Style=Coll	2	advmod	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
@@ -20021,7 +20021,7 @@
 2	ammattikokemukseni	ammattikokemus	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	nmod	_	_
 3	perusteella	perusteella	ADP	Adp	_	2	case	_	_
 4	minut	minä	PRON	Pron,Pers,Sg1,Acc	Case=Acc|Number=Sing|Person=1|PronType=Prs	6	obj	_	_
-5	varmaankin	varmaan	PART	Pcle,Kin	Clitic=Kin	6	advmod	_	_
+5	varmaankin	varmaan	ADV	Adv,Kin	Clitic=Kin	6	advmod	_	_
 6	kutsuttiin	kutsua	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	johtokuntaan	johtokunta	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	6	nmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_

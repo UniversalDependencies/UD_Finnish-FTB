@@ -3,7 +3,7 @@
 1	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 2	voi	voida	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ajatellakhaa	ajatella	VERB	V,Act,InfA,Lat,Kaan	Case=Lat|Clitic=Kaan|InfForm=1|Style=Coll|VerbForm=Inf|Voice=Act	0	root	_	_
-4	varhmaan	varmaan	PART	Pcle	Style=Coll	3	advmod	_	_
+4	varhmaan	varmaan	ADV	Adv	Style=Coll	3	advmod	_	_
 5	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
 6	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	9	nsubj:cop	_	_
 7	ikinä	ikinä	ADV	Adv	_	9	advmod	_	_
@@ -45,7 +45,7 @@
 8	käynyp	käydä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
 9	pitkkää	pitkä	ADJ	A,Sg,Ill	Case=Ill|Number=Sing|Style=Coll	10	amod	_	_
 10	aikkaav	aika	NOUN	N,Sg,Ill	Case=Ill|Number=Sing|Style=Coll	8	nmod	_	_
-11	varmmaam	varmaan	PART	Pcle	Style=Coll	12	advmod	_	Alt=12_advmod
+11	varmmaam	varmaan	ADV	Adv	Style=Coll	12	advmod	_	Alt=12_advmod
 12	monneen	moni	DET	Pron,Qnt,Sg,Ill	Case=Ill|Number=Sing|PronType=Ind|Style=Coll	13	det	_	_
 13	kuukkautteenkaa	kuukausi	NOUN	N,Sg,Ill,Kaan	Case=Ill|Clitic=Kaan|Number=Sing|Style=Coll	8	nmod	_	_
 14	ratsastamassa	ratsastaa	VERB	V,Act,InfMa,Ine	Case=Ine|InfForm=3|VerbForm=Inf|Voice=Act	8	xcomp	_	Alt=xcomp
@@ -10602,7 +10602,7 @@
 1	Kyllä	kyllä	ADV	Adv	_	7	advmod	_	_
 2	mun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	7	nsubj	_	_
 3	täytyy	täytyä	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-4	varmaan	varmaan	PART	Pcle	_	7	advmod	_	_
+4	varmaan	varmaan	ADV	Adv	_	7	advmod	_	_
 5	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	obj	_	_
 6	iltapäivällä	iltapäivä	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	7	nmod	_	_
 7	käyvä	käydä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|Style=Coll|VerbForm=Inf|Voice=Act	0	root	_	_
@@ -14852,7 +14852,7 @@
 # text = Minun ja varmaan monen muunkin mielestä ensin pitäisi tulla tv:stä ohjelmaa , jota viitsisi katsoa .
 1	Minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	9	nmod	_	_
 2	ja	ja	CCONJ	Pcle,CC	_	5	cc	_	_
-3	varmaan	varmaan	PART	Pcle	_	5	advmod	_	_
+3	varmaan	varmaan	ADV	Adv	_	5	advmod	_	_
 4	monen	moni	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	5	det	_	_
 5	muunkin	muu	PRON	Pron,Qnt,Sg,Gen,Kin	Case=Gen|Clitic=Kin|Number=Sing|PronType=Ind	1	conj	_	FTB-PronType=Qnt
 6	mielestä	mielestä	ADP	Adp	_	1	case	_	_
@@ -18671,7 +18671,7 @@
 # text = Hän on varmaankin pyyhkinyt ne vielä nenäliinalla juuri ennen portin avaamista .
 1	Hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	varmaankin	varmaan	PART	Pcle,Kin	Clitic=Kin	4	advmod	_	_
+3	varmaankin	varmaan	ADV	Adv,Kin	Clitic=Kin	4	advmod	_	_
 4	pyyhkinyt	pyyhkiä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	4	obj	_	_
 6	vielä	vielä	PART	Pcle	_	4	advmod	_	_
@@ -19486,7 +19486,7 @@
 1	Tavanomaista	tavanomainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	2	amod	_	_
 2	joulukinkkua	joulukinkku	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	_
 3	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
-4	varmaankaan	varmaan	PART	Pcle,Kaan	Clitic=Kaan	7	advmod	_	_
+4	varmaankaan	varmaan	ADV	Adv,Kaan	Clitic=Kaan	7	advmod	_	_
 5	tänä	tämä	DET	Pron,Dem,Sg,Ess	Case=Ess|Number=Sing|PronType=Dem	6	det	_	_
 6	vuonna	vuosi	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	7	nmod	_	_
 7	tule	tulla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
