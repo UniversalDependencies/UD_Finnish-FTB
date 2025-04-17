@@ -637,7 +637,7 @@
 5	vuosina	vuosi	NOUN	N,Pl,Ess	Case=Ess|Number=Plur	3	nmod	_	_
 6	tähän	tämä	DET	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	7	det	_	_
 7	sairaalaan	sairaala	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
-8	myös	myös	PART	Pcle	_	10	advmod	_	_
+8	myös	myös	ADV	Adv	_	10	advmod	_	_
 9	pitkänlainen	pitkänlainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	amod	_	_
 10	matka	matka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
@@ -743,7 +743,7 @@
 1	Nyt	nyt	ADV	Adv	_	5	advmod	_	_
 2	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	5	obj	_	_
 3	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
-4	enää	enää	PART	Pcle	_	5	advmod	_	_
+4	enää	enää	ADV	Adv	_	5	advmod	_	_
 5	huudatuta	huudatuttaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
 
@@ -978,7 +978,7 @@
 6	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
 7	taaksepäin	taaksepäin	ADV	Adv	_	5	conj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
-9	myös	myös	PART	Pcle	_	10	mark	_	_
+9	myös	myös	ADV	Adv	_	10	mark	_	_
 10	sivuittain	sivuittain	ADV	Adv	_	7	conj	_	_
 11	ja	ja	CCONJ	Pcle,CC	_	12	cc	_	_
 12	viistoon	viistoon	ADV	Adv	_	7	conj	_	_
@@ -1144,7 +1144,7 @@
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	joilla	joka	PRON	Pron,Rel,Pl,Ade	Case=Ade|Number=Plur|PronType=Rel	9	nmod	_	Alt=nmod:own
 9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
-10	myös	myös	PART	Pcle	_	11	advmod	_	_
+10	myös	myös	ADV	Adv	_	11	advmod	_	_
 11	käsipallotausta	käsipallotausta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -1244,7 +1244,7 @@
 5	kulku-	kulku-	X	Trunc,Prefix	_	0	root	_	Prefix=Yes
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	harvoin	harvoin	ADV	Adv,Qnt	PronType=Ind	9	advmod	_	_
-8	enää	enää	PART	Pcle	_	9	advmod	_	_
+8	enää	enää	ADV	Adv	_	9	advmod	_	_
 9	komeiluväline	komeiluväline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -1369,7 +1369,7 @@
 # sent_id = k0hbw-2276
 # text = Eikä myöskään pidä paikkaansa , että pakolaiset syöttäisivät lapsillensa vain teetä ja leipää ja ostaisivat rahoillansa hienoja vaatteita ja autoja .
 1	Eikä	ei	AUX	V,Neg,Act,Sg3,Ka	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	myöskään	myös	PART	Pcle,Kaan	Clitic=Kaan	3	advmod	_	_
+2	myöskään	myös	ADV	Adv,Kaan	Clitic=Kaan	3	advmod	_	_
 3	pidä	pitää	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	paikkaansa	paikka	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	3	compound:prt	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -1910,7 +1910,7 @@
 # text = Kati ei enää informoinut Jarrea menemisistäni .
 1	Kati	kati	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	enää	enää	PART	Pcle	_	4	advmod	_	_
+3	enää	enää	ADV	Adv	_	4	advmod	_	_
 4	informoinut	informoida	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	Jarrea	jarre	PROPN	N,Prop,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 6	menemisistäni	meneminen	NOUN	N,Pl,Ela,PxSg1	Case=Ela|Number=Plur|Number[psor]=Sing|Person[psor]=1	4	nmod	_	_
@@ -2277,7 +2277,7 @@
 1	Juokslahden	juokslahti	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	tiejatke	tiejatke	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	mahdollistaisi	mahdollistaa	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
-4	myös	myös	PART	Pcle	_	3	advmod	_	_
+4	myös	myös	ADV	Adv	_	3	advmod	_	_
 5	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	että	että	SCONJ	Pcle,CS	_	11	mark	_	_
@@ -2932,7 +2932,7 @@
 3	yrityksistä	yritys	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	7	nsubj	_	_
 4	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
 5	voi	voida	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-6	enää	enää	PART	Pcle	_	7	advmod	_	_
+6	enää	enää	ADV	Adv	_	7	advmod	_	_
 7	lisätä	lisätä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 8	tuotantoaan	tuotanto	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	_
 9	koneiden	kone	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	10	nsubj	_	_
@@ -3025,7 +3025,7 @@
 1	Lomilta	loma	NOUN	N,Pl,Abl	Case=Abl|Number=Plur	2	nmod	_	_
 2	palatessa	palata	VERB	V,Act,InfE,Ine	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Act	5	advcl	_	Alt=5_advcl
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Alt=5_cop
-4	myös	myös	PART	Pcle	_	5	advmod	_	Alt=5_advmod
+4	myös	myös	ADV	Adv	_	5	advmod	_	Alt=5_advmod
 5	syytä	syy	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	Alt=0_root|FTB-Rel=modal
 6	varata	varata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	xcomp:ds	_	Alt=5_xcomp:ds
 7	tarpeeksi	tarpeeksi	ADV	Adv	_	8	advmod	_	_
@@ -3795,7 +3795,7 @@
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	jonka	joka	PRON	Pron,Rel,Sg,Gen	Case=Gen|Number=Sing|PronType=Rel	15	nmod	_	_
 10	yhteydessä	yhteydessä	ADP	Adp	_	9	case	_	_
-11	myös	myös	PART	Pcle	_	14	advmod	_	_
+11	myös	myös	ADV	Adv	_	14	advmod	_	_
 12	suurin	suuri	ADJ	A,Sup,Sg,Nom	Case=Nom|Degree=Sup|Number=Sing	13	amod	_	_
 13	osa	osa	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nmod	_	_
 14	kaupungista	kaupunki	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	15	nsubj	_	_
@@ -4675,7 +4675,7 @@
 9	valtaisia	valtaisa	ADJ	A,Pl,Par	Case=Par|Number=Plur	10	amod	_	_
 10	telttakyliä	telttakylä	NOUN	N,Pl,Par	Case=Par|Number=Plur	13	nsubj	_	_
 11	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	_
-12	enää	enää	PART	Pcle	_	13	advmod	_	_
+12	enää	enää	ADV	Adv	_	13	advmod	_	_
 13	muodostu	muodostua	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
@@ -5468,7 +5468,7 @@
 4	kaikkien	kaikki	DET	Pron,Qnt,Pl,Gen	Case=Gen|Number=Plur|PronType=Ind	5	det	_	_
 5	tyttöjen	tyttö	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	1	nmod	_	_
 6	lisäksi	lisäksi	ADP	Adp	_	5	case	_	_
-7	myös	myös	PART	Pcle	_	8	advmod	_	_
+7	myös	myös	ADV	Adv	_	8	advmod	_	_
 8	joulupukilta	joulupukki	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	1	nmod	_	_
 
 # sent_id = hok3y-5651
@@ -6237,7 +6237,7 @@
 2	kukaan	kukaan	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	3	nsubj	_	FTB-PronType=Qnt
 3	uskoisi	uskoa	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 4	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
-5	enää	enää	PART	Pcle	_	3	advmod	_	_
+5	enää	enää	ADV	Adv	_	3	advmod	_	_
 6	missään	mikään	DET	Pron,Qnt,Ine	Case=Ine|PronType=Ind	7	det	_	_
 7	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
@@ -6599,7 +6599,7 @@
 1	paitsi	paitsi	ADV	Adv	_	3	mark	_	_
 2	poliittisesti	poliittisesti	ADV	Adv	_	3	advmod	_	_
 3	huolestuttavaa	huolestuttava	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
-4	myös	myös	PART	Pcle	_	6	mark	_	_
+4	myös	myös	ADV	Adv	_	6	mark	_	_
 5	tieteellisesti	tieteellisesti	ADV	Adv	_	6	advmod	_	_
 6	pätemätöntä	päteä	VERB	V,PcpNeg,Sg,Par	Case=Par|Number=Sing|PartForm=Neg|VerbForm=Part	3	conj	_	_
 
@@ -6718,7 +6718,7 @@
 # text = Kanavat voi myös virittää yksitellen joko automaattihaulla tai suoralla kanavahaulla .
 1	Kanavat	kanava	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	obj	_	_
 2	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	myös	myös	PART	Pcle	_	4	advmod	_	_
+3	myös	myös	ADV	Adv	_	4	advmod	_	_
 4	virittää	virittää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	yksitellen	yksitellen	ADV	Adv	_	4	advmod	_	_
 6	joko	joko	CCONJ	Pcle,CC	_	7	cc	_	_
@@ -7015,7 +7015,7 @@
 6	niin	niin	PART	Pcle	_	8	mark	_	_
 7	lopussa	loppu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	8	nmod	_	_
 8	olisivat	olla	VERB	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
-9	myös	myös	PART	Pcle	_	11	advmod	_	_
+9	myös	myös	ADV	Adv	_	11	advmod	_	_
 10	kulinaariset	kulinaarinen	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	11	amod	_	_
 11	retket	retki	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	8	nsubj	_	_
 12	hyviin	hyvä	ADJ	A,Pl,Ill	Case=Ill|Number=Plur	13	amod	_	_
@@ -7050,7 +7050,7 @@
 7-8	ellei	_	_	_	_	_	_	_	_
 7	ell	jos	SCONJ	Pcle,CS	_	10	mark	_	Join=Yes
 8	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	10	aux	_	_
-9	enää	enää	PART	Pcle	_	10	advmod	_	_
+9	enää	enää	ADV	Adv	_	10	advmod	_	_
 10	Tahitilla	tahiti	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	5	nmod	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
 12	niin	niin	PART	Pcle	_	14	mark	_	_
@@ -7219,7 +7219,7 @@
 7	Lauran	laura	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	12	nsubj	_	Alt=12_nsubj
 8	olisi	olla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	cop	_	Alt=9_cop
 9	turha	turha	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	Alt=0_root|FTB-Rel=modal
-10	enää	enää	PART	Pcle	_	11	advmod	_	_
+10	enää	enää	ADV	Adv	_	11	advmod	_	_
 11	myöhemmin	myöhemmin	ADV	Adv,Cmp	Degree=Cmp	12	advmod	_	_
 12	yrittää	yrittää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	9	xcomp:ds	_	Alt=9_xcomp:ds
 13	.	.	PUNCT	Pun	_	12	punct	_	_
@@ -8090,7 +8090,7 @@
 # sent_id = v602l-7835
 # text = On myös totta , että talouspoliittista valtaa on siirtynyt pois Suomen päättäjiltä .
 1	On	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	myös	myös	PART	Pcle	_	3	advmod	_	_
+2	myös	myös	ADV	Adv	_	3	advmod	_	_
 3	totta	tosi	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
@@ -8142,7 +8142,7 @@
 4	Internet-uutuutena	internet-uutuus	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	2	nmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	mutta	mutta	CCONJ	Pcle,CC	_	12	cc	_	_
-7	myös	myös	PART	Pcle	_	8	advmod	_	_
+7	myös	myös	ADV	Adv	_	8	advmod	_	_
 8	muita	muu	DET	Pron,Qnt,Pl,Par	Case=Par|Number=Plur|PronType=Ind	9	det	_	_
 9	mielenkiintoisia	mielenkiintoinen	ADJ	A,Pl,Par	Case=Par|Number=Plur	10	amod	_	_
 10	tekniikoita	tekniikka	NOUN	N,Pl,Par	Case=Par|Number=Plur	12	nsubj	_	_
@@ -9175,7 +9175,7 @@
 # text = Kivi-juhlat tarjoavat myös keskustelutilaisuuden , jonka aihe on Aleksis Kivi ja naiset .
 1	Kivi-juhlat	kivi-juhla	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 2	tarjoavat	tarjota	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	myös	myös	PART	Pcle	_	2	advmod	_	_
+3	myös	myös	ADV	Adv	_	2	advmod	_	_
 4	keskustelutilaisuuden	keskustelutilaisuus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	jonka	joka	DET	Pron,Rel,Sg,Gen	Case=Gen|Number=Sing|PronType=Rel	7	det	_	_
@@ -9240,7 +9240,7 @@
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	9	cop	_	_
 3	ehdottomasti	ehdottomasti	ADV	Adv	_	9	advmod	_	_
-4	myös	myös	PART	Pcle	_	9	advmod	_	_
+4	myös	myös	ADV	Adv	_	9	advmod	_	_
 5	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
@@ -9584,7 +9584,7 @@
 4	käveleminen	käveleminen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 5	alaspäin	alaspäin	ADV	Adv	_	4	advmod	_	_
 6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
-7	enää	enää	PART	Pcle	_	8	advmod	_	_
+7	enää	enää	ADV	Adv	_	8	advmod	_	_
 8	koskaan	koskaan	ADV	Adv	_	9	advmod	_	_
 9	onnistuisi	onnistua	VERB	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	0	root	_	_
 10	häneltä	hän	PRON	Pron,Pers,Sg3,Abl	Case=Abl|Number=Sing|Person=3|PronType=Prs	9	nmod	_	_
@@ -9953,7 +9953,7 @@
 1	Tämä	tämä	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	kiusallista	kiusallinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
-4	myös	myös	PART	Pcle	_	5	advmod	_	_
+4	myös	myös	ADV	Adv	_	5	advmod	_	_
 5	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 6	kannalta	kannalta	ADP	Adp	_	5	case	_	_
 7	.	.	PUNCT	Pun	_	5	punct	_	Was18=punct:6:case
@@ -10064,7 +10064,7 @@
 2	esittävät	esittää	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	saman	sama	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	4	det	_	_
 4	ohjelman	ohjelma	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
-5	myös	myös	PART	Pcle	_	8	advmod	_	_
+5	myös	myös	ADV	Adv	_	8	advmod	_	_
 6	Klemetin	klemetti	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 7	syntymäkunnassa	syntymäkunta	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
 8	Kuortaneella	kuortane	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	7	nmod	_	_
@@ -10456,7 +10456,7 @@
 10	heitä	hän	PRON	Pron,Pers,Pl3,Par	Case=Par|Number=Plur|Person=3|PronType=Prs	12	nmod	_	_
 11	varten	varten	ADP	Adp	_	10	case	_	_
 12	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
-13	myös	myös	PART	Pcle	_	12	advmod	_	_
+13	myös	myös	ADV	Adv	_	12	advmod	_	_
 14	leikkihuone	leikkihuone	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	12	nsubj	_	_
 15	.	.	PUNCT	Pun	_	14	punct	_	_
 
@@ -10610,7 +10610,7 @@
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	viime	viime	ADJ	A	_	10	amod	_	_
 10	vuonna	vuosi	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	2	conj	_	_
-11	enää	enää	PART	Pcle	_	12	advmod	_	_
+11	enää	enää	ADV	Adv	_	12	advmod	_	_
 12	590_000	590_000	NUM	Num,Card	NumType=Card	5	conj	_	_
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	pudotusta	pudotus	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	conj	_	_
@@ -10767,7 +10767,7 @@
 
 # sent_id = s74pi-9791
 # text = Myös oppimisen on oltava hauskaa , muuten pänttäät ja pänttäät etkä muutaman minuutin päästä muista mitään .
-1	Myös	myös	PART	Pcle	_	2	advmod	_	_
+1	Myös	myös	ADV	Adv	_	2	advmod	_	_
 2	oppimisen	oppiminen	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nsubj:cop	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 4	oltava	olla	AUX	V,Pass,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	5	cop	_	_
@@ -10828,7 +10828,7 @@
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	myydään	myydä	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	vieraille	vieras	NOUN	N,Pl,All	Case=All|Number=Plur	4	nmod	_	_
-6	myös	myös	PART	Pcle	_	7	mark	_	_
+6	myös	myös	ADV	Adv	_	7	mark	_	_
 7	t-paitoja	t-paita	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	conj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	FTB-rel=phrm|Was18punct=non-proj:2
 9	selkäreppuja	selkäreppu	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	conj	_	_
@@ -12122,7 +12122,7 @@
 12	tilanteesta	tilanne	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	10	nmod	_	_
 13	,	,	PUNCT	Pun	_	6	punct	_	FTB-rel=phrm
 14	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	6	conj	_	_
-15	enää	enää	PART	Pcle	_	14	advmod	_	_
+15	enää	enää	ADV	Adv	_	14	advmod	_	_
 16	.	.	PUNCT	Pun	_	15	punct	_	_
 
 # sent_id = p5xds-10402
@@ -12577,7 +12577,7 @@
 2	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	kärsiä	kärsiä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	suuresti	suuresti	ADV	Adv	_	3	advmod	_	_
-5	myös	myös	PART	Pcle	_	3	advmod	_	_
+5	myös	myös	ADV	Adv	_	3	advmod	_	_
 6	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	11	expl	_	Alt=11_expl|Missed-Rel=phrm
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	jos	jos	SCONJ	Pcle,CS	_	11	mark	_	_
@@ -12877,7 +12877,7 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	joita	joka	PRON	Pron,Rel,Pl,Par	Case=Par|Number=Plur|PronType=Rel	8	nsubj	_	_
 8	menee	mennä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	acl	_	_
-9	myös	myös	PART	Pcle	_	10	advmod	_	_
+9	myös	myös	ADV	Adv	_	10	advmod	_	_
 10	vientiin	vienti	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	8	nmod	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
@@ -13193,7 +13193,7 @@
 # text = Minä en enää tiedä mihin uskoa .
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	enää	enää	PART	Pcle	_	4	advmod	_	_
+3	enää	enää	ADV	Adv	_	4	advmod	_	_
 4	tiedä	tietää	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	mihin	mikä	PRON	Pron,Interr,Ill	Case=Ill|PronType=Int	6	nmod	_	Was18=advmod
 6	uskoa	uskoa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	ccomp	_	_
@@ -16067,7 +16067,7 @@
 # sent_id = vycj8-13222
 # text = On myös hyvä , jos reunoja ympäröi kunnollinen hankauslista .
 1	On	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
-2	myös	myös	PART	Pcle	_	3	advmod	_	_
+2	myös	myös	ADV	Adv	_	3	advmod	_	_
 3	hyvä	hyvä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	jos	jos	SCONJ	Pcle,CS	_	7	mark	_	_
@@ -16214,7 +16214,7 @@
 # text = Se tuntuu myös työttömyydessä .
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	2	nsubj	_	_
 2	tuntuu	tuntua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	myös	myös	PART	Pcle	_	4	advmod	_	_
+3	myös	myös	ADV	Adv	_	4	advmod	_	_
 4	työttömyydessä	työttömyys	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -16279,7 +16279,7 @@
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	enhän	ei	AUX	V,Neg,Act,Sg1,Han	Clitic=Han|Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	9	aux	_	_
 7	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	_
-8	enää	enää	PART	Pcle	_	9	advmod	_	_
+8	enää	enää	ADV	Adv	_	9	advmod	_	_
 9	tuntenut	tuntea	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	3	conj	_	_
 10	koko	koko	ADJ	A	_	11	amod	_	_
 11	kaupungista	kaupunki	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	9	nmod	_	_
@@ -16469,7 +16469,7 @@
 9	käväistä	käväistä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	8	xcomp	_	Alt=8_xcomp
 10	näyttämässä	näyttää	VERB	V,Act,InfMa,Ine	Case=Ine|InfForm=3|VerbForm=Inf|Voice=Act	9	xcomp	_	Alt=xcomp
 11	partaansa	parta	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	10	obj	_	_
-12	myös	myös	PART	Pcle	_	13	advmod	_	_
+12	myös	myös	ADV	Adv	_	13	advmod	_	_
 13	presidentille	presidentti	NOUN	N,Sg,All	Case=All|Number=Sing	10	nmod	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
@@ -16506,7 +16506,7 @@
 4	käytät	käyttää	VERB	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	näissä	nämä	DET	Pron,Dem,Pl,Ine	Case=Ine|Number=Plur|PronType=Dem	6	det	_	_
 6	jutuissasi	juttu	NOUN	N,Pl,Ine,PxSg2	Case=Ine|Number=Plur|Number[psor]=Sing|Person[psor]=2	4	nmod	_	_
-7	myöskin	myös	PART	Pcle,Kin	Clitic=Kin	8	advmod	_	Alt=advmod|Missed-Rel=attr
+7	myöskin	myös	ADV	Adv,Kin	Clitic=Kin	8	advmod	_	Alt=advmod|Missed-Rel=attr
 8	valokuvaa	valokuva	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 
 # sent_id = i6iqo-13434
@@ -17085,7 +17085,7 @@
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	jotakin	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	11	obj	_	FTB-PronType=Qnt
 6	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	aux	_	_
-7	myös	myös	PART	Pcle	_	10	advmod	_	_
+7	myös	myös	ADV	Adv	_	10	advmod	_	_
 8	niiden	ne	PRON	Pron,Dem,Pl,Gen	Case=Gen|Number=Plur|PronType=Dem	11	nmod	_	_
 9	varaan	varaan	ADP	Adp	_	8	case	_	_
 10	uskallettava	uskaltaa	VERB	V,Pass,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -17345,7 +17345,7 @@
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	joskus	joskus	ADV	Adv	_	5	advmod	_	_
 5	käytettiin	käyttää	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	2	conj	_	_
-6	myös	myös	PART	Pcle	_	7	advmod	_	_
+6	myös	myös	ADV	Adv	_	7	advmod	_	_
 7	fyysistä	fyysinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	8	amod	_	_
 8	väkivaltaa	väkivalta	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	obj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
@@ -17604,7 +17604,7 @@
 4	,	,	PUNCT	Pun	_	2	punct	_	Was18=punct:3:case
 5	vanhemmat	vanhempi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	6	nsubj	_	_
 6	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-7	myös	myös	PART	Pcle	_	6	advmod	_	_
+7	myös	myös	ADV	Adv	_	6	advmod	_	_
 8	toki	toki	PART	Pcle	_	6	advmod	_	_
 9	vastuussa	vastuu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	6	nmod	_	_
 10	omasta	oma	ADJ	A,Sg,Ela	Case=Ela|Number=Sing	12	amod	_	_
@@ -18232,7 +18232,7 @@
 23	kuulemani	kuulla	VERB	V,PcpAg,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|PartForm=Agt|Person[psor]=1|VerbForm=Part	21	advcl	_	_
 24	mukaan	mukaan	ADP	Adp	_	23	case	_	_
 25	-	-	PUNCT	Pun	_	23	punct	_	Missed-SUBCAT=DASH|Was18=punct:24:case
-26	myös	myös	PART	Pcle	_	28	advmod	_	_
+26	myös	myös	ADV	Adv	_	28	advmod	_	_
 27	yliopistomme	yliopisto	NOUN	N,Sg,Gen,PxPl1	Case=Gen|Number=Sing|Number[psor]=Plur|Person[psor]=1	28	nmod	_	_
 28	renovaattorin	renovaattori	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	29	nmod	_	_
 29	tietoon	tieto	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	21	nmod	_	_
@@ -18577,7 +18577,7 @@
 1	Libérationin	libération	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	sisältö	sisältö	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj:cop	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
-4	enää	enää	PART	Pcle	_	5	advmod	_	_
+4	enää	enää	ADV	Adv	_	5	advmod	_	_
 5	viikon	viikko	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 6	ajalta	ajalta	ADP	Adp	_	5	case	_	_
 7	maksutonta	maksuton	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
@@ -18591,7 +18591,7 @@
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	jota	joka	PRON	Pron,Rel,Sg,Par	Case=Par|Number=Sing|PronType=Rel	6	obj	_	_
 6	käytetään	käyttää	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	3	acl	_	_
-7	enää	enää	PART	Pcle	_	8	advmod	_	_
+7	enää	enää	ADV	Adv	_	8	advmod	_	_
 8	harvoin	harvoin	ADV	Adv,Qnt	PronType=Ind	6	advmod	_	_
 9	kirkossakaan	kirkko	NOUN	N,Sg,Ine,Kaan	Case=Ine|Clitic=Kaan|Number=Sing	6	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -18859,7 +18859,7 @@
 # text = Vanhaisäntä ei enää puutu talon töihin , mutta tarkkailee maailman muutosta .
 1	Vanhaisäntä	vanhaisäntä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	enää	enää	PART	Pcle	_	4	advmod	_	_
+3	enää	enää	ADV	Adv	_	4	advmod	_	_
 4	puutu	puuttua	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	talon	talo	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	töihin	työ	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	4	nmod	_	_
@@ -19951,7 +19951,7 @@
 # text = Kuntia pelottaa myös se , että valtionosuuksia kenties leikataan nykyhallituksen tekemiä päätöksiä enemmänkin .
 1	Kuntia	kunta	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
 2	pelottaa	pelottaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	myös	myös	PART	Pcle	_	2	advmod	_	_
+3	myös	myös	ADV	Adv	_	2	advmod	_	_
 4	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
@@ -20213,7 +20213,7 @@
 5	kansaa	kansa	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	vaan	vaan	CCONJ	Pcle,CC	_	9	cc	_	_
-8	myös	myös	PART	Pcle	_	9	advmod	_	_
+8	myös	myös	ADV	Adv	_	9	advmod	_	_
 9	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	5	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -20376,7 +20376,7 @@
 11	vanhemmat	vanhempi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	15	nsubj	_	_
 12	eivät	ei	AUX	V,Neg,Act,Pl3	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	_
 13	koskaan	koskaan	ADV	Adv	_	14	advmod	_	_
-14	enää	enää	PART	Pcle	_	15	advmod	_	_
+14	enää	enää	ADV	Adv	_	15	advmod	_	_
 15	näe	nähdä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
 16	.	.	PUNCT	Pun	_	15	punct	_	_
 
