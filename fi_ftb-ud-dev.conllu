@@ -101,7 +101,7 @@
 
 # sent_id = p6r0f-359
 # text = Kyllä nuilaki kengilä oj jo poika trampannu
-1	Kyllä	kyllä	PART	Pcle	_	7	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	7	advmod	_	_
 2	nuilaki	nuo	DET	Pron,Dem,Pl,Ade,Kin	Case=Ade|Clitic=Kin|Number=Plur|PronType=Dem|Style=Coll	3	det	_	_
 3	kengilä	kenkä	NOUN	N,Pl,Ade	Case=Ade|Number=Plur|Style=Coll	7	nmod	_	_
 4	oj	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
@@ -535,7 +535,7 @@
 7	saattoivat	saattaa	AUX	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	merkitä	merkitä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 9	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	8	punct	_	Missed-SUBCAT=QUOTATION
-10	kyllä	kyllä	PART	Pcle	_	8	dep	_	Missed-Rel=obj
+10	kyllä	kyllä	ADV	Adv	_	8	dep	_	Missed-Rel=obj
 11	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	10	punct	_	Missed-SUBCAT=QUOTATION
 12	.	.	PUNCT	Pun	_	10	punct	_	Was18punch=punct:11
 
@@ -1000,7 +1000,7 @@
 5	kannoille	kannoille	ADV	Adv	_	4	advmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	mutta	mutta	CCONJ	Pcle,CC	_	11	cc	_	_
-8	kyllä	kyllä	PART	Pcle	_	11	advmod	_	_
+8	kyllä	kyllä	ADV	Adv	_	11	advmod	_	_
 9	joku	joku	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	11	nsubj	_	FTB-PronType=Qnt
 10	aina	aina	ADV	Adv	_	11	advmod	_	_
 11	höpöttää	höpöttää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -1357,7 +1357,7 @@
 # text = Tämä on kyllä karkeammansorttista pilaa .
 1	Tämä	tämä	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
-3	kyllä	kyllä	PART	Pcle	_	5	advmod	_	_
+3	kyllä	kyllä	ADV	Adv	_	5	advmod	_	_
 4	karkeammansorttista	karkeammansorttinen	ADJ	A,Cmp,Sg,Par	Case=Par|Degree=Cmp|Number=Sing	5	amod	_	_
 5	pilaa	pila	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
@@ -2172,7 +2172,7 @@
 
 # sent_id = w3rw8-2691
 # text = Kyllä hevonen vetää , Huttunen syötti sitä näkkileivällä
-1	Kyllä	kyllä	PART	Pcle	_	3	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	3	advmod	_	_
 2	hevonen	hevonen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	vetää	vetää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
@@ -6572,7 +6572,7 @@
 # sent_id = ovp4y-6238
 # text = Olin kyllä ottanut jokusen napsun .
 1	Olin	olla	AUX	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	kyllä	kyllä	PART	Pcle	_	3	advmod	_	_
+2	kyllä	kyllä	ADV	Adv	_	3	advmod	_	_
 3	ottanut	ottaa	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	jokusen	jokunen	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	5	det	_	_
 5	napsun	napsu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
@@ -7353,7 +7353,7 @@
 # text = Nii no kyl ne meiltäki kysy et halutaanko valita mut mä sitte sanoi että ku että ei sitä tiiä mitä sitä valihtis ni pankoon sieltä minkä pannee ni
 1	Nii	niin	PART	Pcle	Style=Coll	6	advmod	_	_
 2	no	no	INTJ	Pcle,Interj	_	6	discourse	_	Alt=6_discourse
-3	kyl	kyllä	PART	Pcle	Style=Coll	6	advmod	_	_
+3	kyl	kyllä	ADV	Adv	Style=Coll	6	advmod	_	_
 4	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	6	nsubj	_	_
 5	meiltäki	minä	PRON	Pron,Pers,Pl1,Abl,Kin	Case=Abl|Clitic=Kin|Number=Plur|Person=1|PronType=Prs|Style=Coll	6	nmod	_	_
 6	kysy	kysyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -7525,7 +7525,7 @@
 # sent_id = vrfkb-6760
 # text = - Kylläpä selviän !
 1	-	-	PUNCT	Pun	_	2	punct	_	Missed-SUBCAT=DASH
-2	Kylläpä	kyllä	PART	Pcle,Pa	Clitic=Pa	3	advmod	_	_
+2	Kylläpä	kyllä	ADV	Adv,Pa	Clitic=Pa	3	advmod	_	_
 3	selviän	selvitä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	!	!	PUNCT	Pun	_	3	punct	_	_
 
@@ -9946,7 +9946,7 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	_
 8	teinä	sinä	PRON	Pron,Pers,Pl2,Ess	Case=Ess|Number=Plur|Person=2|PronType=Prs	10	nmod	_	_
-9	kyllä	kyllä	PART	Pcle	_	10	advmod	_	_
+9	kyllä	kyllä	ADV	Adv	_	10	advmod	_	_
 10	pitäisin	pitää	VERB	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	0	root	_	_
 11	tarkoin	tarkoin	ADV	Adv	_	10	advmod	_	_
 12	varani	vara	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	10	compound:prt	_	_
@@ -10599,7 +10599,7 @@
 
 # sent_id = owrta-9127
 # text = Kyllä mun täytyy varmaan se iltapäivällä käyvä sitte hakemassa se o varmasti parempi sillä lailla .
-1	Kyllä	kyllä	PART	Pcle	_	7	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	7	advmod	_	_
 2	mun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs|Style=Coll	7	nsubj	_	_
 3	täytyy	täytyä	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
 4	varmaan	varmaan	PART	Pcle	_	7	advmod	_	_
@@ -10704,7 +10704,7 @@
 6	sitten	sitten	ADV	Adv	_	4	advmod	_	_
 7	vielä	vielä	PART	Pcle	_	4	advmod	_	_
 8	vielä	vielä	PART	Pcle	_	7	conj	_	_
-9	kyllä	kyllä	PART	Pcle	_	4	advmod	_	_
+9	kyllä	kyllä	ADV	Adv	_	4	advmod	_	_
 10	kans	kanssa	PART	Pcle	Style=Coll	4	advmod	_	_
 11	kat	kat	X	Unknown	_	4	dep	_	Missed-Rel=advl
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -11141,7 +11141,7 @@
 8	mielestä	mielestä	ADP	Adp	_	7	case	_	_
 9	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	13	nsubj:cop	_	_
 10	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop	_	_
-11	kyllä	kyllä	PART	Pcle	_	13	advmod	_	_
+11	kyllä	kyllä	ADV	Adv	_	13	advmod	_	_
 12	korkea	korkea	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	13	amod	_	_
 13	aika	aika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 14	niin	niin	PART	Pcle	_	26	mark	_	_
@@ -11442,7 +11442,7 @@
 # sent_id = eflcr-9700
 # text = Ja kyllä me niitä pistelemmekin .
 1	Ja	ja	CCONJ	Pcle,CC	_	5	cc	_	_
-2	kyllä	kyllä	PART	Pcle	_	5	advmod	_	_
+2	kyllä	kyllä	ADV	Adv	_	5	advmod	_	_
 3	me	minä	PRON	Pron,Pers,Pl1,Nom	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	_	_
 4	niitä	ne	PRON	Pron,Dem,Pl,Par	Case=Par|Number=Plur|PronType=Dem	5	obj	_	_
 5	pistelemmekin	pistellä	VERB	V,Act,Ind,Pres,Pl1,Kin	Clitic=Kin|Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11951,7 +11951,7 @@
 10	veekymppeineen	veekymppi	NOUN	N,Com,Px3	Case=Com|Person[psor]=3	8	nmod	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
 12	vaikka	vaikka	SCONJ	Pcle,CS	_	16	mark	_	_
-13	kyllä	kyllä	PART	Pcle	_	16	advmod	_	_
+13	kyllä	kyllä	ADV	Adv	_	16	advmod	_	_
 14	siinäkin	se	PRON	Pron,Dem,Sg,Ine,Kin	Case=Ine|Clitic=Kin|Number=Sing|PronType=Dem	16	nmod	_	_
 15	kytkintä	kytkin	NOUN	N,Sg,Par	Case=Par|Number=Sing	17	obj	_	_
 16	joutuu	joutua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	advcl	_	_
@@ -12645,7 +12645,7 @@
 1	Helppoa	helppo	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	1	nsubj:cop	_	_
 3	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	_
-4	kylläkään	kyllä	PART	Pcle,Kaan	Clitic=Kaan	1	advmod	_	_
+4	kylläkään	kyllä	ADV	Adv,Kaan	Clitic=Kaan	1	advmod	_	_
 5	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop	_	_
 6	.	.	PUNCT	Pun	_	1	punct	_	_
 
@@ -13773,7 +13773,7 @@
 15	juoda	juoda	VERB	V,Pass,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	conj	_	_
 16	mutta	mutta	CCONJ	Pcle,CC	_	17	cc	_	_
 17	viiniä	viini	NOUN	N,Sg,Par	Case=Par|Number=Sing	13	conj	_	_
-18	kyllä	kyllä	PART	Pcle	_	15	advmod	_	_
+18	kyllä	kyllä	ADV	Adv	_	15	advmod	_	_
 19	.	.	PUNCT	Pun	_	18	punct	_	_
 
 # sent_id = vhysc-11167
@@ -14062,7 +14062,7 @@
 # sent_id = j12uf-11495
 # text = No kyllä minä kai vähän voitolle jäin .
 1	No	no	INTJ	Pcle,Interj	_	7	discourse	_	Alt=7_discourse
-2	kyllä	kyllä	PART	Pcle	_	7	advmod	_	_
+2	kyllä	kyllä	ADV	Adv	_	7	advmod	_	_
 3	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	_
 4	kai	kai	PART	Pcle	_	7	advmod	_	_
 5	vähän	vähän	ADV	Adv	_	7	advmod	_	_
@@ -16233,7 +16233,7 @@
 
 # sent_id = g9dg6-13307
 # text = Kyllä .
-1	Kyllä	kyllä	PART	Pcle	_	0	root	_	_
+1	Kyllä	kyllä	ADV	Adv	_	0	root	_	_
 2	.	.	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = q0uhc-13310
@@ -16282,7 +16282,7 @@
 
 # sent_id = x2uhe-13338.2
 # text = Kyllä taitaa nuokin vuokratut leffat päätyä nettiin jaettavaksi tai sitten niitä lainaillaan kaveripiirille .
-1	Kyllä	kyllä	PART	Pcle	_	6	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	6	advmod	_	_
 2	taitaa	taitaa	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 3	nuokin	nuo	DET	Pron,Dem,Pl,Nom,Kin	Case=Nom|Clitic=Kin|Number=Plur|PronType=Dem	5	det	_	_
 4	vuokratut	vuokrata	VERB	V,Pass,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	5	acl	_	_
@@ -16541,7 +16541,7 @@
 
 # sent_id = zwurt-13594
 # text = Kyllä se olin minä , joka opetin Linnan kiroilemaan .
-1	Kyllä	kyllä	PART	Pcle	_	4	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	4	advmod	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	7	expl	_	Alt=7_expl|Missed-Rel=phrm
 3	olin	olla	AUX	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	0	root	_	_
@@ -17452,7 +17452,7 @@
 14	kesken	kesken	ADP	Adp	_	13	case	_	_
 15	,	,	PUNCT	Pun	_	13	punct	_	Was18=punct:14:case
 16	sellaista	sellainen	ADJ	A,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	18	nsubj	_	_
-17	kyllä	kyllä	PART	Pcle	_	18	advmod	_	_
+17	kyllä	kyllä	ADV	Adv	_	18	advmod	_	_
 18	tapahtuukin	tapahtua	VERB	V,Act,Ind,Pres,Sg3,Kin	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	ccomp	_	_
 19	.	.	PUNCT	Pun	_	18	punct	_	_
 
@@ -18167,7 +18167,7 @@
 
 # sent_id = f86p9-14591
 # text = Kyllä minä vielä sinulle näytän .
-1	Kyllä	kyllä	PART	Pcle	_	5	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	5	advmod	_	_
 2	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 3	vielä	vielä	PART	Pcle	_	5	advmod	_	_
 4	sinulle	sinä	PRON	Pron,Pers,Sg2,All	Case=All|Number=Sing|Person=2|PronType=Prs	5	nmod	_	_
@@ -19625,7 +19625,7 @@
 # text = Minä en kyllä ajatellut , että sinä tulet mukaan .
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	kyllä	kyllä	PART	Pcle	_	4	advmod	_	_
+3	kyllä	kyllä	ADV	Adv	_	4	advmod	_	_
 4	ajatellut	ajatella	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	että	että	SCONJ	Pcle,CS	_	8	mark	_	_
@@ -20843,7 +20843,7 @@
 # text = Tässä on kyllä mätää .
 1	Tässä	tässä	ADV	Adv,Dem	PronType=Dem	2	advmod	_	_
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	kyllä	kyllä	PART	Pcle	_	2	advmod	_	_
+3	kyllä	kyllä	ADV	Adv	_	2	advmod	_	_
 4	mätää	mätä	ADJ	A,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -20934,7 +20934,7 @@
 
 # sent_id = pp63y-16872
 # text = Kyllä niitten kelpasi .
-1	Kyllä	kyllä	PART	Pcle	_	3	advmod	_	_
+1	Kyllä	kyllä	ADV	Adv	_	3	advmod	_	_
 2	niitten	ne	PRON	Pron,Dem,Pl,Gen	Case=Gen|Number=Plur|PronType=Dem	3	nsubj	_	_
 3	kelpasi	kelvata	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
