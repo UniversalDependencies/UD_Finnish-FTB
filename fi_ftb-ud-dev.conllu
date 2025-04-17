@@ -1566,7 +1566,7 @@
 1	Suomalainen	suomalainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	amod	_	_
 2	sarjakuva	sarjakuva	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	tarvitsee	tarvita	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	vain	vain	PART	Pcle	_	5	advmod	_	_
+4	vain	vain	ADV	Adv,Pcle	_	5	advmod	_	_
 5	yhden	yksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	6	nummod	_	_
 6	hahmon	hahmo	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
 7	tai	tai	CCONJ	Pcle,CC	_	8	cc	_	_
@@ -1631,7 +1631,7 @@
 # text = Ne ovat vain mielen virkistykseksi .
 1	Ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	2	nsubj	_	_
 2	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vain	vain	PART	Pcle	_	5	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	5	advmod	_	_
 4	mielen	mieli	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 5	virkistykseksi	virkistys	NOUN	N,Sg,Tra	Case=Tra|Number=Sing	2	nmod	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
@@ -2055,7 +2055,7 @@
 3	tapahtumat	tapahtuma	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nsubj	_	_
 4	avautuvat	avautua	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	heille	hän	PRON	Pron,Pers,Pl3,All	Case=All|Number=Plur|Person=3|PronType=Prs	4	nmod	_	_
-6	vain	vain	PART	Pcle	_	7	advmod	_	_
+6	vain	vain	ADV	Adv,Pcle	_	7	advmod	_	_
 7	televisioruudusta	televisioruutu	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 8	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
 9	lehtien	lehti	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	10	nmod	_	_
@@ -2288,7 +2288,7 @@
 
 # sent_id = ryexv-2776
 # text = Vain päässä tuntui kova , jyskyttävä kipu .
-1	Vain	vain	PART	Pcle	_	2	advmod	_	_
+1	Vain	vain	ADV	Adv,Pcle	_	2	advmod	_	_
 2	päässä	pää	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 3	tuntui	tuntua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	kova	kova	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	7	amod	_	_
@@ -5774,7 +5774,7 @@
 3	viime	viime	ADJ	A	_	4	amod	_	_
 4	minuutilla	minuutti	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	5	nmod	_	_
 5	livahti	livahtaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	vain	vain	PART	Pcle	_	7	advmod	_	_
+6	vain	vain	ADV	Adv,Pcle	_	7	advmod	_	_
 7	niukasti	niukasti	ADV	Adv	_	10	advmod	_	Was18=advmod:8:case
 8	yli	yli	ADP	Adp	_	10	case	_	_
 9	Kanadan	kanada	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
@@ -6194,7 +6194,7 @@
 # text = aukion ylitti vain muutama kulkija toistaan kaihtaen .
 1	aukion	aukio	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obj	_	_
 2	ylitti	ylittää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	muutama	muutama	DET	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	5	det	_	_
 5	kulkija	kulkija	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 6	toistaan	toinen	PRON	Pron,Recip,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Rcp	7	obj	_	_
@@ -6413,7 +6413,7 @@
 12	irtomunia	irtomuna	NOUN	N,Pl,Par	Case=Par|Number=Plur	10	nsubj	_	_
 13	,	,	PUNCT	Pun	_	12	punct	_	_
 14	viidellä	viisi	NUM	Num,Card,Sg,Ade	Case=Ade|Number=Sing|NumType=Card	9	conj	_	_
-15	vain	vain	PART	Pcle	_	17	advmod	_	_
+15	vain	vain	ADV	Adv,Pcle	_	17	advmod	_	_
 16	pakattuja	pakata	VERB	V,Pass,PcpNut,Pl,Par	Case=Par|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Pass	17	acl	_	_
 17	kananmunia	kananmuna	NOUN	N,Pl,Par	Case=Par|Number=Plur	12	conj	_	_
 18	ja	ja	CCONJ	Pcle,CC	_	20	cc	_	_
@@ -6424,7 +6424,7 @@
 # sent_id = oni63-6170
 # text = Ne vain puhuivat , vaikka eivät ymmärtäneet mistään mitään .
 1	Ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	3	nsubj	_	_
-2	vain	vain	PART	Pcle	_	3	advmod	_	_
+2	vain	vain	ADV	Adv,Pcle	_	3	advmod	_	_
 3	puhuivat	puhua	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	vaikka	vaikka	SCONJ	Pcle,CS	_	7	mark	_	_
@@ -6589,7 +6589,7 @@
 7	että	että	SCONJ	Pcle,CS	_	9	mark	_	_
 8	kyseessä	kyseessä	ADV	Adv	_	9	advmod	_	_
 9	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	_
-10	vain	vain	PART	Pcle	_	11	advmod	_	_
+10	vain	vain	ADV	Adv,Pcle	_	11	advmod	_	_
 11	pistäytyminen	pistäytyminen	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
 
@@ -7649,7 +7649,7 @@
 # text = Olin siellä vain kahdeksaan .
 1	Olin	olla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 2	siellä	siellä	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	kahdeksaan	kahdeksan	NUM	Num,Card,Sg,Ill	Case=Ill|Number=Sing|NumType=Card	1	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -7753,14 +7753,14 @@
 # text = Minulla on vain viisi markkaa .
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	2	nmod	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	viisi	viisi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
 5	markkaa	markka	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	nsubj	_	_
 6	.	.	PUNCT	Pun	_	5	punct	_	_
 
 # sent_id = mfz3a-6907
 # text = Vain minä unohdin sateenvarjoni eilen .
-1	Vain	vain	PART	Pcle	_	2	advmod	_	_
+1	Vain	vain	ADV	Adv,Pcle	_	2	advmod	_	_
 2	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
 3	unohdin	unohtaa	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	sateenvarjoni	sateenvarjo	NOUN	N,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	obj	_	_
@@ -7773,7 +7773,7 @@
 2	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	tarkota	tarkoittaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	nyt	nyt	ADV	Adv	_	3	advmod	_	_
-5	vaan	vain	PART	Pcle	Style=Coll	3	advmod	_	_
+5	vaan	vain	ADV	Adv,Pcle	Style=Coll	3	advmod	_	_
 6	et	että	SCONJ	Pcle,CS	Style=Coll	8	mark	_	_
 7	et	että	SCONJ	Pcle,CS	Style=Coll	6	conj	_	_
 8	tuo	tuoda	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	ccomp	_	_
@@ -9505,7 +9505,7 @@
 # text = Mä oon vaan näin hyvissä ajoin liikkeellä .
 1	Mä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	2	nsubj	_	_
 2	oon	olla	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vaan	vain	PART	Pcle	Style=Coll	2	advmod	_	_
+3	vaan	vain	ADV	Adv,Pcle	Style=Coll	2	advmod	_	_
 4	näin	näin	PART	Pcle	_	5	advmod	_	_
 5	hyvissä	hyvä	ADJ	A,Pl,Ine	Case=Ine|Number=Plur	6	amod	_	_
 6	ajoin	aika	NOUN	N,Pl,Ins	Case=Ins|Number=Plur	2	nmod	_	_
@@ -9749,7 +9749,7 @@
 # text = Välillä on vain elettävä vyötä kiristäen kun rahaa ei tule mistään .
 1	Välillä	välillä	ADV	Adv	_	4	advmod	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	elettävä	elää	VERB	V,Pass,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	0	root	_	_
 5	vyötä	vyö	NOUN	N,Sg,Par	Case=Par|Number=Sing	6	obj	_	_
 6	kiristäen	kiristää	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	4	advcl	_	_
@@ -10388,7 +10388,7 @@
 8	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
 9	ilman	ilman	ADP	Adp	_	10	case	_	_
 10	vettä	vesi	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	conj	_	_
-11	vain	vain	PART	Pcle	_	12	advmod	_	_
+11	vain	vain	ADV	Adv,Pcle	_	12	advmod	_	_
 12	muutaman	muutama	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	13	det	_	_
 13	päivän	päivä	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	conj	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -10522,7 +10522,7 @@
 # text = jos sitä nyt välttämättä haluaa käyttää , niin sitten mahdollisimman vähän - huuhteluaineet kun rasittavat luontoa .
 1	jos	jos	SCONJ	Pcle,CS	_	5	mark	_	_
 2	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	6	obj	_	_
-3	nyt	nyt	PART	Pcle	_	5	advmod	_	_
+3	nyt	nyt	ADV	Adv,Pcle	_	5	advmod	_	_
 4	välttämättä	välttämättä	ADV	Adv	_	5	advmod	_	_
 5	haluaa	haluta	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	dep	_	Missed-Rel=advl
 6	käyttää	käyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	xcomp	_	Alt=5_xcomp
@@ -10665,7 +10665,7 @@
 9	taiteilijat	taiteilija	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	10	nsubj	_	_
 10	puhuivat	puhua	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	advcl	_	_
 11	aina	aina	ADV	Adv	_	10	advmod	_	_
-12	vain	vain	PART	Pcle	_	13	advmod	_	_
+12	vain	vain	ADV	Adv,Pcle	_	13	advmod	_	_
 13	rahasta	raha	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	10	nmod	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
 
@@ -11931,7 +11931,7 @@
 16	omistaja	omistaja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	17	nsubj	_	_
 17	kokisi	kokea	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	9	advcl	_	_
 18	olevansa	olla	VERB	V,Act,PcpVa,Sg,Gen,Px3	Case=Gen|Number=Sing|PartForm=Pres|Person[psor]=3|VerbForm=Part|Voice=Act	17	ccomp	_	_
-19	vain	vain	PART	Pcle	_	20	advmod	_	_
+19	vain	vain	ADV	Adv,Pcle	_	20	advmod	_	_
 20	yksi	yksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	22	nummod	_	_
 21	tiellä	tie	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	22	nmod	_	_
 22	liikkujista	liikkuja	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	17	xcomp	_	Alt=17_xcomp
@@ -14158,7 +14158,7 @@
 7	,	,	PUNCT	Pun	_	4	punct	_	FTB-rel=phrm
 8	lapsi	lapsi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 9	itsekin	itse	PRON	Pron,Refl,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing|Reflex=Yes	8	nmod	_	_
-10	vain	vain	PART	Pcle	_	11	advmod	_	_
+10	vain	vain	ADV	Adv,Pcle	_	11	advmod	_	_
 11	vähän	vähän	ADV	Adv	_	12	advmod	_	_
 12	toisella	toinen	ADJ	A,Ord,Sg,Ade	Case=Ade|Number=Sing|NumType=Ord	13	amod	_	_
 13	kymmenellä	kymmenen	NUM	Num,Card,Sg,Ade	Case=Ade|Number=Sing|NumType=Card	8	nmod	_	_
@@ -15183,7 +15183,7 @@
 8	jossa	joka	PRON	Pron,Rel,Sg,Ine	Case=Ine|Number=Sing|PronType=Rel	10	nmod	_	_
 9	kirkkoon	kirkko	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	10	nmod	_	_
 10	kuulutaan	kuulua	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	6	acl	_	_
-11	vain	vain	PART	Pcle	_	12	advmod	_	_
+11	vain	vain	ADV	Adv,Pcle	_	12	advmod	_	_
 12	tavan	tapa	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
 13	voimasta	voimasta	ADP	Adp	_	12	case	_	_
 14	.	.	PUNCT	Pun	_	12	punct	_	Was18=punct:13:case
@@ -15625,7 +15625,7 @@
 4	liikaa	liikaa	ADV	Adv	_	3	advmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	jos	jos	SCONJ	Pcle,CS	_	8	mark	_	_
-7	vain	vain	PART	Pcle	_	8	advmod	_	_
+7	vain	vain	ADV	Adv,Pcle	_	8	advmod	_	_
 8	lukee	lukea	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
 10	syö	syödä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	conj	_	_
@@ -15776,7 +15776,7 @@
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	Alt=6_cop
 6	pakko	pakko	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	Alt=0_root|FTB-Rel=modal
-7	vain	vain	PART	Pcle	_	8	advmod	_	_
+7	vain	vain	ADV	Adv,Pcle	_	8	advmod	_	_
 8	kävellä	kävellä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	6	xcomp:ds	_	Alt=6_xcomp:ds
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
@@ -16359,7 +16359,7 @@
 1	-	-	PUNCT	Pun	_	2	punct	_	Missed-SUBCAT=DASH
 2	Kai	kai	PART	Pcle	_	6	advmod	_	_
 3	meillä	minä	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	6	nmod	_	Alt=nmod:own
-4	ny	nyt	PART	Pcle	Style=Coll	6	advmod	_	_
+4	ny	nyt	ADV	Adv,Pcle	Style=Coll	6	advmod	_	_
 5	aattoateria	aattoateria	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
 6	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -16396,7 +16396,7 @@
 1	kansalaisia	kansalainen	ADJ	A,Pl,Par	Case=Par|Number=Plur	0	root	_	_
 2	,	,	PUNCT	Pun	_	1	punct	_	_
 3	jotka	joka	PRON	Pron,Rel,Pl,Nom	Case=Nom|Number=Plur|PronType=Rel	10	nsubj	_	_
-4	vain	vain	PART	Pcle	_	5	advmod	_	_
+4	vain	vain	ADV	Adv,Pcle	_	5	advmod	_	_
 5	supatellen	supatella	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	10	advcl	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
 7	ympärilleen	ympärille	ADV	Adv,Px3	Person[psor]=3	8	advmod	_	_
@@ -16568,7 +16568,7 @@
 # sent_id = q2ebr-13598
 # text = Tarkistakaa nyt ihmeessä ensin , oliko se todella Lipponen , joka lausunnon on antanut , ihmetteli Saarikangas .
 1	Tarkistakaa	tarkistaa	VERB	V,Act,Imprt,Pl2	Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	16	ccomp	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	ihmeessä	ihmeessä	ADV	Adv	_	1	advmod	_	_
 4	ensin	ensin	ADV	Adv	_	1	advmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -16934,7 +16934,7 @@
 # text = Silloin ei vain tiedetty niin paljon kuin nyt .
 1	Silloin	silloin	ADV	Adv,Dem	PronType=Dem	4	advmod	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	tiedetty	tietää	VERB	V,Pass,Ind,Past,ConNeg	Connegative=Yes|Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 5	niin	niin	ADV	Adv,Pcle	_	6	advmod	_	_
 6	paljon	paljon	ADV	Adv	_	4	advmod	_	_
@@ -17052,7 +17052,7 @@
 # text = Minä se vain säilyn ykkösenä
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
 2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	1	nmod	_	_
-3	vain	vain	PART	Pcle	_	4	advmod	_	_
+3	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 4	säilyn	säilyä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	ykkösenä	ykkönen	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	4	nmod	_	_
 
@@ -17155,7 +17155,7 @@
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
 10	niin	niin	ADV	Adv,Dem	PronType=Dem	13	advmod	_	_
-11	vain	vain	PART	Pcle	_	13	advmod	_	_
+11	vain	vain	ADV	Adv,Pcle	_	13	advmod	_	_
 12	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	13	aux	_	_
 13	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -17243,7 +17243,7 @@
 6	sillä	sillä	SCONJ	Pcle,CS	_	8	mark	_	_
 7	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	8	nsubj	_	_
 8	näki	nähdä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	_
-9	vain	vain	PART	Pcle	_	12	advmod	_	_
+9	vain	vain	ADV	Adv,Pcle	_	12	advmod	_	_
 10	säteilevän	säteillä	VERB	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	11	acl	_	_
 11	leijonaharjaisen	leijonaharjainen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	12	amod	_	_
 12	naisen	nainen	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	obj	_	_
@@ -18295,7 +18295,7 @@
 # sent_id = f5bd9-14743
 # text = Sitä vaan mä aattelin et mones aikaan sä tulit huomenna sieltä sieltä veikkiksestä
 1	Sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
-2	vaan	vain	PART	Pcle	Style=Coll	4	advmod	_	_
+2	vaan	vain	ADV	Adv,Pcle	Style=Coll	4	advmod	_	_
 3	mä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	4	nsubj	_	_
 4	aattelin	ajatella	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	et	että	SCONJ	Pcle,CS	Style=Coll	9	mark	_	_
@@ -18431,7 +18431,7 @@
 2	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	asunut	asua	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	Ruotsissa	ruotsi	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
-5	vain	vain	PART	Pcle	_	7	advmod	_	_
+5	vain	vain	ADV	Adv,Pcle	_	7	advmod	_	_
 6	kaksi	kaksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
 7	vuotta	vuosi	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nmod	_	_
 8	neljä	neljä	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	9	nummod	_	_
@@ -19473,7 +19473,7 @@
 2	tarvitsee	tarvita	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	syntyä	syntyä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	mistä	mikä	PRON	Pron,Interr,Ela	Case=Ela|PronType=Int	3	nmod	_	Was18=advmod
-5	vain	vain	PART	Pcle	_	4	advmod	_	_
+5	vain	vain	ADV	Adv,Pcle	_	4	advmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	10	nsubj:cop	_	_
 8	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
@@ -19950,7 +19950,7 @@
 # sent_id = vv4dk-16013
 # text = meeppäs nyt
 1	meeppäs	mennä	VERB	V,Act,Imprt,Sg2,Pa,S	Clitic=Pa,S|Mood=Imp|Number=Sing|Person=2|Style=Coll|VerbForm=Fin|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 
 # sent_id = y6d3c-16028
 # text = Voi hyvin !
@@ -20317,7 +20317,7 @@
 3	hei	hei	INTJ	Pcle,Interj	_	5	discourse	_	Alt=5_discourse
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	otapas	ottaa	VERB	V,Act,Imprt,Sg2,Pa,S	Clitic=Pa,S|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-6	nyt	nyt	PART	Pcle	_	5	advmod	_	_
+6	nyt	nyt	ADV	Adv,Pcle	_	5	advmod	_	_
 7	ihan	ihan	ADV	Adv,Pcle	_	8	advmod	_	_
 8	iisisti	iisisti	ADV	Adv	_	5	advmod	_	_
 9	vaan	vaan	ADV	Adv,Pcle	_	5	advmod	_	_
@@ -20326,7 +20326,7 @@
 # sent_id = braos-16396
 # text = Älähän nyt hulluja puhu .
 1	Älähän	ei	AUX	V,Neg,Act,Imprt,Sg2,Han	Clitic=Han|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-2	nyt	nyt	PART	Pcle	_	4	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	4	advmod	_	_
 3	hulluja	hullu	ADJ	A,Pl,Par	Case=Par|Number=Plur	4	obj	_	_
 4	puhu	puhua	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
@@ -20942,7 +20942,7 @@
 # sent_id = kb8go-16883
 # text = Se nyt vielä puuttuisi , että alkaisin olla mustasukkainen siitä akasta .
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	9	expl	_	Alt=9_expl|Missed-Rel=phrm
-2	nyt	nyt	PART	Pcle	_	4	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	4	advmod	_	_
 3	vielä	vielä	ADV	Adv,Pcle	_	4	advmod	_	_
 4	puuttuisi	puuttua	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -21022,7 +21022,7 @@
 # sent_id = i3ho7-16941
 # text = Rämpytä nyt niitä valoja siinä sitte !
 1	Rämpytä	rämpyttää	VERB	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	niitä	ne	DET	Pron,Dem,Pl,Par	Case=Par|Number=Plur|PronType=Dem	4	det	_	_
 4	valoja	valo	NOUN	N,Pl,Par	Case=Par|Number=Plur	1	obj	_	_
 5	siinä	siinä	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
@@ -21139,7 +21139,7 @@
 # sent_id = k1i3u-17021
 # text = Tehdä nyt Figaron häistä yhden miehen show .
 1	Tehdä	tehdä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	Figaron	figaro	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
 4	häistä	hää	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	1	nmod	_	_
 5	yhden	yksi	NUM	Num,Card,Sg,Gen	Case=Gen|Number=Sing|NumType=Card	6	nummod	_	_
@@ -21236,7 +21236,7 @@
 # text = Tässä minä nyt olen niin pirun polleaa , niin ällöttävän viisas ja kypsä ja kaiken kokenut .
 1	Tässä	tässä	ADV	Adv,Dem	PronType=Dem	7	advmod	_	_
 2	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:cop	_	_
-3	nyt	nyt	PART	Pcle	_	7	advmod	_	_
+3	nyt	nyt	ADV	Adv,Pcle	_	7	advmod	_	_
 4	olen	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	cop	_	_
 5	niin	niin	ADV	Adv,Pcle	_	6	advmod	_	_
 6	pirun	piru	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
@@ -21310,7 +21310,7 @@
 27	et	että	SCONJ	Pcle,CS	Style=Coll	33	mark	_	_
 28	oon	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	33	aux	_	_
 29	mä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	33	nsubj	_	_
-30	nyt	nyt	PART	Pcle	_	33	advmod	_	_
+30	nyt	nyt	ADV	Adv,Pcle	_	33	advmod	_	_
 31	jonkin	jokin	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	33	nmod	_	FTB-PronType=Qnt
 32	verran	verran	ADP	Adp	_	31	case	_	_
 33	jumppaillu	jumppailla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	25	conj	_	_

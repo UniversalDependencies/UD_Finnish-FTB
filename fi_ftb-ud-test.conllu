@@ -2201,7 +2201,7 @@
 10	:	:	PUNCT	Pun	_	9	punct	_	_
 11	-	-	PUNCT	Pun	_	9	punct	_	Missed-SUBCAT=DASH|Was18punch=punct:10
 12	Syrjäyttää	syrjäyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	conj	_	_
-13	nyt	nyt	PART	Pcle	_	12	advmod	_	_
+13	nyt	nyt	ADV	Adv,Pcle	_	12	advmod	_	_
 14	Sihanouk	sihanouk	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	12	obj	_	_
 15	,	,	PUNCT	Pun	_	14	punct	_	_
 16	ainoa	ainoa	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	17	amod	_	_
@@ -7061,7 +7061,7 @@
 # sent_id = lq0p7-6881
 # text = Sanotaan nyt vaikka inhimillisistä syistä .
 1	Sanotaan	sanoa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	vaikka	vaikka	PART	Pcle	_	5	advmod	_	_
 4	inhimillisistä	inhimillinen	ADJ	A,Pl,Ela	Case=Ela|Number=Plur	5	amod	_	_
 5	syistä	syy	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	1	nmod	_	_
@@ -7240,7 +7240,7 @@
 5-6	vaikkei	_	_	_	_	_	_	_	_
 5	vaikk	vaikka	SCONJ	Pcle,CS	Style=Coll	8	mark	_	Join=Yes
 6	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
-7	nyt	nyt	PART	Pcle	_	8	advmod	_	_
+7	nyt	nyt	ADV	Adv,Pcle	_	8	advmod	_	_
 8	ammattiin	ammatti	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
 9	saakka	saakka	ADP	Adp	_	8	case	_	_
 10	niin	niin	PART	Pcle	_	13	mark	_	_
@@ -8049,7 +8049,7 @@
 # sent_id = vjf9n-7820
 # text = Se nyt vaan on tyhmää maksaa liikaa .
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	nmod	_	_
-2	nyt	nyt	PART	Pcle	_	5	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	5	advmod	_	_
 3	vaan	vaan	ADV	Adv,Pcle	_	5	advmod	_	_
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	tyhmää	tyhmä	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
@@ -11936,7 +11936,7 @@
 11	hetket	hetki	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	6	conj	_	_
 12	,	,	PUNCT	Pun	_	11	punct	_	_
 13	jos	jos	SCONJ	Pcle,CS	_	18	mark	_	_
-14	nyt	nyt	PART	Pcle	_	18	advmod	_	_
+14	nyt	nyt	ADV	Adv,Pcle	_	18	advmod	_	_
 15	sellaisia	sellainen	DET	A,Dem,Pl,Par	Case=Par|Number=Plur|PronType=Dem	16	amod	_	Alt=DET
 16	elokuvia	elokuva	NOUN	N,Pl,Par	Case=Par|Number=Plur	18	obj	_	_
 17	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	18	aux	_	_
@@ -20671,7 +20671,7 @@
 # sent_id = acq71-16164
 # text = Tekisitte nyt edes ehdollisen päätöksen .
 1	Tekisitte	tehdä	VERB	V,Act,Cond,Pl2	Mood=Cnd|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	edes	edes	PART	Pcle	_	4	advmod	_	_
 4	ehdollisen	ehdollinen	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	5	amod	_	_
 5	päätöksen	päätös	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	1	obj	_	_
@@ -20916,7 +20916,7 @@
 # text = No tulepa nyt peremmälle .
 1	No	no	INTJ	Pcle,Interj	_	2	discourse	_	Alt=2_discourse
 2	tulepa	tulla	VERB	V,Act,Imprt,Sg2,Pa	Clitic=Pa|Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-3	nyt	nyt	PART	Pcle	_	2	advmod	_	_
+3	nyt	nyt	ADV	Adv,Pcle	_	2	advmod	_	_
 4	peremmälle	peremmälle	ADV	Adv,Cmp	Degree=Cmp	2	advmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -20983,14 +20983,14 @@
 # sent_id = s46s1-16413
 # text = Älä nyt viitsi .
 1	Älä	ei	AUX	V,Neg,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	nyt	nyt	PART	Pcle	_	3	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	3	advmod	_	_
 3	viitsi	viitsiä	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	.	.	PUNCT	Pun	_	3	punct	_	_
 
 # sent_id = mowra-16416
 # text = Antaisit nyt sen olla .
 1	Antaisit	antaa	VERB	V,Act,Cond,Sg2	Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	4	nsubj	_	_
 4	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	ccomp	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
@@ -21407,7 +21407,7 @@
 # text = Kuka sinne nyt kehtaisi tähän aikaan lähteä ?
 1	Kuka	kuka	PRON	Pron,Interr,Sg,Nom	Case=Nom|Number=Sing|PronType=Int	4	nsubj	_	_
 2	sinne	sinne	ADV	Adv,Dem	PronType=Dem	4	advmod	_	_
-3	nyt	nyt	PART	Pcle	_	4	advmod	_	_
+3	nyt	nyt	ADV	Adv,Pcle	_	4	advmod	_	_
 4	kehtaisi	kehdata	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 5	tähän	tämä	DET	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	6	det	_	_
 6	aikaan	aika	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	7	nmod	_	_
@@ -21691,7 +21691,7 @@
 # sent_id = owjbm-16931
 # text = Älä nyt .
 1	Älä	ei	VERB	V,Neg,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	0	root	_	_
-2	nyt	nyt	PART	Pcle	_	1	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	1	advmod	_	_
 3	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = q8lth-16945
@@ -21703,7 +21703,7 @@
 # sent_id = ztifn-16950
 # text = Älä nyt hemmetissä ala itkeä .
 1	Älä	ei	AUX	V,Neg,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
-2	nyt	nyt	PART	Pcle	_	5	advmod	_	_
+2	nyt	nyt	ADV	Adv,Pcle	_	5	advmod	_	_
 3	hemmetissä	hemmetissä	ADV	Adv	_	5	advmod	_	_
 4	ala	alkaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	itkeä	itkeä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	ccomp	_	_
