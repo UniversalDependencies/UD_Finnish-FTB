@@ -11050,7 +11050,7 @@
 2	pittää	pitää	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	tehä	tehdä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|Style=Coll|VerbForm=Inf|Voice=Act	0	root	_	_
 4	erikseen	erikseen	ADV	Adv	_	3	advmod	_	_
-5	vaan	vaan	PART	Pcle	_	3	advmod	_	_
+5	vaan	vaan	ADV	Adv,Pcle	_	3	advmod	_	_
 6	eri	eri	DET	Pron,Qnt	PronType=Ind	7	det	_	_
 7	tositteille	tosite	NOUN	N,Pl,All	Case=All|Number=Plur	3	nmod	_	_
 8	nuo	nuo	DET	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	11	det	_	_
@@ -12385,7 +12385,7 @@
 # sent_id = u0lrj-10211
 # text = Seija vaan sano et ei jos on hyvin huono ilima huomenna puolenpäivän aikana ni ei he lähäre .
 1	Seija	seija	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
-2	vaan	vaan	PART	Pcle	_	3	advmod	_	_
+2	vaan	vaan	ADV	Adv,Pcle	_	3	advmod	_	_
 3	sano	sanoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 4	et	että	SCONJ	Pcle,CS	Style=Coll	5	mark	_	_
 5	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	ccomp	_	_
@@ -13108,7 +13108,7 @@
 5	jotta	jotta	SCONJ	Pcle,CS	_	7	mark	_	_
 6	loiske	loiske	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
 7	käyp	käydä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
-8	vua	vaan	PART	Pcle	Style=Coll	7	advmod	_	_
+8	vua	vaan	ADV	Adv,Pcle	Style=Coll	7	advmod	_	_
 9	kankaan	kangas	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
 10	puissa	puu	NOUN	N,Pl,Ine	Case=Ine|Number=Plur	7	nmod	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
@@ -17459,7 +17459,7 @@
 # sent_id = d6l20-14082
 # text = Älä vaan tätä ota , se sanoi ja naputti veitsellään lautasta .
 1	Älä	ei	AUX	V,Neg,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	4	aux	_	_
-2	vaan	vaan	PART	Pcle	_	4	advmod	_	_
+2	vaan	vaan	ADV	Adv,Pcle	_	4	advmod	_	_
 3	tätä	tämä	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	4	obj	_	_
 4	ota	ottaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	7	ccomp	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -17926,7 +17926,7 @@
 28	sitte	sitten	ADV	Adv	Style=Coll	30	advmod	_	_
 29	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	30	nsubj	_	_
 30	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
-31	vaa	vaan	PART	Pcle	Style=Coll	30	advmod	_	_
+31	vaa	vaan	ADV	Adv,Pcle	Style=Coll	30	advmod	_	_
 32	et	että	SCONJ	Pcle,CS	Style=Coll	39	mark	_	_
 33	jaa	jaa	INTJ	Pcle,Interj	_	39	discourse	_	Alt=39_discourse
 34	että	että	SCONJ	Pcle,CS	_	32	conj	_	_
@@ -20299,7 +20299,7 @@
 # sent_id = g6dwu-16385
 # text = Arvatkaapa vaan olisiko tämä episodi melko kova sana huomisessa Iltalehdessä ?
 1	Arvatkaapa	arvata	VERB	V,Act,Imprt,Pl2,Pa	Clitic=Pa|Mood=Imp|Number=Plur|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-2	vaan	vaan	PART	Pcle	_	1	advmod	_	_
+2	vaan	vaan	ADV	Adv,Pcle	_	1	advmod	_	_
 3	olisiko	olla	AUX	V,Act,Cond,Sg3,Ko	Clitic=Ko|Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	cop	_	_
 4	tämä	tämä	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	det	_	_
 5	episodi	episodi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj:cop	_	_
@@ -20320,7 +20320,7 @@
 6	nyt	nyt	PART	Pcle	_	5	advmod	_	_
 7	ihan	ihan	PART	Pcle	_	8	advmod	_	_
 8	iisisti	iisisti	ADV	Adv	_	5	advmod	_	_
-9	vaan	vaan	PART	Pcle	_	5	advmod	_	_
+9	vaan	vaan	ADV	Adv,Pcle	_	5	advmod	_	_
 10	!	!	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = braos-16396

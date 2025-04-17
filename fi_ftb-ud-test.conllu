@@ -6261,7 +6261,7 @@
 4	ihan	ihan	PART	Pcle	_	6	advmod	_	_
 5	periaattees	periaate	NOUN	N,Sg,Ine	Case=Ine|Number=Sing|Style=Coll	3	nmod	_	_
 6	millon	milloin	ADV	Adv,Qnt	PronType=Ind|Style=Coll	3	advmod	_	_
-7	vaa	vaan	PART	Pcle	Style=Coll	6	advmod	_	_
+7	vaa	vaan	ADV	Adv,Pcle	Style=Coll	6	advmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = ce8ly-6188
@@ -8050,7 +8050,7 @@
 # text = Se nyt vaan on tyhmää maksaa liikaa .
 1	Se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	5	nmod	_	_
 2	nyt	nyt	PART	Pcle	_	5	advmod	_	_
-3	vaan	vaan	PART	Pcle	_	5	advmod	_	_
+3	vaan	vaan	ADV	Adv,Pcle	_	5	advmod	_	_
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 5	tyhmää	tyhmä	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 6	maksaa	maksaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	csubj:cop	_	_
@@ -12645,7 +12645,7 @@
 # sent_id = v1927-10670
 # text = Täytyy vaan osata pitää itsensä vireessä .
 1	Täytyy	täytyä	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	vaan	vaan	PART	Pcle	_	3	advmod	_	_
+2	vaan	vaan	ADV	Adv,Pcle	_	3	advmod	_	_
 3	osata	osata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	pitää	pitää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	xcomp	_	Alt=3_xcomp
 5	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	4	obj	_	_
@@ -15797,7 +15797,7 @@
 1	Että	että	SCONJ	Pcle,CS	_	7	mark	_	_
 2	sä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs|Style=Coll	7	nsubj	_	_
 3	et	ei	AUX	V,Neg,Act,Sg2	Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
-4	vaan	vaan	PART	Pcle	Style=Coll	7	advmod	_	_
+4	vaan	vaan	ADV	Adv,Pcle	Style=Coll	7	advmod	_	_
 5	jotakin	jokin	DET	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	6	det	_	_
 6	nippeliä	nippeli	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	obj	_	_
 7	siirrä	siirtää	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -17211,7 +17211,7 @@
 13	mut	mutta	CCONJ	Pcle,CC	Style=Coll	15	cc	_	_
 14	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	15	obj	_	_
 15	seurataan	seurata	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	12	conj	_	_
-16	vaan	vaan	PART	Pcle	_	15	advmod	_	_
+16	vaan	vaan	ADV	Adv,Pcle	_	15	advmod	_	_
 17	ni	niin	PART	Pcle	Style=Coll	18	advmod	_	_
 18	helvetin	helvetti	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	19	nmod	_	_
 19	tarkkaan	tarkkaan	ADV	Adv	_	15	advmod	_	_
@@ -19483,7 +19483,7 @@
 1	Viikon	viikko	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 2	ajan	ajan	ADP	Adp	_	1	case	_	_
 3	sitä	se	PRON	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	6	obj	_	_
-4	vaan	vaan	PART	Pcle	_	6	advmod	_	_
+4	vaan	vaan	ADV	Adv,Pcle	_	6	advmod	_	_
 5	piti	pitää	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	6	aux	_	_
 6	käyttää	käyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -19796,7 +19796,7 @@
 # sent_id = gjuxg-15415
 # text = mä vaa jätän tämmöse lomakkeen
 1	mä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	3	nsubj	_	_
-2	vaa	vaan	PART	Pcle	Style=Coll	3	advmod	_	_
+2	vaa	vaan	ADV	Adv,Pcle	Style=Coll	3	advmod	_	_
 3	jätän	jättää	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	tämmöse	tämmöinen	DET	A,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem|Style=Coll	5	amod	_	Alt=DET
 5	lomakkeen	lomake	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
@@ -20999,7 +20999,7 @@
 # text = - Ota vaan kaikkea mitä haluat .
 1	-	-	PUNCT	Pun	_	2	punct	_	Missed-SUBCAT=DASH
 2	Ota	ottaa	VERB	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	0	root	_	_
-3	vaan	vaan	PART	Pcle	_	2	advmod	_	_
+3	vaan	vaan	ADV	Adv,Pcle	_	2	advmod	_	_
 4	kaikkea	kaikki	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	2	obj	_	FTB-PronType=Qnt
 5	mitä	mikä	PRON	Pron,Rel,Par	Case=Par|PronType=Rel	6	obj	_	_
 6	haluat	haluta	VERB	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
@@ -21044,7 +21044,7 @@
 # sent_id = m57fx-16475
 # text = Sinne vaan rasvaa vaikka se kerta päivässä .
 1	Sinne	sinne	ADV	Adv,Dem	PronType=Dem	3	advmod	_	_
-2	vaan	vaan	PART	Pcle	_	3	advmod	_	_
+2	vaan	vaan	ADV	Adv,Pcle	_	3	advmod	_	_
 3	rasvaa	rasva	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 4	vaikka	vaikka	PART	Pcle	_	6	advmod	_	_
 5	se	se	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	6	det	_	_
