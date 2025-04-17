@@ -153,7 +153,7 @@
 # text = eteemme marssitetaan toinen toistaan kummallisempia olentoja ja asioita .
 1	eteemme	eteen	ADV	Adv,PxPl1	Number[psor]=Plur|Person[psor]=1	2	advmod	_	_
 2	marssitetaan	marssittaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	5	advcl	_	FTB-PronType=Qnt
+3	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|ExtPos=PRON|Number=Sing|PronType=Ind	5	advcl	_	FTB-PronType=Qnt
 4	toistaan	toinen	PRON	Pron,Recip,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Rcp	3	fixed	_	FTB-Sub=comparison
 5	kummallisempia	kummallinen	ADJ	A,Cmp,Pl,Par	Case=Par|Degree=Cmp|Number=Plur	6	amod	_	_
 6	olentoja	olento	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
@@ -5775,7 +5775,7 @@
 11	ja	ja	CCONJ	Pcle,CC	_	12	cc	_	_
 12	saaneet	saada	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	9	conj	_	_
 13	vaikutteita	vaikute	NOUN	N,Pl,Par	Case=Par|Number=Plur	12	obj	_	_
-14	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	12	nmod	_	FTB-PronType=Qnt
+14	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|ExtPos=PRON|Number=Sing|PronType=Ind	12	nmod	_	FTB-PronType=Qnt
 15	toisiltaan	toinen	PRON	Pron,Recip,Pl,Abl,Px3	Case=Abl|Number=Plur|Person[psor]=3|PronType=Rcp	14	fixed	_	_
 16	.	.	PUNCT	Pun	_	14	punct	_	_
 

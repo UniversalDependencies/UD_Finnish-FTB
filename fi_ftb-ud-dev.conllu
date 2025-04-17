@@ -5739,10 +5739,10 @@
 4	yhdeksän	yhdeksän	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	5	nummod	_	_
 5	kuukautta	kuukausi	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nmod	_	_
 6	vuodessa	vuosi	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	5	nmod	_	_
-7	kesäkuukaudet	kesäkuukausi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	nmod	_	_
-8	pois	pois	ADV	Adv	_	7	dep	_	_
-9	lukien	lukea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	fixed	_	Missed-Rel=phrm
-10	.	.	PUNCT	Pun	_	8	punct	_	_
+7	kesäkuukaudet	kesäkuukausi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	9	obj	_	_
+8	pois	pois	ADV	Adv	_	9	advmod	_	_
+9	lukien	lukea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	3	advcl	_	Missed-Rel=phrm
+10	.	.	PUNCT	Pun	_	3	punct	_	_
 
 # sent_id = eqmot-5610
 # text = Sehän tekisi kaikista , mukaan lukien vähäosaisimmista , teoriaherrojen poliittisten pakkomielteiden maksumiehiä ja uhreja
@@ -6175,7 +6175,7 @@
 5	totuuden	totuus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	toiminnasta	toiminta	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	3	nmod	_	_
 7	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-8	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	10	advcl	_	FTB-PronType=Qnt
+8	toinen	toinen	PRON	Pron,Qnt,Sg,Nom	Case=Nom|ExtPos=PRON|Number=Sing|PronType=Ind	10	advcl	_	FTB-PronType=Qnt
 9	toistaan	toinen	PRON	Pron,Recip,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Rcp	8	fixed	_	FTB-Sub=comparison
 10	sensaatiomaisempia	sensaatiomainen	ADJ	A,Cmp,Pl,Par	Case=Par|Degree=Cmp|Number=Plur	0	root	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
