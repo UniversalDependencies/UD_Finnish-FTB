@@ -1099,7 +1099,7 @@
 4	avaimet	avain	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	obj	_	_
 5	käteensä	käsi	NOUN	N,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3	2	nmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	aivan	aivan	ADV	Adv,Pcle	_	12	mark	_	_
+7	aivan	aivan	ADV	Adv,Pcle	ExtPos=SCONJ	12	mark	_	_
 8	kuin	kuin	SCONJ	Pcle,CS	_	7	fixed	_	_
 9	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	12	nsubj:cop	_	_
 10	olisivat	olla	AUX	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	12	aux	_	_
@@ -1748,7 +1748,7 @@
 6	toisen	toinen	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	7	det	_	_
 7	asian	asia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 8	luonteen	luonne	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	obj	_	_
-9	niin	niin	ADV	Adv,Dem	PronType=Dem	12	mark	_	_
+9	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	12	mark	_	_
 10	kuin	kuin	SCONJ	Pcle,CS	_	9	fixed	_	_
 11	Heidegger	heidegger	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	12	nsubj	_	_
 12	esitti	esittää	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	acl	_	_
@@ -9463,7 +9463,7 @@
 5	iltaan	ilta	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
 6	asti	asti	ADP	Adp	_	5	case	_	_
 7	,	,	PUNCT	Pun	_	5	punct	_	Was18=punct:6:case
-8	ennen	ennen	ADV	Adv	_	10	mark	_	_
+8	ennen	ennen	ADV	Adv	ExtPos=SCONJ	10	mark	_	_
 9	kuin	kuin	SCONJ	Pcle,CS	_	8	fixed	_	_
 10	luikkisi	luikkia	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	_
 11	häpeissään	häpeissään	ADV	Adv,Px3	Person[psor]=3	10	advmod	_	_
@@ -11630,7 +11630,7 @@
 1	Ongelmat	ongelma	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	3	nsubj	_	_
 2	eivät	ei	AUX	V,Neg,Act,Pl3	Number=Plur|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ratkea	ratketa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	ennen	ennen	ADV	Adv	_	8	mark	_	_
+4	ennen	ennen	ADV	Adv	ExtPos=SCONJ	8	mark	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	4	fixed	_	_
 6	kehitysmaat	kehitysmaa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	8	nsubj	_	_
 7	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	6	nmod	_	_
@@ -12191,7 +12191,7 @@
 # sent_id = qqxbm-10429
 # text = Lähden ennen kuin huomaatkaan .
 1	Lähden	lähteä	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ennen	ennen	ADV	Adv	_	4	mark	_	_
+2	ennen	ennen	ADV	Adv	ExtPos=SCONJ	4	mark	_	_
 3	kuin	kuin	SCONJ	Pcle,CS	_	2	fixed	_	_
 4	huomaatkaan	huomata	VERB	V,Act,Ind,Pres,Sg2,Kaan	Clitic=Kaan|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	1	advcl	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
@@ -13108,7 +13108,7 @@
 2	kauan	kauan	ADV	Adv	_	4	advmod	_	_
 3	täytyy	täytyä	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	odottaa	odottaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-5	ennen	ennen	ADV	Adv	_	8	mark	_	_
+5	ennen	ennen	ADV	Adv	ExtPos=SCONJ	8	mark	_	_
 6	kuin	kuin	SCONJ	Pcle,CS	_	5	fixed	_	_
 7	bussi	bussi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
 8	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	_
@@ -13430,7 +13430,7 @@
 6	eikä	ei	AUX	V,Neg,Act,Sg3,Ka	Clitic=Ka|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 7	lähes	lähes	PART	Pcle	_	8	advmod	_	_
 8	suolatonta	suolaton	ADJ	A,Sg,Par	Case=Par|Number=Sing	3	conj	_	_
-9	niin	niin	ADV	Adv,Dem	PronType=Dem	11	mark	_	_
+9	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	11	mark	_	_
 10	kuin	kuin	SCONJ	Pcle,CS	_	9	fixed	_	_
 11	sairaaloissa	sairaala	NOUN	N,Pl,Ine	Case=Ine|Number=Plur	8	nmod	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -14661,7 +14661,7 @@
 3	mentiin	mennä	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	vähä	vähän	ADV	Adv	Style=Coll	6	advmod	_	_
-6	niin	niin	PART	Pcle	_	9	mark	_	_
+6	niin	niin	PART	Pcle	ExtPos=SCONJ	9	mark	_	_
 7	ku	kuin	SCONJ	Pcle,CS	Style=Coll	6	fixed	_	_
 8	,	,	PUNCT	Pun	_	6	punct	_	_
 9	uhmapäin	uhmapäin	ADV	Adv	_	3	advmod	_	_
@@ -15422,7 +15422,7 @@
 4	pettää	pettää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	xcomp	_	Alt=3_xcomp
 5	naista	nainen	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	ennen	ennen	ADV	Adv	_	10	mark	_	_
+7	ennen	ennen	ADV	Adv	ExtPos=SCONJ	10	mark	_	_
 8	kuin	kuin	SCONJ	Pcle,CS	_	7	fixed	_	_
 9	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	10	nmod	_	_
 10	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
@@ -15577,7 +15577,7 @@
 1	Asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	niin	niin	ADV	Adv,Dem	PronType=Dem	8	mark	_	_
+4	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	8	mark	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	4	fixed	_	_
 6	äkkiseltään	äkkiseltään	ADV	Adv,Px3	Person[psor]=3	8	advmod	_	_
 7	voisi	voida	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	8	aux	_	_
@@ -17318,7 +17318,7 @@
 3	Jonna	jonna	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	_
 4	ollut	olla	AUX	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	tietänyt	tietää	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-6	ennen	ennen	ADV	Adv	_	8	mark	_	_
+6	ennen	ennen	ADV	Adv	ExtPos=SCONJ	8	mark	_	_
 7	kuin	kuin	SCONJ	Pcle,CS	_	6	fixed	_	_
 8	toukokuun	toukokuu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 9	lopussa	lopussa	ADP	Adp	_	8	case	_	_
@@ -19205,7 +19205,7 @@
 10	nähtävästi	nähtävästi	ADV	Adv	_	11	advmod	_	_
 11	päätetty	päättää	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	5	conj	_	_
 12	uusiutua	uusiutua	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	11	xcomp	_	Alt=11_xcomp
-13	ikään	ikään	ADV	Adv	_	15	mark	_	_
+13	ikään	ikään	ADV	Adv	ExtPos=SCONJ	15	mark	_	_
 14	kuin	kuin	SCONJ	Pcle,CS	_	13	fixed	_	_
 15	kertaheitolla	kertaheitolla	ADV	Adv	_	12	advmod	_	_
 16	.	.	PUNCT	Pun	_	15	punct	_	_

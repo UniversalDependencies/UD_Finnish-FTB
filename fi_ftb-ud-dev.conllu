@@ -11924,7 +11924,7 @@
 9	menisi	mennä	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 10	yksi	yksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	11	nummod	_	_
 11	sukupolvi	sukupolvi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	_
-12	ennen	ennen	ADV	Adv	_	17	mark	_	_
+12	ennen	ennen	ADV	Adv	ExtPos=SCONJ	17	mark	_	_
 13	kuin	kuin	SCONJ	Pcle,CS	_	12	fixed	_	_
 14	tuore	tuore	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	16	amod	_	_
 15	Mersun	mersu	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	16	nmod	_	_
@@ -12319,7 +12319,7 @@
 9	oppituntien	oppitunti	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	8	nmod	_	_
 10	jälkeen	jälkeen	ADP	Adp	_	9	case	_	_
 11	käytettävissä	käyttää	VERB	V,Pass,PcpVa,Pl,Ine	Case=Ine|Number=Plur|PartForm=Pres|VerbForm=Part|Voice=Pass	8	advcl	_	_
-12	niin	niin	ADV	Adv,Pcle	_	16	mark	_	_
+12	niin	niin	ADV	Adv,Pcle	ExtPos=SCONJ	16	mark	_	_
 13	kauan	kauan	ADV	Adv	_	12	fixed	_	_
 14	kuin	kuin	SCONJ	Pcle,CS	_	12	fixed	_	_
 15	koulu	koulu	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj	_	_
@@ -12443,7 +12443,7 @@
 9	yön	yö	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	10	nmod	_	_
 10	selkään	selkä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	11	nmod	_	_
 11	lähtemään	lähteä	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	8	xcomp	_	Alt=xcomp
-12	niin	niin	ADV	Adv,Dem	PronType=Dem	14	mark	_	_
+12	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	14	mark	_	_
 13	kuin	kuin	SCONJ	Pcle,CS	_	12	fixed	_	_
 14	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nmod	_	_
 15	.	.	PUNCT	Pun	_	14	punct	_	_
@@ -15670,7 +15670,7 @@
 1	Asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	niin	niin	ADV	Adv,Dem	PronType=Dem	7	mark	_	_
+4	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	7	mark	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	4	fixed	_	_
 6	voisi	voida	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	luulla	luulla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	advcl	_	_
@@ -15680,7 +15680,7 @@
 1	Asia	asia	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 2	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-4	niin	niin	ADV	Adv,Dem	PronType=Dem	7	mark	_	_
+4	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	7	mark	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	4	fixed	_	_
 6	äkkiseltään	äkkiseltään	ADV	Adv,Px3	Person[psor]=3	7	advmod	_	_
 7	uskoisi	uskoa	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	advcl	_	_
@@ -15838,7 +15838,7 @@
 8	tunne	tunne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	xcomp	_	_
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	että	että	SCONJ	Pcle,CS	_	14	mark	_	_
-11	ihan	ihan	ADV	Adv,Pcle	_	14	mark	_	_
+11	ihan	ihan	ADV	Adv,Pcle	ExtPos=SCONJ	14	mark	_	_
 12	kuin	kuin	SCONJ	Pcle,CS	_	11	fixed	_	_
 13	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	olisi	olla	VERB	V,Act,Cond,ConNeg	Connegative=Yes|Mood=Cnd|VerbForm=Fin|Voice=Act	6	acl	_	_
@@ -17084,7 +17084,7 @@
 
 # sent_id = sqyho-13880
 # text = Niin kauan kuin omassa kämpässä on lämpöä , ei sitä tule miettineeksi .
-1	Niin	niin	ADV	Adv,Pcle	_	6	mark	_	_
+1	Niin	niin	ADV	Adv,Pcle	ExtPos=SCONJ	6	mark	_	_
 2	kauan	kauan	ADV	Adv	_	1	fixed	_	_
 3	kuin	kuin	SCONJ	Pcle,CS	_	1	fixed	_	_
 4	omassa	oma	ADJ	A,Sg,Ine	Case=Ine|Number=Sing	5	amod	_	_
@@ -17134,7 +17134,7 @@
 5	niin	niin	ADV	Adv,Dem	PronType=Dem	7	advmod	_	_
 6	tulen	tulla	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 7	tekemään	tehdä	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	6	ccomp	_	_
-8	niin	niin	ADV	Adv,Pcle	_	11	mark	_	_
+8	niin	niin	ADV	Adv,Pcle	ExtPos=SCONJ	11	mark	_	_
 9	kauan	kauan	ADV	Adv	_	8	fixed	_	_
 10	kuin	kuin	SCONJ	Pcle,CS	_	8	fixed	_	_
 11	pelaan	pelata	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
@@ -19602,7 +19602,7 @@
 6	kymmentä	kymmenen	NUM	Num,Card,Sg,Par	Case=Par|Number=Sing|NumType=Card	7	nummod	_	_
 7	euroa	euro	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 8	-	-	PUNCT	Pun	_	7	punct	_	Missed-SUBCAT=DASH
-9	niin	niin	ADV	Adv,Dem	PronType=Dem	11	mark	_	_
+9	niin	niin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem	11	mark	_	_
 10	kuin	kuin	SCONJ	Pcle,CS	_	9	fixed	_	_
 11	viimeksi	viimeksi	ADV	Adv	_	4	advmod	_	_
 12	-	-	PUNCT	Pun	_	11	punct	_	Missed-SUBCAT=DASH
@@ -19881,7 +19881,7 @@
 
 # sent_id = chtzd-15949
 # text = Ennen kuin huomaatkaan , olet tullut kertoneeksi itsestäsi kaiken .
-1	Ennen	ennen	ADV	Adv	_	3	mark	_	_
+1	Ennen	ennen	ADV	Adv	ExtPos=SCONJ	3	mark	_	_
 2	kuin	kuin	SCONJ	Pcle,CS	_	1	fixed	_	_
 3	huomaatkaan	huomata	VERB	V,Act,Ind,Pres,Sg2,Kaan	Clitic=Kaan|Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	7	advcl	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
