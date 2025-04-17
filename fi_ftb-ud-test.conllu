@@ -79,7 +79,7 @@
 # text = Lapseni ovat jo koulussa .
 1	Lapseni	lapsi	NOUN	N,Pl,Nom,PxSg1	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	2	nsubj	_	_
 2	ovat	olla	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	jo	jo	PART	Pcle	_	2	advmod	_	_
+3	jo	jo	ADV	Adv,Pcle	_	2	advmod	_	_
 4	koulussa	koulu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
@@ -138,7 +138,7 @@
 # sent_id = svdsa-542
 # text = Mää jo tälle meitin Aksulle sanoin että pistäs tohon pihaan mainoksen
 1	Mää	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	6	nsubj	_	_
-2	jo	jo	PART	Pcle	_	6	advmod	_	_
+2	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 3	tälle	tämä	DET	Pron,Dem,Sg,All	Case=All|Number=Sing|PronType=Dem	5	det	_	_
 4	meitin	minä	PRON	Pron,Pers,Pl1,Gen	Case=Gen|Number=Plur|Person=1|PronType=Prs|Style=Coll	5	nmod:poss	_	_
 5	Aksulle	aksu	PROPN	N,Prop,Sg,All	Case=All|Number=Sing	6	nmod	_	_
@@ -1038,7 +1038,7 @@
 8	viimeinen	viimeinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	9	amod	_	_
 9	kappale	kappale	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj	_	_
 10	sallii	sallia	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	advcl	_	_
-11	jo	jo	PART	Pcle	_	12	advmod	_	_
+11	jo	jo	ADV	Adv,Pcle	_	12	advmod	_	_
 12	nykymuodossaankin	nykymuoto	NOUN	N,Sg,Ine,Px3,Kin	Case=Ine|Clitic=Kin|Number=Sing|Person[psor]=3	10	nmod	_	_
 13	täsmennyksiä	täsmennys	NOUN	N,Pl,Par	Case=Par|Number=Plur	10	obj	_	_
 14	ja	ja	CCONJ	Pcle,CC	_	15	cc	_	_
@@ -2937,7 +2937,7 @@
 8	tuotantoaan	tuotanto	NOUN	N,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3	7	obj	_	_
 9	koneiden	kone	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	10	nsubj	_	_
 10	käydessä	käydä	VERB	V,Act,InfE,Ine	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Act	7	advcl	_	_
-11	jo	jo	PART	Pcle	_	12	advmod	_	_
+11	jo	jo	ADV	Adv,Pcle	_	12	advmod	_	_
 12	nyt	nyt	ADV	Adv	_	10	advmod	_	_
 13	täysillä	täysillä	ADV	Adv	_	10	advmod	_	_
 14	.	.	PUNCT	Pun	_	13	punct	_	_
@@ -3403,7 +3403,7 @@
 # sent_id = hf8wr-3792
 # text = Minä jo vähän ihmettelin tiistaina kun Huurre ei avannut liikettään , Nurminen sanoi .
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
-2	jo	jo	PART	Pcle	_	4	advmod	_	_
+2	jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 3	vähän	vähän	ADV	Adv	_	4	advmod	_	_
 4	ihmettelin	ihmetellä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	13	ccomp	_	_
 5	tiistaina	tiistai	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	4	nmod	_	_
@@ -5269,7 +5269,7 @@
 1	Viraston	virasto	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
 2	taholta	taholta	ADP	Adp	_	1	case	_	_
 3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-4	jo	jo	PART	Pcle	_	5	advmod	_	_
+4	jo	jo	ADV	Adv,Pcle	_	5	advmod	_	_
 5	annettu	antaa	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 6	ohjeet	ohje	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	obj	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -5499,7 +5499,7 @@
 2	nousi	nousta	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 3	asukasta	asukas	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nmod	_	_
 4	kohden	kohden	ADP	Adp	_	3	case	_	_
-5	jo	jo	PART	Pcle	_	6	advmod	_	_
+5	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 6	7000	7000	NUM	Num,Card	NumType=Card	7	nummod	_	_
 7	markkaan	markka	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	2	nmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
@@ -6742,7 +6742,7 @@
 10	asian	asia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	12	obj	_	_
 11	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	12	nsubj	_	_
 12	tietää	tietää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	conj	_	_
-13	jo	jo	PART	Pcle	_	14	advmod	_	_
+13	jo	jo	ADV	Adv,Pcle	_	14	advmod	_	_
 14	nyt	nyt	ADV	Adv	_	12	advmod	_	_
 15	:	:	PUNCT	Pun	_	14	punct	_	_
 16	Valmentajaa	valmentaja	NOUN	N,Sg,Par	Case=Par|Number=Sing	19	xcomp	_	_
@@ -9105,7 +9105,7 @@
 4	aiheuttaa	aiheuttaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 5	merkittäviä	merkittävä	ADJ	A,Pl,Par	Case=Par|Number=Plur	6	amod	_	_
 6	terveysongelmia	terveysongelma	NOUN	N,Pl,Par	Case=Par|Number=Plur	4	obj	_	_
-7	jo	jo	PART	Pcle	_	8	advmod	_	_
+7	jo	jo	ADV	Adv,Pcle	_	8	advmod	_	_
 8	lapsuudessa	lapsuus	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
 9	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
 10	lisää	lisätä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -9146,7 +9146,7 @@
 2	Pan	pan	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	Alt=name
 3	Yuliang	yuliang	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	2	flat	_	_
 4	joutui	joutua	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	jo	jo	PART	Pcle	_	6	advmod	_	_
+5	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 6	lapsena	lapsi	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	4	nmod	_	_
 7	bordelliin	bordelli	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	4	nmod	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
@@ -9257,7 +9257,7 @@
 1	Jotkut	joku	DET	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	2	det	_	_
 2	suomalaiset	suomalainen	ADJ	A,Pl,Nom	Case=Nom|Number=Plur	3	nsubj	_	_
 3	ostivat	ostaa	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	jo	jo	PART	Pcle	_	5	advmod	_	_
+4	jo	jo	ADV	Adv,Pcle	_	5	advmod	_	_
 5	eilen	eilen	ADV	Adv	_	3	advmod	_	_
 6	muistoksi	muisto	NOUN	N,Sg,Tra	Case=Tra|Number=Sing	3	nmod	_	_
 7	sinikeltaisia	sinikeltainen	ADJ	A,Pl,Par	Case=Par|Number=Plur	8	amod	_	_
@@ -10311,7 +10311,7 @@
 10	jotenki	jotenkin	ADV	Adv,Qnt	PronType=Ind|Style=Coll	12	advmod	_	_
 11	vähä	vähän	ADV	Adv	Style=Coll	12	advmod	_	_
 12	väsyny	väsynyt	ADJ	A,Sg,Nom	Case=Nom|Number=Sing|Style=Coll	4	conj	_	_
-13	jo	jo	PART	Pcle	_	12	advmod	_	_
+13	jo	jo	ADV	Adv,Pcle	_	12	advmod	_	_
 14	ku	kun	SCONJ	Pcle,CS	Style=Coll	16	mark	_	_
 15	mie	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	16	nsubj	_	_
 16	menin	mennä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	12	advcl	_	_
@@ -11766,7 +11766,7 @@
 # sent_id = lbydg-10228
 # text = Voisitko jo ystävällisesti kertoa asiasi .
 1	Voisitko	voida	AUX	V,Act,Cond,Sg2,Ko	Clitic=Ko|Mood=Cnd|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	4	aux	_	_
-2	jo	jo	PART	Pcle	_	4	advmod	_	_
+2	jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 3	ystävällisesti	ystävällisesti	ADV	Adv	_	4	advmod	_	_
 4	kertoa	kertoa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	asiasi	asia	NOUN	N,Sg,Gen,PxSg2	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	4	obj	_	_
@@ -12069,7 +12069,7 @@
 # text = Vaikka on jo myöhä , silti en lähde vielä nukkumaan .
 1	Vaikka	vaikka	SCONJ	Pcle,CS	_	4	mark	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
-3	jo	jo	PART	Pcle	_	4	advmod	_	_
+3	jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 4	myöhä	myöhä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	8	advcl	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	silti	silti	ADV	Adv	_	8	advmod	_	_
@@ -14609,7 +14609,7 @@
 # text = Postidirektiivit syntyvät jo vanhentuneina
 1	Postidirektiivit	postidirektiivi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	_
 2	syntyvät	syntyä	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	jo	jo	PART	Pcle	_	4	advmod	_	_
+3	jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 4	vanhentuneina	vanhentua	VERB	V,Act,PcpNut,Pl,Ess	Case=Ess|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	2	advcl	_	_
 
 # sent_id = wh4qu-12176
@@ -16024,7 +16024,7 @@
 2	Alkon	alko	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 3	toripalvelumiehet	toripalvelumies	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nsubj	_	_
 4	kehittivät	kehittää	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	jo	jo	PART	Pcle	_	6	advmod	_	_
+5	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 6	ajat	aika	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nmod	_	_
 7	sitten	sitten	ADP	Adp	_	6	case	_	_
 8	viinan	viina	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
@@ -16092,7 +16092,7 @@
 3	hallituskumppanit	hallituskumppani	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	nsubj	_	_
 4	ehtineet	ehtiä	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	päivitellä	päivitellä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	ccomp	_	_
-6	jo	jo	PART	Pcle	_	7	advmod	_	_
+6	jo	jo	ADV	Adv,Pcle	_	7	advmod	_	_
 7	torstaina	torstai	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	5	nmod	_	_
 8	valtioneuvoston	valtioneuvosto	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 9	istunnossa	istunto	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	5	nmod	_	_
@@ -16314,7 +16314,7 @@
 23	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	24	aux	_	_
 24	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	3	conj	_	_
 25	selvästi	selvästi	ADV	Adv	_	24	advmod	_	_
-26	jo	jo	PART	Pcle	_	27	advmod	_	_
+26	jo	jo	ADV	Adv,Pcle	_	27	advmod	_	_
 27	aiemmin	aiemmin	ADV	Adv,Cmp	Degree=Cmp	24	advmod	_	_
 28	jossain	jossain	ADV	Adv,Qnt	PronType=Ind	29	advmod	_	_
 29	kiinni	kiinni	ADV	Adv	_	24	advmod	_	_
@@ -17019,7 +17019,7 @@
 2	Amerikan	amerikka	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	3	nmod	_	_
 3	psykosta	psyko	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	1	nmod	_	_
 4	alkoi	alkaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-5	jo	jo	PART	Pcle	_	8	advmod	_	_
+5	jo	jo	ADV	Adv,Pcle	_	8	advmod	_	_
 6	ennen	ennen	ADP	Adp	_	8	case	_	_
 7	sen	se	PRON	Pron,Dem,Sg,Gen	Case=Gen|Number=Sing|PronType=Dem	8	nmod:gsubj	_	Alt=nmod:gsubj
 8	ilmestymistä	ilmestyminen	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	nmod	_	_
@@ -17333,7 +17333,7 @@
 5	koskeva	koskea	VERB	V,Act,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	6	acl	_	_
 6	raportti	raportti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	10	nsubj:cop	_	_
 7	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	10	cop	_	_
-8	jo	jo	PART	Pcle	_	9	advmod	_	_
+8	jo	jo	ADV	Adv,Pcle	_	9	advmod	_	_
 9	julkistamishetkellä	julkistamishetki	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	10	nmod	_	_
 10	vanhentunut	vanhentua	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
@@ -17935,7 +17935,7 @@
 
 # sent_id = amsz4-14228
 # text = Jo 120 politiikan , kulttuurin ja liike-elämän vaikuttajaa on esitellyt muotia Option muotigaaloissa , kertoi Kauppalehti Option päätoimittaja .
-1	Jo	jo	PART	Pcle	_	2	advmod	_	_
+1	Jo	jo	ADV	Adv,Pcle	_	2	advmod	_	_
 2	120	120	NUM	Num,Card	NumType=Card	8	nummod	_	_
 3	politiikan	politiikka	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	FTB-rel=phrm
@@ -18023,7 +18023,7 @@
 4	ulkoministeri	ulkoministeri	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	compound:nn	_	Alt=compound:nn
 5	Tarja	tarja	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	1	nmod	_	Alt=name
 6	Haloselta	halonen	PROPN	N,Prop,Sg,Abl	Case=Abl|Number=Sing	5	flat	_	_
-7	jo	jo	PART	Pcle	_	9	advmod	_	_
+7	jo	jo	ADV	Adv,Pcle	_	9	advmod	_	_
 8	tutuksi	tuttu	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	9	nmod	_	_
 9	tulleen	tulla	VERB	V,Act,PcpNut,Sg,Gen	Case=Gen|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	10	acl	_	_
 10	vastauksen	vastaus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	1	obj	_	_
@@ -18075,7 +18075,7 @@
 1	Ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	3	obj	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	vedetty	vetää	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	9	ccomp	_	_
-4	jo	jo	PART	Pcle	_	6	advmod	_	_
+4	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 5	niin	niin	ADV	Adv,Pcle	_	6	advmod	_	_
 6	alhaalle	alhaalle	ADV	Adv	_	3	advmod	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
@@ -18467,7 +18467,7 @@
 1	Puheluissa	puhelu	NOUN	N,Pl,Ine	Case=Ine|Number=Plur	5	nmod	_	_
 2	opetusviranomaiset	opetusviranomainen	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	5	nsubj	_	_
 3	ovat	olla	AUX	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
-4	jo	jo	PART	Pcle	_	5	advmod	_	_
+4	jo	jo	ADV	Adv,Pcle	_	5	advmod	_	_
 5	saaneet	saada	VERB	V,Act,PcpNut,Pl,Nom	Case=Nom|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	vinkkejä	vinkki	NOUN	N,Pl,Par	Case=Par|Number=Plur	5	obj	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
@@ -18719,7 +18719,7 @@
 # text = Wikman on jo ollut muutaman kerran lyömäisillään hanskat tiskiin .
 1	Wikman	wikman	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	7	aux	_	_
-3	jo	jo	PART	Pcle	_	7	advmod	_	_
+3	jo	jo	ADV	Adv,Pcle	_	7	advmod	_	_
 4	ollut	olla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	aux	_	_
 5	muutaman	muutama	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	6	det	_	_
 6	kerran	kerta	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
@@ -18748,7 +18748,7 @@
 6	järisyttävän	järisyttää	VERB	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	4	conj	_	_
 7	naurun	nauru	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nsubj	_	_
 8	jylisevän	jylistä	VERB	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	2	ccomp	_	_
-9	jo	jo	PART	Pcle	_	8	advmod	_	_
+9	jo	jo	ADV	Adv,Pcle	_	8	advmod	_	_
 10	sisälläni	sisällä	ADV	Adv,PxSg1	Number[psor]=Sing|Person[psor]=1	8	advmod	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
 12	olin	olla	AUX	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	15	aux	_	_
@@ -18825,7 +18825,7 @@
 2	tähän	tämä	DET	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	3	det	_	_
 3	aikaan	aika	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	6	nmod	_	_
 4	olen	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
-5	jo	jo	PART	Pcle	_	6	advmod	_	_
+5	jo	jo	ADV	Adv,Pcle	_	6	advmod	_	_
 6	lähtenyt	lähteä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -20142,7 +20142,7 @@
 5	että	että	SCONJ	Pcle,CS	_	7	mark	_	_
 6	puolueet	puolue	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	7	nsubj	_	_
 7	ilmoittaisivat	ilmoittaa	VERB	V,Act,Cond,Pl3	Mood=Cnd|Number=Plur|Person=3|VerbForm=Fin|Voice=Act	3	csubj	_	_
-8	jo	jo	PART	Pcle	_	9	advmod	_	_
+8	jo	jo	ADV	Adv,Pcle	_	9	advmod	_	_
 9	nyt	nyt	ADV	Adv	_	7	advmod	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	minkä	mikä	DET	Pron,Interr,Gen	Case=Gen|PronType=Int	12	det	_	_
@@ -21628,7 +21628,7 @@
 
 # sent_id = n5zvm-16875
 # text = Jo on aikoihin eletty .
-1	Jo	jo	PART	Pcle	_	4	advmod	_	_
+1	Jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 3	aikoihin	aika	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	4	nmod	_	_
 4	eletty	elää	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
@@ -21638,13 +21638,13 @@
 # text = Kehitys on jo kehittynyt .
 1	Kehitys	kehitys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
-3	jo	jo	PART	Pcle	_	4	advmod	_	_
+3	jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 4	kehittynyt	kehittyä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = lqbsh-16877
 # text = Jo on jää sileää ja puhasta .
-1	Jo	jo	PART	Pcle	_	4	advmod	_	_
+1	Jo	jo	ADV	Adv,Pcle	_	4	advmod	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 3	jää	jää	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	_
 4	sileää	sileä	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
