@@ -5932,7 +5932,7 @@
 # sent_id = exkd6-5810
 # text = Mitä jos puhuttaisiin jostakin
 1	Mitä	mikä	PRON	Pron,Interr,Par	Case=Par|PronType=Int	3	dep	_	_
-2	jos	jos	SCONJ	Pcle,CS	_	1	fixed	_	Missed-Rel=advl
+2	jos	jos	SCONJ	Pcle,CS	_	3	mark	_	Missed-Rel=advl
 3	puhuttaisiin	puhua	VERB	V,Pass,Cond	Mood=Cnd|VerbForm=Fin|Voice=Pass	0	root	_	_
 4	jostakin	jokin	PRON	Pron,Qnt,Sg,Ela	Case=Ela|Number=Sing|PronType=Ind	3	nmod	_	FTB-PronType=Qnt
 
@@ -6983,7 +6983,7 @@
 1	Olin	olla	AUX	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	cop	_	_
 2	pelastettu	pelastaa	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
-4	sen	sen	PART	Pcle	_	6	advmod	_	_
+4	sen	sen	PART	Pcle	ExtPos=SCONJ	6	mark	_	_
 5	kun	kun	PART	Pcle	_	4	fixed	_	_
 6	seurasin	seurata	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
 7	rekkojen	rekka	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	8	nmod	_	_
@@ -11863,7 +11863,7 @@
 
 # sent_id = n684c-9947
 # text = Paitsi jos olet niitä , joita kahvi nukuttaa .
-1	Paitsi	paitsi	ADV	Adv	_	4	mark	_	_
+1	Paitsi	paitsi	ADV	Adv	ExtPos=SCONJ	4	mark	_	_
 2	jos	jos	SCONJ	Pcle,CS	_	1	fixed	_	_
 3	olet	olla	AUX	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 4	niitä	ne	PRON	Pron,Dem,Pl,Par	Case=Par|Number=Plur|PronType=Dem	0	root	_	_
@@ -12264,7 +12264,7 @@
 
 # sent_id = i5rjf-10137
 # text = Itse asiassa en varsinaisesti edes tavannut ketään , paitsi sen kymmenminuuttisen aikana jolloin sai käydä alhaalla pukuhuoneessa syömässä eväät .
-1	Itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	6	nmod	_	_
+1	Itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|ExtPos=ADV|Number=Sing|Reflex=Yes	6	nmod	_	_
 2	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	1	fixed	_	_
 3	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
 4	varsinaisesti	varsinaisesti	ADV	Adv	_	6	advmod	_	_
@@ -14221,7 +14221,7 @@
 
 # sent_id = t12sq-11697
 # text = Silloin tällöin voi kokonaiselta kansalta unohtua maalaisjärki .
-1	Silloin	silloin	ADV	Adv,Dem	PronType=Dem	6	advmod	_	_
+1	Silloin	silloin	ADV	Adv,Dem	ExtPos=ADV|PronType=Dem	6	advmod	_	_
 2	tällöin	tällöin	ADV	Adv,Dem	PronType=Dem	1	fixed	_	_
 3	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	aux	_	_
 4	kokonaiselta	kokonainen	ADJ	A,Sg,Abl	Case=Abl|Number=Sing	5	amod	_	_
@@ -15535,7 +15535,7 @@
 # text = Sitten ryypättiin aika lailla vodkaa ja perunat jäivät hakematta .
 1	Sitten	sitten	ADV	Adv	_	2	advmod	_	_
 2	ryypättiin	ryypätä	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	aika	aika	PART	Pcle	_	2	advmod	_	_
+3	aika	aika	PART	Pcle	ExtPos=ADV	2	advmod	_	_
 4	lailla	lailla	ADV	Adv	_	3	fixed	_	_
 5	vodkaa	vodka	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
@@ -16805,7 +16805,7 @@
 16	lippuna	lippu	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	15	nmod	_	_
 17	ja	ja	CCONJ	Pcle,CC	_	18	cc	_	_
 18	ohjelmana	ohjelma	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	16	conj	_	_
-19	saman	sama	PRON	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	15	nmod	_	FTB-PronType=Qnt
+19	saman	sama	PRON	Pron,Qnt,Sg,Gen	Case=Gen|ExtPos=ADV|Number=Sing|PronType=Ind	15	advmod	_	FTB-PronType=Qnt
 20	tien	tie	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	19	fixed	_	_
 21	mikä	mikä	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	22	obj	_	_
 22	taitetaan	taittaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	15	conj	_	_
@@ -17410,7 +17410,7 @@
 # text = Emmekä ole näin ollen vastuussa mistään sellaisesta ydinjätteen sijoittamisesta joka tulee muualta maailmasta mutta samalla olemme tietysti vastuussa omista ydinjätteistämme ja muista tämänkaltaisista ratkaisuista .
 1	Emmekä	ei	AUX	V,Neg,Act,Pl1,Ka	Clitic=Ka|Number=Plur|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	näin	näin	ADV	Adv,Dem	PronType=Dem	2	advcl	_	_
+3	näin	näin	ADV	Adv,Dem	ExtPos=ADV|PronType=Dem	2	advcl	_	_
 4	ollen	olla	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	3	fixed	_	_
 5	vastuussa	vastuu	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	2	nmod	_	_
 6	mistään	mikään	DET	Pron,Qnt,Ela	Case=Ela|PronType=Ind	9	det	_	_
@@ -19423,7 +19423,7 @@
 # text = Muusikolle on totta kai hyötyä siitä , että hän hallitsee musiikin kenttää laaja-alaisesti .
 1	Muusikolle	muusikko	NOUN	N,Sg,All	Case=All|Number=Sing	2	nmod	_	_
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	totta	totta	PART	Pcle	_	2	advmod	_	_
+3	totta	totta	PART	Pcle	ExtPos=ADV	2	advmod	_	_
 4	kai	kai	PART	Pcle	_	3	fixed	_	_
 5	hyötyä	hyötyä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	csubj	_	_
 6	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	10	expl	_	Alt=10_expl|Missed-Rel=phrm
@@ -21082,7 +21082,7 @@
 
 # sent_id = exuoj-16988
 # text = Voi helvetti sun kanssas .
-1	Voi	voi	INTJ	Pcle,Interj	_	3	discourse	_	_
+1	Voi	voi	INTJ	Pcle,Interj	ExtPos=INTJ	3	discourse	_	_
 2	helvetti	helvetti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	fixed	_	Alt=3_discourse
 3	sun	sinä	PRON	Pron,Pers,Sg2,Gen	Case=Gen|Number=Sing|Person=2|PronType=Prs|Style=Coll	0	root	_	_
 4	kanssas	kanssa	ADP	Adp,PxSg2	Number[psor]=Sing|Person[psor]=2|Style=Coll	3	case	_	_
@@ -21175,12 +21175,12 @@
 1	Sull	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	2	nmod	_	Alt=nmod:own
 2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	nyt	nyt	ADV	Adv	_	2	advmod	_	_
-4	aika	aika	PART	Pcle	_	6	advmod	_	_
+4	aika	aika	PART	Pcle	ExtPos=ADV	6	advmod	_	_
 5	lailla	lailla	ADV	Adv	_	4	fixed	_	_
 6	eri	eri	DET	Pron,Qnt	PronType=Ind	7	det	_	_
 7	tilanne	tilanne	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 8	kun	kuin	SCONJ	Pcle,CS	Style=Coll	12	mark	_	FTB-Sub=comparator
-9	sillon	silloin	ADV	Adv,Dem	PronType=Dem|Style=Coll	12	mark	_	_
+9	sillon	silloin	ADV	Adv,Dem	ExtPos=SCONJ|PronType=Dem|Style=Coll	12	mark	_	_
 10	kun	kun	SCONJ	Pcle,CS	_	9	fixed	_	FTB-Sub=comparator
 11	edellistä	edellinen	ADJ	A,Sg,Par	Case=Par|Number=Sing	14	obj	_	_
 12	olit	olla	VERB	V,Act,Ind,Past,Sg2	Mood=Ind|Number=Sing|Person=2|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	FTB-Sub=comparison
@@ -21327,7 +21327,7 @@
 
 # sent_id = q8u0m-17080
 # text = puusta pitkään
-1	puusta	puu	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	0	root	_	_
+1	puusta	puu	NOUN	N,Sg,Ela	Case=Ela|ExtPos=ADV|Number=Sing	0	root	_	_
 2	pitkään	pitkään	ADV	Adv	_	1	fixed	_	_
 
 # sent_id = qj5z4-17081
