@@ -5428,7 +5428,7 @@
 # sent_id = pwu9m-5438
 # text = Alusta lukien kaikki on mennyt hienosti .
 1	Alusta	alku	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	5	nmod	_	_
-2	lukien	lukien	ADP	Adp	_	1	case	_	_
+2	lukien	lukea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 3	kaikki	kaikki	PRON	Pron,Qnt,Nom	Case=Nom|PronType=Ind	5	nsubj	_	FTB-PronType=Qnt
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	mennyt	mennä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5438,7 +5438,7 @@
 # sent_id = v80rw-5438
 # text = Alusta pitäen kaikki on mennyt hienosti .
 1	Alusta	alku	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	5	nmod	_	_
-2	pitäen	pitäen	ADP	Adp	_	1	case	_	_
+2	pitäen	pitää	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 3	kaikki	kaikki	PRON	Pron,Qnt,Nom	Case=Nom|PronType=Ind	5	nsubj	_	FTB-PronType=Qnt
 4	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	mennyt	mennä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
@@ -5495,7 +5495,7 @@
 6	liian	liian	ADV	Adv	_	7	advmod	_	_
 7	vähän	vähän	ADV	Adv	_	5	advmod	_	_
 8	lämpöön	lämpö	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	5	nmod	_	_
-9	nähden	nähden	ADP	Adp	_	8	case	_	_
+9	nähden	nähdä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	case	_	_
 10	.	.	PUNCT	Pun	_	8	punct	_	Was18=punct:9:case
 
 # sent_id = sbkud-5475
@@ -5692,12 +5692,12 @@
 # sent_id = e2ted-5556
 # text = 1900-luvulta lukien
 1	1900-luvulta	1900-luku	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	0	root	_	_
-2	lukien	lukien	ADP	Adp	_	1	case	_	_
+2	lukien	lukea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 
 # sent_id = xr7sa-5556
 # text = 1900-luvulta pitäen
 1	1900-luvulta	1900-luku	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	0	root	_	_
-2	pitäen	pitäen	ADP	Adp	_	1	case	_	_
+2	pitäen	pitää	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 
 # sent_id = f1tj7-5579
 # text = EU:n jäsenmaiden on muutettava kansallista lainsäädäntöään ensi vuoden syyskuun loppupuolelle mennessä siten , että se täyttää direktiivin ehdot .
@@ -5729,7 +5729,7 @@
 4	Pohjanmaalla	pohjanmaa	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing	3	nmod	_	_
 5	1700-luvun	1700-luku	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	6	nmod	_	_
 6	lopulta	loppu	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	3	nmod	_	_
-7	alkaen	alkaen	ADP	Adp	_	6	case	_	_
+7	alkaen	alkaa	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	6	case	_	_
 
 # sent_id = y9326-5609
 # text = Yleisesti opintotukea nostetaan yhdeksän kuukautta vuodessa kesäkuukaudet pois lukien .
@@ -10562,7 +10562,7 @@
 7	asenteen	asenne	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	obj	_	_
 8	nuorimpaan	nuori	ADJ	A,Sup,Sg,Ill	Case=Ill|Degree=Sup|Number=Sing	9	amod	_	_
 9	veljeensä	veli	NOUN	N,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3	5	nmod	_	_
-10	nähden	nähden	ADP	Adp	_	9	case	_	_
+10	nähden	nähdä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	9	case	_	_
 11	.	.	PUNCT	Pun	_	9	punct	_	Was18=punct:10:case
 
 # sent_id = ubwjo-9115
@@ -14180,7 +14180,7 @@
 3	täällä	täällä	ADV	Adv,Dem	PronType=Dem	2	advmod	_	_
 4	vuodesta	vuosi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	2	nmod	_	_
 5	1995	1995	NUM	Num,Card	NumType=Card	4	nummod	_	_
-6	lähtien	lähtien	ADP	Adp	_	4	case	_	_
+6	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	4	case	_	_
 
 # sent_id = t1fkn-11603
 # text = Tänä vuonna autoton päivä osuu maanantaiksi .
@@ -16073,7 +16073,7 @@
 6	maassamuutto	maassamuutto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 7	ja	ja	CCONJ	Pcle,CC	_	11	cc	_	_
 8	1980-luvulta	1980-luku	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	3	nmod	_	_
-9	lähtien	lähtien	ADP	Adp	_	8	case	_	_
+9	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	8	case	_	_
 10	myös	myös	ADV	Adv	_	11	advmod	_	_
 11	maahanmuutto	maahanmuutto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_

@@ -4054,7 +4054,7 @@
 2	hieman	hieman	ADV	Adv	_	3	advmod	_	_
 3	pessimistinen	pessimistinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	sponsorointiin	sponsorointi	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	_
-5	nähden	nähden	ADP	Adp	_	4	case	_	_
+5	nähden	nähdä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	4	case	_	_
 6	.	.	PUNCT	Pun	_	4	punct	_	Was18=punct:5:case
 
 # sent_id = n67r0-4419
@@ -5401,12 +5401,12 @@
 # sent_id = v309x-5556
 # text = 1900-luvulta lähtien
 1	1900-luvulta	1900-luku	NOUN	N,Sg,Abl	Case=Abl|Number=Sing	0	root	_	_
-2	lähtien	lähtien	ADP	Adp	_	1	case	_	_
+2	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 
 # sent_id = tmy8c-5558
 # text = asiaa koskien
 1	asiaa	asia	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
-2	koskien	koskien	ADP	Adp	_	1	case	_	_
+2	koskien	koskea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 
 # sent_id = eksn1-5568
 # text = jossain Göteborgin lähettyvillä on huhujen mukaan Nääs-niminen paikkakunta
@@ -9528,7 +9528,7 @@
 # text = Rahan kysyntään nähden Suomessa on edelleen liikaa pankkeja ja pankkityöntekijöitä .
 1	Rahan	raha	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	kysyntään	kysyntä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	5	nmod	_	_
-3	nähden	nähden	ADP	Adp	_	2	case	_	_
+3	nähden	nähdä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	2	case	_	_
 4	Suomessa	suomi	PROPN	N,Prop,Sg,Ine	Case=Ine|Number=Sing	5	nmod	_	_
 5	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 6	edelleen	edelleen	ADV	Adv	_	5	advmod	_	_
@@ -9615,7 +9615,7 @@
 4	omalla	oma	ADJ	A,Sg,Ade	Case=Ade|Number=Sing	5	amod	_	_
 5	tavallamme	tapa	NOUN	N,Sg,Ade,PxPl1	Case=Ade|Number=Sing|Number[psor]=Plur|Person[psor]=1	1	nmod	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	johtuen	johtuen	ADP	Adp	_	9	case	_	_
+7	johtuen	johtua	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	9	case	_	_
 8	erilaisista	erilainen	ADJ	A,Pl,Ela	Case=Ela|Number=Plur	9	amod	_	_
 9	kokemuksistamme	kokemus	NOUN	N,Pl,Ela,PxPl1	Case=Ela|Number=Plur|Number[psor]=Plur|Person[psor]=1	1	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -14724,7 +14724,7 @@
 15	jotka	joka	PRON	Pron,Rel,Pl,Nom	Case=Nom|Number=Plur|PronType=Rel	19	obj	_	_
 16	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	19	aux	_	_
 17	minun	minä	PRON	Pron,Pers,Sg1,Gen	Case=Gen|Number=Sing|Person=1|PronType=Prs	19	nmod	_	_
-18	nähteni	nähden	ADP	Adp,PxSg1	Number[psor]=Sing|Person[psor]=1	17	case	_	_
+18	nähteni	nähdä	VERB	Adp,PxSg1	Case=Ins|InfForm=2|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	17	case	_	_
 19	kannettu	kantaa	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	13	acl	_	_
 20	täältä	täältä	ADV	Adv,Dem	PronType=Dem	19	advmod	_	_
 21	ulos	ulos	ADV	Adv	_	19	advmod	_	_
@@ -15376,7 +15376,7 @@
 13	maanpaossa	maanpako	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	10	nmod	_	_
 14	vuodesta	vuosi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	10	nmod	_	_
 15	1943	1943	NUM	Num,Card	NumType=Card	14	nummod	_	_
-16	lähtien	lähtien	ADP	Adp	_	14	case	_	_
+16	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	14	case	_	_
 17	.	.	PUNCT	Pun	_	14	punct	_	Was18=punct:16:case
 
 # sent_id = hk5zn-12807
@@ -17549,7 +17549,7 @@
 # sent_id = bne9t-14010
 # text = Ominaisuuksiinsa nähden edullinen laite kytketään ohjelmalähteen ja erillisten päätevahvistimien väliin .
 1	Ominaisuuksiinsa	ominaisuus	NOUN	N,Pl,Ill,Px3	Case=Ill|Number=Plur|Person[psor]=3	3	nmod	_	_
-2	nähden	nähden	ADP	Adp	_	1	case	_	_
+2	nähden	nähdä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	1	case	_	_
 3	edullinen	edullinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	amod	_	_
 4	laite	laite	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	obj	_	_
 5	kytketään	kytkeä	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
@@ -18799,7 +18799,7 @@
 4	metsässä	metsä	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
 5	kello	kello	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nmod	_	_
 6	kuudesta	kuusi	NUM	Num,Card,Sg,Ela	Case=Ela|Number=Sing|NumType=Card	3	nmod	_	_
-7	lähtien	lähtien	ADP	Adp	_	6	case	_	_
+7	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	6	case	_	_
 8	.	.	PUNCT	Pun	_	6	punct	_	Was18=punct:7:case
 
 # sent_id = r8uqi-14674
@@ -19007,7 +19007,7 @@
 3	rakastanut	rakastaa	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 4	minua	minä	PRON	Pron,Pers,Sg1,Par	Case=Par|Number=Sing|Person=1|PronType=Prs	3	obj	_	_
 5	nuoruudestani	nuoruus	NOUN	N,Sg,Ela,PxSg1	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nmod	_	_
-6	lähtien	lähtien	ADP	Adp	_	5	case	_	_
+6	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	5	case	_	_
 7	.	.	PUNCT	Pun	_	5	punct	_	Was18=punct:6:case
 
 # sent_id = bct7z-14788
@@ -19568,7 +19568,7 @@
 9	maapohja	maapohja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	conj	_	_
 10	vuodesta	vuosi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	_
 11	2008	2008	NUM	Num,Card	NumType=Card	10	nummod	_	_
-12	lähtien	lähtien	ADP	Adp	_	10	case	_	_
+12	lähtien	lähteä	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	10	case	_	_
 13	.	.	PUNCT	Pun	_	10	punct	_	Was18=punct:12:case
 
 # sent_id = d1hwg-15261
