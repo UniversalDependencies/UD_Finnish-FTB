@@ -5395,7 +5395,7 @@
 12	,	,	PUNCT	Pun	_	11	punct	_	_
 13	jälleen	jälleen	ADV	Adv	_	8	advmod	_	_
 14	poikkeuksia	poikkeus	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	nmod	_	_
-15	laskematta	laskematta	ADP	Adp	_	14	case	_	_
+15	laskematta	laskea	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	14	case	_	_
 16	.	.	PUNCT	Pun	_	14	punct	_	Was18=punct:15:case
 
 # sent_id = v309x-5556
