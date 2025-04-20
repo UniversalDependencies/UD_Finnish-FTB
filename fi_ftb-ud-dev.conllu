@@ -9456,8 +9456,8 @@
 5	näennäinen	näennäinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
 6	ristiriita	ristiriita	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	11	nsubj:cop	_	_
 7	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-8	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|ExtPos=ADV|Number=Sing|Reflex=Yes	11	advmod	_	_
-9	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	8	fixed	_	_
+8	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	9	det	_	_
+9	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	11	obl	_	_
 10	hyvin	hyvin	ADV	Adv	_	11	advmod	_	_
 11	odotuksenmukaista	odotuksenmukainen	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 12	,	,	PUNCT	Pun	_	11	punct	_	_
@@ -11346,7 +11346,7 @@
 # sent_id = mmb1g-9635
 # text = Miten asiassa lopulta käy , nähdään marraskuun alussa .
 1	Miten	miten	ADV	Adv,Interr	PronType=Int	4	advmod	_	_
-2	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	nmod	_	_
+2	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	obl	_	_
 3	lopulta	lopulta	ADV	Adv	_	4	advmod	_	_
 4	käy	käydä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
@@ -12264,8 +12264,8 @@
 
 # sent_id = i5rjf-10137
 # text = Itse asiassa en varsinaisesti edes tavannut ketään , paitsi sen kymmenminuuttisen aikana jolloin sai käydä alhaalla pukuhuoneessa syömässä eväät .
-1	Itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|ExtPos=ADV|Number=Sing|Reflex=Yes	6	nmod	_	_
-2	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	1	fixed	_	_
+1	Itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	2	det	_	_
+2	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	6	obl	_	_
 3	en	ei	AUX	V,Neg,Act,Sg1	Number=Sing|Person=1|Polarity=Neg|VerbForm=Fin|Voice=Act	6	aux	_	_
 4	varsinaisesti	varsinaisesti	ADV	Adv	_	6	advmod	_	_
 5	edes	edes	PART	Pcle	_	6	advmod	_	_
@@ -17780,7 +17780,7 @@
 5	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 6	lääninhallituksen	lääninhallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 7	rooli	rooli	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	_
-8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	nmod	_	_
+8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	obl	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = atkhe-14276

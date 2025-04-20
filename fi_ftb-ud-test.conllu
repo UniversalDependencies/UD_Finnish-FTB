@@ -6239,7 +6239,7 @@
 4	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	3	obj	_	_
 5	enää	enää	ADV	Adv	_	3	advmod	_	_
 6	missään	mikään	DET	Pron,Qnt,Ine	Case=Ine|PronType=Ind	7	det	_	_
-7	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	nmod	_	_
+7	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	3	obl	_	_
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = gzn2i-6166
@@ -11032,10 +11032,10 @@
 11	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 12	taas	taas	ADV	Adv,Pcle	_	13	advmod	_	_
 13	esiintynyt	esiintyä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	conj	_	_
-14	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	13	nmod	_	_
+14	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	13	obl	_	_
 15	ulkopuolella	ulkopuolella	ADP	Adp	_	14	case	_	_
-16	pääasiassa	pääasiassa	ADV	Adv	_	17	advmod	_	_
-17	Pohjoismaissa	pohjoismaa	PROPN	N,Prop,Pl,Ine	Case=Ine|Number=Plur	13	nmod	_	_
+16	pääasiassa	pääasiassa	NOUN	Adv	Case=Ine|Number=Sing	17	nmod	_	_
+17	Pohjoismaissa	pohjoismaa	PROPN	N,Prop,Pl,Ine	Case=Ine|Number=Plur	13	obl	_	_
 18	.	.	PUNCT	Pun	_	17	punct	_	_
 
 # sent_id = o8qk2-9878
@@ -13526,8 +13526,8 @@
 5	nähdä	nähdä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	4	csubj:cop	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	ryhdytäänkö	ryhtyä	VERB	V,Pass,Ind,Pres,Ko	Clitic=Ko|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	5	ccomp	_	_
-8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	nmod	_	_
-9	toimenpiteisiin	toimenpide	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	7	nmod	_	_
+8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	obl	_	_
+9	toimenpiteisiin	toimenpide	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	7	obl	_	_
 10	ja	ja	CCONJ	Pcle,CC	_	13	cc	_	_
 11	jos	jos	SCONJ	Pcle,CS	_	13	mark	_	_
 12	niin	niin	PART	Pcle	_	13	mark	_	_
@@ -15216,8 +15216,8 @@
 # text = Osakkeet omistetaan pääasiassa hallintorekisterin kautta
 1	Osakkeet	osake	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	obj	_	_
 2	omistetaan	omistaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	pääasiassa	pääasiassa	ADV	Adv	_	2	advmod	_	_
-4	hallintorekisterin	hallintorekisteri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
+3	pääasiassa	pääasiassa	NOUN	Adv	Case=Ine|Number=Sing	2	obl	_	_
+4	hallintorekisterin	hallintorekisteri	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	obl	_	_
 5	kautta	kautta	ADP	Adp	_	4	case	_	_
 
 # sent_id = x0gby-12658
@@ -18302,7 +18302,7 @@
 4	ollut	olla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 5	halukas	halukas	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 6	esittämään	esittää	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	5	acl	_	_
-7	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	6	nmod	_	_
+7	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	6	obl	_	_
 8	näkökantansa	näkökanta	NOUN	N,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3	6	obj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
