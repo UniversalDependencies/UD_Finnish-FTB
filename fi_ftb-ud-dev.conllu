@@ -380,23 +380,27 @@
 
 # sent_id = hu05h-936
 # text = " Ootsä käyny ulkomailla ? " kysyi pikkupoika toiselta .
-1	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	3	punct	_	Missed-SUBCAT=QUOTATION
-2	Ootsä	olla	AUX	V,Act,Ind,Pres,Sg2,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=2|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	käyny	käydä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	7	ccomp	_	_
-4	ulkomailla	ulkomaa	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	3	nmod	_	_
-5	?	?	PUNCT	Pun	_	4	punct	_	_
-6	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	4	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:5
-7	kysyi	kysyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-8	pikkupoika	pikkupoika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
-9	toiselta	toinen	PRON	Pron,Qnt,Sg,Abl	Case=Abl|Number=Sing|PronType=Ind	7	nmod	_	FTB-PronType=Qnt
-10	.	.	PUNCT	Pun	_	9	punct	_	_
+1	"	"	PUNCT	Pun,Quo,Ini	PunctSide=Ini	4	punct	_	Missed-SUBCAT=QUOTATION
+2-3	Ootsä	_	_	_	_	_	_	_	_
+2	Oot	olla	AUX	V,Act,Ind,Pres,Sg2	Mood=Ind|Number=Sing|Person=2|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	Join=Yes
+3	sä	sinä	PRON	Pron,Pers,Sg2,Nom,Ko	Case=Nom|Number=Sing|Person=2|PronType=Prs|Style=Coll	4	nsubj	_	_
+4	käyny	käydä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	8	ccomp	_	_
+5	ulkomailla	ulkomaa	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	4	nmod	_	_
+6	?	?	PUNCT	Pun	_	4	punct	_	_
+7	"	"	PUNCT	Pun,Quo,Fin	PunctSide=Fin	4	punct	_	Missed-SUBCAT=QUOTATION|Was18punch=punct:5
+8	kysyi	kysyä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
+9	pikkupoika	pikkupoika	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	_
+10	toiselta	toinen	PRON	Pron,Qnt,Sg,Abl	Case=Abl|Number=Sing|PronType=Ind	8	nmod	_	FTB-PronType=Qnt
+11	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = myuvn-947
 # text = Oommä jotain puuhaillu .
-1	Oommä	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	3	aux	_	_
-2	jotain	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	3	obj	_	FTB-PronType=Qnt
-3	puuhaillu	puuhailla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
-4	.	.	PUNCT	Pun	_	3	punct	_	_
+1-2	Oommä	_	_	_	_	_	_	_	_
+1	Oom	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Style=Coll|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	Join=Yes
+2	mä	minä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs|Style=Coll	4	nsubj	_	_
+3	jotain	jokin	PRON	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	4	obj	_	FTB-PronType=Qnt
+4	puuhaillu	puuhailla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
+5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = rd9vy-1017
 # text = Turhautuneisuus johtui siitä , etteivät --
