@@ -11715,7 +11715,7 @@
 # sent_id = xcyjn-9873
 # text = Minulla taas voi mennä kova karkki henkitorveen .
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	4	nmod	_	_
-2	taas	taas	PART	Pcle	_	4	advmod	_	_
+2	taas	taas	ADV	Adv,Pcle	_	4	advmod	_	_
 3	voi	voida	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	aux	_	_
 4	mennä	mennä	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 5	kova	kova	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
@@ -19150,7 +19150,7 @@
 # sent_id = y5pke-15327
 # text = Siinä taas kriitikon paradoksi .
 1	Siinä	se	PRON	Pron,Dem,Sg,Ine	Case=Ine|Number=Sing|PronType=Dem	4	nmod	_	_
-2	taas	taas	PART	Pcle	_	4	advmod	_	_
+2	taas	taas	ADV	Adv,Pcle	_	4	advmod	_	_
 3	kriitikon	kriitikko	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	nmod	_	_
 4	paradoksi	paradoksi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_

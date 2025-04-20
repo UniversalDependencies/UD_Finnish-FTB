@@ -3901,7 +3901,7 @@
 9	myöhemmin	myöhemmin	ADV	Adv,Cmp	Degree=Cmp	7	conj	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	kun	kun	SCONJ	Pcle,CS	ExtPos=SCONJ	14	mark	_	_
-12	taas	taas	PART	Pcle	_	11	fixed	_	Missed-Rel=phrm
+12	taas	taas	ADV	Adv,Pcle	_	11	fixed	_	Missed-Rel=phrm
 13	läski-tarzan	läski-tarza	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	_
 14	elää	elää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	conj	_	_
 15	päivästä	päivä	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	14	nmod	_	_
@@ -10943,7 +10943,7 @@
 4	pirteä	pirteä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	kun	kun	SCONJ	Pcle,CS	ExtPos=SCONJ	10	dep	_	_
-7	taas	taas	PART	Pcle	_	6	fixed	_	Missed-Rel=phrm
+7	taas	taas	ADV	Adv,Pcle	_	6	fixed	_	Missed-Rel=phrm
 8	iltaisin	iltaisin	ADV	Adv	_	10	advmod	_	_
 9	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 10	väsyttää	väsyttää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -11030,7 +11030,7 @@
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	Heinonen	heinonen	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	13	nsubj	_	_
 11	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
-12	taas	taas	PART	Pcle	_	13	advmod	_	_
+12	taas	taas	ADV	Adv,Pcle	_	13	advmod	_	_
 13	esiintynyt	esiintyä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	7	conj	_	_
 14	Suomen	suomi	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	13	nmod	_	_
 15	ulkopuolella	ulkopuolella	ADP	Adp	_	14	case	_	_
@@ -11041,7 +11041,7 @@
 # sent_id = o8qk2-9878
 # text = Tämä taas johtuu siitä , että nuha- ja yskänlääkkeiden käyttö on harjoituskaudella sallittua .
 1	Tämä	tämä	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	nsubj	_	_
-2	taas	taas	PART	Pcle	_	3	advmod	_	_
+2	taas	taas	ADV	Adv,Pcle	_	3	advmod	_	_
 3	johtuu	johtua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 4	siitä	se	PRON	Pron,Dem,Sg,Ela	Case=Ela|Number=Sing|PronType=Dem	13	expl	_	Alt=13_expl|Missed-Rel=phrm
 5	,	,	PUNCT	Pun	_	4	punct	_	_
