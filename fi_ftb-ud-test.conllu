@@ -19821,7 +19821,7 @@
 9	sisarta	sisar	NOUN	N,Sg,Par	Case=Par|Number=Sing	8	obj	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	njanjaa	njanja	NOUN	N,Sg,Par	Case=Par|Number=Sing	14	nmod	_	_
-12	lukuun	luku	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	11	dep	_	_
+12	lukuun	luku	NOUN	N,Sg,Ill	Case=Ill|ExtPos=ADP|Number=Sing	11	case	_	_
 13	ottamatta	ottaa	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	12	fixed	_	Missed-Rel=phrm
 14	ei	ei	VERB	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	4	conj	_	_
 15	naista	nainen	NOUN	N,Sg,Par	Case=Par|Number=Sing	14	obj	_	_
