@@ -3871,7 +3871,7 @@
 2	keskenään	keskenään	ADV	Adv,Px3	Person[psor]=3	3	advmod	_	_
 3	erilaisempaa	erilainen	ADJ	A,Cmp,Sg,Par	Case=Par|Degree=Cmp|Number=Sing	4	amod	_	_
 4	taloa	talo	NOUN	N,Sg,Par	Case=Par|Number=Sing	7	nsubj	_	_
-5	tuskin	tuskin	PART	Pcle	_	7	advmod	_	_
+5	tuskin	tuskin	ADV	Adv,Pcle	_	7	advmod	_	_
 6	voisi	voida	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	7	aux	_	_
 7	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 
@@ -4174,7 +4174,7 @@
 
 # sent_id = hwvar-4566
 # text = Tottakai olen valmis tekemään kaikenlaisia töitä .
-1	Tottakai	tottakai	PART	Pcle	_	3	advmod	_	_
+1	Tottakai	tottakai	ADV	Adv,Pcle	_	3	advmod	_	_
 2	olen	olla	AUX	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	valmis	valmis	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	tekemään	tehdä	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	3	acl	_	_
@@ -4823,7 +4823,7 @@
 
 # sent_id = gze4p-4957
 # text = Tuskin minä olisin ihan kylmiltään lähtenytkään tälle matkalle .
-1	Tuskin	tuskin	PART	Pcle	_	6	advmod	_	_
+1	Tuskin	tuskin	ADV	Adv,Pcle	_	6	advmod	_	_
 2	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
 3	olisin	olla	AUX	V,Act,Cond,Sg1	Mood=Cnd|Number=Sing|Person=1|VerbForm=Fin|Voice=Act	6	aux	_	_
 4	ihan	ihan	ADV	Adv,Pcle	_	5	advmod	_	_
@@ -6933,7 +6933,7 @@
 1	kirjoittajamme	kirjoittaja	NOUN	N,Sg,Nom,PxPl1	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	2	nsubj	_	_
 2	epäilee	epäillä	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
-4	tokko	tokko	PART	Pcle	_	9	advmod	_	_
+4	tokko	tokko	ADV	Adv,Pcle	_	9	advmod	_	_
 5	edes	edes	PART	Pcle	_	7	advmod	_	_
 6	mailamörssäri	mailamörssäri	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	compound:nn	_	Alt=compound:nn
 7	Unto	unto	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	Alt=name
@@ -7864,7 +7864,7 @@
 # sent_id = emg71-6930
 # text = hädin tuskin
 1	hädin	hädin	PART	Pcle	ExtPos=ADV	0	root	_	_
-2	tuskin	tuskin	PART	Pcle	_	1	fixed	_	_
+2	tuskin	tuskin	ADV	Adv,Pcle	_	1	fixed	_	_
 
 # sent_id = cv1qn-6933
 # text = Huojuntaa on kuin huonossa kasettinauhurissa ( 0,21 % ) , ja äänirasian taajuustoisto on enintään tyydyttävä .
@@ -7882,7 +7882,7 @@
 12	äänirasian	äänirasia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	13	nmod	_	_
 13	taajuustoisto	taajuustoisto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	16	nsubj:cop	_	_
 14	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	16	cop	_	_
-15	enintään	enintään	PART	Pcle	_	16	advmod	_	_
+15	enintään	enintään	ADV	Adv,Pcle	_	16	advmod	_	_
 16	tyydyttävä	tyydyttävä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	conj	_	_
 17	.	.	PUNCT	Pun	_	16	punct	_	_
 
@@ -7890,7 +7890,7 @@
 # text = Minä odotin vähintään mersua , Michel mutristeli suutaan .
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
 2	odotin	odottaa	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	7	advcl	_	_
-3	vähintään	vähintään	PART	Pcle	_	4	advmod	_	_
+3	vähintään	vähintään	ADV	Adv,Pcle	_	4	advmod	_	_
 4	mersua	mersu	NOUN	N,Sg,Par	Case=Par|Number=Sing	2	obj	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	Michel	michel	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	7	nsubj	_	_
@@ -9082,7 +9082,7 @@
 
 # sent_id = lgax3-8037
 # text = Tuskin hän edes tunnistaisi omaa isäänsä .
-1	Tuskin	tuskin	PART	Pcle	_	4	advmod	_	_
+1	Tuskin	tuskin	ADV	Adv,Pcle	_	4	advmod	_	_
 2	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	4	nsubj	_	_
 3	edes	edes	PART	Pcle	_	4	advmod	_	_
 4	tunnistaisi	tunnistaa	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
@@ -11100,7 +11100,7 @@
 9	soivat	soida	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	acl	_	_
 10	lakkaamatta	lakata	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	9	advcl	_	_
 11	,	,	PUNCT	Pun	_	10	punct	_	_
-12	tuskin	tuskin	PART	Pcle	_	13	advmod	_	_
+12	tuskin	tuskin	ADV	Adv,Pcle	_	13	advmod	_	_
 13	kuuluvat	kuulua	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 14	yhtenäkään	yksi	NUM	Num,Card,Sg,Ess,Kaan	Case=Ess|Clitic=Kaan|Number=Sing|NumType=Card	15	nummod	_	_
 15	yönä	yö	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	13	obl	_	_
@@ -12852,7 +12852,7 @@
 # sent_id = e61mo-10503
 # text = Toivon ainakin , että palatessani huomaan hänen lähteneen .
 1	Toivon	toivoa	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	ainakin	ainakin	PART	Pcle	_	1	advmod	_	_
+2	ainakin	ainakin	ADV	Adv,Pcle	_	1	advmod	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	että	että	SCONJ	Pcle,CS	_	6	mark	_	_
 5	palatessani	palata	VERB	V,Act,InfE,Ine,PxSg1	Case=Ine|InfForm=2|Number[psor]=Sing|Person[psor]=1|VerbForm=Inf|Voice=Act	6	advcl	_	_
@@ -18131,7 +18131,7 @@
 2	kaikki	kaikki	DET	Pron,Qnt,Nom	Case=Nom|PronType=Ind	3	det	_	_
 3	naapurimme	naapuri	NOUN	N,Pl,Nom,PxPl1	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=1	1	obj	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
-5	ainakin	ainakin	PART	Pcle	_	6	advmod	_	_
+5	ainakin	ainakin	ADV	Adv,Pcle	_	6	advmod	_	_
 6	koiramme	koira	NOUN	N,Sg,Nom,PxPl1	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=1	8	nsubj	_	_
 7	Tjimka	tjimka	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nmod	_	_
 8	tuntee	tuntea	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
@@ -19682,7 +19682,7 @@
 4	ollut	olla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	5	cop	_	_
 5	varaton	varaton	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	advcl	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
-7	tokko	tokko	PART	Pcle	_	10	advmod	_	_
+7	tokko	tokko	ADV	Adv,Pcle	_	10	advmod	_	_
 8	häntä	hän	PRON	Pron,Pers,Sg3,Par	Case=Par|Number=Sing|Person=3|PronType=Prs	10	obj	_	_
 9	olisi	olla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	aux	_	_
 10	otettu	ottaa	VERB	V,Pass,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	0	root	_	_
