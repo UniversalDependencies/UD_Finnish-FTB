@@ -5754,9 +5754,9 @@
 2	tekisi	tehdä	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	0	root	_	_
 3	kaikista	kaikki	PRON	Pron,Qnt,Pl,Ela	Case=Ela|Number=Plur|PronType=Ind	12	nmod	_	FTB-PronType=Qnt
 4	,	,	PUNCT	Pun	_	3	punct	_	_
-5	mukaan	mukaan	ADV	Adv	_	7	dep	_	_
+5	mukaan	mukaan	ADV	Adv	ExtPos=CCONJ	7	cc	_	_
 6	lukien	lukea	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	5	fixed	_	Missed-Rel=phrm
-7	vähäosaisimmista	vähäosainen	ADJ	A,Sup,Pl,Ela	Case=Ela|Degree=Sup|Number=Plur	3	amod	_	_
+7	vähäosaisimmista	vähäosainen	ADJ	A,Sup,Pl,Ela	Case=Ela|Degree=Sup|Number=Plur	3	conj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	teoriaherrojen	teoriaherra	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	11	nmod	_	_
 10	poliittisten	poliittinen	ADJ	A,Pl,Gen	Case=Gen|Number=Plur	11	amod	_	_
@@ -20295,7 +20295,7 @@
 # text = Näyttääkö mikään ikään kuin tutulta ?
 1	Näyttääkö	näyttää	VERB	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 2	mikään	mikään	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	FTB-PronType=Qnt
-3	ikään	ikään	ADV	Adv	_	5	dep	_	_
+3	ikään	ikään	ADV	Adv	ExtPos=ADV	5	advmod	_	_
 4	kuin	kuin	SCONJ	Pcle,CS	_	3	fixed	_	Missed-Rel=attr
 5	tutulta	tuttu	ADJ	A,Sg,Abl	Case=Abl|Number=Sing	1	obl	_	_
 6	?	?	PUNCT	Pun	_	5	punct	_	_
@@ -20433,7 +20433,7 @@
 # sent_id = mzth6-16476
 # text = - No nii .
 1	-	-	PUNCT	Pun	_	2	punct	_	Missed-SUBCAT=DASH
-2	No	no	INTJ	Pcle,Interj	_	0	root	_	_
+2	No	no	INTJ	Pcle,Interj	ExtPos=INTJ	0	root	_	_
 3	nii	niin	PART	Pcle	Style=Coll	2	fixed	_	_
 4	.	.	PUNCT	Pun	_	2	punct	_	_
 
