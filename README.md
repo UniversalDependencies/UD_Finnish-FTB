@@ -124,6 +124,15 @@ Revised annotations rejected by the validator
 - personal pronouns in genitive with NP head possessum take nmod:poss dependency
 - deprel obl:agent is used for marking the genitive-case agent of the agent participle, -mA, and InfMa,Abe
 
+* UD v2.16
+
+Moving closer to UD guidelines
+- nmod direct dependents of VERB have been changed to obl
+- verbs joutua, aikoa are given as VERB and other unspecified AUX-s have been specified, but require further discussion <https://github.com/UniversalDependencies/docs/issues/1106>
+- work has begun with the specification of ExtPos conversions, which presently appear as warnings
+- preparatory discussions have begun for work with existential and have-clauses, which might lead to a new subtype nsubj:exist, to replace a simple nsubj deprel for nearly object-looking words Case=Acc
+- PART has been manually analyzed for conversion to ADV, but this is ongoing and some may be retained as PART.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
