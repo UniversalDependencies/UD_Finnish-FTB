@@ -138,6 +138,7 @@ Moving closer to UD guidelines
 Data available since: UD v1.1
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: converted from manual
 UPOS: converted from manual
