@@ -133,6 +133,10 @@ Moving closer to UD guidelines
 - preparatory discussions have begun for work with existential and have-clauses, which might lead to a new subtype nsubj:exist, to replace a simple nsubj deprel for nearly object-looking words Case=Acc
 - PART has been manually analyzed for conversion to ADV, but this is ongoing and some may be retained as PART.
 
+* UD v2.17
+
+- add PronType=Prs in pronouns with Reflex=Yes, itse.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1

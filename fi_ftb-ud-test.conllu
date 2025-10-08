@@ -97,7 +97,7 @@
 1	Hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj:cop	_	_
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	tyytyväinen	tyytyväinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
-4	itseensä	itse	PRON	Pron,Refl,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3|Reflex=Yes	3	nmod	_	_
+4	itseensä	itse	PRON	Pron,Refl,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	nmod	_	_
 5	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = c7c6y-514
@@ -884,7 +884,7 @@
 8	pois	pois	ADV	Adv	_	5	advmod	_	_
 9	ja	ja	CCONJ	Pcle,CC	_	10	cc	_	_
 10	kuivatellut	kuivatella	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	4	conj	_	_
-11	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	10	obj	_	_
+11	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	10	obj	_	_
 12	rannalla	ranta	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	10	obl	_	_
 13	.	.	PUNCT	Pun	_	12	punct	_	_
 
@@ -1880,7 +1880,7 @@
 3	kyllä	kyllä	ADV	Adv	_	5	advmod	_	_
 4	cowboy	cowboy	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	_
 5	ratsasti	ratsastaa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-6	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	5	obj	_	_
+6	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	obj	_	_
 7	pahan	paha	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	8	amod	_	_
 8	kerran	kerta	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	obl	_	_
 9	ansaan	ansa	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	5	obl	_	_
@@ -2097,7 +2097,7 @@
 2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	vaikeaa	vaikea	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 4	puhua	puhua	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	acl	_	_
-5	itsestäni	itse	PRON	Pron,Refl,Sg,Ela,PxSg1	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	4	obl	_	_
+5	itsestäni	itse	PRON	Pron,Refl,Sg,Ela,PxSg1	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	4	obl	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	varsinkin	varsinkin	PART	Pcle	_	8	advmod	_	_
 8	lapsuudestani	lapsuus	NOUN	N,Sg,Ela,PxSg1	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=1	5	nmod	_	_
@@ -2463,7 +2463,7 @@
 # sent_id = evh9u-3098
 # text = Tunnen itseni nöyryytetyksi , Grant totesi Lettermanille lisäten " häipyvänsä vähäksi aikaa maisemista " .
 1	Tunnen	tuntea	VERB	V,Act,Ind,Pres,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
-2	itseni	itse	PRON	Pron,Refl,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	1	obj	_	_
+2	itseni	itse	PRON	Pron,Refl,Sg,Gen,PxSg1	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	1	obj	_	_
 3	nöyryytetyksi	nöyryytetty	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	1	obl	_	_
 4	,	,	PUNCT	Pun	_	3	punct	_	_
 5	Grant	grant	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	6	nsubj	_	_
@@ -2869,7 +2869,7 @@
 7	,	,	PUNCT	Pun	_	6	punct	_	_
 8	että	että	SCONJ	Pcle,CS	_	11	mark	_	_
 9	Kekkonen	kekkonen	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	11	nsubj	_	_
-10	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	9	nmod	_	_
+10	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	9	nmod	_	_
 11	haluaa	haluta	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	ccomp	_	_
 12	jonkin	jokin	DET	Pron,Qnt,Sg,Gen	Case=Gen|Number=Sing|PronType=Ind	13	det	_	_
 13	asian	asia	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	14	obj	_	_
@@ -3072,7 +3072,7 @@
 5	rajojaan	raja	NOUN	N,Pl,Par,Px3	Case=Par|Number=Plur|Person[psor]=3	4	obj	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
 7	ylittämään	ylittää	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	4	conj	_	_
-8	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	7	obj	_	_
+8	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = ybzdp-3509
@@ -3084,7 +3084,7 @@
 5	rajojaan	raja	NOUN	N,Pl,Par,Px3	Case=Par|Number=Plur|Person[psor]=3	4	obj	_	_
 6	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
 7	ylittääkseen	ylittää	VERB	V,Act,InfA,Tra,Px3	Case=Tra|InfForm=1|Person[psor]=3|VerbForm=Inf|Voice=Act	4	conj	_	_
-8	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	7	obj	_	_
+8	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	7	obj	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = temyc-3521
@@ -4094,7 +4094,7 @@
 4	fyysikko	fyysikko	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj:cop	_	_
 5	ei	ei	AUX	V,Neg,Act,Sg3	Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	8	aux	_	_
 6	ollut	olla	AUX	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	8	cop	_	_
-7	itsekään	itse	PRON	Pron,Refl,Sg,Nom,Kaan	Case=Nom|Clitic=Kaan|Number=Sing|Reflex=Yes	8	nmod	_	_
+7	itsekään	itse	PRON	Pron,Refl,Sg,Nom,Kaan	Case=Nom|Clitic=Kaan|Number=Sing|PronType=Prs|Reflex=Yes	8	nmod	_	_
 8	vapaa	vapaa	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 9	mielikuvista	mielikuva	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	8	nmod	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
@@ -4645,7 +4645,7 @@
 1	Minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	_
 2	olin	olla	AUX	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	aux	_	_
 3	joskus	joskus	ADV	Adv	_	5	advmod	_	_
-4	itsekin	itse	PRON	Pron,Refl,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing|Reflex=Yes	5	obl	_	_
+4	itsekin	itse	PRON	Pron,Refl,Sg,Nom,Kin	Case=Nom|Clitic=Kin|Number=Sing|PronType=Prs|Reflex=Yes	5	obl	_	_
 5	ajatellut	ajatella	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
 6	samoin	samoin	ADV	Adv,Qnt	PronType=Ind	5	advmod	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -5391,7 +5391,7 @@
 8	kirkonkävijöitä	kirkonkävijä	NOUN	N,Pl,Par	Case=Par|Number=Plur	0	root	_	_
 9	kuin	kuin	SCONJ	Pcle,CS	_	10	mark	_	FTB-Sub=comparator
 10	he	hän	PRON	Pron,Pers,Pl3,Nom	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	advcl	_	FTB-Sub=comparison
-11	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	10	nmod	_	_
+11	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	10	nmod	_	_
 12	,	,	PUNCT	Pun	_	11	punct	_	_
 13	jälleen	jälleen	ADV	Adv	_	8	advmod	_	_
 14	poikkeuksia	poikkeus	NOUN	N,Pl,Par	Case=Par|Number=Plur	8	nmod	_	_
@@ -5737,7 +5737,7 @@
 3	kirjoja	kirja	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	obj	_	_
 4	väkivallasta	väkivalta	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	3	nmod	_	_
 5	ja	ja	CCONJ	Pcle,CC	_	7	cc	_	_
-6	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	7	nmod:gobj	_	Alt=nmod:gobj
+6	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	7	nmod:gobj	_	Alt=nmod:gobj
 7	tutkimisesta	tutkiminen	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	conj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	kävi	käydä	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	conj	_	_
@@ -8170,7 +8170,7 @@
 6	typerää	typerä	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	_
 7	ja	ja	CCONJ	Pcle,CC	_	13	cc	_	_
 8	usko	usko	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	_
-9	itseensä	itse	PRON	Pron,Refl,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3|Reflex=Yes	8	nmod	_	_
+9	itseensä	itse	PRON	Pron,Refl,Sg,Ill,Px3	Case=Ill|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	8	nmod	_	_
 10	täytyy	täytyä	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	aux	_	_
 11	olla	olla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	13	cop	_	_
 12	niin	niin	ADV	Adv,Pcle	_	13	advmod	_	_
@@ -9872,7 +9872,7 @@
 6	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
 7	tuota	tuota	PART	Pcle	_	8	advmod	_	_
 8	vähättelin	vähätellä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
-9	itseäni	itse	PRON	Pron,Refl,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	8	obj	_	_
+9	itseäni	itse	PRON	Pron,Refl,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	ja	ja	CCONJ	Pcle,CC	_	11	cc	_	_
 11	häpesin	hävetä	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	5	conj	_	_
 12	menneisyyttäni	menneisyys	NOUN	N,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	obj	_	_
@@ -10102,7 +10102,7 @@
 1	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
 2	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	3	aux	_	_
 3	saattanut	saattaa	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	_
-4	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	3	obj	_	_
+4	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	tilanteeseen	tilanne	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	obl	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	jossa	joka	PRON	Pron,Rel,Sg,Ine	Case=Ine|Number=Sing|PronType=Rel	10	obl	_	_
@@ -10492,7 +10492,7 @@
 5	,	,	PUNCT	Pun	_	4	punct	_	FTB-rel=phrm
 6	turvallisesti	turvallisesti	ADV	Adv	_	4	conj	_	_
 7	ja	ja	CCONJ	Pcle,CC	_	9	cc	_	_
-8	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	9	obj	_	_
+8	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	9	obj	_	_
 9	riskaamatta	riskata	VERB	V,Act,InfMa,Abe	Case=Abe|InfForm=3|VerbForm=Inf|Voice=Act	4	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
@@ -10736,7 +10736,7 @@
 # text = Älä yliarvioi itseäsi äläkä ota turhia riskejä .
 1	Älä	ei	AUX	V,Neg,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	yliarvioi	yliarvioida	VERB	V,Act,Imprt,ConNeg	Connegative=Yes|Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
-3	itseäsi	itse	PRON	Pron,Refl,Sg,Par,PxSg2	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	2	obj	_	_
+3	itseäsi	itse	PRON	Pron,Refl,Sg,Par,PxSg2	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs|Reflex=Yes	2	obj	_	_
 4	äläkä	ei	AUX	V,Neg,Act,Imprt,Sg2,Ka	Clitic=Ka|Mood=Imp|Number=Sing|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
 5	ota	ottaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	2	conj	_	_
 6	turhia	turha	ADJ	A,Pl,Par	Case=Par|Number=Plur	7	amod	_	_
@@ -11079,7 +11079,7 @@
 6	vaan	vaan	CCONJ	Pcle,CC	_	8	cc	_	Alt=1_cc
 7	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	mentävä	mennä	VERB	V,Pass,PcpVa,Sg,Nom	Case=Nom|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	1	conj	_	Alt=1_conj
-9	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	8	obl	_	_
+9	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	8	obl	_	_
 10	mukaan	mukaan	ADV	Adv	_	8	advmod	_	_
 11	.	.	PUNCT	Pun	_	10	punct	_	_
 
@@ -11633,7 +11633,7 @@
 4	ennen	ennen	ADV	Adv	ExtPos=SCONJ	8	mark	_	_
 5	kuin	kuin	SCONJ	Pcle,CS	_	4	fixed	_	_
 6	kehitysmaat	kehitysmaa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	8	nsubj	_	_
-7	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	6	nmod	_	_
+7	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	6	nmod	_	_
 8	kykenevät	kyetä	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 9	ne	ne	PRON	Pron,Dem,Pl,Nom	Case=Nom|Number=Plur|PronType=Dem	10	obj	_	_
 10	kohtaamaan	kohdata	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	8	xcomp	_	Alt=xcomp
@@ -12590,7 +12590,7 @@
 
 # sent_id = xutjs-10649
 # text = Itsestä tuntuu , että olenko oikea henkilö päättämään , kun en edes asu sillä alueella .
-1	Itsestä	itse	PRON	Pron,Refl,Sg,Ela	Case=Ela|Number=Sing|Reflex=Yes	2	obl	_	_
+1	Itsestä	itse	PRON	Pron,Refl,Sg,Ela	Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes	2	obl	_	_
 2	tuntuu	tuntua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	,	,	PUNCT	Pun	_	2	punct	_	_
 4	että	että	SCONJ	Pcle,CS	_	7	mark	_	_
@@ -12609,7 +12609,7 @@
 
 # sent_id = okmdp-10649
 # text = Itsestä tuntuu olenko oikea henkilö päättämään , kun en edes asu sillä alueella .
-1	Itsestä	itse	PRON	Pron,Refl,Sg,Ela	Case=Ela|Number=Sing|Reflex=Yes	2	obl	_	_
+1	Itsestä	itse	PRON	Pron,Refl,Sg,Ela	Case=Ela|Number=Sing|PronType=Prs|Reflex=Yes	2	obl	_	_
 2	tuntuu	tuntua	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	olenko	olla	AUX	V,Act,Ind,Pres,Sg1,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	_
 4	oikea	oikea	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	5	amod	_	_
@@ -12648,7 +12648,7 @@
 2	vaan	vaan	ADV	Adv,Pcle	_	3	advmod	_	_
 3	osata	osata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
 4	pitää	pitää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	xcomp	_	Alt=3_xcomp
-5	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|Reflex=Yes	4	obj	_	_
+5	itsensä	itse	PRON	Pron,Refl,Sg,Gen,Px3	Case=Gen|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	4	obj	_	_
 6	vireessä	vire	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	4	obl	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -12832,7 +12832,7 @@
 6	minä	minä	PRON	Pron,Pers,Sg1,Nom	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	_	_
 7	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	8	nsubj	_	_
 8	luulin	luulla	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	6	acl	_	_
-9	itseäni	itse	PRON	Pron,Refl,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|Reflex=Yes	8	obj	_	_
+9	itseäni	itse	PRON	Pron,Refl,Sg,Par,PxSg1	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=1|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	vahvaksi	vahva	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	8	obl	_	_
 11	ja	ja	CCONJ	Pcle,CC	_	12	cc	_	_
 12	piittaamattomaksi	piittaamaton	ADJ	A,Sg,Tra	Case=Tra|Number=Sing	10	conj	_	_
@@ -15334,7 +15334,7 @@
 1	Paperin	paperi	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	valtuusto	valtuusto	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	_
 3	valitsi	valita	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-4	itselleen	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|Reflex=Yes	3	obl	_	_
+4	itselleen	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	obl	_	_
 5	eilen	eilen	ADV	Adv	_	3	advmod	_	_
 6	uuden	uusi	ADJ	A,Sg,Gen	Case=Gen|Number=Sing	7	amod	_	_
 7	puheenjohtajan	puheenjohtaja	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
@@ -15424,7 +15424,7 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	ennen	ennen	ADV	Adv	ExtPos=SCONJ	10	mark	_	_
 8	kuin	kuin	SCONJ	Pcle,CS	_	7	fixed	_	_
-9	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	10	obl	_	_
+9	itse	itse	PRON	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	10	obl	_	_
 10	tulee	tulla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	advcl	_	_
 11	petetyksi	pettää	VERB	V,Pass,PcpNut,Sg,Tra	Case=Tra|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	10	advcl	_	_
 12	.	.	PUNCT	Pun	_	11	punct	_	_
@@ -16351,7 +16351,7 @@
 3	sinä	sinä	PRON	Pron,Pers,Sg2,Nom	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
 4	hullu	hullu	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	3	amod	_	_
 5	aikonut	aikoa	VERB	V,Act,Ind,Past,Sg,ConNeg	Connegative=Yes|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Fin|Voice=Act	10	ccomp	_	_
-6	itseäsi	itse	PRON	Pron,Refl,Sg,Par,PxSg2	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	7	obj	_	_
+6	itseäsi	itse	PRON	Pron,Refl,Sg,Par,PxSg2	Case=Par|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs|Reflex=Yes	7	obj	_	_
 7	tappaa	tappaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	xcomp	_	Alt=5_xcomp
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	10	nsubj	_	_
@@ -17387,7 +17387,7 @@
 3	laittomii	laiton	ADJ	A,Pl,Par	Case=Par|Number=Plur|Style=Coll	4	amod	_	_
 4	etuja	etu	NOUN	N,Pl,Par	Case=Par|Number=Plur	5	obj	_	_
 5	kähminy	kähmiä	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	0	root	_	_
-6	itsellee	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|Reflex=Yes|Style=Coll	5	obl	_	_
+6	itsellee	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes|Style=Coll	5	obl	_	_
 7	käyttäny	käyttää	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Act	5	conj	_	_
 8	sitä	se	DET	Pron,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	10	det	_	_
 9	herkkäuskosta	herkkäuskoinen	ADJ	A,Sg,Par	Case=Par|Number=Sing|Style=Coll	10	amod	_	_
@@ -17411,7 +17411,7 @@
 # text = Älkää kiusatko itseänne
 1	Älkää	ei	AUX	V,Neg,Act,Imprt,Pl2	Mood=Imp|Number=Plur|Person=2|Polarity=Neg|VerbForm=Fin|Voice=Act	2	aux	_	_
 2	kiusatko	kiusata	VERB	V,Act,Imprt,ConNeg	Connegative=Yes|Mood=Imp|VerbForm=Fin|Voice=Act	0	root	_	_
-3	itseänne	itse	PRON	Pron,Refl,Sg,Par,PxPl2	Case=Par|Number=Sing|Number[psor]=Plur|Person[psor]=2|Reflex=Yes	2	obj	_	_
+3	itseänne	itse	PRON	Pron,Refl,Sg,Par,PxPl2	Case=Par|Number=Sing|Number[psor]=Plur|Person[psor]=2|PronType=Prs|Reflex=Yes	2	obj	_	_
 
 # sent_id = lxc48-13937
 # text = Mitä se teki ?
@@ -17501,7 +17501,7 @@
 1	Joku	joku	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	FTB-PronType=Qnt
 2	yrittää	yrittää	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	piristää	piristää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	xcomp	_	Alt=2_xcomp
-4	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	3	obj	_	_
+4	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	värjäämällä	värjätä	VERB	V,Act,InfMa,Ade	Case=Ade|InfForm=3|VerbForm=Inf|Voice=Act	3	advcl	_	_
 6	hiuksensa	hius	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	5	obj	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -17512,7 +17512,7 @@
 2	olisi	olla	AUX	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	3	cop	_	_
 3	halukas	halukas	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	_
 4	ostamaan	ostaa	VERB	V,Act,InfMa,Ill	Case=Ill|InfForm=3|VerbForm=Inf|Voice=Act	3	acl	_	_
-5	itselleen	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|Reflex=Yes	4	obl	_	_
+5	itselleen	itse	PRON	Pron,Refl,Sg,All,Px3	Case=All|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	4	obl	_	_
 6	vain	vain	ADV	Adv,Pcle	_	8	advmod	_	_
 7	Elannon	elanto	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 8	vähittäiskaupat	vähittäiskauppa	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	obj	_	_
@@ -17532,7 +17532,7 @@
 1	Jotkut	joku	PRON	Pron,Qnt,Pl,Nom	Case=Nom|Number=Plur|PronType=Ind	2	nsubj	_	FTB-PronType=Qnt
 2	väittävät	väittää	VERB	V,Act,Ind,Pres,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
 3	piristävänsä	piristää	VERB	V,Act,PcpVa,Sg,Gen,Px3	Case=Gen|Number=Sing|PartForm=Pres|Person[psor]=3|VerbForm=Part|Voice=Act	2	xcomp	_	Alt=2_xcomp
-4	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	3	obj	_	_
+4	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	3	obj	_	_
 5	värjätessään	värjätä	VERB	V,Act,InfE,Ine,Px3	Case=Ine|InfForm=2|Person[psor]=3|VerbForm=Inf|Voice=Act	3	advcl	_	_
 6	hiuksensa	hius	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	5	obj	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
@@ -18183,11 +18183,11 @@
 6	idean	idea	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	3	obj	_	_
 7	:	:	PUNCT	Pun	_	6	punct	_	_
 8	Hyväksy	hyväksyä	VERB	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	6	acl	_	_
-9	itsesi	itse	PRON	Pron,Refl,Sg,Nom,PxSg2	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	8	obj	_	_
+9	itsesi	itse	PRON	Pron,Refl,Sg,Nom,PxSg2	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	ole	olla	AUX	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	13	cop	_	_
 12	oma	oma	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	13	amod	_	_
-13	itsesi	itse	PRON	Pron,Refl,Sg,Gen,PxSg2	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2|Reflex=Yes	8	conj	_	_
+13	itsesi	itse	PRON	Pron,Refl,Sg,Gen,PxSg2	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2|PronType=Prs|Reflex=Yes	8	conj	_	_
 14	ja	ja	CCONJ	Pcle,CC	_	15	cc	_	_
 15	nauti	nauttia	VERB	V,Act,Imprt,Sg2	Mood=Imp|Number=Sing|Person=2|VerbForm=Fin|Voice=Act	8	conj	_	_
 16	elämästäsi	elämä	NOUN	N,Sg,Ela,PxSg2	Case=Ela|Number=Sing|Number[psor]=Sing|Person[psor]=2	15	obl	_	_
@@ -20214,7 +20214,7 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	vaan	vaan	CCONJ	Pcle,CC	_	9	cc	_	_
 8	myös	myös	ADV	Adv	_	9	advmod	_	_
-9	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|Reflex=Yes	5	conj	_	_
+9	itseään	itse	PRON	Pron,Refl,Sg,Par,Px3	Case=Par|Number=Sing|Person[psor]=3|PronType=Prs|Reflex=Yes	5	conj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = syz4s-15751
@@ -21108,7 +21108,7 @@
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	voitte	voida	AUX	V,Act,Ind,Pres,Pl2	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin|Voice=Act	8	aux	_	_
 8	onnitella	onnitella	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	0	root	_	_
-9	itseänne	itse	PRON	Pron,Refl,Sg,Par,PxPl2	Case=Par|Number=Sing|Number[psor]=Plur|Person[psor]=2|Reflex=Yes	8	obj	_	_
+9	itseänne	itse	PRON	Pron,Refl,Sg,Par,PxPl2	Case=Par|Number=Sing|Number[psor]=Plur|Person[psor]=2|PronType=Prs|Reflex=Yes	8	obj	_	_
 10	.	.	PUNCT	Pun	_	9	punct	_	_
 
 # sent_id = xxzm8-16525
