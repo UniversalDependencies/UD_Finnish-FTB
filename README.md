@@ -134,6 +134,7 @@ Moving closer to UD guidelines
 - PART has been manually analyzed for conversion to ADV, but this is ongoing and some may be retained as PART.
 
 * UD v2.17
+- the negative auxiliary ei has the feature-value pair Mood=Ind, except when dealing with the Mood=Imp as in «älä».
 
 - add PronType=Prs in pronouns with Reflex=Yes, itse.
 
