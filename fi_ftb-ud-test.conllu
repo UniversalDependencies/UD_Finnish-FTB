@@ -10869,7 +10869,7 @@
 # sent_id = p7gqc-9839
 # text = Joko itse tankit vuotivat , tai kondenssireikien tulppaukset olivat liian heikkoja .
 1	Joko	joko	CCONJ	Pcle,CC	_	4	cc	_	_
-2	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	3	det	_	_
+2	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	3	det	_	_
 3	tankit	tankki	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	4	nsubj	_	_
 4	vuotivat	vuotaa	VERB	V,Act,Ind,Past,Pl3	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
