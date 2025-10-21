@@ -135,8 +135,8 @@ Moving closer to UD guidelines
 
 * UD v2.17
 - the negative auxiliary ei has the feature-value pair Mood=Ind, except when dealing with the Mood=Imp as in «älä».
-
-- add PronType=Prs in pronouns with Reflex=Yes, itse.
+- add PronType=Prs in pronouns and determiners with Reflex=Yes, itse.
+- obl to nmod with attribute and value orig_was=obl,verbalgovernment in misc
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================

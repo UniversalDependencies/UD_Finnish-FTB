@@ -592,7 +592,7 @@
 1	Eija-Riitta	eija-riitta	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	3	nmod	_	Alt=name
 2	Korholan	korhola	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	1	flat	_	_
 3	anomusta	anomus	NOUN	N,Sg,Par	Case=Par|Number=Sing	5	obj	_	_
-4	ryhmään	ryhmä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	obl	_	_
+4	ryhmään	ryhmä	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	nmod	_	orig_was=obl,verbalgovernment
 5	käsiteltäneen	käsitellä	VERB	V,Pass,Pot	Mood=Pot|VerbForm=Fin|Voice=Pass	0	root	_	_
 6	heinäkuun	heinäkuu	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	8	nmod	_	_
 7	toisella	toinen	ADJ	A,Ord,Sg,Ade	Case=Ade|Number=Sing|NumType=Ord	8	amod	_	_
@@ -1275,7 +1275,7 @@
 6	taputuksiin	taputus	NOUN	N,Pl,Ill	Case=Ill|Number=Plur	5	obl	_	_
 7	Saurin	sauri	PROPN	N,Prop,Sg,Gen	Case=Gen|Number=Sing	9	nmod	_	_
 8	kirkkaalle	kirkas	ADJ	A,Sg,All	Case=All|Number=Sing	9	amod	_	_
-9	yöälylle	yöäly	NOUN	N,Sg,All	Case=All|Number=Sing	6	obl	_	_
+9	yöälylle	yöäly	NOUN	N,Sg,All	Case=All|Number=Sing	6	nmod	_	orig_was=obl,verbalgovernment
 10	,	,	PUNCT	Pun	_	9	punct	_	_
 11	joka	joka	PRON	Pron,Rel,Sg,Nom	Case=Nom|Number=Sing|PronType=Rel	13	nsubj	_	_
 12	lopulta	lopulta	ADV	Adv	_	13	advmod	_	_
@@ -1590,7 +1590,7 @@
 3	tänään	tänään	ADV	Adv	_	2	advmod	_	_
 4	tarjoukset	tarjous	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	obj	_	_
 5	uudesta	uusi	ADJ	A,Sg,Ela	Case=Ela|Number=Sing	6	amod	_	_
-6	ydinvoimalaitosyksiköstä	ydinvoimalaitosyksikkö	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	obl	_	_
+6	ydinvoimalaitosyksiköstä	ydinvoimalaitosyksikkö	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	4	nmod	_	orig_was=obl,verbalgovernment
 
 # sent_id = pt0rq-2353
 # text = " Istuu kymmenen vuotta pytyssä ellei anna ilmi kavereitaan . "
@@ -7845,7 +7845,7 @@
 12	esitys	esitys	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	_
 13	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	14	aux	_	_
 14	muuta	muuttaa	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	9	advcl	_	_
-15	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	16	det	_	_
+15	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	16	det	_	_
 16	järjestelmää	järjestelmä	NOUN	N,Sg,Par	Case=Par|Number=Sing	14	obj	_	_
 17	.	.	PUNCT	Pun	_	16	punct	_	_
 
@@ -7854,7 +7854,7 @@
 1	Juhlan	juhla	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	2	nmod	_	_
 2	aattona	aatto	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	6	obl	_	_
 3	ja	ja	CCONJ	Pcle,CC	_	5	cc	_	_
-4	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|Reflex=Yes	5	det	_	_
+4	itse	itse	DET	Pron,Refl,Sg,Nom	Case=Nom|Number=Sing|PronType=Prs|Reflex=Yes	5	det	_	_
 5	juhlapäivänä	juhlapäivä	NOUN	N,Sg,Ess	Case=Ess|Number=Sing	2	conj	_	_
 6	toimitetaan	toimittaa	VERB	V,Pass,Ind,Pres	Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Pass	0	root	_	_
 7	suuri	suuri	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	8	amod	_	_
@@ -17784,7 +17784,7 @@
 5	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop	_	_
 6	lääninhallituksen	lääninhallitus	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	7	nmod	_	_
 7	rooli	rooli	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	_
-8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	obl	_	_
+8	asiassa	asia	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	7	nmod	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = atkhe-14276
