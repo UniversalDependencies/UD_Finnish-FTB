@@ -133,11 +133,18 @@ Moving closer to UD guidelines
 - preparatory discussions have begun for work with existential and have-clauses, which might lead to a new subtype nsubj:exist, to replace a simple nsubj deprel for nearly object-looking words Case=Acc
 - PART has been manually analyzed for conversion to ADV, but this is ongoing and some may be retained as PART.
 
+* UD v2.17
+- the negative auxiliary ei has the feature-value pair Mood=Ind, except when dealing with the Mood=Imp as in «älä».
+- add PronType=Prs in pronouns and determiners with Reflex=Yes, itse.
+- obl to nmod with attribute and value orig_was=obl,verbalgovernment in misc
+- complete work with ExtPos, but there are hicoughs in the validator
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1
 License: CC BY 4.0
 Includes text: yes
+Parallel: no
 Genre: grammar-examples
 Lemmas: converted from manual
 UPOS: converted from manual
