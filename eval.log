@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Finnish-FTB:
-commit 43720a30128595fb561c5a6175b34368d57c533d
-Merge: 4ed41f4 d34cfa9
+commit 8e7bacf4085d59568898c50824cc9c8ed2253d71
+Merge: e37e543 3cef512
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'fi_ftb'
+Language code (from CoNLL-U file name) = 'fi'
+Found the following data files: fi_ftb-ud-dev.conllu, fi_ftb-ud-test.conllu, fi_ftb-ud-train.conllu
 Size: counted 159625 of 159625 words (nodes).
 Size: min(0, log((N/1000)**2)) = 10.1456546287054.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -15,47 +19,25 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.8.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 114202 out of 159625 total words have one or more features.
+Features: 114217 out of 159625 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 32 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.8.
-Udapi:
-               TOTAL       3393
-Udapi: found 3393 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 159625 words.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-dev.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-test.conllu
-[Line 4385 Sent qazeb-4749 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Mikäs siinä' does not have the 'ExtPos' feature
-[Line 12206 Sent q47sm-10433 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'ennen kaikkea' does not have the 'ExtPos' feature
-[Line 20229 Sent syz4s-15751 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'mikä ett ei' does not have the 'ExtPos' feature
-[Line 21092 Sent ooh8m-16506 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'Miten niin' does not have the 'ExtPos' feature
-Warnings: 4
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang fi --max-err=10 UD_Finnish-FTB/fi_ftb-ud-train.conllu
-[Line 9569 Sent vkcq0-1956 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'siinä missä' does not have the 'ExtPos' feature
-[Line 9594 Sent i5td9-1971 Node 1]: [L3 Warning fixed-without-extpos] Fixed expression 'kättä päälle' does not have the 'ExtPos' feature
-[Line 64739 Sent xar02-7660 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'kolkyt ja risojen' does not have the 'ExtPos' feature
-[Line 72953 Sent yyau9-8488 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'ennen pitkää' does not have the 'ExtPos' feature
-[Line 84542 Sent g5eia-9554 Node 17]: [L3 Warning fixed-without-extpos] Fixed expression 'jos kohta' does not have the 'ExtPos' feature
-[Line 90191 Sent rzhim-9990 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'saman tien' does not have the 'ExtPos' feature
-[Line 92369 Sent b2cnf-10133 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'sillä lailla' does not have the 'ExtPos' feature
-[Line 92755 Sent afxla-10161 Node 11]: [L3 Warning fixed-without-extpos] Fixed expression 'yllin kyllin' does not have the 'ExtPos' feature
-[Line 94619 Sent q4kmn-10292 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'sikäli mikäli' does not have the 'ExtPos' feature
-[Line 95531 Sent wsojb-10359 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'jos kohta' does not have the 'ExtPos' feature
-...suppressing further errors regarding Warning
-Warnings: 43
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.8) = 0.0615384615384615
-(weight=0.0769230769230769) * (score{genres}=0.0555555555555556) = 0.00427350427350427
-(weight=0.0769230769230769) * (score{lemmas}=0.8) = 0.0615384615384615
-(weight=0.256410256410256) * (score{size}=0.734366970090491) = 0.188299223100126
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=0.8) = 0.0615384615384615
-(weight=0.307692307692308) * (score{udapi}=0.787439310884887) = 0.242289018733811
-(weight=0.0769230769230769) * (score{udeprels}=0.691891891891892) = 0.0532224532224532
-(TOTAL score=0.72398163522733) * (availability=1) * (validity=1) = 0.72398163522733
+(weight=0.111111111111111) * (score{features}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=0.8) = 0.0888888888888889
+(weight=0.37037037037037) * (score{size}=0.734366970090491) = 0.271987766700182
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=0.8) = 0.0888888888888889
+(weight=0.111111111111111) * (score{udeprels}=0.691891891891892) = 0.0768768768768769
+(TOTAL score=0.695778223823972) * (availability=1) * (validity=1) = 0.695778223823972
 STARS = 3.5
-UD_Finnish-FTB	0.72398163522733	3.5
+UD_Finnish-FTB	0.695778223823972	3.5
