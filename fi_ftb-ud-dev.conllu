@@ -278,10 +278,10 @@
 
 # sent_id = dmzv7-818
 # text = On se Annillakkii oikeus suaha mies jolla joka paikka pelloo .
-1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
-2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	1	expl	_	Alt=1_expl|Missed-Rel=phrm
-3	Annillakkii	anni	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing|Style=Coll	1	obl	_	Alt=nmod:own
-4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	Candidate=nsubj:exist
+1	On	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop:own	_	Alt=cop:own
+2	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	3	expl	_	Alt=1_expl|Missed-Rel=phrm
+3	Annillakkii	anni	PROPN	N,Prop,Sg,Ade	Case=Ade|Number=Sing|Style=Coll	0	root	_	Alt=nmod:own
+4	oikeus	oikeus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj:cop	_	Candidate=nsubj:exist
 5	suaha	saada	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|Style=Coll|VerbForm=Inf|Voice=Act	4	acl	_	_
 6	mies	mies	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	obj	_	_
 7	jolla	joka	PRON	Pron,Rel,Sg,Ade	Case=Ade|Number=Sing|PronType=Rel	10	obl	_	_
@@ -345,9 +345,9 @@
 
 # sent_id = o4l5a-911
 # text = siel ol´ perunat
-1	siel	siellä	ADV	Adv,Dem	PronType=Dem|Style=Coll	2	advmod	_	_
-2	ol´	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	perunat	peruna	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	2	nsubj	_	Candidate=nsubj:exist
+1	siel	siellä	ADV	Adv,Dem	PronType=Dem|Style=Coll	0	root	_	_
+2	ol´	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	_
+3	perunat	peruna	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	nsubj:cop	_	Candidate=nsubj:exist
 
 # sent_id = c6pai-933
 # text = Tänä vuonna ei rannan pohjoisosaa ole kuitenkaan siivottu , vaikka si ei mikään iso työ olisi .
@@ -579,12 +579,12 @@
 
 # sent_id = rut4a-1208
 # text = Onko päätäntävalta enää lainkaan omissa käsissämme ?
-1	Onko	olla	VERB	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-2	päätäntävalta	päätäntävalta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj	_	Candidate=nsubj:exist
-3	enää	enää	ADV	Adv	_	1	advmod	_	_
-4	lainkaan	lainkaan	ADV	Adv	_	1	advmod	_	_
+1	Onko	olla	AUX	V,Act,Ind,Pres,Sg3,Ko	Clitic=Ko|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	cop	_	_
+2	päätäntävalta	päätäntävalta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	6	nsubj:cop	_	Candidate=nsubj:exist
+3	enää	enää	ADV	Adv	_	6	advmod	_	_
+4	lainkaan	lainkaan	ADV	Adv	_	6	advmod	_	_
 5	omissa	oma	ADJ	A,Pl,Ine	Case=Ine|Number=Plur	6	amod	_	_
-6	käsissämme	käsi	NOUN	N,Pl,Ine,PxPl1	Case=Ine|Number=Plur|Number[psor]=Plur|Person[psor]=1	1	obl	_	_
+6	käsissämme	käsi	NOUN	N,Pl,Ine,PxPl1	Case=Ine|Number=Plur|Number[psor]=Plur|Person[psor]=1	0	root	_	_
 7	?	?	PUNCT	Pun	_	6	punct	_	_
 
 # sent_id = oyolt-1224
@@ -1626,10 +1626,10 @@
 
 # sent_id = z4gwl-2364
 # text = Minulla on kiire .
-1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	obl	_	Alt=nmod:own
-2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	cop	_	Alt=cop:own
-3	kiire	kiire	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	0	root	_	Candidate=nsubj:exist
-4	.	.	PUNCT	Pun	_	3	punct	_	_
+1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	Alt=nmod:own
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Alt=cop:own
+3	kiire	kiire	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj:cop	_	Candidate=nsubj:exist
+4	.	.	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = pn0e1-2373
 # text = Ne ovat vain mielen virkistykseksi .
@@ -1861,14 +1861,14 @@
 8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	_
 9	täynnä	täynnä	ADV	Adv	_	8	advmod	_	_
 10	,	,	PUNCT	Pun	_	9	punct	_	_
-11	tai	tai	CCONJ	Pcle,CC	_	14	cc	_	_
-12	mikäli	mikäli	SCONJ	Pcle,CS	_	14	mark	_	_
-13	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	14	obl	_	Alt=nmod:own
-14	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	advcl	_	Alt=cop:own
-15	kurssista	kurssi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	14	obl	_	_
-16	jo	jo	ADV	Adv,Pcle	_	14	advmod	_	_
-17	suoritus	suoritus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	14	nsubj	_	Candidate=nsubj:exist
-18	.	.	PUNCT	Pun	_	17	punct	_	_
+11	tai	tai	CCONJ	Pcle,CC	_	13	cc	_	_
+12	mikäli	mikäli	SCONJ	Pcle,CS	_	13	mark	_	_
+13	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	4	advcl	_	Alt=nmod:own
+14	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	13	cop:own	_	Alt=cop:own
+15	kurssista	kurssi	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	13	obl	_	_
+16	jo	jo	ADV	Adv,Pcle	_	13	advmod	_	_
+17	suoritus	suoritus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	Candidate=nsubj:exist
+18	.	.	PUNCT	Pun	_	4	punct	_	_
 
 # sent_id = h3jkc-2548
 # text = Monen särkänniemeläisen päivä on niin kiireinen , että lounastaukoa ei ehdi pitämään .
@@ -2437,12 +2437,12 @@
 8	Kiinaa	kiina	PROPN	N,Prop,Sg,Par	Case=Par|Number=Sing	6	nmod	_	_
 9	,	,	PUNCT	Pun	_	8	punct	_	_
 10	jota	joka	PRON	Pron,Rel,Sg,Par	Case=Par|Number=Sing|PronType=Rel	17	obj	_	_
-11	asiantuntijoilla	asiantuntija	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	15	obl	_	Alt=nmod:own
-12	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	15	aux	_	_
-13	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	15	aux	_	_
-14	koskaan	koskaan	ADV	Adv	_	15	advmod	_	_
-15	ollut	olla	VERB	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	6	acl	_	Alt=cop:own
-16	tilaisuutta	tilaisuus	NOUN	N,Sg,Par	Case=Par|Number=Sing	15	nsubj	_	Candidate=nsubj:exist
+11	asiantuntijoilla	asiantuntija	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	6	acl	_	Alt=nmod:own
+12	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	11	aux	_	_
+13	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	11	aux	_	_
+14	koskaan	koskaan	ADV	Adv	_	11	advmod	_	_
+15	ollut	olla	AUX	V,Act,PcpNut,Sg,Nom	Case=Nom|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	11	cop:own	_	Alt=cop:own
+16	tilaisuutta	tilaisuus	NOUN	N,Sg,Par	Case=Par|Number=Sing	11	nsubj:cop	_	Candidate=nsubj:exist
 17	tutkia	tutkia	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	16	acl	_	_
 18	kunnolla	kunnolla	ADV	Adv	_	17	advmod	_	_
 19	.	.	PUNCT	Pun	_	18	punct	_	_
@@ -2464,11 +2464,11 @@
 
 # sent_id = eefvr-3009
 # text = Oisko sulla antaa markka ?
-1	Oisko	olla	VERB	V,Act,Cond,Sg3,Ko	Clitic=Ko|Mood=Cnd|Number=Sing|Person=3|Style=Coll|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
-2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	1	obl	_	Alt=nmod:own
-3	antaa	antaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	ccomp	_	Candidate=csubj:exist
+1	Oisko	olla	AUX	V,Act,Cond,Sg3,Ko	Clitic=Ko|Mood=Cnd|Number=Sing|Person=3|Style=Coll|VerbForm=Fin|Voice=Act	2	cop:own	_	Alt=cop:own
+2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	0	root	_	Alt=nmod:own
+3	antaa	antaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	csubj:cop	_	Candidate=csubj:exist
 4	markka	markka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	obj	_	_
-5	?	?	PUNCT	Pun	_	4	punct	_	_
+5	?	?	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = tk2pa-3012
 # text = Oisko sulla ?
@@ -2649,11 +2649,11 @@
 
 # sent_id = mn69y-3296
 # text = Minulla on jotain annettavaa .
-1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	2	obl	_	Alt=nmod:own
-2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
+1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	Alt=nmod:own
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Alt=cop:own
 3	jotain	jokin	DET	Pron,Qnt,Sg,Par	Case=Par|Number=Sing|PronType=Ind	4	det	_	_
-4	annettavaa	antaa	VERB	V,Pass,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	2	nsubj	_	Candidate=nsubj:exist|Alt=2_dobj
-5	.	.	PUNCT	Pun	_	4	punct	_	_
+4	annettavaa	antaa	VERB	V,Pass,PcpVa,Sg,Par	Case=Par|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	1	nsubj:cop	_	Candidate=nsubj:exist|Alt=2_dobj
+5	.	.	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = ipndm-3298
 # text = Tarvittaisiin enemmän veroja - tai luopumista jostakin jo saadusta .
@@ -2747,18 +2747,18 @@
 # sent_id = aye5q-3356
 # text = keskellä tietä on auton kattoteline ja siihen on kiinnitettynä iso puinen pöytä .
 1	keskellä	keskellä	ADP	Adp	_	2	case	_	_
-2	tietä	tie	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	obl	_	_
-3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
+2	tietä	tie	NOUN	N,Sg,Par	Case=Par|Number=Sing	0	root	_	_
+3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop	_	_
 4	auton	auto	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	5	nmod	_	_
-5	kattoteline	kattoteline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
+5	kattoteline	kattoteline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
 6	ja	ja	CCONJ	Pcle,CC	_	8	cc	_	_
 7	siihen	se	PRON	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	9	obl	_	_
-8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	3	conj	_	_
+8	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	conj	_	_
 9	kiinnitettynä	kiinnittää	VERB	V,Pass,PcpNut,Sg,Ess	Case=Ess|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Pass	8	advcl	_	_
 10	iso	iso	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	11	amod	_	_
 11	puinen	puinen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	12	amod	_	_
 12	pöytä	pöytä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	Candidate=nsubj:exist
-13	.	.	PUNCT	Pun	_	12	punct	_	_
+13	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = zq1bw-3360
 # text = Hän oli viikon pukeutuneena toppatakkiin
@@ -10280,7 +10280,7 @@
 # sent_id = omrky-8901
 # text = Minulla on täällä niin hyvä olla .
 1	Minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	5	nmod	_	Alt=nmod:own
-2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	Alt=cop:own	_
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop	_	Alt=cop:own
 3	täällä	täällä	ADV	Adv,Dem	PronType=Dem	5	advmod	_	_
 4	niin	niin	ADV	Adv,Pcle	_	5	advmod	_	_
 5	hyvä	hyvä	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	0	root	_	Candidate=csubj:exist
@@ -20911,7 +20911,7 @@
 
 # sent_id = n72t4-16862
 # text = On siinä meillä harvinainen pari .
-1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	Alt=cop:own	_
+1	On	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
 2	siinä	siinä	ADV	Adv,Dem	PronType=Dem	1	advmod	_	_
 3	meillä	minä	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	1	obl	_	Alt=nmod:own
 4	harvinainen	harvinainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	5	amod	_	_
