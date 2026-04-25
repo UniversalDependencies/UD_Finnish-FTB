@@ -631,16 +631,16 @@
 # sent_id = t5etx-1534
 # text = Sanoin minulla olleen viime vuosina tähän sairaalaan myös pitkänlainen matka .
 1	Sanoin	sanoa	VERB	V,Act,Ind,Past,Sg1	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-2	minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	3	obl	_	Alt=nmod:own
-3	olleen	olla	VERB	V,Act,PcpNut,Sg,Gen	Case=Gen|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	1	ccomp	_	Alt=cop:own
+2	minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	ccomp	_	Alt=nmod:own
+3	olleen	olla	AUX	V,Act,PcpNut,Sg,Gen	Case=Gen|Number=Sing|PartForm=Past|VerbForm=Part|Voice=Act	2	cop:own	_	Alt=cop:own
 4	viime	viime	ADJ	A	_	5	amod	_	_
 5	vuosina	vuosi	NOUN	N,Pl,Ess	Case=Ess|Number=Plur	3	obl	_	_
 6	tähän	tämä	DET	Pron,Dem,Sg,Ill	Case=Ill|Number=Sing|PronType=Dem	7	det	_	_
 7	sairaalaan	sairaala	NOUN	N,Sg,Ill	Case=Ill|Number=Sing	3	obl	_	_
 8	myös	myös	ADV	Adv	_	10	advmod	_	_
 9	pitkänlainen	pitkänlainen	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	10	amod	_	_
-10	matka	matka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
-11	.	.	PUNCT	Pun	_	10	punct	_	_
+10	matka	matka	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
+11	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = s7pi6-1535
 # text = Poliisitutkimusten mukaan palopaikalla oli juopoteltu reippaanlaisesti ennen onnettomuutta .
@@ -1142,11 +1142,11 @@
 5	kaksi	kaksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	6	nummod	_	_
 6	keihäänheittäjää	keihäänheittäjä	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	obj	_	_
 7	,	,	PUNCT	Pun	_	6	punct	_	_
-8	joilla	joka	PRON	Pron,Rel,Pl,Ade	Case=Ade|Number=Plur|PronType=Rel	9	obl	_	Alt=nmod:own
-9	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	6	acl	_	Alt=cop:own
+8	joilla	joka	PRON	Pron,Rel,Pl,Ade	Case=Ade|Number=Plur|PronType=Rel	6	acl	_	Alt=nmod:own
+9	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	8	cop:own	_	Alt=cop:own
 10	myös	myös	ADV	Adv	_	11	advmod	_	_
-11	käsipallotausta	käsipallotausta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	9	nsubj	_	Candidate=nsubj:exist
-12	.	.	PUNCT	Pun	_	11	punct	_	_
+11	käsipallotausta	käsipallotausta	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj:cop	_	Candidate=nsubj:exist
+12	.	.	PUNCT	Pun	_	3	punct	_	_
 
 # sent_id = ptaon-2143
 # text = Edina ja Patsy pintaliitävät Todella upeeta -sarjassa .
@@ -2085,11 +2085,11 @@
 4	ulos	ulos	ADV	Adv	_	3	advmod	_	_
 5	,	,	PUNCT	Pun	_	4	punct	_	_
 6	vaikka	vaikka	SCONJ	Pcle,CS	_	8	mark	_	_
-7	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	8	obl	_	Alt=nmod:own
-8	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	advcl	_	Alt=cop:own
-9	santarmi	santarmi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	8	nsubj	_	Candidate=nsubj:exist
+7	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	2	advcl	_	Alt=nmod:own
+8	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	7	cop:own	_	Alt=cop:own
+9	santarmi	santarmi	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	nsubj:cop	_	Candidate=nsubj:exist
 10	seuranaan	seura	NOUN	N,Sg,Ess,Px3	Case=Ess|Number=Sing|Person[psor]=3	8	obl	_	_
-11	.	.	PUNCT	Pun	_	10	punct	_	_
+11	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = v265c-2927
 # text = Minulle on vaikeaa puhua itsestäni , varsinkin lapsuudestani , tunteistani ja jopa ajatuksistani .
