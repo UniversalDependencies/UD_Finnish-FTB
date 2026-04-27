@@ -2128,10 +2128,10 @@
 # sent_id = is5nl-2959
 # text = Tilalle tulleilla on kova työ täyttää lähteneitten saappaat .
 1	Tilalle	tilalle	ADV	Adv	_	2	advmod	_	_
-2	tulleilla	tulla	VERB	V,Act,PcpNut,Pl,Ade	Case=Ade|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	3	obl	_	Alt=nmod:own
-3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
+2	tulleilla	tulla	VERB	V,Act,PcpNut,Pl,Ade	Case=Ade|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	0	root	_	Alt=nmod:own
+3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	Alt=cop:own
 4	kova	kova	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	5	amod	_	_
-5	työ	työ	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
+5	työ	työ	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
 6	täyttää	täyttää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	acl	_	_
 7	lähteneitten	lähteä	VERB	V,Act,PcpNut,Pl,Gen	Case=Gen|Number=Plur|PartForm=Past|VerbForm=Part|Voice=Act	8	acl	_	_
 8	saappaat	saapas	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	6	obj	_	_
@@ -2254,16 +2254,16 @@
 
 # sent_id = yxleh-3033
 # text = Heillä on vaikeuksia ylläpitää pankkitiliä , jolle ohjata tulonsa .
-1	Heillä	hän	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	2	obl	_	Alt=nmod:own
-2	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
-3	vaikeuksia	vaikeus	NOUN	N,Pl,Par	Case=Par|Number=Plur	2	nsubj	_	Candidate=nsubj:exist
+1	Heillä	hän	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	0	root	_	Alt=nmod:own
+2	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Alt=cop:own
+3	vaikeuksia	vaikeus	NOUN	N,Pl,Par	Case=Par|Number=Plur	1	nsubj:cop	_	Candidate=nsubj:exist
 4	ylläpitää	ylläpitää	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	3	acl	_	_
 5	pankkitiliä	pankkitili	NOUN	N,Sg,Par	Case=Par|Number=Sing	4	obj	_	_
 6	,	,	PUNCT	Pun	_	5	punct	_	_
 7	jolle	joka	PRON	Pron,Rel,Sg,All	Case=All|Number=Sing|PronType=Rel	8	obl	_	_
 8	ohjata	ohjata	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	5	acl	_	_
 9	tulonsa	tulo	NOUN	N,Pl,Nom,Px3	Case=Nom|Number=Plur|Person[psor]=3	8	obj	_	_
-10	.	.	PUNCT	Pun	_	9	punct	_	_
+10	.	.	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = vze4d-3035
 # text = On millä mällätä .
@@ -2891,13 +2891,13 @@
 
 # sent_id = pkcfj-3424
 # text = Oriilla todettiin olevan ostettaessa ainoastaan yksi kives .
-1	Oriilla	ori	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	3	obl	_	Alt=nmod:own
+1	Oriilla	ori	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	2	ccomp	_	Alt=nmod:own
 2	todettiin	todeta	VERB	V,Pass,Ind,Past	Mood=Ind|Tense=Past|VerbForm=Fin|Voice=Pass	0	root	_	_
-3	olevan	olla	VERB	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	2	ccomp	_	Alt=cop:own
-4	ostettaessa	ostaa	VERB	V,Pass,InfE,Ine	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Pass	3	advcl	_	_
+3	olevan	olla	AUX	V,Act,PcpVa,Sg,Gen	Case=Gen|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Act	1	cop:own	_	Alt=cop:own
+4	ostettaessa	ostaa	VERB	V,Pass,InfE,Ine	Case=Ine|InfForm=2|VerbForm=Inf|Voice=Pass	1	advcl	_	_
 5	ainoastaan	ainoastaan	PART	Pcle	_	6	advmod	_	_
 6	yksi	yksi	NUM	Num,Card,Sg,Nom	Case=Nom|Number=Sing|NumType=Card	7	nummod	_	_
-7	kives	kives	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
+7	kives	kives	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	1	nsubj:cop	_	Candidate=nsubj:exist
 8	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = hu9fb-3453
@@ -2944,21 +2944,21 @@
 
 # sent_id = zj3kz-3466
 # text = Elettyään vuosikaudet apartheidin sortamina heillä ei ole käytännöllisesti katsoen mitään minkä joku haluaisi varastaa .
-1	Elettyään	elää	VERB	V,Pass,PcpNut,Sg,Par,Px3	Case=Par|Number=Sing|PartForm=Past|Person[psor]=3|VerbForm=Part|Voice=Pass	7	advcl	_	_
+1	Elettyään	elää	VERB	V,Pass,PcpNut,Sg,Par,Px3	Case=Par|Number=Sing|PartForm=Past|Person[psor]=3|VerbForm=Part|Voice=Pass	5	advcl	_	_
 2	vuosikaudet	vuosikausi	NOUN	N,Pl,Nom	Case=Nom|Number=Plur	1	obl	_	_
 3	apartheidin	apartheid	NOUN	N,Sg,Gen	Case=Gen|Number=Sing	4	obl:agent	_	_
 4	sortamina	sortaa	VERB	V,PcpAg,Pl,Ess	Case=Ess|Number=Plur|PartForm=Agt|VerbForm=Part	1	advcl	_	_
-5	heillä	hän	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	7	obl	_	Alt=nmod:own
-6	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	7	aux	_	_
-7	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
+5	heillä	hän	PRON	Pron,Pers,Pl3,Ade	Case=Ade|Number=Plur|Person=3|PronType=Prs	0	root	_	Alt=nmod:own
+6	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	5	aux	_	_
+7	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	5	cop:own	_	Alt=cop:own
 8	käytännöllisesti	käytännöllisesti	ADV	Adv	_	9	advmod	_	_
-9	katsoen	katsoa	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	7	advcl	_	_
-10	mitään	mikään	PRON	Pron,Qnt,Par	Case=Par|PronType=Ind	7	nsubj	_	Candidate=nsubj:exist|FTB-PronType=Qnt
+9	katsoen	katsoa	VERB	V,Act,InfE,Ins	Case=Ins|InfForm=2|VerbForm=Inf|Voice=Act	5	advcl	_	_
+10	mitään	mikään	PRON	Pron,Qnt,Par	Case=Par|PronType=Ind	5	nsubj:cop	_	Candidate=nsubj:exist|FTB-PronType=Qnt
 11	minkä	mikä	PRON	Pron,Rel,Gen	Case=Gen|PronType=Rel	14	obj	_	_
 12	joku	joku	PRON	Pron,Qnt,Sg,Nom	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	FTB-PronType=Qnt
 13	haluaisi	haluta	VERB	V,Act,Cond,Sg3	Mood=Cnd|Number=Sing|Person=3|VerbForm=Fin|Voice=Act	10	acl	_	_
 14	varastaa	varastaa	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	13	xcomp	_	Alt=13_xcomp
-15	.	.	PUNCT	Pun	_	14	punct	_	_
+15	.	.	PUNCT	Pun	_	5	punct	_	_
 
 # sent_id = d9l7v-3468
 # text = Kun Santala oli menettänyt joukkonsa , hän synnytti uuden liiton .
@@ -3099,12 +3099,12 @@
 
 # sent_id = dewc4-3522
 # text = Meillä ei ole rahaa tuhlattavaksi .
-1	Meillä	minä	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	3	obl	_	Alt=nmod:own
-2	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	3	aux	_	_
-3	ole	olla	VERB	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
-4	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
+1	Meillä	minä	PRON	Pron,Pers,Pl1,Ade	Case=Ade|Number=Plur|Person=1|PronType=Prs	0	root	_	Alt=nmod:own
+2	ei	ei	AUX	V,Neg,Act,Sg3	Mood=Ind|Number=Sing|Person=3|Polarity=Neg|VerbForm=Fin|Voice=Act	1	aux	_	_
+3	ole	olla	AUX	V,Act,Ind,Pres,ConNeg	Connegative=Yes|Mood=Ind|Tense=Pres|VerbForm=Fin|Voice=Act	1	cop:own	_	Alt=cop:own
+4	rahaa	raha	NOUN	N,Sg,Par	Case=Par|Number=Sing	1	nsubj:cop	_	Candidate=nsubj:exist
 5	tuhlattavaksi	tuhlata	VERB	V,Pass,PcpVa,Sg,Tra	Case=Tra|Number=Sing|PartForm=Pres|VerbForm=Part|Voice=Pass	4	acl	_	_
-6	.	.	PUNCT	Pun	_	5	punct	_	_
+6	.	.	PUNCT	Pun	_	1	punct	_	_
 
 # sent_id = s2tyw-3523
 # text = Kiinnostava tulkinta , joka kuitenkin on historiallisesti mahdoton perustella .
@@ -4116,17 +4116,17 @@
 
 # sent_id = qtmx2-4496
 # text = sitten hänellä yhtäkkiä onkin musta korsetti päällä , se on tiukka kyljistä ja vatsasta kuin muodinluojien määräämä vatsantasoitusväline .
-1	sitten	sitten	ADV	Adv	_	4	advmod	_	_
-2	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	4	obl	_	Alt=nmod:own
-3	yhtäkkiä	yhtäkkiä	ADV	Adv	_	4	advmod	_	_
-4	onkin	olla	VERB	V,Act,Ind,Pres,Sg3,Kin	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Alt=cop:own
+1	sitten	sitten	ADV	Adv	_	2	advmod	_	_
+2	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	0	root	_	Alt=nmod:own
+3	yhtäkkiä	yhtäkkiä	ADV	Adv	_	2	advmod	_	_
+4	onkin	olla	AUX	V,Act,Ind,Pres,Sg3,Kin	Clitic=Kin|Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	Alt=cop:own
 5	musta	musta	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	6	amod	_	_
-6	korsetti	korsetti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj	_	Candidate=nsubj:exist
-7	päällä	päällä	ADV	Adv	_	4	compound:prt	_	_
+6	korsetti	korsetti	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
+7	päällä	päällä	ADV	Adv	_	2	compound:prt	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
 9	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	11	nsubj:cop	_	_
 10	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	11	cop	_	_
-11	tiukka	tiukka	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	4	conj	_	_
+11	tiukka	tiukka	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	2	conj	_	_
 12	kyljistä	kylki	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	11	nmod	_	_
 13	ja	ja	CCONJ	Pcle,CC	_	14	cc	_	_
 14	vatsasta	vatsa	NOUN	N,Sg,Ela	Case=Ela|Number=Sing	12	conj	_	_
@@ -4134,7 +4134,7 @@
 16	muodinluojien	muodinluoja	NOUN	N,Pl,Gen	Case=Gen|Number=Plur	17	obl:agent	_	_
 17	määräämä	määrätä	VERB	V,PcpAg,Sg,Nom	Case=Nom|Number=Sing|PartForm=Agt|VerbForm=Part	18	acl	_	_
 18	vatsantasoitusväline	vatsantasoitusväline	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	11	advcl	_	FTB-Sub=comparison
-19	.	.	PUNCT	Pun	_	18	punct	_	_
+19	.	.	PUNCT	Pun	_	2	punct	_	_
 
 # sent_id = vxjb6-4507
 # text = Kanada pysyi Englannille uskollisena Yhdysvaltain vapaussodan aikana 1775-83 .
