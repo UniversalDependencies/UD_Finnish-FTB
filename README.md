@@ -139,6 +139,10 @@ Moving closer to UD guidelines
 - obl to nmod with attribute and value orig_was=obl,verbalgovernment in misc
 - complete work with ExtPos, but there are hicoughs in the validator
 
+* UD v2.18
+- conversion to cop:own dependencies pattern is completed for the -dev and -test files.
+- plans for the v2.19 release include the completion of cop:own conversion and at least punct dependency solution.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1

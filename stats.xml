@@ -18,7 +18,7 @@
     <tag name="ADJ">10488</tag><!-- hyvä, oma, uusi, suuri, koko, suomalainen, pieni, vanha, ensimmäinen, nuori -->
     <tag name="ADP">2600</tag><!-- kanssa, mukaan, jälkeen, ennen, asti, ilman, sitten, takia, vuoksi, kautta -->
     <tag name="ADV">13323</tag><!-- nyt, niin, jo, myös, vielä, vain, sitten, kyllä, aina, ihan -->
-    <tag name="AUX">10406</tag><!-- olla, ei, voida, pitää, täytyä, saattaa, taitaa, tarvita, mahtaa -->
+    <tag name="AUX">10535</tag><!-- olla, ei, voida, pitää, täytyä, saattaa, taitaa, tarvita, mahtaa -->
     <tag name="CCONJ">4804</tag><!-- ja, mutta, tai, vai, vaan, sekä, eli, että, joko, kuin -->
     <tag name="DET">3684</tag><!-- se, tämä, kaikki, jokin, mikään, muu, mikä, ne, moni, nämä -->
     <tag name="INTJ">341</tag><!-- no, voi, hei, joo, ai, jumalauta, saatana, okei, heh, senkin -->
@@ -30,7 +30,7 @@
     <tag name="PUNCT">22565</tag><!-- ., ,, ?, ", !, -, :, ..., –, ; -->
     <tag name="SCONJ">4142</tag><!-- että, kun, kuin, jos, vaikka, koska, sillä, jotta, kunnes, kunhan -->
     <tag name="SYM">22</tag><!-- %, &, /, +, *, @ -->
-    <tag name="VERB">27326</tag><!-- olla, tulla, saada, tehdä, sanoa, mennä, lähteä, ottaa, haluta, käydä -->
+    <tag name="VERB">27197</tag><!-- olla, tulla, saada, tehdä, sanoa, mennä, lähteä, ottaa, haluta, käydä -->
     <tag name="X">313</tag><!-- _, 70-, in, sosiaali-, the, ala-, kauppa-, keng-, maa-, 50- -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
@@ -127,25 +127,26 @@
     <feat name="Voice" value="Pass" upos="AUX,VERB">3398</feat><!-- ollaan, voidaan, tehty, tehdään, tarvitaan, saadaan, mennään, otetaan, verrattuna, tehtiin -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="43">
+  <deps unique="44">
     <dep name="acl">2978</dep>
     <dep name="advcl">3405</dep>
-    <dep name="advmod">14450</dep>
+    <dep name="advmod">14448</dep>
     <dep name="amod">6888</dep>
     <dep name="appos">2</dep>
-    <dep name="aux">6839</dep>
+    <dep name="aux">6842</dep>
     <dep name="case">2693</dep>
     <dep name="cc">4735</dep>
     <dep name="cc:preconj">14</dep>
-    <dep name="ccomp">2512</dep>
+    <dep name="ccomp">2508</dep>
     <dep name="compound">1</dep>
     <dep name="compound:nn">361</dep>
     <dep name="compound:prt">392</dep>
     <dep name="conj">6530</dep>
-    <dep name="cop">3562</dep>
+    <dep name="cop">3557</dep>
+    <dep name="cop:own">131</dep>
     <dep name="csubj">282</dep>
-    <dep name="csubj:cop">231</dep>
-    <dep name="dep">249</dep>
+    <dep name="csubj:cop">236</dep>
+    <dep name="dep">248</dep>
     <dep name="det">3489</dep>
     <dep name="discourse">318</dep>
     <dep name="expl">524</dep>
@@ -153,23 +154,23 @@
     <dep name="flat">818</dep>
     <dep name="goeswith">9</dep>
     <dep name="mark">4478</dep>
-    <dep name="nmod">8467</dep>
+    <dep name="nmod">8457</dep>
     <dep name="nmod:gobj">264</dep>
     <dep name="nmod:gsubj">101</dep>
     <dep name="nmod:poss">365</dep>
-    <dep name="nsubj">13038</dep>
-    <dep name="nsubj:cop">2648</dep>
+    <dep name="nsubj">12920</dep>
+    <dep name="nsubj:cop">2774</dep>
     <dep name="nsubj:outer">29</dep>
     <dep name="nummod">1777</dep>
-    <dep name="obj">8674</dep>
-    <dep name="obl">14497</dep>
+    <dep name="obj">8671</dep>
+    <dep name="obl">14373</dep>
     <dep name="obl:agent">178</dep>
-    <dep name="orphan">3</dep>
+    <dep name="orphan">4</dep>
     <dep name="punct">22565</dep>
     <dep name="reparandum">19</dep>
     <dep name="root">18723</dep>
     <dep name="vocative">159</dep>
-    <dep name="xcomp">1507</dep>
+    <dep name="xcomp">1508</dep>
     <dep name="xcomp:ds">369</dep>
   </deps>
 </treebank>
