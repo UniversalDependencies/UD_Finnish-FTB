@@ -2214,16 +2214,16 @@
 6	mitään	mikään	DET	Pron,Qnt,Par	Case=Par|PronType=Ind	7	det	_	_
 7	sellaista	sellainen	ADJ	A,Dem,Sg,Par	Case=Par|Number=Sing|PronType=Dem	5	obj	_	_
 8	,	,	PUNCT	Pun	_	7	punct	_	_
-9	mutta	mutta	CCONJ	Pcle,CC	_	12	cc	_	_
+9	mutta	mutta	CCONJ	Pcle,CC	_	13	cc	_	_
 10	se	se	DET	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	11	det	_	_
-11	ajatus	ajatus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	12	nsubj	_	Candidate=nsubj:exist
-12	oli	olla	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	Candidate=cop:own
-13	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	12	obl	_	Candidate=root:conj
-14	mielessä	mieli	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	12	obl	_	_
-15	päällimmäisenä	päällimmäinen	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	12	obl	_	_
+11	ajatus	ajatus	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	13	nsubj:cop	_	Candidate=nsubj:exist
+12	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	13	cop:own	_	Candidate=cop:own
+13	hänellä	hän	PRON	Pron,Pers,Sg3,Ade	Case=Ade|Number=Sing|Person=3|PronType=Prs	4	conj	_	Candidate=root:conj
+14	mielessä	mieli	NOUN	N,Sg,Ine	Case=Ine|Number=Sing	13	obl	_	_
+15	päällimmäisenä	päällimmäinen	ADJ	A,Sg,Ess	Case=Ess|Number=Sing	13	obl	_	_
 16	juuri	juuri	PART	Pcle	_	17	advmod	_	_
 17	sillä	se	DET	Pron,Dem,Sg,Ade	Case=Ade|Number=Sing|PronType=Dem	18	det	_	_
-18	hetkellä	hetki	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	12	obl	_	_
+18	hetkellä	hetki	NOUN	N,Sg,Ade	Case=Ade|Number=Sing	13	obl	_	_
 19	ja	ja	CCONJ	Pcle,CC	_	21	cc	_	_
 20	hän	hän	PRON	Pron,Pers,Sg3,Nom	Case=Nom|Number=Sing|Person=3|PronType=Prs	21	nsubj	_	_
 21	sanoi	sanoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	conj	_	_
@@ -14207,11 +14207,11 @@
 
 # sent_id = lcoz5-11674
 # text = ihmisillä alkaa olla jo puutetta ruokarahoista .
-1	ihmisillä	ihminen	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	3	obl	_	Alt=nmod:own|Candidate=root:conj
+1	ihmisillä	ihminen	NOUN	N,Pl,Ade	Case=Ade|Number=Plur	2	ccomp	_	Alt=nmod:own|Candidate=root:conj
 2	alkaa	alkaa	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	_
-3	olla	olla	VERB	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	2	ccomp	_	Alt=cop:own|Candidate=cop:own
-4	jo	jo	ADV	Adv,Pcle	_	3	advmod	_	_
-5	puutetta	puute	NOUN	N,Sg,Par	Case=Par|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
+3	olla	olla	AUX	V,Act,InfA,Lat	Case=Lat|InfForm=1|VerbForm=Inf|Voice=Act	1	cop:own	_	Alt=cop:own|Candidate=cop:own
+4	jo	jo	ADV	Adv,Pcle	_	1	advmod	_	_
+5	puutetta	puute	NOUN	N,Sg,Par	Case=Par|Number=Sing	1	nsubj:cop	_	Candidate=nsubj:exist
 6	ruokarahoista	ruokaraha	NOUN	N,Pl,Ela	Case=Ela|Number=Plur	5	nmod	_	_
 7	.	.	PUNCT	Pun	_	6	punct	_	_
 
@@ -15368,11 +15368,11 @@
 
 # sent_id = j8c15-12797
 # text = Jokos sulla on morsian katottuna ?
-1	Jokos	jo	ADV	Adv,Pcle,Ko,S	Clitic=Ko,S	3	advmod	_	_
-2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	3	obl	_	Candidate=root:conj
-3	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	0	root	_	Candidate=cop:own
-4	morsian	morsian	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	3	nsubj	_	Candidate=nsubj:exist
-5	katottuna	katsoa	VERB	V,Pass,PcpNut,Sg,Ess	Case=Ess|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Pass	3	advcl	_	_
+1	Jokos	jo	ADV	Adv,Pcle,Ko,S	Clitic=Ko,S	2	advmod	_	_
+2	sulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs|Style=Coll	0	root	_	Candidate=root:conj
+3	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	cop:own	_	Candidate=cop:own
+4	morsian	morsian	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
+5	katottuna	katsoa	VERB	V,Pass,PcpNut,Sg,Ess	Case=Ess|Number=Sing|PartForm=Past|Style=Coll|VerbForm=Part|Voice=Pass	2	advcl	_	_
 6	?	?	PUNCT	Pun	_	5	punct	_	_
 
 # sent_id = xurzp-12802
@@ -18191,12 +18191,12 @@
 # text = Ilkka kertoi että sinulla on uusi kirja tekeillä .
 1	Ilkka	ilkka	PROPN	N,Prop,Sg,Nom	Case=Nom|Number=Sing	2	nsubj	_	_
 2	kertoi	kertoa	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
-3	että	että	SCONJ	Pcle,CS	_	5	mark	_	_
-4	sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	5	obl	_	Candidate=root:conj
-5	on	olla	VERB	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	2	ccomp	_	Candidate=cop:own
+3	että	että	SCONJ	Pcle,CS	_	4	mark	_	_
+4	sinulla	sinä	PRON	Pron,Pers,Sg2,Ade	Case=Ade|Number=Sing|Person=2|PronType=Prs	2	ccomp	_	Candidate=root:conj
+5	on	olla	AUX	V,Act,Ind,Pres,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin|Voice=Act	4	cop:own	_	Candidate=cop:own
 6	uusi	uusi	ADJ	A,Sg,Nom	Case=Nom|Number=Sing	7	amod	_	_
-7	kirja	kirja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	5	nsubj	_	Candidate=nsubj:exist
-8	tekeillä	tekeillä	ADV	Adv	_	5	advmod	_	_
+7	kirja	kirja	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	4	nsubj:cop	_	Candidate=nsubj:exist
+8	tekeillä	tekeillä	ADV	Adv	_	4	advmod	_	_
 9	.	.	PUNCT	Pun	_	8	punct	_	_
 
 # sent_id = qc9ws-14652
