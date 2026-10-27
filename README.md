@@ -145,6 +145,7 @@ Moving closer to UD guidelines
 
 * UD v2.19
 - conversion to cop:own dependencies pattern is completed for the -train file as well with revalidation.
+- punctuation has been remapped according to UD specifics on `u/dep/punct.html' page.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
