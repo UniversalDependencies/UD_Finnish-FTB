@@ -143,6 +143,9 @@ Moving closer to UD guidelines
 - conversion to cop:own dependencies pattern is completed for the -dev and -test files.
 - plans for the v2.19 release include the completion of cop:own conversion and at least punct dependency solution.
 
+* UD v2.19
+- conversion to cop:own dependencies pattern is completed for the -train file as well with revalidation.
+
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v1.1

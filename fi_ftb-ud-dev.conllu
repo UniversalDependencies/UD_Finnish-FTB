@@ -16242,11 +16242,11 @@
 
 # sent_id = q0uhc-13310
 # text = Jos mulla oli nälkä , se hommas mulle aina jotain vaikka omista karkkirahoistaan .
-1	Jos	jos	SCONJ	Pcle,CS	_	4	mark	_	_
-2	mulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	4	nmod	_	Alt=nmod:own
-3	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	4	cop	_	Alt=cop:own
-4	nälkä	nälkä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	7	advcl	_	Candidate=nsubj:exist
-5	,	,	PUNCT	Pun	_	4	punct	_	_
+1	Jos	jos	SCONJ	Pcle,CS	_	2	mark	_	_
+2	mulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs|Style=Coll	7	advcl	_	Alt=nmod:own
+3	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop:own	_	Alt=cop:own
+4	nälkä	nälkä	NOUN	N,Sg,Nom	Case=Nom|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
+5	,	,	PUNCT	Pun	_	2	punct	_	_
 6	se	se	PRON	Pron,Dem,Sg,Nom	Case=Nom|Number=Sing|PronType=Dem	7	nsubj	_	_
 7	hommas	hommata	VERB	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Style=Coll|Tense=Past|VerbForm=Fin|Voice=Act	0	root	_	_
 8	mulle	minä	PRON	Pron,Pers,Sg1,All	Case=All|Number=Sing|Person=1|PronType=Prs|Style=Coll	7	obl	_	_
@@ -16255,7 +16255,7 @@
 11	vaikka	vaikka	PART	Pcle	_	13	advmod	_	_
 12	omista	oma	ADJ	A,Pl,Ela	Case=Ela|Number=Plur	13	amod	_	_
 13	karkkirahoistaan	karkkiraha	NOUN	N,Pl,Ela,Px3	Case=Ela|Number=Plur|Person[psor]=3	7	obl	_	_
-14	.	.	PUNCT	Pun	_	13	punct	_	_
+14	.	.	PUNCT	Pun	_	7	punct	_	_
 
 # sent_id = q0adq-13318
 # text = Mikset kysy Moonalta ? Anna ihmetteli .
@@ -16329,9 +16329,9 @@
 
 # sent_id = wuac6-13374
 # text = Hauskaa minulla oli
-1	Hauskaa	hauska	ADJ	A,Sg,Par	Case=Par|Number=Sing	0	root	_	Candidate=nsubj:exist
-2	minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	1	nmod	_	Alt=nmod:own
-3	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	1	cop	_	Alt=cop:own
+1	Hauskaa	hauska	ADJ	A,Sg,Par	Case=Par|Number=Sing	2	nsubj:cop	_	Candidate=nsubj:exist
+2	minulla	minä	PRON	Pron,Pers,Sg1,Ade	Case=Ade|Number=Sing|Person=1|PronType=Prs	0	root	_	Alt=nmod:own
+3	oli	olla	AUX	V,Act,Ind,Past,Sg3	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin|Voice=Act	2	cop:own	_	Alt=cop:own
 
 # sent_id = o81f6-13379
 # text = Hän on opiskellut Taideteollisessa korkeakoulussa , kuten sieltä 1987 valmistunut Lainekin .
